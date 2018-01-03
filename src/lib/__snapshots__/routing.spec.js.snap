@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<RedirectWithStatus
+  status={302}
+  to="/"
+/>
+`;
+
+exports[`renders without crashing 2`] = `
+<Route
+  render={[Function]}
+/>
+`;

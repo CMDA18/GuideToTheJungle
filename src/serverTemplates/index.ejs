@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html <%- head.htmlAttributes.toString() -%>>
+  <head>
+    <meta charSet="utf-8" />
+    <%- head.meta.toString() -%>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+
+    <link rel="manifest" href="<%- baseUrl -%>/manifest.json">
+    <link rel="shortcut icon" href="<%- baseUrl -%>/favicon.ico">
+    <%- head.link.toString() -%>
+
+    <%- head.title.toString() -%>
+
+    <%- styling -%>
+  </head>
+  <body <%- head.bodyAttributes.toString() -%>>
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+    <div id="application"><%- body -%></div>
+    <script src="<%- jsBundleUrl -%>" async></script>
+    <script>
+      window.__PRELOADED_STATE__ = <%- state -%>;
+    </script>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Settings Actions Provides a set of action creators 1`] = `
+Object {
+  "type": "TEST",
+  "value": "hoi",
+}
+`;
+
+exports[`Settings Actions Provides a set of action creators 2`] = `
+Object {
+  "type": "PRELOAD",
+  "value": "preload-hoi",
+}
+`;

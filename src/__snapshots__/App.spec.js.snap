@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders route 1`] = `
+<Route
+  render={[Function]}
+/>
+`;
+
+exports[`renders without crashing 1`] = `
+<div>
+  <HelmetWrapper
+    defer={true}
+    encodeSpecialCharacters={true}
+    title="Shop"
+    titleTemplate="%s - Basic Project"
+  />
+  <Switch>
+    <RouteWithSubRoutes
+      component={[Function]}
+      exact={true}
+      key="0"
+      path="/"
+      title="Homepage"
+    />
+    <RouteWithSubRoutes
+      component={[Function]}
+      exact={true}
+      key="1"
+      path="/redirectToHome"
+      title="redirect to home"
+    />
+    <RouteWithSubRoutes
+      component={[Function]}
+      key="2"
+      path="*"
+      status={404}
+      title="Page Not Found"
+    />
+  </Switch>
+</div>
+`;

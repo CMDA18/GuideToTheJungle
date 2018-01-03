@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Routes Returns an array of paths 1`] = `
+Object {
+  "home": "/",
+  "pageNotFound": "*",
+  "redirect": "/redirectToHome",
+}
+`;
+
+exports[`Routes Returns an array of routes 1`] = `
+Array [
+  Object {
+    "component": [Function],
+    "exact": true,
+    "path": "/",
+    "preload": Object {
+      "completeActionType": "PRELOAD_SUCCESS",
+      "dispatch": Object {
+        "type": "PRELOAD",
+        "value": "Preload this",
+      },
+    },
+    "title": "Homepage",
+  },
+  Object {
+    "component": [Function],
+    "exact": true,
+    "path": "/redirectToHome",
+    "title": "redirect to home",
+  },
+  Object {
+    "component": [Function],
+    "path": "*",
+    "status": 404,
+    "title": "Page Not Found",
+  },
+]
+`;

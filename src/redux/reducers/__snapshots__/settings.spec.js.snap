@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Settings Reducer handles the PRELOAD action 1`] = `
+Object {
+  "preload": "pre:testValue",
+  "test": "hoi",
+}
+`;
+
+exports[`Settings Reducer handles the PRELOAD_SUCCESS action 1`] = `
+Object {
+  "preload": "pre:done:testValue",
+  "test": "hoi",
+}
+`;
+
+exports[`Settings Reducer handles the TEST action 1`] = `
+Object {
+  "newTest": "sync:testValue",
+  "test": "hoi",
+}
+`;
+
+exports[`Settings Reducer handles the TEST_SUCCESS action 1`] = `
+Object {
+  "newTest": "testValue",
+  "test": "hoi",
+}
+`;
+
+exports[`Settings Reducer returns initial state when no state is provided 1`] = `
+Object {
+  "test": "hoi",
+}
+`;

@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sagas exports all sagas 1`] = `
+GeneratorFunctionPrototype {
+  "_invoke": [Function],
+}
+`;
