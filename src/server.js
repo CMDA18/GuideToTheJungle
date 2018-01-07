@@ -2,6 +2,7 @@
 
 import fs from 'fs'
 import express from 'express'
+import expressStaticGzip from 'express-static-gzip'
 import morgan from 'morgan'
 import clfDate from 'clf-date'
 import path from 'path'
@@ -52,7 +53,7 @@ server.set('view engine', 'ejs')
 server.use(morgan(':remote-addr - :remote-user [:date[clf]] ":method :url HTTP/:http-version" :status :res[content-length] :response-time ms'))
 
 // Serve static assets
-server.use(express.static(path.resolve(__dirname, '..', 'build')))
+server.use(expressStaticGzip(path.resolve(__dirname, '..', 'build')))
 
 const preload = (route, store, match) => {
   store.dispatch(route.preload.dispatch)
