@@ -11,6 +11,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 * clone this repo
 * run `yarn install`
+* copy `.env` to `.env.local` and fill in the correct ENV vars
+* for e2e testing copy `cypress.env.sample.json` to `cypress.env.json` and fill in the correct ENV vars
 
 ### Contribution guidelines ###
 

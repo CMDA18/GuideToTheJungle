@@ -4,13 +4,14 @@ import fs from 'fs'
 import express from 'express'
 import expressStaticGzip from 'express-static-gzip'
 import morgan from 'morgan'
+import helmet from 'helmet'
 import clfDate from 'clf-date'
 import path from 'path'
 
 // Server side rendering modules
 import React from 'react'
 import { StaticRouter, matchPath } from 'react-router'
-import Helmet from 'react-helmet'
+import ReactHelmet from 'react-helmet'
 import ReactDOMServer from 'react-dom/server'
 import { Provider } from 'react-redux'
 import { ServerStyleSheet, StyleSheetManager } from 'styled-components'
@@ -48,6 +49,9 @@ const server = express()
 // use ejs template engine to render the html outside of the react root
 server.set('views', path.resolve(__dirname, '..', 'src', 'serverTemplates'))
 server.set('view engine', 'ejs')
+
+// Setup security patches
+server.use(helmet())
 
 // Setup logger
 server.use(morgan(':remote-addr - :remote-user [:date[clf]] ":method :url HTTP/:http-version" :status :res[content-length] :response-time ms'))
@@ -106,7 +110,7 @@ const renderPage = (req, res, store) => {
     }
 
     // Get the head info like meta tags and title
-    const head = Helmet.renderStatic()
+    const head = ReactHelmet.renderStatic()
 
     // Render the template with the application
     res.render('index', {
