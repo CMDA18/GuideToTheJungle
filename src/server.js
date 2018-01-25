@@ -59,7 +59,7 @@ server.use(morgan(':remote-addr - :remote-user [:date[clf]] ":method :url HTTP/:
 // Serve static assets
 server.use(expressStaticGzip(path.resolve(__dirname, '..', 'build')))
 
-const preload = (route, store, match) => {
+const preload = (route, store) => {
   store.dispatch(route.preload.dispatch)
 
   return new Promise((resolve, reject) => {
@@ -130,16 +130,7 @@ const renderPage = (req, res, store) => {
 // Always return the main index.html, so react-router render the route in the client
 server.get('*', (req, res) => {
   // look for the matching route
-  let match
-  let route
-  for (let i = 0; i < routes.length; i++) {
-    const matchedRoute = matchPath(req.url, routes[i])
-    if (matchedRoute) {
-      match = matchedRoute
-      route = routes[i]
-      i = routes.length
-    }
-  }
+  const route = routes.find(route => matchPath(req.url, route))
 
   // Setup the inital state
   const state = {
@@ -156,9 +147,9 @@ server.get('*', (req, res) => {
   const store = createStore(state)
 
   const renderPromise = () => {
-    if (route && match && route.preload && route.preload.dispatch && route.preload.completeActionType) {
+    if (route && route.preload && route.preload.dispatch && route.preload.completeActionType) {
       console.info(`[${clfDate()}] Preloading state for "${route.path}"`)
-      return preload(route, store, match)
+      return preload(route, store)
     } else {
       return Promise.resolve()
     }
