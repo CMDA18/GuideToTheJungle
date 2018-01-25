@@ -5,6 +5,7 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const ManifestPlugin = require('webpack-manifest-plugin')
 const eslintFormatter = require('react-dev-utils/eslintFormatter')
 const ModuleScopePlugin = require('react-dev-utils/ModuleScopePlugin')
+const CompressionPlugin = require('compression-webpack-plugin')
 const paths = require('./paths')
 const getClientEnvironment = require('./env')
 
@@ -271,7 +272,21 @@ module.exports = {
     // solution that requires the user to opt into importing specific locales.
     // https://github.com/jmblog/how-to-optimize-momentjs-with-webpack
     // You can remove this if you don't use Moment.js:
-    new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/)
+    new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/),
+    // Gzip compress all static files
+    new CompressionPlugin({
+      test: [ // only gzip "raw" files. Images are(/should) be pre-compressed
+        /\.js/,
+        /\.css/,
+        /\.json$/,
+        /\.svg$/
+      ],
+      threshold: 1400, // 1 package (1.4Kb)
+      exclude: [
+        /\/asset-manifest.json/,
+        /\/manifest.json/
+      ]
+    })
   ],
   // Some libraries import Node modules but don't use them in the browser.
   // Tell Webpack to provide empty mocks for them so importing them works.
