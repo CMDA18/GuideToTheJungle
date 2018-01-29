@@ -20,17 +20,14 @@ if (process.env.NODE_ENV !== 'test' && isClient) {
 
 export const RouteWithSubRoutes = (route: RouteObjectType) => {
   return (
-    <Route
-      path={route.path}
-      render={props => {
-        /* istanbul ignore next */
-        if (route.status && props.staticContext) {
-          props.staticContext.status = route.status
-        }
-        /* istanbul ignore next */
-        return <route.component {...props} />
-      }}
-    />
+    <Route path={route.path} render={(props: any) => { // eslint-disable-line flowtype/no-weak-types
+      /* istanbul ignore next */
+      if (route.status && props.staticContext) {
+        props.staticContext.status = route.status
+      }
+      /* istanbul ignore next */
+      return <route.component {...props} />
+    }} />
   )
 }
 

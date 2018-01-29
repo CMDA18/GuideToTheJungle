@@ -1,15 +1,13 @@
-// @flow
-
-import { createStore, applyMiddleware, combineReducers, compose, type Store } from 'redux'
+import { createStore, applyMiddleware, combineReducers, compose } from 'redux'
 import createSagaMiddleware from 'redux-saga'
 import { routerReducer as routing, routerMiddleware } from 'react-router-redux'
-import { type History } from 'history/createBrowserHistory'
+import { history } from 'history/createBrowserHistory'
 
-import reducers, { type AppState } from './reducers'
+import reducers from './reducers'
 import sagas from './sagas'
 
 /* Keep track of the last action for server side rendering */
-export const actions = (state: {last?: string} = {}, action: {type: string}) => {
+export const actions = (state = {}, action) => {
   return {
     last: action.type
   }
@@ -21,7 +19,7 @@ const composeEnhancer = (typeof window !== 'undefined' && window.__REDUX_DEVTOOL
 const sagaMiddleware = createSagaMiddleware()
 
 // CreateStore
-export default (initialState?: AppState, history: History): Store<*, *> => {
+export default (initialState) => {
   const store = createStore(
     combineReducers({
       ...reducers,

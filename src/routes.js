@@ -19,13 +19,17 @@ export type Preload = {
   completeActionType: string
 }
 
+export type StaticContext = {
+  status?: number
+}
+
 export type Route = {
   path: string,
   title: string,
-  component: ComponentType<any>,
+  component: ComponentType<*>,
   exact?: boolean,
   status?: number,
-  staticContext?: any,
+  staticContext?: StaticContext,
   preload?: Preload
 }
 

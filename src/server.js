@@ -78,11 +78,7 @@ const fetchRouteData = (route, store) => {
       // set a timeout to force a render en deffer loading to front-end if it takes to long.
       const rejectAfterTime = setTimeout(() => {
         reject(
-          new Error(
-            `Async load is taking longer than ${TIMEOUT}ms, forcing render for "${
-              route.path
-            }"`
-          )
+          new Error(`Async load is taking longer than ${TIMEOUT}ms, forcing render for "${route.path}"`)
         )
       }, TIMEOUT)
 
@@ -187,7 +183,5 @@ server.use(function (err, req, res, next) {
 })
 
 server.listen(PORT, () => {
-  console.log(
-    `[${clfDate()}] Server version ${COMMIT_HASH} running on port ${PORT}`
-  )
+  console.info(`[${clfDate()}] Server version ${COMMIT_HASH} running on port ${PORT}`)
 })
