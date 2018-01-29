@@ -19,18 +19,23 @@ import { ServerStyleSheet, StyleSheetManager } from 'styled-components'
 // App
 import createStore from './redux/store'
 import App from './App'
-import routes from './routes'
+import routes, { shouldPreload } from './routes'
 
 // env settings
 const PORT = process.env.PORT || 9000
-const PUBLIC_URL = process.env.PUBLIC_URL ||''
+const PUBLIC_URL = process.env.PUBLIC_URL || ''
 const TIMEOUT = process.env.TIMEOUT || 1000
 const COMMIT_HASH = process.env.COMMIT_HASH || 'N.A.'
 
 // Get Bundle path
-const getBundlePath = (type) => {
-  const fileName = fs.readdirSync(path.resolve(__dirname, '..', 'build', 'static', type))
-    .find(fileName => fileName.indexOf('main') === 0 && fileName.indexOf('.' + type) === fileName.length - (type.length + 1))
+const getBundlePath = type => {
+  const fileName = fs
+    .readdirSync(path.resolve(__dirname, '..', 'build', 'static', type))
+    .find(
+      fileName =>
+        fileName.indexOf('main') === 0 &&
+        fileName.indexOf('.' + type) === fileName.length - (type.length + 1)
+    )
 
   return '/static/' + type + '/' + fileName
 }
@@ -54,29 +59,49 @@ server.set('view engine', 'ejs')
 server.use(helmet())
 
 // Setup logger
-server.use(morgan(':remote-addr - :remote-user [:date[clf]] ":method :url HTTP/:http-version" :status :res[content-length] :response-time ms'))
+server.use(
+  morgan(
+    ':remote-addr - :remote-user [:date[clf]] ":method :url HTTP/:http-version" :status :res[content-length] :response-time ms'
+  )
+)
 
 // Serve static assets
-server.use(expressStaticGzip(path.resolve(__dirname, '..', 'build')))
+server.use(expressStaticGzip(path.resolve(__dirname, '..', 'build'), {
+  indexFromEmptyFile: false
+}))
 
-const preload = (route, store) => {
-  store.dispatch(route.preload.dispatch)
+const fetchRouteData = (route, store) => {
+  if (shouldPreload(route)) {
+    console.info(`[${clfDate()}] Preloading state for "${route.path}"`)
 
-  return new Promise((resolve, reject) => {
-    // set a timeout to force a render en deffer loading to front-end if it takes to long.
-    const rejectAfterTime = setTimeout(() => {
-      reject(new Error(`Async load is taking longer than ${TIMEOUT}ms, forcing render for "${route.path}"`))
-    }, TIMEOUT)
+    return new Promise((resolve, reject) => {
+      // set a timeout to force a render en deffer loading to front-end if it takes to long.
+      const rejectAfterTime = setTimeout(() => {
+        reject(
+          new Error(
+            `Async load is taking longer than ${TIMEOUT}ms, forcing render for "${
+              route.path
+            }"`
+          )
+        )
+      }, TIMEOUT)
 
-    store.subscribe(() => {
-      const state = store.getState()
+      // subscribe for preload complete action
+      store.subscribe(() => {
+        const state = store.getState()
 
-      if (state.actions.last === route.preload.completeActionType) {
-        clearTimeout(rejectAfterTime)
-        resolve()
-      }
+        if (state.actions.last === route.preload.completeActionType) {
+          clearTimeout(rejectAfterTime)
+          resolve(store)
+        }
+      })
+
+      // dispatch preload action
+      store.dispatch(route.preload.dispatch)
     })
-  })
+  } else {
+    return Promise.resolve(store)
+  }
 }
 
 const renderPage = (req, res, store) => {
@@ -89,12 +114,9 @@ const renderPage = (req, res, store) => {
     // Build the React App
     const body = ReactDOMServer.renderToString(
       <Provider store={store}>
-        <StaticRouter
-          location={req.url}
-          context={context}
-        >
+        <StaticRouter location={req.url} context={context}>
           <StyleSheetManager sheet={sheet.instance}>
-            <App/>
+            <App />
           </StyleSheetManager>
         </StaticRouter>
       </Provider>
@@ -127,41 +149,35 @@ const renderPage = (req, res, store) => {
   }
 }
 
-// Always return the main index.html, so react-router render the route in the client
-server.get('*', (req, res) => {
-  // look for the matching route
-  const route = routes.find(route => matchPath(req.url, route))
-
+// Setup the inital store
+const initStore = (url) => {
   // Setup the inital state
   const state = {
     routing: {
       location: {
-        pathname: req.url.split('?')[0],
-        search: req.url.includes('?') ? `?${req.url.split('?')[1]}` : '',
+        pathname: url.split('?')[0],
+        search: url.includes('?') ? `?${url.split('?')[1]}` : '',
         hash: ''
       }
     }
   }
 
-  // Setup the inital store
-  const store = createStore(state)
+  return createStore(state)
+}
 
-  const renderPromise = () => {
-    if (route && route.preload && route.preload.dispatch && route.preload.completeActionType) {
-      console.info(`[${clfDate()}] Preloading state for "${route.path}"`)
-      return preload(route, store)
-    } else {
-      return Promise.resolve()
-    }
-  }
+// Always return the main index.html, so react-router render the route in the client
+server.get('*', (req, res) => {
+  // look for the matching route
+  const route = routes.find(route => matchPath(req.url, route))
+  const initialStore = initStore(req.url)
 
-  renderPromise()
-    .then(() => {
+  fetchRouteData(route, initialStore)
+    .then(store => {
       renderPage(req, res, store)
     })
-    .catch((e) => {
+    .catch(e => {
       console.error(`[${clfDate()}]`, e)
-      renderPage(req, res, store)
+      renderPage(req, res, initialStore)
     })
 })
 
@@ -171,5 +187,7 @@ server.use(function (err, req, res, next) {
 })
 
 server.listen(PORT, () => {
-  console.log(`[${clfDate()}] Server version ${COMMIT_HASH} running on port ${PORT}`)
+  console.log(
+    `[${clfDate()}] Server version ${COMMIT_HASH} running on port ${PORT}`
+  )
 })

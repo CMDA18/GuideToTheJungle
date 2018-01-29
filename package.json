@@ -2,6 +2,19 @@
   "name": "basic-project",
   "version": "0.1.0",
   "private": true,
+  "scripts": {
+    "start": "node scripts/start.js",
+    "server": "node scripts/server.js",
+    "build": "node scripts/build.js",
+    "test": "node scripts/test.js",
+    "test:watch": "node scripts/test.js --watch",
+    "test:coverage": "node scripts/test.js --coverage",
+    "test:e2e": "yarn cypress run",
+    "lint": "yarn eslint src",
+    "lint:fix": "yarn eslint src --fix",
+    "precommit": "yarn lint && yarn flow",
+    "prepush": "yarn lint && yarn flow && yarn test:coverage"
+  },
   "dependencies": {
     "autoprefixer": "7.1.6",
     "babel-core": "6.26.0",
@@ -72,19 +85,6 @@
     "webpack-dev-server": "2.9.5",
     "webpack-manifest-plugin": "1.3.2",
     "whatwg-fetch": "2.0.3"
-  },
-  "scripts": {
-    "start": "node scripts/start.js",
-    "server": "node scripts/server.js",
-    "build": "node scripts/build.js",
-    "test": "node scripts/test.js",
-    "test:watch": "node scripts/test.js --watch",
-    "test:coverage": "node scripts/test.js --coverage",
-    "test:e2e": "yarn cypress run",
-    "lint": "yarn eslint src",
-    "lint:fix": "yarn eslint src --fix",
-    "precommit": "yarn lint && yarn flow",
-    "prepush": "yarn lint && yarn flow && yarn test:coverage"
   },
   "jest": {
     "coverageThreshold": {

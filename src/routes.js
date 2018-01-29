@@ -5,7 +5,10 @@ import HomePage from './components/pageTypes/Home'
 import RedirectToHomePage from './components/pageTypes/RedirectToHome'
 import ErrorPage from './components/pageTypes/Error'
 
-import { createPreloadAction, type PreloadAction } from './redux/actions/settings'
+import {
+  createPreloadAction,
+  type PreloadAction
+} from './redux/actions/settings'
 
 type Paths = {
   [key: string]: string
@@ -56,5 +59,12 @@ const routes: Array<Route> = [
     status: 404
   }
 ]
+
+export const shouldPreload = (route: Route): boolean => !!(
+  route &&
+  route.preload &&
+  route.preload.dispatch &&
+  route.preload.completeActionType
+)
 
 export default routes
