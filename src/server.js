@@ -4,13 +4,14 @@ import fs from 'fs'
 import express from 'express'
 import expressStaticGzip from 'express-static-gzip'
 import morgan from 'morgan'
+import helmet from 'helmet'
 import clfDate from 'clf-date'
 import path from 'path'
 
 // Server side rendering modules
 import React from 'react'
 import { StaticRouter, matchPath } from 'react-router'
-import Helmet from 'react-helmet'
+import ReactHelmet from 'react-helmet'
 import ReactDOMServer from 'react-dom/server'
 import { Provider } from 'react-redux'
 import { ServerStyleSheet, StyleSheetManager } from 'styled-components'
@@ -49,13 +50,16 @@ const server = express()
 server.set('views', path.resolve(__dirname, '..', 'src', 'serverTemplates'))
 server.set('view engine', 'ejs')
 
+// Setup security patches
+server.use(helmet())
+
 // Setup logger
 server.use(morgan(':remote-addr - :remote-user [:date[clf]] ":method :url HTTP/:http-version" :status :res[content-length] :response-time ms'))
 
 // Serve static assets
 server.use(expressStaticGzip(path.resolve(__dirname, '..', 'build')))
 
-const preload = (route, store, match) => {
+const preload = (route, store) => {
   store.dispatch(route.preload.dispatch)
 
   return new Promise((resolve, reject) => {
@@ -106,7 +110,7 @@ const renderPage = (req, res, store) => {
     }
 
     // Get the head info like meta tags and title
-    const head = Helmet.renderStatic()
+    const head = ReactHelmet.renderStatic()
 
     // Render the template with the application
     res.render('index', {
@@ -126,16 +130,7 @@ const renderPage = (req, res, store) => {
 // Always return the main index.html, so react-router render the route in the client
 server.get('*', (req, res) => {
   // look for the matching route
-  let match
-  let route
-  for (let i = 0; i < routes.length; i++) {
-    const matchedRoute = matchPath(req.url, routes[i])
-    if (matchedRoute) {
-      match = matchedRoute
-      route = routes[i]
-      i = routes.length
-    }
-  }
+  const route = routes.find(route => matchPath(req.url, route))
 
   // Setup the inital state
   const state = {
@@ -152,9 +147,9 @@ server.get('*', (req, res) => {
   const store = createStore(state)
 
   const renderPromise = () => {
-    if (route && match && route.preload && route.preload.dispatch && route.preload.completeActionType) {
+    if (route && route.preload && route.preload.dispatch && route.preload.completeActionType) {
       console.info(`[${clfDate()}] Preloading state for "${route.path}"`)
-      return preload(route, store, match)
+      return preload(route, store)
     } else {
       return Promise.resolve()
     }
