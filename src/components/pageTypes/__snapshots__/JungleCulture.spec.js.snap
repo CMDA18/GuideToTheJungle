@@ -1,0 +1,1121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <JungleCulture />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <HelmetWrapper
+          defer={true}
+          encodeSpecialCharacters={true}
+          title="JungleCulture"
+        />,
+        <JungleCulture__Wrapper>
+          <Navigation />
+          <MainContentGrid>
+            <PageTitle
+              image="./images/team_design.jpg"
+              imageAlignment="right"
+              introText="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur porta dolor ac sem egestas blandit. Praesent eget tempor nisi."
+              introTitle="Jungle Maslow"
+              mediaCaption="test"
+              pageTitle="0.2 The Jungle Culture"
+              textMedia={
+                Array [
+                  Object {
+                    "text": "Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.",
+                    "title": "Financiële autonomie",
+                  },
+                  Object {
+                    "text": "Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.",
+                    "title": "Een ijzersterk team op een fijne plek ",
+                  },
+                  Object {
+                    "text": "We bedenken en maken oplossingen voor complexe vraagstukken waar we trots op zijn. Het is mooi om te zien dat de werkelijkheid zoals we hem voorstelden vaak echt goed uitpakt. En dat ons werk nieuwe vragen van nieuwe klanten oproept die we ook mogen beantwoorden is dan natuurlijk heel mooi meegenomen.",
+                    "title": "Een portfolio met smoel",
+                  },
+                  Object {
+                    "text": "En ja, hier is het ons om te doen. Oplossingen maken die betekenis hebben.",
+                    "title": "Werk van betekenis ",
+                  },
+                ]
+              }
+            />
+            <Intro
+              image="./images/team_design.jpg"
+              imageAlignment="right"
+              introText="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur porta dolor ac sem egestas blandit. Praesent eget tempor nisi."
+              introTitle="Jungle Maslow"
+              mediaCaption="test"
+              pageTitle="0.2 The Jungle Culture"
+              textMedia={
+                Array [
+                  Object {
+                    "text": "Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.",
+                    "title": "Financiële autonomie",
+                  },
+                  Object {
+                    "text": "Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.",
+                    "title": "Een ijzersterk team op een fijne plek ",
+                  },
+                  Object {
+                    "text": "We bedenken en maken oplossingen voor complexe vraagstukken waar we trots op zijn. Het is mooi om te zien dat de werkelijkheid zoals we hem voorstelden vaak echt goed uitpakt. En dat ons werk nieuwe vragen van nieuwe klanten oproept die we ook mogen beantwoorden is dan natuurlijk heel mooi meegenomen.",
+                    "title": "Een portfolio met smoel",
+                  },
+                  Object {
+                    "text": "En ja, hier is het ons om te doen. Oplossingen maken die betekenis hebben.",
+                    "title": "Werk van betekenis ",
+                  },
+                ]
+              }
+            />
+            <TextAndImage
+              image="./images/team_design.jpg"
+              imageAlignment="right"
+              introText="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur porta dolor ac sem egestas blandit. Praesent eget tempor nisi."
+              introTitle="Jungle Maslow"
+              mediaCaption="test"
+              pageTitle="0.2 The Jungle Culture"
+              textMedia={
+                Array [
+                  Object {
+                    "text": "Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.",
+                    "title": "Financiële autonomie",
+                  },
+                  Object {
+                    "text": "Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.",
+                    "title": "Een ijzersterk team op een fijne plek ",
+                  },
+                  Object {
+                    "text": "We bedenken en maken oplossingen voor complexe vraagstukken waar we trots op zijn. Het is mooi om te zien dat de werkelijkheid zoals we hem voorstelden vaak echt goed uitpakt. En dat ons werk nieuwe vragen van nieuwe klanten oproept die we ook mogen beantwoorden is dan natuurlijk heel mooi meegenomen.",
+                    "title": "Een portfolio met smoel",
+                  },
+                  Object {
+                    "text": "En ja, hier is het ons om te doen. Oplossingen maken die betekenis hebben.",
+                    "title": "Werk van betekenis ",
+                  },
+                ]
+              }
+            />
+            <Quote
+              image="./images/team_design.jpg"
+              imageAlignment="right"
+              introText="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur porta dolor ac sem egestas blandit. Praesent eget tempor nisi."
+              introTitle="Jungle Maslow"
+              mediaCaption="test"
+              pageTitle="0.2 The Jungle Culture"
+              textMedia={
+                Array [
+                  Object {
+                    "text": "Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.",
+                    "title": "Financiële autonomie",
+                  },
+                  Object {
+                    "text": "Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.",
+                    "title": "Een ijzersterk team op een fijne plek ",
+                  },
+                  Object {
+                    "text": "We bedenken en maken oplossingen voor complexe vraagstukken waar we trots op zijn. Het is mooi om te zien dat de werkelijkheid zoals we hem voorstelden vaak echt goed uitpakt. En dat ons werk nieuwe vragen van nieuwe klanten oproept die we ook mogen beantwoorden is dan natuurlijk heel mooi meegenomen.",
+                    "title": "Een portfolio met smoel",
+                  },
+                  Object {
+                    "text": "En ja, hier is het ons om te doen. Oplossingen maken die betekenis hebben.",
+                    "title": "Werk van betekenis ",
+                  },
+                ]
+              }
+            />
+          </MainContentGrid>
+        </JungleCulture__Wrapper>,
+      ],
+      "className": "JungleCulture",
+      "data-test": undefined,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "defer": true,
+          "encodeSpecialCharacters": true,
+          "title": "JungleCulture",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <Navigation />,
+            <MainContentGrid>
+              <PageTitle
+                image="./images/team_design.jpg"
+                imageAlignment="right"
+                introText="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur porta dolor ac sem egestas blandit. Praesent eget tempor nisi."
+                introTitle="Jungle Maslow"
+                mediaCaption="test"
+                pageTitle="0.2 The Jungle Culture"
+                textMedia={
+                  Array [
+                    Object {
+                      "text": "Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.",
+                      "title": "Financiële autonomie",
+                    },
+                    Object {
+                      "text": "Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.",
+                      "title": "Een ijzersterk team op een fijne plek ",
+                    },
+                    Object {
+                      "text": "We bedenken en maken oplossingen voor complexe vraagstukken waar we trots op zijn. Het is mooi om te zien dat de werkelijkheid zoals we hem voorstelden vaak echt goed uitpakt. En dat ons werk nieuwe vragen van nieuwe klanten oproept die we ook mogen beantwoorden is dan natuurlijk heel mooi meegenomen.",
+                      "title": "Een portfolio met smoel",
+                    },
+                    Object {
+                      "text": "En ja, hier is het ons om te doen. Oplossingen maken die betekenis hebben.",
+                      "title": "Werk van betekenis ",
+                    },
+                  ]
+                }
+              />
+              <Intro
+                image="./images/team_design.jpg"
+                imageAlignment="right"
+                introText="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur porta dolor ac sem egestas blandit. Praesent eget tempor nisi."
+                introTitle="Jungle Maslow"
+                mediaCaption="test"
+                pageTitle="0.2 The Jungle Culture"
+                textMedia={
+                  Array [
+                    Object {
+                      "text": "Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.",
+                      "title": "Financiële autonomie",
+                    },
+                    Object {
+                      "text": "Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.",
+                      "title": "Een ijzersterk team op een fijne plek ",
+                    },
+                    Object {
+                      "text": "We bedenken en maken oplossingen voor complexe vraagstukken waar we trots op zijn. Het is mooi om te zien dat de werkelijkheid zoals we hem voorstelden vaak echt goed uitpakt. En dat ons werk nieuwe vragen van nieuwe klanten oproept die we ook mogen beantwoorden is dan natuurlijk heel mooi meegenomen.",
+                      "title": "Een portfolio met smoel",
+                    },
+                    Object {
+                      "text": "En ja, hier is het ons om te doen. Oplossingen maken die betekenis hebben.",
+                      "title": "Werk van betekenis ",
+                    },
+                  ]
+                }
+              />
+              <TextAndImage
+                image="./images/team_design.jpg"
+                imageAlignment="right"
+                introText="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur porta dolor ac sem egestas blandit. Praesent eget tempor nisi."
+                introTitle="Jungle Maslow"
+                mediaCaption="test"
+                pageTitle="0.2 The Jungle Culture"
+                textMedia={
+                  Array [
+                    Object {
+                      "text": "Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.",
+                      "title": "Financiële autonomie",
+                    },
+                    Object {
+                      "text": "Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.",
+                      "title": "Een ijzersterk team op een fijne plek ",
+                    },
+                    Object {
+                      "text": "We bedenken en maken oplossingen voor complexe vraagstukken waar we trots op zijn. Het is mooi om te zien dat de werkelijkheid zoals we hem voorstelden vaak echt goed uitpakt. En dat ons werk nieuwe vragen van nieuwe klanten oproept die we ook mogen beantwoorden is dan natuurlijk heel mooi meegenomen.",
+                      "title": "Een portfolio met smoel",
+                    },
+                    Object {
+                      "text": "En ja, hier is het ons om te doen. Oplossingen maken die betekenis hebben.",
+                      "title": "Werk van betekenis ",
+                    },
+                  ]
+                }
+              />
+              <Quote
+                image="./images/team_design.jpg"
+                imageAlignment="right"
+                introText="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur porta dolor ac sem egestas blandit. Praesent eget tempor nisi."
+                introTitle="Jungle Maslow"
+                mediaCaption="test"
+                pageTitle="0.2 The Jungle Culture"
+                textMedia={
+                  Array [
+                    Object {
+                      "text": "Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.",
+                      "title": "Financiële autonomie",
+                    },
+                    Object {
+                      "text": "Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.",
+                      "title": "Een ijzersterk team op een fijne plek ",
+                    },
+                    Object {
+                      "text": "We bedenken en maken oplossingen voor complexe vraagstukken waar we trots op zijn. Het is mooi om te zien dat de werkelijkheid zoals we hem voorstelden vaak echt goed uitpakt. En dat ons werk nieuwe vragen van nieuwe klanten oproept die we ook mogen beantwoorden is dan natuurlijk heel mooi meegenomen.",
+                      "title": "Een portfolio met smoel",
+                    },
+                    Object {
+                      "text": "En ja, hier is het ons om te doen. Oplossingen maken die betekenis hebben.",
+                      "title": "Werk van betekenis ",
+                    },
+                  ]
+                }
+              />
+            </MainContentGrid>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": Array [
+                <PageTitle
+                  image="./images/team_design.jpg"
+                  imageAlignment="right"
+                  introText="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur porta dolor ac sem egestas blandit. Praesent eget tempor nisi."
+                  introTitle="Jungle Maslow"
+                  mediaCaption="test"
+                  pageTitle="0.2 The Jungle Culture"
+                  textMedia={
+                    Array [
+                      Object {
+                        "text": "Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.",
+                        "title": "Financiële autonomie",
+                      },
+                      Object {
+                        "text": "Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.",
+                        "title": "Een ijzersterk team op een fijne plek ",
+                      },
+                      Object {
+                        "text": "We bedenken en maken oplossingen voor complexe vraagstukken waar we trots op zijn. Het is mooi om te zien dat de werkelijkheid zoals we hem voorstelden vaak echt goed uitpakt. En dat ons werk nieuwe vragen van nieuwe klanten oproept die we ook mogen beantwoorden is dan natuurlijk heel mooi meegenomen.",
+                        "title": "Een portfolio met smoel",
+                      },
+                      Object {
+                        "text": "En ja, hier is het ons om te doen. Oplossingen maken die betekenis hebben.",
+                        "title": "Werk van betekenis ",
+                      },
+                    ]
+                  }
+                />,
+                <Intro
+                  image="./images/team_design.jpg"
+                  imageAlignment="right"
+                  introText="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur porta dolor ac sem egestas blandit. Praesent eget tempor nisi."
+                  introTitle="Jungle Maslow"
+                  mediaCaption="test"
+                  pageTitle="0.2 The Jungle Culture"
+                  textMedia={
+                    Array [
+                      Object {
+                        "text": "Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.",
+                        "title": "Financiële autonomie",
+                      },
+                      Object {
+                        "text": "Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.",
+                        "title": "Een ijzersterk team op een fijne plek ",
+                      },
+                      Object {
+                        "text": "We bedenken en maken oplossingen voor complexe vraagstukken waar we trots op zijn. Het is mooi om te zien dat de werkelijkheid zoals we hem voorstelden vaak echt goed uitpakt. En dat ons werk nieuwe vragen van nieuwe klanten oproept die we ook mogen beantwoorden is dan natuurlijk heel mooi meegenomen.",
+                        "title": "Een portfolio met smoel",
+                      },
+                      Object {
+                        "text": "En ja, hier is het ons om te doen. Oplossingen maken die betekenis hebben.",
+                        "title": "Werk van betekenis ",
+                      },
+                    ]
+                  }
+                />,
+                <TextAndImage
+                  image="./images/team_design.jpg"
+                  imageAlignment="right"
+                  introText="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur porta dolor ac sem egestas blandit. Praesent eget tempor nisi."
+                  introTitle="Jungle Maslow"
+                  mediaCaption="test"
+                  pageTitle="0.2 The Jungle Culture"
+                  textMedia={
+                    Array [
+                      Object {
+                        "text": "Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.",
+                        "title": "Financiële autonomie",
+                      },
+                      Object {
+                        "text": "Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.",
+                        "title": "Een ijzersterk team op een fijne plek ",
+                      },
+                      Object {
+                        "text": "We bedenken en maken oplossingen voor complexe vraagstukken waar we trots op zijn. Het is mooi om te zien dat de werkelijkheid zoals we hem voorstelden vaak echt goed uitpakt. En dat ons werk nieuwe vragen van nieuwe klanten oproept die we ook mogen beantwoorden is dan natuurlijk heel mooi meegenomen.",
+                        "title": "Een portfolio met smoel",
+                      },
+                      Object {
+                        "text": "En ja, hier is het ons om te doen. Oplossingen maken die betekenis hebben.",
+                        "title": "Werk van betekenis ",
+                      },
+                    ]
+                  }
+                />,
+                <Quote
+                  image="./images/team_design.jpg"
+                  imageAlignment="right"
+                  introText="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur porta dolor ac sem egestas blandit. Praesent eget tempor nisi."
+                  introTitle="Jungle Maslow"
+                  mediaCaption="test"
+                  pageTitle="0.2 The Jungle Culture"
+                  textMedia={
+                    Array [
+                      Object {
+                        "text": "Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.",
+                        "title": "Financiële autonomie",
+                      },
+                      Object {
+                        "text": "Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.",
+                        "title": "Een ijzersterk team op een fijne plek ",
+                      },
+                      Object {
+                        "text": "We bedenken en maken oplossingen voor complexe vraagstukken waar we trots op zijn. Het is mooi om te zien dat de werkelijkheid zoals we hem voorstelden vaak echt goed uitpakt. En dat ons werk nieuwe vragen van nieuwe klanten oproept die we ook mogen beantwoorden is dan natuurlijk heel mooi meegenomen.",
+                        "title": "Een portfolio met smoel",
+                      },
+                      Object {
+                        "text": "En ja, hier is het ons om te doen. Oplossingen maken die betekenis hebben.",
+                        "title": "Werk van betekenis ",
+                      },
+                    ]
+                  }
+                />,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "image": "./images/team_design.jpg",
+                  "imageAlignment": "right",
+                  "introText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur porta dolor ac sem egestas blandit. Praesent eget tempor nisi.",
+                  "introTitle": "Jungle Maslow",
+                  "mediaCaption": "test",
+                  "pageTitle": "0.2 The Jungle Culture",
+                  "textMedia": Array [
+                    Object {
+                      "text": "Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.",
+                      "title": "Financiële autonomie",
+                    },
+                    Object {
+                      "text": "Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.",
+                      "title": "Een ijzersterk team op een fijne plek ",
+                    },
+                    Object {
+                      "text": "We bedenken en maken oplossingen voor complexe vraagstukken waar we trots op zijn. Het is mooi om te zien dat de werkelijkheid zoals we hem voorstelden vaak echt goed uitpakt. En dat ons werk nieuwe vragen van nieuwe klanten oproept die we ook mogen beantwoorden is dan natuurlijk heel mooi meegenomen.",
+                      "title": "Een portfolio met smoel",
+                    },
+                    Object {
+                      "text": "En ja, hier is het ons om te doen. Oplossingen maken die betekenis hebben.",
+                      "title": "Werk van betekenis ",
+                    },
+                  ],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "image": "./images/team_design.jpg",
+                  "imageAlignment": "right",
+                  "introText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur porta dolor ac sem egestas blandit. Praesent eget tempor nisi.",
+                  "introTitle": "Jungle Maslow",
+                  "mediaCaption": "test",
+                  "pageTitle": "0.2 The Jungle Culture",
+                  "textMedia": Array [
+                    Object {
+                      "text": "Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.",
+                      "title": "Financiële autonomie",
+                    },
+                    Object {
+                      "text": "Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.",
+                      "title": "Een ijzersterk team op een fijne plek ",
+                    },
+                    Object {
+                      "text": "We bedenken en maken oplossingen voor complexe vraagstukken waar we trots op zijn. Het is mooi om te zien dat de werkelijkheid zoals we hem voorstelden vaak echt goed uitpakt. En dat ons werk nieuwe vragen van nieuwe klanten oproept die we ook mogen beantwoorden is dan natuurlijk heel mooi meegenomen.",
+                      "title": "Een portfolio met smoel",
+                    },
+                    Object {
+                      "text": "En ja, hier is het ons om te doen. Oplossingen maken die betekenis hebben.",
+                      "title": "Werk van betekenis ",
+                    },
+                  ],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "image": "./images/team_design.jpg",
+                  "imageAlignment": "right",
+                  "introText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur porta dolor ac sem egestas blandit. Praesent eget tempor nisi.",
+                  "introTitle": "Jungle Maslow",
+                  "mediaCaption": "test",
+                  "pageTitle": "0.2 The Jungle Culture",
+                  "textMedia": Array [
+                    Object {
+                      "text": "Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.",
+                      "title": "Financiële autonomie",
+                    },
+                    Object {
+                      "text": "Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.",
+                      "title": "Een ijzersterk team op een fijne plek ",
+                    },
+                    Object {
+                      "text": "We bedenken en maken oplossingen voor complexe vraagstukken waar we trots op zijn. Het is mooi om te zien dat de werkelijkheid zoals we hem voorstelden vaak echt goed uitpakt. En dat ons werk nieuwe vragen van nieuwe klanten oproept die we ook mogen beantwoorden is dan natuurlijk heel mooi meegenomen.",
+                      "title": "Een portfolio met smoel",
+                    },
+                    Object {
+                      "text": "En ja, hier is het ons om te doen. Oplossingen maken die betekenis hebben.",
+                      "title": "Werk van betekenis ",
+                    },
+                  ],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "image": "./images/team_design.jpg",
+                  "imageAlignment": "right",
+                  "introText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur porta dolor ac sem egestas blandit. Praesent eget tempor nisi.",
+                  "introTitle": "Jungle Maslow",
+                  "mediaCaption": "test",
+                  "pageTitle": "0.2 The Jungle Culture",
+                  "textMedia": Array [
+                    Object {
+                      "text": "Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.",
+                      "title": "Financiële autonomie",
+                    },
+                    Object {
+                      "text": "Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.",
+                      "title": "Een ijzersterk team op een fijne plek ",
+                    },
+                    Object {
+                      "text": "We bedenken en maken oplossingen voor complexe vraagstukken waar we trots op zijn. Het is mooi om te zien dat de werkelijkheid zoals we hem voorstelden vaak echt goed uitpakt. En dat ons werk nieuwe vragen van nieuwe klanten oproept die we ook mogen beantwoorden is dan natuurlijk heel mooi meegenomen.",
+                      "title": "Een portfolio met smoel",
+                    },
+                    Object {
+                      "text": "En ja, hier is het ons om te doen. Oplossingen maken die betekenis hebben.",
+                      "title": "Werk van betekenis ",
+                    },
+                  ],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <HelmetWrapper
+            defer={true}
+            encodeSpecialCharacters={true}
+            title="JungleCulture"
+          />,
+          <JungleCulture__Wrapper>
+            <Navigation />
+            <MainContentGrid>
+              <PageTitle
+                image="./images/team_design.jpg"
+                imageAlignment="right"
+                introText="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur porta dolor ac sem egestas blandit. Praesent eget tempor nisi."
+                introTitle="Jungle Maslow"
+                mediaCaption="test"
+                pageTitle="0.2 The Jungle Culture"
+                textMedia={
+                  Array [
+                    Object {
+                      "text": "Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.",
+                      "title": "Financiële autonomie",
+                    },
+                    Object {
+                      "text": "Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.",
+                      "title": "Een ijzersterk team op een fijne plek ",
+                    },
+                    Object {
+                      "text": "We bedenken en maken oplossingen voor complexe vraagstukken waar we trots op zijn. Het is mooi om te zien dat de werkelijkheid zoals we hem voorstelden vaak echt goed uitpakt. En dat ons werk nieuwe vragen van nieuwe klanten oproept die we ook mogen beantwoorden is dan natuurlijk heel mooi meegenomen.",
+                      "title": "Een portfolio met smoel",
+                    },
+                    Object {
+                      "text": "En ja, hier is het ons om te doen. Oplossingen maken die betekenis hebben.",
+                      "title": "Werk van betekenis ",
+                    },
+                  ]
+                }
+              />
+              <Intro
+                image="./images/team_design.jpg"
+                imageAlignment="right"
+                introText="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur porta dolor ac sem egestas blandit. Praesent eget tempor nisi."
+                introTitle="Jungle Maslow"
+                mediaCaption="test"
+                pageTitle="0.2 The Jungle Culture"
+                textMedia={
+                  Array [
+                    Object {
+                      "text": "Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.",
+                      "title": "Financiële autonomie",
+                    },
+                    Object {
+                      "text": "Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.",
+                      "title": "Een ijzersterk team op een fijne plek ",
+                    },
+                    Object {
+                      "text": "We bedenken en maken oplossingen voor complexe vraagstukken waar we trots op zijn. Het is mooi om te zien dat de werkelijkheid zoals we hem voorstelden vaak echt goed uitpakt. En dat ons werk nieuwe vragen van nieuwe klanten oproept die we ook mogen beantwoorden is dan natuurlijk heel mooi meegenomen.",
+                      "title": "Een portfolio met smoel",
+                    },
+                    Object {
+                      "text": "En ja, hier is het ons om te doen. Oplossingen maken die betekenis hebben.",
+                      "title": "Werk van betekenis ",
+                    },
+                  ]
+                }
+              />
+              <TextAndImage
+                image="./images/team_design.jpg"
+                imageAlignment="right"
+                introText="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur porta dolor ac sem egestas blandit. Praesent eget tempor nisi."
+                introTitle="Jungle Maslow"
+                mediaCaption="test"
+                pageTitle="0.2 The Jungle Culture"
+                textMedia={
+                  Array [
+                    Object {
+                      "text": "Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.",
+                      "title": "Financiële autonomie",
+                    },
+                    Object {
+                      "text": "Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.",
+                      "title": "Een ijzersterk team op een fijne plek ",
+                    },
+                    Object {
+                      "text": "We bedenken en maken oplossingen voor complexe vraagstukken waar we trots op zijn. Het is mooi om te zien dat de werkelijkheid zoals we hem voorstelden vaak echt goed uitpakt. En dat ons werk nieuwe vragen van nieuwe klanten oproept die we ook mogen beantwoorden is dan natuurlijk heel mooi meegenomen.",
+                      "title": "Een portfolio met smoel",
+                    },
+                    Object {
+                      "text": "En ja, hier is het ons om te doen. Oplossingen maken die betekenis hebben.",
+                      "title": "Werk van betekenis ",
+                    },
+                  ]
+                }
+              />
+              <Quote
+                image="./images/team_design.jpg"
+                imageAlignment="right"
+                introText="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur porta dolor ac sem egestas blandit. Praesent eget tempor nisi."
+                introTitle="Jungle Maslow"
+                mediaCaption="test"
+                pageTitle="0.2 The Jungle Culture"
+                textMedia={
+                  Array [
+                    Object {
+                      "text": "Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.",
+                      "title": "Financiële autonomie",
+                    },
+                    Object {
+                      "text": "Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.",
+                      "title": "Een ijzersterk team op een fijne plek ",
+                    },
+                    Object {
+                      "text": "We bedenken en maken oplossingen voor complexe vraagstukken waar we trots op zijn. Het is mooi om te zien dat de werkelijkheid zoals we hem voorstelden vaak echt goed uitpakt. En dat ons werk nieuwe vragen van nieuwe klanten oproept die we ook mogen beantwoorden is dan natuurlijk heel mooi meegenomen.",
+                      "title": "Een portfolio met smoel",
+                    },
+                    Object {
+                      "text": "En ja, hier is het ons om te doen. Oplossingen maken die betekenis hebben.",
+                      "title": "Werk van betekenis ",
+                    },
+                  ]
+                }
+              />
+            </MainContentGrid>
+          </JungleCulture__Wrapper>,
+        ],
+        "className": "JungleCulture",
+        "data-test": undefined,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "defer": true,
+            "encodeSpecialCharacters": true,
+            "title": "JungleCulture",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <Navigation />,
+              <MainContentGrid>
+                <PageTitle
+                  image="./images/team_design.jpg"
+                  imageAlignment="right"
+                  introText="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur porta dolor ac sem egestas blandit. Praesent eget tempor nisi."
+                  introTitle="Jungle Maslow"
+                  mediaCaption="test"
+                  pageTitle="0.2 The Jungle Culture"
+                  textMedia={
+                    Array [
+                      Object {
+                        "text": "Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.",
+                        "title": "Financiële autonomie",
+                      },
+                      Object {
+                        "text": "Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.",
+                        "title": "Een ijzersterk team op een fijne plek ",
+                      },
+                      Object {
+                        "text": "We bedenken en maken oplossingen voor complexe vraagstukken waar we trots op zijn. Het is mooi om te zien dat de werkelijkheid zoals we hem voorstelden vaak echt goed uitpakt. En dat ons werk nieuwe vragen van nieuwe klanten oproept die we ook mogen beantwoorden is dan natuurlijk heel mooi meegenomen.",
+                        "title": "Een portfolio met smoel",
+                      },
+                      Object {
+                        "text": "En ja, hier is het ons om te doen. Oplossingen maken die betekenis hebben.",
+                        "title": "Werk van betekenis ",
+                      },
+                    ]
+                  }
+                />
+                <Intro
+                  image="./images/team_design.jpg"
+                  imageAlignment="right"
+                  introText="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur porta dolor ac sem egestas blandit. Praesent eget tempor nisi."
+                  introTitle="Jungle Maslow"
+                  mediaCaption="test"
+                  pageTitle="0.2 The Jungle Culture"
+                  textMedia={
+                    Array [
+                      Object {
+                        "text": "Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.",
+                        "title": "Financiële autonomie",
+                      },
+                      Object {
+                        "text": "Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.",
+                        "title": "Een ijzersterk team op een fijne plek ",
+                      },
+                      Object {
+                        "text": "We bedenken en maken oplossingen voor complexe vraagstukken waar we trots op zijn. Het is mooi om te zien dat de werkelijkheid zoals we hem voorstelden vaak echt goed uitpakt. En dat ons werk nieuwe vragen van nieuwe klanten oproept die we ook mogen beantwoorden is dan natuurlijk heel mooi meegenomen.",
+                        "title": "Een portfolio met smoel",
+                      },
+                      Object {
+                        "text": "En ja, hier is het ons om te doen. Oplossingen maken die betekenis hebben.",
+                        "title": "Werk van betekenis ",
+                      },
+                    ]
+                  }
+                />
+                <TextAndImage
+                  image="./images/team_design.jpg"
+                  imageAlignment="right"
+                  introText="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur porta dolor ac sem egestas blandit. Praesent eget tempor nisi."
+                  introTitle="Jungle Maslow"
+                  mediaCaption="test"
+                  pageTitle="0.2 The Jungle Culture"
+                  textMedia={
+                    Array [
+                      Object {
+                        "text": "Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.",
+                        "title": "Financiële autonomie",
+                      },
+                      Object {
+                        "text": "Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.",
+                        "title": "Een ijzersterk team op een fijne plek ",
+                      },
+                      Object {
+                        "text": "We bedenken en maken oplossingen voor complexe vraagstukken waar we trots op zijn. Het is mooi om te zien dat de werkelijkheid zoals we hem voorstelden vaak echt goed uitpakt. En dat ons werk nieuwe vragen van nieuwe klanten oproept die we ook mogen beantwoorden is dan natuurlijk heel mooi meegenomen.",
+                        "title": "Een portfolio met smoel",
+                      },
+                      Object {
+                        "text": "En ja, hier is het ons om te doen. Oplossingen maken die betekenis hebben.",
+                        "title": "Werk van betekenis ",
+                      },
+                    ]
+                  }
+                />
+                <Quote
+                  image="./images/team_design.jpg"
+                  imageAlignment="right"
+                  introText="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur porta dolor ac sem egestas blandit. Praesent eget tempor nisi."
+                  introTitle="Jungle Maslow"
+                  mediaCaption="test"
+                  pageTitle="0.2 The Jungle Culture"
+                  textMedia={
+                    Array [
+                      Object {
+                        "text": "Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.",
+                        "title": "Financiële autonomie",
+                      },
+                      Object {
+                        "text": "Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.",
+                        "title": "Een ijzersterk team op een fijne plek ",
+                      },
+                      Object {
+                        "text": "We bedenken en maken oplossingen voor complexe vraagstukken waar we trots op zijn. Het is mooi om te zien dat de werkelijkheid zoals we hem voorstelden vaak echt goed uitpakt. En dat ons werk nieuwe vragen van nieuwe klanten oproept die we ook mogen beantwoorden is dan natuurlijk heel mooi meegenomen.",
+                        "title": "Een portfolio met smoel",
+                      },
+                      Object {
+                        "text": "En ja, hier is het ons om te doen. Oplossingen maken die betekenis hebben.",
+                        "title": "Werk van betekenis ",
+                      },
+                    ]
+                  }
+                />
+              </MainContentGrid>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": Array [
+                  <PageTitle
+                    image="./images/team_design.jpg"
+                    imageAlignment="right"
+                    introText="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur porta dolor ac sem egestas blandit. Praesent eget tempor nisi."
+                    introTitle="Jungle Maslow"
+                    mediaCaption="test"
+                    pageTitle="0.2 The Jungle Culture"
+                    textMedia={
+                      Array [
+                        Object {
+                          "text": "Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.",
+                          "title": "Financiële autonomie",
+                        },
+                        Object {
+                          "text": "Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.",
+                          "title": "Een ijzersterk team op een fijne plek ",
+                        },
+                        Object {
+                          "text": "We bedenken en maken oplossingen voor complexe vraagstukken waar we trots op zijn. Het is mooi om te zien dat de werkelijkheid zoals we hem voorstelden vaak echt goed uitpakt. En dat ons werk nieuwe vragen van nieuwe klanten oproept die we ook mogen beantwoorden is dan natuurlijk heel mooi meegenomen.",
+                          "title": "Een portfolio met smoel",
+                        },
+                        Object {
+                          "text": "En ja, hier is het ons om te doen. Oplossingen maken die betekenis hebben.",
+                          "title": "Werk van betekenis ",
+                        },
+                      ]
+                    }
+                  />,
+                  <Intro
+                    image="./images/team_design.jpg"
+                    imageAlignment="right"
+                    introText="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur porta dolor ac sem egestas blandit. Praesent eget tempor nisi."
+                    introTitle="Jungle Maslow"
+                    mediaCaption="test"
+                    pageTitle="0.2 The Jungle Culture"
+                    textMedia={
+                      Array [
+                        Object {
+                          "text": "Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.",
+                          "title": "Financiële autonomie",
+                        },
+                        Object {
+                          "text": "Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.",
+                          "title": "Een ijzersterk team op een fijne plek ",
+                        },
+                        Object {
+                          "text": "We bedenken en maken oplossingen voor complexe vraagstukken waar we trots op zijn. Het is mooi om te zien dat de werkelijkheid zoals we hem voorstelden vaak echt goed uitpakt. En dat ons werk nieuwe vragen van nieuwe klanten oproept die we ook mogen beantwoorden is dan natuurlijk heel mooi meegenomen.",
+                          "title": "Een portfolio met smoel",
+                        },
+                        Object {
+                          "text": "En ja, hier is het ons om te doen. Oplossingen maken die betekenis hebben.",
+                          "title": "Werk van betekenis ",
+                        },
+                      ]
+                    }
+                  />,
+                  <TextAndImage
+                    image="./images/team_design.jpg"
+                    imageAlignment="right"
+                    introText="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur porta dolor ac sem egestas blandit. Praesent eget tempor nisi."
+                    introTitle="Jungle Maslow"
+                    mediaCaption="test"
+                    pageTitle="0.2 The Jungle Culture"
+                    textMedia={
+                      Array [
+                        Object {
+                          "text": "Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.",
+                          "title": "Financiële autonomie",
+                        },
+                        Object {
+                          "text": "Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.",
+                          "title": "Een ijzersterk team op een fijne plek ",
+                        },
+                        Object {
+                          "text": "We bedenken en maken oplossingen voor complexe vraagstukken waar we trots op zijn. Het is mooi om te zien dat de werkelijkheid zoals we hem voorstelden vaak echt goed uitpakt. En dat ons werk nieuwe vragen van nieuwe klanten oproept die we ook mogen beantwoorden is dan natuurlijk heel mooi meegenomen.",
+                          "title": "Een portfolio met smoel",
+                        },
+                        Object {
+                          "text": "En ja, hier is het ons om te doen. Oplossingen maken die betekenis hebben.",
+                          "title": "Werk van betekenis ",
+                        },
+                      ]
+                    }
+                  />,
+                  <Quote
+                    image="./images/team_design.jpg"
+                    imageAlignment="right"
+                    introText="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur porta dolor ac sem egestas blandit. Praesent eget tempor nisi."
+                    introTitle="Jungle Maslow"
+                    mediaCaption="test"
+                    pageTitle="0.2 The Jungle Culture"
+                    textMedia={
+                      Array [
+                        Object {
+                          "text": "Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.",
+                          "title": "Financiële autonomie",
+                        },
+                        Object {
+                          "text": "Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.",
+                          "title": "Een ijzersterk team op een fijne plek ",
+                        },
+                        Object {
+                          "text": "We bedenken en maken oplossingen voor complexe vraagstukken waar we trots op zijn. Het is mooi om te zien dat de werkelijkheid zoals we hem voorstelden vaak echt goed uitpakt. En dat ons werk nieuwe vragen van nieuwe klanten oproept die we ook mogen beantwoorden is dan natuurlijk heel mooi meegenomen.",
+                          "title": "Een portfolio met smoel",
+                        },
+                        Object {
+                          "text": "En ja, hier is het ons om te doen. Oplossingen maken die betekenis hebben.",
+                          "title": "Werk van betekenis ",
+                        },
+                      ]
+                    }
+                  />,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "image": "./images/team_design.jpg",
+                    "imageAlignment": "right",
+                    "introText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur porta dolor ac sem egestas blandit. Praesent eget tempor nisi.",
+                    "introTitle": "Jungle Maslow",
+                    "mediaCaption": "test",
+                    "pageTitle": "0.2 The Jungle Culture",
+                    "textMedia": Array [
+                      Object {
+                        "text": "Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.",
+                        "title": "Financiële autonomie",
+                      },
+                      Object {
+                        "text": "Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.",
+                        "title": "Een ijzersterk team op een fijne plek ",
+                      },
+                      Object {
+                        "text": "We bedenken en maken oplossingen voor complexe vraagstukken waar we trots op zijn. Het is mooi om te zien dat de werkelijkheid zoals we hem voorstelden vaak echt goed uitpakt. En dat ons werk nieuwe vragen van nieuwe klanten oproept die we ook mogen beantwoorden is dan natuurlijk heel mooi meegenomen.",
+                        "title": "Een portfolio met smoel",
+                      },
+                      Object {
+                        "text": "En ja, hier is het ons om te doen. Oplossingen maken die betekenis hebben.",
+                        "title": "Werk van betekenis ",
+                      },
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "image": "./images/team_design.jpg",
+                    "imageAlignment": "right",
+                    "introText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur porta dolor ac sem egestas blandit. Praesent eget tempor nisi.",
+                    "introTitle": "Jungle Maslow",
+                    "mediaCaption": "test",
+                    "pageTitle": "0.2 The Jungle Culture",
+                    "textMedia": Array [
+                      Object {
+                        "text": "Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.",
+                        "title": "Financiële autonomie",
+                      },
+                      Object {
+                        "text": "Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.",
+                        "title": "Een ijzersterk team op een fijne plek ",
+                      },
+                      Object {
+                        "text": "We bedenken en maken oplossingen voor complexe vraagstukken waar we trots op zijn. Het is mooi om te zien dat de werkelijkheid zoals we hem voorstelden vaak echt goed uitpakt. En dat ons werk nieuwe vragen van nieuwe klanten oproept die we ook mogen beantwoorden is dan natuurlijk heel mooi meegenomen.",
+                        "title": "Een portfolio met smoel",
+                      },
+                      Object {
+                        "text": "En ja, hier is het ons om te doen. Oplossingen maken die betekenis hebben.",
+                        "title": "Werk van betekenis ",
+                      },
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "image": "./images/team_design.jpg",
+                    "imageAlignment": "right",
+                    "introText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur porta dolor ac sem egestas blandit. Praesent eget tempor nisi.",
+                    "introTitle": "Jungle Maslow",
+                    "mediaCaption": "test",
+                    "pageTitle": "0.2 The Jungle Culture",
+                    "textMedia": Array [
+                      Object {
+                        "text": "Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.",
+                        "title": "Financiële autonomie",
+                      },
+                      Object {
+                        "text": "Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.",
+                        "title": "Een ijzersterk team op een fijne plek ",
+                      },
+                      Object {
+                        "text": "We bedenken en maken oplossingen voor complexe vraagstukken waar we trots op zijn. Het is mooi om te zien dat de werkelijkheid zoals we hem voorstelden vaak echt goed uitpakt. En dat ons werk nieuwe vragen van nieuwe klanten oproept die we ook mogen beantwoorden is dan natuurlijk heel mooi meegenomen.",
+                        "title": "Een portfolio met smoel",
+                      },
+                      Object {
+                        "text": "En ja, hier is het ons om te doen. Oplossingen maken die betekenis hebben.",
+                        "title": "Werk van betekenis ",
+                      },
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "image": "./images/team_design.jpg",
+                    "imageAlignment": "right",
+                    "introText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur porta dolor ac sem egestas blandit. Praesent eget tempor nisi.",
+                    "introTitle": "Jungle Maslow",
+                    "mediaCaption": "test",
+                    "pageTitle": "0.2 The Jungle Culture",
+                    "textMedia": Array [
+                      Object {
+                        "text": "Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.",
+                        "title": "Financiële autonomie",
+                      },
+                      Object {
+                        "text": "Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.",
+                        "title": "Een ijzersterk team op een fijne plek ",
+                      },
+                      Object {
+                        "text": "We bedenken en maken oplossingen voor complexe vraagstukken waar we trots op zijn. Het is mooi om te zien dat de werkelijkheid zoals we hem voorstelden vaak echt goed uitpakt. En dat ons werk nieuwe vragen van nieuwe klanten oproept die we ook mogen beantwoorden is dan natuurlijk heel mooi meegenomen.",
+                        "title": "Een portfolio met smoel",
+                      },
+                      Object {
+                        "text": "En ja, hier is het ons om te doen. Oplossingen maken die betekenis hebben.",
+                        "title": "Werk van betekenis ",
+                      },
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

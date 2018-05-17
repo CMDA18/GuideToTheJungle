@@ -1,0 +1,1401 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Overview />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <HelmetWrapper
+          defer={true}
+          encodeSpecialCharacters={true}
+          title="Overview"
+        />,
+        <Overview__Wrapper>
+          <header>
+            <PageTitle
+              cards={
+                Array [
+                  Object {
+                    "image": "./images/0.0_faq.jpg",
+                    "slug": "/faq",
+                    "text": "Bekijk hier de vragen die jij misschien nog niet druft te vragen maar die wel belangrijk zijn voor op de vloer.",
+                    "title": "0.0 FAQ",
+                    "unlocked": "yes",
+                  },
+                  Object {
+                    "image": "./images/0.1_jungle_minds.jpg",
+                    "slug": "/jungleMinds",
+                    "text": "Tijdens deze module leer je meer over de geschiedenis van Jungle Minds en hoe wij als bedrijf gevestigd zijn.",
+                    "title": "0.1 Jungle Minds",
+                    "unlocked": "yes",
+                  },
+                  Object {
+                    "image": "./images/team_design.jpg",
+                    "slug": "/jungleCulture",
+                    "text": "Tijdens deze module lees je meer over ons cultuur en wat wij doen om die te behouden.",
+                    "title": "0.2 De Jungle Cultuur",
+                    "unlockText": "Ontgrendelt in week 2",
+                    "unlocked": "no",
+                  },
+                  Object {
+                    "image": "./images/0.3_our_people.jpg",
+                    "slug": "/ourPeople",
+                    "text": "Lees hier meer over ons geweldige team, want zoals ze zeggen \\"vele handen maken licht werk.\\"",
+                    "title": "0.3 Ons Team",
+                    "unlockText": "Ontgrendelt in week 3",
+                    "unlocked": "no",
+                  },
+                  Object {
+                    "image": "./images/0.4_how_we_work.jpg",
+                    "slug": "/howWeWork",
+                    "text": "Binnen Jungle Minds willen we graag dat iedereen op de hoogte is van ons werkprocedures. Bekijk hier hoe wij een project aanpakken van A tot Z.",
+                    "title": "0.4 Ons Workflow",
+                    "unlockText": "Ontgrendelt in week 4",
+                    "unlocked": "no",
+                  },
+                  Object {
+                    "image": "./images/0.5_our_clients.jpg",
+                    "slug": "/ourClients",
+                    "text": "Zonder hun warebn wij niet zo ver gekomen. Lees hier voor welke bedrijven wij werken en wat voor producten wij voor hun maken.",
+                    "title": "0.5 Ons Klanten",
+                    "unlockText": "Ontgrendelt in week 5",
+                    "unlocked": "no",
+                  },
+                ]
+              }
+              introText="Allereerst verwelkomen wij jou graag bij Jungle Minds. We hopen dat dit het begin is van een goede samenwerking met jou. Door deze gids leer je Jungle Minds en jouw collega's beter kennen."
+              introTitle="Guide to the Jungle"
+              pageTitle="Overzicht"
+            />
+            <Intro
+              cards={
+                Array [
+                  Object {
+                    "image": "./images/0.0_faq.jpg",
+                    "slug": "/faq",
+                    "text": "Bekijk hier de vragen die jij misschien nog niet druft te vragen maar die wel belangrijk zijn voor op de vloer.",
+                    "title": "0.0 FAQ",
+                    "unlocked": "yes",
+                  },
+                  Object {
+                    "image": "./images/0.1_jungle_minds.jpg",
+                    "slug": "/jungleMinds",
+                    "text": "Tijdens deze module leer je meer over de geschiedenis van Jungle Minds en hoe wij als bedrijf gevestigd zijn.",
+                    "title": "0.1 Jungle Minds",
+                    "unlocked": "yes",
+                  },
+                  Object {
+                    "image": "./images/team_design.jpg",
+                    "slug": "/jungleCulture",
+                    "text": "Tijdens deze module lees je meer over ons cultuur en wat wij doen om die te behouden.",
+                    "title": "0.2 De Jungle Cultuur",
+                    "unlockText": "Ontgrendelt in week 2",
+                    "unlocked": "no",
+                  },
+                  Object {
+                    "image": "./images/0.3_our_people.jpg",
+                    "slug": "/ourPeople",
+                    "text": "Lees hier meer over ons geweldige team, want zoals ze zeggen \\"vele handen maken licht werk.\\"",
+                    "title": "0.3 Ons Team",
+                    "unlockText": "Ontgrendelt in week 3",
+                    "unlocked": "no",
+                  },
+                  Object {
+                    "image": "./images/0.4_how_we_work.jpg",
+                    "slug": "/howWeWork",
+                    "text": "Binnen Jungle Minds willen we graag dat iedereen op de hoogte is van ons werkprocedures. Bekijk hier hoe wij een project aanpakken van A tot Z.",
+                    "title": "0.4 Ons Workflow",
+                    "unlockText": "Ontgrendelt in week 4",
+                    "unlocked": "no",
+                  },
+                  Object {
+                    "image": "./images/0.5_our_clients.jpg",
+                    "slug": "/ourClients",
+                    "text": "Zonder hun warebn wij niet zo ver gekomen. Lees hier voor welke bedrijven wij werken en wat voor producten wij voor hun maken.",
+                    "title": "0.5 Ons Klanten",
+                    "unlockText": "Ontgrendelt in week 5",
+                    "unlocked": "no",
+                  },
+                ]
+              }
+              introText="Allereerst verwelkomen wij jou graag bij Jungle Minds. We hopen dat dit het begin is van een goede samenwerking met jou. Door deze gids leer je Jungle Minds en jouw collega's beter kennen."
+              introTitle="Guide to the Jungle"
+              pageTitle="Overzicht"
+            />
+          </header>
+          <OverviewCardCollection
+            cards={
+              Array [
+                Object {
+                  "image": "./images/0.0_faq.jpg",
+                  "slug": "/faq",
+                  "text": "Bekijk hier de vragen die jij misschien nog niet druft te vragen maar die wel belangrijk zijn voor op de vloer.",
+                  "title": "0.0 FAQ",
+                  "unlocked": "yes",
+                },
+                Object {
+                  "image": "./images/0.1_jungle_minds.jpg",
+                  "slug": "/jungleMinds",
+                  "text": "Tijdens deze module leer je meer over de geschiedenis van Jungle Minds en hoe wij als bedrijf gevestigd zijn.",
+                  "title": "0.1 Jungle Minds",
+                  "unlocked": "yes",
+                },
+                Object {
+                  "image": "./images/team_design.jpg",
+                  "slug": "/jungleCulture",
+                  "text": "Tijdens deze module lees je meer over ons cultuur en wat wij doen om die te behouden.",
+                  "title": "0.2 De Jungle Cultuur",
+                  "unlockText": "Ontgrendelt in week 2",
+                  "unlocked": "no",
+                },
+                Object {
+                  "image": "./images/0.3_our_people.jpg",
+                  "slug": "/ourPeople",
+                  "text": "Lees hier meer over ons geweldige team, want zoals ze zeggen \\"vele handen maken licht werk.\\"",
+                  "title": "0.3 Ons Team",
+                  "unlockText": "Ontgrendelt in week 3",
+                  "unlocked": "no",
+                },
+                Object {
+                  "image": "./images/0.4_how_we_work.jpg",
+                  "slug": "/howWeWork",
+                  "text": "Binnen Jungle Minds willen we graag dat iedereen op de hoogte is van ons werkprocedures. Bekijk hier hoe wij een project aanpakken van A tot Z.",
+                  "title": "0.4 Ons Workflow",
+                  "unlockText": "Ontgrendelt in week 4",
+                  "unlocked": "no",
+                },
+                Object {
+                  "image": "./images/0.5_our_clients.jpg",
+                  "slug": "/ourClients",
+                  "text": "Zonder hun warebn wij niet zo ver gekomen. Lees hier voor welke bedrijven wij werken en wat voor producten wij voor hun maken.",
+                  "title": "0.5 Ons Klanten",
+                  "unlockText": "Ontgrendelt in week 5",
+                  "unlocked": "no",
+                },
+              ]
+            }
+            introText="Allereerst verwelkomen wij jou graag bij Jungle Minds. We hopen dat dit het begin is van een goede samenwerking met jou. Door deze gids leer je Jungle Minds en jouw collega's beter kennen."
+            introTitle="Guide to the Jungle"
+            pageTitle="Overzicht"
+          />
+        </Overview__Wrapper>,
+      ],
+      "className": "Overview",
+      "data-test": undefined,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "defer": true,
+          "encodeSpecialCharacters": true,
+          "title": "Overview",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <header>
+              <PageTitle
+                cards={
+                  Array [
+                    Object {
+                      "image": "./images/0.0_faq.jpg",
+                      "slug": "/faq",
+                      "text": "Bekijk hier de vragen die jij misschien nog niet druft te vragen maar die wel belangrijk zijn voor op de vloer.",
+                      "title": "0.0 FAQ",
+                      "unlocked": "yes",
+                    },
+                    Object {
+                      "image": "./images/0.1_jungle_minds.jpg",
+                      "slug": "/jungleMinds",
+                      "text": "Tijdens deze module leer je meer over de geschiedenis van Jungle Minds en hoe wij als bedrijf gevestigd zijn.",
+                      "title": "0.1 Jungle Minds",
+                      "unlocked": "yes",
+                    },
+                    Object {
+                      "image": "./images/team_design.jpg",
+                      "slug": "/jungleCulture",
+                      "text": "Tijdens deze module lees je meer over ons cultuur en wat wij doen om die te behouden.",
+                      "title": "0.2 De Jungle Cultuur",
+                      "unlockText": "Ontgrendelt in week 2",
+                      "unlocked": "no",
+                    },
+                    Object {
+                      "image": "./images/0.3_our_people.jpg",
+                      "slug": "/ourPeople",
+                      "text": "Lees hier meer over ons geweldige team, want zoals ze zeggen \\"vele handen maken licht werk.\\"",
+                      "title": "0.3 Ons Team",
+                      "unlockText": "Ontgrendelt in week 3",
+                      "unlocked": "no",
+                    },
+                    Object {
+                      "image": "./images/0.4_how_we_work.jpg",
+                      "slug": "/howWeWork",
+                      "text": "Binnen Jungle Minds willen we graag dat iedereen op de hoogte is van ons werkprocedures. Bekijk hier hoe wij een project aanpakken van A tot Z.",
+                      "title": "0.4 Ons Workflow",
+                      "unlockText": "Ontgrendelt in week 4",
+                      "unlocked": "no",
+                    },
+                    Object {
+                      "image": "./images/0.5_our_clients.jpg",
+                      "slug": "/ourClients",
+                      "text": "Zonder hun warebn wij niet zo ver gekomen. Lees hier voor welke bedrijven wij werken en wat voor producten wij voor hun maken.",
+                      "title": "0.5 Ons Klanten",
+                      "unlockText": "Ontgrendelt in week 5",
+                      "unlocked": "no",
+                    },
+                  ]
+                }
+                introText="Allereerst verwelkomen wij jou graag bij Jungle Minds. We hopen dat dit het begin is van een goede samenwerking met jou. Door deze gids leer je Jungle Minds en jouw collega's beter kennen."
+                introTitle="Guide to the Jungle"
+                pageTitle="Overzicht"
+              />
+              <Intro
+                cards={
+                  Array [
+                    Object {
+                      "image": "./images/0.0_faq.jpg",
+                      "slug": "/faq",
+                      "text": "Bekijk hier de vragen die jij misschien nog niet druft te vragen maar die wel belangrijk zijn voor op de vloer.",
+                      "title": "0.0 FAQ",
+                      "unlocked": "yes",
+                    },
+                    Object {
+                      "image": "./images/0.1_jungle_minds.jpg",
+                      "slug": "/jungleMinds",
+                      "text": "Tijdens deze module leer je meer over de geschiedenis van Jungle Minds en hoe wij als bedrijf gevestigd zijn.",
+                      "title": "0.1 Jungle Minds",
+                      "unlocked": "yes",
+                    },
+                    Object {
+                      "image": "./images/team_design.jpg",
+                      "slug": "/jungleCulture",
+                      "text": "Tijdens deze module lees je meer over ons cultuur en wat wij doen om die te behouden.",
+                      "title": "0.2 De Jungle Cultuur",
+                      "unlockText": "Ontgrendelt in week 2",
+                      "unlocked": "no",
+                    },
+                    Object {
+                      "image": "./images/0.3_our_people.jpg",
+                      "slug": "/ourPeople",
+                      "text": "Lees hier meer over ons geweldige team, want zoals ze zeggen \\"vele handen maken licht werk.\\"",
+                      "title": "0.3 Ons Team",
+                      "unlockText": "Ontgrendelt in week 3",
+                      "unlocked": "no",
+                    },
+                    Object {
+                      "image": "./images/0.4_how_we_work.jpg",
+                      "slug": "/howWeWork",
+                      "text": "Binnen Jungle Minds willen we graag dat iedereen op de hoogte is van ons werkprocedures. Bekijk hier hoe wij een project aanpakken van A tot Z.",
+                      "title": "0.4 Ons Workflow",
+                      "unlockText": "Ontgrendelt in week 4",
+                      "unlocked": "no",
+                    },
+                    Object {
+                      "image": "./images/0.5_our_clients.jpg",
+                      "slug": "/ourClients",
+                      "text": "Zonder hun warebn wij niet zo ver gekomen. Lees hier voor welke bedrijven wij werken en wat voor producten wij voor hun maken.",
+                      "title": "0.5 Ons Klanten",
+                      "unlockText": "Ontgrendelt in week 5",
+                      "unlocked": "no",
+                    },
+                  ]
+                }
+                introText="Allereerst verwelkomen wij jou graag bij Jungle Minds. We hopen dat dit het begin is van een goede samenwerking met jou. Door deze gids leer je Jungle Minds en jouw collega's beter kennen."
+                introTitle="Guide to the Jungle"
+                pageTitle="Overzicht"
+              />
+            </header>,
+            <OverviewCardCollection
+              cards={
+                Array [
+                  Object {
+                    "image": "./images/0.0_faq.jpg",
+                    "slug": "/faq",
+                    "text": "Bekijk hier de vragen die jij misschien nog niet druft te vragen maar die wel belangrijk zijn voor op de vloer.",
+                    "title": "0.0 FAQ",
+                    "unlocked": "yes",
+                  },
+                  Object {
+                    "image": "./images/0.1_jungle_minds.jpg",
+                    "slug": "/jungleMinds",
+                    "text": "Tijdens deze module leer je meer over de geschiedenis van Jungle Minds en hoe wij als bedrijf gevestigd zijn.",
+                    "title": "0.1 Jungle Minds",
+                    "unlocked": "yes",
+                  },
+                  Object {
+                    "image": "./images/team_design.jpg",
+                    "slug": "/jungleCulture",
+                    "text": "Tijdens deze module lees je meer over ons cultuur en wat wij doen om die te behouden.",
+                    "title": "0.2 De Jungle Cultuur",
+                    "unlockText": "Ontgrendelt in week 2",
+                    "unlocked": "no",
+                  },
+                  Object {
+                    "image": "./images/0.3_our_people.jpg",
+                    "slug": "/ourPeople",
+                    "text": "Lees hier meer over ons geweldige team, want zoals ze zeggen \\"vele handen maken licht werk.\\"",
+                    "title": "0.3 Ons Team",
+                    "unlockText": "Ontgrendelt in week 3",
+                    "unlocked": "no",
+                  },
+                  Object {
+                    "image": "./images/0.4_how_we_work.jpg",
+                    "slug": "/howWeWork",
+                    "text": "Binnen Jungle Minds willen we graag dat iedereen op de hoogte is van ons werkprocedures. Bekijk hier hoe wij een project aanpakken van A tot Z.",
+                    "title": "0.4 Ons Workflow",
+                    "unlockText": "Ontgrendelt in week 4",
+                    "unlocked": "no",
+                  },
+                  Object {
+                    "image": "./images/0.5_our_clients.jpg",
+                    "slug": "/ourClients",
+                    "text": "Zonder hun warebn wij niet zo ver gekomen. Lees hier voor welke bedrijven wij werken en wat voor producten wij voor hun maken.",
+                    "title": "0.5 Ons Klanten",
+                    "unlockText": "Ontgrendelt in week 5",
+                    "unlocked": "no",
+                  },
+                ]
+              }
+              introText="Allereerst verwelkomen wij jou graag bij Jungle Minds. We hopen dat dit het begin is van een goede samenwerking met jou. Door deze gids leer je Jungle Minds en jouw collega's beter kennen."
+              introTitle="Guide to the Jungle"
+              pageTitle="Overzicht"
+            />,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <PageTitle
+                  cards={
+                    Array [
+                      Object {
+                        "image": "./images/0.0_faq.jpg",
+                        "slug": "/faq",
+                        "text": "Bekijk hier de vragen die jij misschien nog niet druft te vragen maar die wel belangrijk zijn voor op de vloer.",
+                        "title": "0.0 FAQ",
+                        "unlocked": "yes",
+                      },
+                      Object {
+                        "image": "./images/0.1_jungle_minds.jpg",
+                        "slug": "/jungleMinds",
+                        "text": "Tijdens deze module leer je meer over de geschiedenis van Jungle Minds en hoe wij als bedrijf gevestigd zijn.",
+                        "title": "0.1 Jungle Minds",
+                        "unlocked": "yes",
+                      },
+                      Object {
+                        "image": "./images/team_design.jpg",
+                        "slug": "/jungleCulture",
+                        "text": "Tijdens deze module lees je meer over ons cultuur en wat wij doen om die te behouden.",
+                        "title": "0.2 De Jungle Cultuur",
+                        "unlockText": "Ontgrendelt in week 2",
+                        "unlocked": "no",
+                      },
+                      Object {
+                        "image": "./images/0.3_our_people.jpg",
+                        "slug": "/ourPeople",
+                        "text": "Lees hier meer over ons geweldige team, want zoals ze zeggen \\"vele handen maken licht werk.\\"",
+                        "title": "0.3 Ons Team",
+                        "unlockText": "Ontgrendelt in week 3",
+                        "unlocked": "no",
+                      },
+                      Object {
+                        "image": "./images/0.4_how_we_work.jpg",
+                        "slug": "/howWeWork",
+                        "text": "Binnen Jungle Minds willen we graag dat iedereen op de hoogte is van ons werkprocedures. Bekijk hier hoe wij een project aanpakken van A tot Z.",
+                        "title": "0.4 Ons Workflow",
+                        "unlockText": "Ontgrendelt in week 4",
+                        "unlocked": "no",
+                      },
+                      Object {
+                        "image": "./images/0.5_our_clients.jpg",
+                        "slug": "/ourClients",
+                        "text": "Zonder hun warebn wij niet zo ver gekomen. Lees hier voor welke bedrijven wij werken en wat voor producten wij voor hun maken.",
+                        "title": "0.5 Ons Klanten",
+                        "unlockText": "Ontgrendelt in week 5",
+                        "unlocked": "no",
+                      },
+                    ]
+                  }
+                  introText="Allereerst verwelkomen wij jou graag bij Jungle Minds. We hopen dat dit het begin is van een goede samenwerking met jou. Door deze gids leer je Jungle Minds en jouw collega's beter kennen."
+                  introTitle="Guide to the Jungle"
+                  pageTitle="Overzicht"
+                />,
+                <Intro
+                  cards={
+                    Array [
+                      Object {
+                        "image": "./images/0.0_faq.jpg",
+                        "slug": "/faq",
+                        "text": "Bekijk hier de vragen die jij misschien nog niet druft te vragen maar die wel belangrijk zijn voor op de vloer.",
+                        "title": "0.0 FAQ",
+                        "unlocked": "yes",
+                      },
+                      Object {
+                        "image": "./images/0.1_jungle_minds.jpg",
+                        "slug": "/jungleMinds",
+                        "text": "Tijdens deze module leer je meer over de geschiedenis van Jungle Minds en hoe wij als bedrijf gevestigd zijn.",
+                        "title": "0.1 Jungle Minds",
+                        "unlocked": "yes",
+                      },
+                      Object {
+                        "image": "./images/team_design.jpg",
+                        "slug": "/jungleCulture",
+                        "text": "Tijdens deze module lees je meer over ons cultuur en wat wij doen om die te behouden.",
+                        "title": "0.2 De Jungle Cultuur",
+                        "unlockText": "Ontgrendelt in week 2",
+                        "unlocked": "no",
+                      },
+                      Object {
+                        "image": "./images/0.3_our_people.jpg",
+                        "slug": "/ourPeople",
+                        "text": "Lees hier meer over ons geweldige team, want zoals ze zeggen \\"vele handen maken licht werk.\\"",
+                        "title": "0.3 Ons Team",
+                        "unlockText": "Ontgrendelt in week 3",
+                        "unlocked": "no",
+                      },
+                      Object {
+                        "image": "./images/0.4_how_we_work.jpg",
+                        "slug": "/howWeWork",
+                        "text": "Binnen Jungle Minds willen we graag dat iedereen op de hoogte is van ons werkprocedures. Bekijk hier hoe wij een project aanpakken van A tot Z.",
+                        "title": "0.4 Ons Workflow",
+                        "unlockText": "Ontgrendelt in week 4",
+                        "unlocked": "no",
+                      },
+                      Object {
+                        "image": "./images/0.5_our_clients.jpg",
+                        "slug": "/ourClients",
+                        "text": "Zonder hun warebn wij niet zo ver gekomen. Lees hier voor welke bedrijven wij werken en wat voor producten wij voor hun maken.",
+                        "title": "0.5 Ons Klanten",
+                        "unlockText": "Ontgrendelt in week 5",
+                        "unlocked": "no",
+                      },
+                    ]
+                  }
+                  introText="Allereerst verwelkomen wij jou graag bij Jungle Minds. We hopen dat dit het begin is van een goede samenwerking met jou. Door deze gids leer je Jungle Minds en jouw collega's beter kennen."
+                  introTitle="Guide to the Jungle"
+                  pageTitle="Overzicht"
+                />,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "cards": Array [
+                    Object {
+                      "image": "./images/0.0_faq.jpg",
+                      "slug": "/faq",
+                      "text": "Bekijk hier de vragen die jij misschien nog niet druft te vragen maar die wel belangrijk zijn voor op de vloer.",
+                      "title": "0.0 FAQ",
+                      "unlocked": "yes",
+                    },
+                    Object {
+                      "image": "./images/0.1_jungle_minds.jpg",
+                      "slug": "/jungleMinds",
+                      "text": "Tijdens deze module leer je meer over de geschiedenis van Jungle Minds en hoe wij als bedrijf gevestigd zijn.",
+                      "title": "0.1 Jungle Minds",
+                      "unlocked": "yes",
+                    },
+                    Object {
+                      "image": "./images/team_design.jpg",
+                      "slug": "/jungleCulture",
+                      "text": "Tijdens deze module lees je meer over ons cultuur en wat wij doen om die te behouden.",
+                      "title": "0.2 De Jungle Cultuur",
+                      "unlockText": "Ontgrendelt in week 2",
+                      "unlocked": "no",
+                    },
+                    Object {
+                      "image": "./images/0.3_our_people.jpg",
+                      "slug": "/ourPeople",
+                      "text": "Lees hier meer over ons geweldige team, want zoals ze zeggen \\"vele handen maken licht werk.\\"",
+                      "title": "0.3 Ons Team",
+                      "unlockText": "Ontgrendelt in week 3",
+                      "unlocked": "no",
+                    },
+                    Object {
+                      "image": "./images/0.4_how_we_work.jpg",
+                      "slug": "/howWeWork",
+                      "text": "Binnen Jungle Minds willen we graag dat iedereen op de hoogte is van ons werkprocedures. Bekijk hier hoe wij een project aanpakken van A tot Z.",
+                      "title": "0.4 Ons Workflow",
+                      "unlockText": "Ontgrendelt in week 4",
+                      "unlocked": "no",
+                    },
+                    Object {
+                      "image": "./images/0.5_our_clients.jpg",
+                      "slug": "/ourClients",
+                      "text": "Zonder hun warebn wij niet zo ver gekomen. Lees hier voor welke bedrijven wij werken en wat voor producten wij voor hun maken.",
+                      "title": "0.5 Ons Klanten",
+                      "unlockText": "Ontgrendelt in week 5",
+                      "unlocked": "no",
+                    },
+                  ],
+                  "introText": "Allereerst verwelkomen wij jou graag bij Jungle Minds. We hopen dat dit het begin is van een goede samenwerking met jou. Door deze gids leer je Jungle Minds en jouw collega's beter kennen.",
+                  "introTitle": "Guide to the Jungle",
+                  "pageTitle": "Overzicht",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "cards": Array [
+                    Object {
+                      "image": "./images/0.0_faq.jpg",
+                      "slug": "/faq",
+                      "text": "Bekijk hier de vragen die jij misschien nog niet druft te vragen maar die wel belangrijk zijn voor op de vloer.",
+                      "title": "0.0 FAQ",
+                      "unlocked": "yes",
+                    },
+                    Object {
+                      "image": "./images/0.1_jungle_minds.jpg",
+                      "slug": "/jungleMinds",
+                      "text": "Tijdens deze module leer je meer over de geschiedenis van Jungle Minds en hoe wij als bedrijf gevestigd zijn.",
+                      "title": "0.1 Jungle Minds",
+                      "unlocked": "yes",
+                    },
+                    Object {
+                      "image": "./images/team_design.jpg",
+                      "slug": "/jungleCulture",
+                      "text": "Tijdens deze module lees je meer over ons cultuur en wat wij doen om die te behouden.",
+                      "title": "0.2 De Jungle Cultuur",
+                      "unlockText": "Ontgrendelt in week 2",
+                      "unlocked": "no",
+                    },
+                    Object {
+                      "image": "./images/0.3_our_people.jpg",
+                      "slug": "/ourPeople",
+                      "text": "Lees hier meer over ons geweldige team, want zoals ze zeggen \\"vele handen maken licht werk.\\"",
+                      "title": "0.3 Ons Team",
+                      "unlockText": "Ontgrendelt in week 3",
+                      "unlocked": "no",
+                    },
+                    Object {
+                      "image": "./images/0.4_how_we_work.jpg",
+                      "slug": "/howWeWork",
+                      "text": "Binnen Jungle Minds willen we graag dat iedereen op de hoogte is van ons werkprocedures. Bekijk hier hoe wij een project aanpakken van A tot Z.",
+                      "title": "0.4 Ons Workflow",
+                      "unlockText": "Ontgrendelt in week 4",
+                      "unlocked": "no",
+                    },
+                    Object {
+                      "image": "./images/0.5_our_clients.jpg",
+                      "slug": "/ourClients",
+                      "text": "Zonder hun warebn wij niet zo ver gekomen. Lees hier voor welke bedrijven wij werken en wat voor producten wij voor hun maken.",
+                      "title": "0.5 Ons Klanten",
+                      "unlockText": "Ontgrendelt in week 5",
+                      "unlocked": "no",
+                    },
+                  ],
+                  "introText": "Allereerst verwelkomen wij jou graag bij Jungle Minds. We hopen dat dit het begin is van een goede samenwerking met jou. Door deze gids leer je Jungle Minds en jouw collega's beter kennen.",
+                  "introTitle": "Guide to the Jungle",
+                  "pageTitle": "Overzicht",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": "header",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "cards": Array [
+                Object {
+                  "image": "./images/0.0_faq.jpg",
+                  "slug": "/faq",
+                  "text": "Bekijk hier de vragen die jij misschien nog niet druft te vragen maar die wel belangrijk zijn voor op de vloer.",
+                  "title": "0.0 FAQ",
+                  "unlocked": "yes",
+                },
+                Object {
+                  "image": "./images/0.1_jungle_minds.jpg",
+                  "slug": "/jungleMinds",
+                  "text": "Tijdens deze module leer je meer over de geschiedenis van Jungle Minds en hoe wij als bedrijf gevestigd zijn.",
+                  "title": "0.1 Jungle Minds",
+                  "unlocked": "yes",
+                },
+                Object {
+                  "image": "./images/team_design.jpg",
+                  "slug": "/jungleCulture",
+                  "text": "Tijdens deze module lees je meer over ons cultuur en wat wij doen om die te behouden.",
+                  "title": "0.2 De Jungle Cultuur",
+                  "unlockText": "Ontgrendelt in week 2",
+                  "unlocked": "no",
+                },
+                Object {
+                  "image": "./images/0.3_our_people.jpg",
+                  "slug": "/ourPeople",
+                  "text": "Lees hier meer over ons geweldige team, want zoals ze zeggen \\"vele handen maken licht werk.\\"",
+                  "title": "0.3 Ons Team",
+                  "unlockText": "Ontgrendelt in week 3",
+                  "unlocked": "no",
+                },
+                Object {
+                  "image": "./images/0.4_how_we_work.jpg",
+                  "slug": "/howWeWork",
+                  "text": "Binnen Jungle Minds willen we graag dat iedereen op de hoogte is van ons werkprocedures. Bekijk hier hoe wij een project aanpakken van A tot Z.",
+                  "title": "0.4 Ons Workflow",
+                  "unlockText": "Ontgrendelt in week 4",
+                  "unlocked": "no",
+                },
+                Object {
+                  "image": "./images/0.5_our_clients.jpg",
+                  "slug": "/ourClients",
+                  "text": "Zonder hun warebn wij niet zo ver gekomen. Lees hier voor welke bedrijven wij werken en wat voor producten wij voor hun maken.",
+                  "title": "0.5 Ons Klanten",
+                  "unlockText": "Ontgrendelt in week 5",
+                  "unlocked": "no",
+                },
+              ],
+              "introText": "Allereerst verwelkomen wij jou graag bij Jungle Minds. We hopen dat dit het begin is van een goede samenwerking met jou. Door deze gids leer je Jungle Minds en jouw collega's beter kennen.",
+              "introTitle": "Guide to the Jungle",
+              "pageTitle": "Overzicht",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <HelmetWrapper
+            defer={true}
+            encodeSpecialCharacters={true}
+            title="Overview"
+          />,
+          <Overview__Wrapper>
+            <header>
+              <PageTitle
+                cards={
+                  Array [
+                    Object {
+                      "image": "./images/0.0_faq.jpg",
+                      "slug": "/faq",
+                      "text": "Bekijk hier de vragen die jij misschien nog niet druft te vragen maar die wel belangrijk zijn voor op de vloer.",
+                      "title": "0.0 FAQ",
+                      "unlocked": "yes",
+                    },
+                    Object {
+                      "image": "./images/0.1_jungle_minds.jpg",
+                      "slug": "/jungleMinds",
+                      "text": "Tijdens deze module leer je meer over de geschiedenis van Jungle Minds en hoe wij als bedrijf gevestigd zijn.",
+                      "title": "0.1 Jungle Minds",
+                      "unlocked": "yes",
+                    },
+                    Object {
+                      "image": "./images/team_design.jpg",
+                      "slug": "/jungleCulture",
+                      "text": "Tijdens deze module lees je meer over ons cultuur en wat wij doen om die te behouden.",
+                      "title": "0.2 De Jungle Cultuur",
+                      "unlockText": "Ontgrendelt in week 2",
+                      "unlocked": "no",
+                    },
+                    Object {
+                      "image": "./images/0.3_our_people.jpg",
+                      "slug": "/ourPeople",
+                      "text": "Lees hier meer over ons geweldige team, want zoals ze zeggen \\"vele handen maken licht werk.\\"",
+                      "title": "0.3 Ons Team",
+                      "unlockText": "Ontgrendelt in week 3",
+                      "unlocked": "no",
+                    },
+                    Object {
+                      "image": "./images/0.4_how_we_work.jpg",
+                      "slug": "/howWeWork",
+                      "text": "Binnen Jungle Minds willen we graag dat iedereen op de hoogte is van ons werkprocedures. Bekijk hier hoe wij een project aanpakken van A tot Z.",
+                      "title": "0.4 Ons Workflow",
+                      "unlockText": "Ontgrendelt in week 4",
+                      "unlocked": "no",
+                    },
+                    Object {
+                      "image": "./images/0.5_our_clients.jpg",
+                      "slug": "/ourClients",
+                      "text": "Zonder hun warebn wij niet zo ver gekomen. Lees hier voor welke bedrijven wij werken en wat voor producten wij voor hun maken.",
+                      "title": "0.5 Ons Klanten",
+                      "unlockText": "Ontgrendelt in week 5",
+                      "unlocked": "no",
+                    },
+                  ]
+                }
+                introText="Allereerst verwelkomen wij jou graag bij Jungle Minds. We hopen dat dit het begin is van een goede samenwerking met jou. Door deze gids leer je Jungle Minds en jouw collega's beter kennen."
+                introTitle="Guide to the Jungle"
+                pageTitle="Overzicht"
+              />
+              <Intro
+                cards={
+                  Array [
+                    Object {
+                      "image": "./images/0.0_faq.jpg",
+                      "slug": "/faq",
+                      "text": "Bekijk hier de vragen die jij misschien nog niet druft te vragen maar die wel belangrijk zijn voor op de vloer.",
+                      "title": "0.0 FAQ",
+                      "unlocked": "yes",
+                    },
+                    Object {
+                      "image": "./images/0.1_jungle_minds.jpg",
+                      "slug": "/jungleMinds",
+                      "text": "Tijdens deze module leer je meer over de geschiedenis van Jungle Minds en hoe wij als bedrijf gevestigd zijn.",
+                      "title": "0.1 Jungle Minds",
+                      "unlocked": "yes",
+                    },
+                    Object {
+                      "image": "./images/team_design.jpg",
+                      "slug": "/jungleCulture",
+                      "text": "Tijdens deze module lees je meer over ons cultuur en wat wij doen om die te behouden.",
+                      "title": "0.2 De Jungle Cultuur",
+                      "unlockText": "Ontgrendelt in week 2",
+                      "unlocked": "no",
+                    },
+                    Object {
+                      "image": "./images/0.3_our_people.jpg",
+                      "slug": "/ourPeople",
+                      "text": "Lees hier meer over ons geweldige team, want zoals ze zeggen \\"vele handen maken licht werk.\\"",
+                      "title": "0.3 Ons Team",
+                      "unlockText": "Ontgrendelt in week 3",
+                      "unlocked": "no",
+                    },
+                    Object {
+                      "image": "./images/0.4_how_we_work.jpg",
+                      "slug": "/howWeWork",
+                      "text": "Binnen Jungle Minds willen we graag dat iedereen op de hoogte is van ons werkprocedures. Bekijk hier hoe wij een project aanpakken van A tot Z.",
+                      "title": "0.4 Ons Workflow",
+                      "unlockText": "Ontgrendelt in week 4",
+                      "unlocked": "no",
+                    },
+                    Object {
+                      "image": "./images/0.5_our_clients.jpg",
+                      "slug": "/ourClients",
+                      "text": "Zonder hun warebn wij niet zo ver gekomen. Lees hier voor welke bedrijven wij werken en wat voor producten wij voor hun maken.",
+                      "title": "0.5 Ons Klanten",
+                      "unlockText": "Ontgrendelt in week 5",
+                      "unlocked": "no",
+                    },
+                  ]
+                }
+                introText="Allereerst verwelkomen wij jou graag bij Jungle Minds. We hopen dat dit het begin is van een goede samenwerking met jou. Door deze gids leer je Jungle Minds en jouw collega's beter kennen."
+                introTitle="Guide to the Jungle"
+                pageTitle="Overzicht"
+              />
+            </header>
+            <OverviewCardCollection
+              cards={
+                Array [
+                  Object {
+                    "image": "./images/0.0_faq.jpg",
+                    "slug": "/faq",
+                    "text": "Bekijk hier de vragen die jij misschien nog niet druft te vragen maar die wel belangrijk zijn voor op de vloer.",
+                    "title": "0.0 FAQ",
+                    "unlocked": "yes",
+                  },
+                  Object {
+                    "image": "./images/0.1_jungle_minds.jpg",
+                    "slug": "/jungleMinds",
+                    "text": "Tijdens deze module leer je meer over de geschiedenis van Jungle Minds en hoe wij als bedrijf gevestigd zijn.",
+                    "title": "0.1 Jungle Minds",
+                    "unlocked": "yes",
+                  },
+                  Object {
+                    "image": "./images/team_design.jpg",
+                    "slug": "/jungleCulture",
+                    "text": "Tijdens deze module lees je meer over ons cultuur en wat wij doen om die te behouden.",
+                    "title": "0.2 De Jungle Cultuur",
+                    "unlockText": "Ontgrendelt in week 2",
+                    "unlocked": "no",
+                  },
+                  Object {
+                    "image": "./images/0.3_our_people.jpg",
+                    "slug": "/ourPeople",
+                    "text": "Lees hier meer over ons geweldige team, want zoals ze zeggen \\"vele handen maken licht werk.\\"",
+                    "title": "0.3 Ons Team",
+                    "unlockText": "Ontgrendelt in week 3",
+                    "unlocked": "no",
+                  },
+                  Object {
+                    "image": "./images/0.4_how_we_work.jpg",
+                    "slug": "/howWeWork",
+                    "text": "Binnen Jungle Minds willen we graag dat iedereen op de hoogte is van ons werkprocedures. Bekijk hier hoe wij een project aanpakken van A tot Z.",
+                    "title": "0.4 Ons Workflow",
+                    "unlockText": "Ontgrendelt in week 4",
+                    "unlocked": "no",
+                  },
+                  Object {
+                    "image": "./images/0.5_our_clients.jpg",
+                    "slug": "/ourClients",
+                    "text": "Zonder hun warebn wij niet zo ver gekomen. Lees hier voor welke bedrijven wij werken en wat voor producten wij voor hun maken.",
+                    "title": "0.5 Ons Klanten",
+                    "unlockText": "Ontgrendelt in week 5",
+                    "unlocked": "no",
+                  },
+                ]
+              }
+              introText="Allereerst verwelkomen wij jou graag bij Jungle Minds. We hopen dat dit het begin is van een goede samenwerking met jou. Door deze gids leer je Jungle Minds en jouw collega's beter kennen."
+              introTitle="Guide to the Jungle"
+              pageTitle="Overzicht"
+            />
+          </Overview__Wrapper>,
+        ],
+        "className": "Overview",
+        "data-test": undefined,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "defer": true,
+            "encodeSpecialCharacters": true,
+            "title": "Overview",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <header>
+                <PageTitle
+                  cards={
+                    Array [
+                      Object {
+                        "image": "./images/0.0_faq.jpg",
+                        "slug": "/faq",
+                        "text": "Bekijk hier de vragen die jij misschien nog niet druft te vragen maar die wel belangrijk zijn voor op de vloer.",
+                        "title": "0.0 FAQ",
+                        "unlocked": "yes",
+                      },
+                      Object {
+                        "image": "./images/0.1_jungle_minds.jpg",
+                        "slug": "/jungleMinds",
+                        "text": "Tijdens deze module leer je meer over de geschiedenis van Jungle Minds en hoe wij als bedrijf gevestigd zijn.",
+                        "title": "0.1 Jungle Minds",
+                        "unlocked": "yes",
+                      },
+                      Object {
+                        "image": "./images/team_design.jpg",
+                        "slug": "/jungleCulture",
+                        "text": "Tijdens deze module lees je meer over ons cultuur en wat wij doen om die te behouden.",
+                        "title": "0.2 De Jungle Cultuur",
+                        "unlockText": "Ontgrendelt in week 2",
+                        "unlocked": "no",
+                      },
+                      Object {
+                        "image": "./images/0.3_our_people.jpg",
+                        "slug": "/ourPeople",
+                        "text": "Lees hier meer over ons geweldige team, want zoals ze zeggen \\"vele handen maken licht werk.\\"",
+                        "title": "0.3 Ons Team",
+                        "unlockText": "Ontgrendelt in week 3",
+                        "unlocked": "no",
+                      },
+                      Object {
+                        "image": "./images/0.4_how_we_work.jpg",
+                        "slug": "/howWeWork",
+                        "text": "Binnen Jungle Minds willen we graag dat iedereen op de hoogte is van ons werkprocedures. Bekijk hier hoe wij een project aanpakken van A tot Z.",
+                        "title": "0.4 Ons Workflow",
+                        "unlockText": "Ontgrendelt in week 4",
+                        "unlocked": "no",
+                      },
+                      Object {
+                        "image": "./images/0.5_our_clients.jpg",
+                        "slug": "/ourClients",
+                        "text": "Zonder hun warebn wij niet zo ver gekomen. Lees hier voor welke bedrijven wij werken en wat voor producten wij voor hun maken.",
+                        "title": "0.5 Ons Klanten",
+                        "unlockText": "Ontgrendelt in week 5",
+                        "unlocked": "no",
+                      },
+                    ]
+                  }
+                  introText="Allereerst verwelkomen wij jou graag bij Jungle Minds. We hopen dat dit het begin is van een goede samenwerking met jou. Door deze gids leer je Jungle Minds en jouw collega's beter kennen."
+                  introTitle="Guide to the Jungle"
+                  pageTitle="Overzicht"
+                />
+                <Intro
+                  cards={
+                    Array [
+                      Object {
+                        "image": "./images/0.0_faq.jpg",
+                        "slug": "/faq",
+                        "text": "Bekijk hier de vragen die jij misschien nog niet druft te vragen maar die wel belangrijk zijn voor op de vloer.",
+                        "title": "0.0 FAQ",
+                        "unlocked": "yes",
+                      },
+                      Object {
+                        "image": "./images/0.1_jungle_minds.jpg",
+                        "slug": "/jungleMinds",
+                        "text": "Tijdens deze module leer je meer over de geschiedenis van Jungle Minds en hoe wij als bedrijf gevestigd zijn.",
+                        "title": "0.1 Jungle Minds",
+                        "unlocked": "yes",
+                      },
+                      Object {
+                        "image": "./images/team_design.jpg",
+                        "slug": "/jungleCulture",
+                        "text": "Tijdens deze module lees je meer over ons cultuur en wat wij doen om die te behouden.",
+                        "title": "0.2 De Jungle Cultuur",
+                        "unlockText": "Ontgrendelt in week 2",
+                        "unlocked": "no",
+                      },
+                      Object {
+                        "image": "./images/0.3_our_people.jpg",
+                        "slug": "/ourPeople",
+                        "text": "Lees hier meer over ons geweldige team, want zoals ze zeggen \\"vele handen maken licht werk.\\"",
+                        "title": "0.3 Ons Team",
+                        "unlockText": "Ontgrendelt in week 3",
+                        "unlocked": "no",
+                      },
+                      Object {
+                        "image": "./images/0.4_how_we_work.jpg",
+                        "slug": "/howWeWork",
+                        "text": "Binnen Jungle Minds willen we graag dat iedereen op de hoogte is van ons werkprocedures. Bekijk hier hoe wij een project aanpakken van A tot Z.",
+                        "title": "0.4 Ons Workflow",
+                        "unlockText": "Ontgrendelt in week 4",
+                        "unlocked": "no",
+                      },
+                      Object {
+                        "image": "./images/0.5_our_clients.jpg",
+                        "slug": "/ourClients",
+                        "text": "Zonder hun warebn wij niet zo ver gekomen. Lees hier voor welke bedrijven wij werken en wat voor producten wij voor hun maken.",
+                        "title": "0.5 Ons Klanten",
+                        "unlockText": "Ontgrendelt in week 5",
+                        "unlocked": "no",
+                      },
+                    ]
+                  }
+                  introText="Allereerst verwelkomen wij jou graag bij Jungle Minds. We hopen dat dit het begin is van een goede samenwerking met jou. Door deze gids leer je Jungle Minds en jouw collega's beter kennen."
+                  introTitle="Guide to the Jungle"
+                  pageTitle="Overzicht"
+                />
+              </header>,
+              <OverviewCardCollection
+                cards={
+                  Array [
+                    Object {
+                      "image": "./images/0.0_faq.jpg",
+                      "slug": "/faq",
+                      "text": "Bekijk hier de vragen die jij misschien nog niet druft te vragen maar die wel belangrijk zijn voor op de vloer.",
+                      "title": "0.0 FAQ",
+                      "unlocked": "yes",
+                    },
+                    Object {
+                      "image": "./images/0.1_jungle_minds.jpg",
+                      "slug": "/jungleMinds",
+                      "text": "Tijdens deze module leer je meer over de geschiedenis van Jungle Minds en hoe wij als bedrijf gevestigd zijn.",
+                      "title": "0.1 Jungle Minds",
+                      "unlocked": "yes",
+                    },
+                    Object {
+                      "image": "./images/team_design.jpg",
+                      "slug": "/jungleCulture",
+                      "text": "Tijdens deze module lees je meer over ons cultuur en wat wij doen om die te behouden.",
+                      "title": "0.2 De Jungle Cultuur",
+                      "unlockText": "Ontgrendelt in week 2",
+                      "unlocked": "no",
+                    },
+                    Object {
+                      "image": "./images/0.3_our_people.jpg",
+                      "slug": "/ourPeople",
+                      "text": "Lees hier meer over ons geweldige team, want zoals ze zeggen \\"vele handen maken licht werk.\\"",
+                      "title": "0.3 Ons Team",
+                      "unlockText": "Ontgrendelt in week 3",
+                      "unlocked": "no",
+                    },
+                    Object {
+                      "image": "./images/0.4_how_we_work.jpg",
+                      "slug": "/howWeWork",
+                      "text": "Binnen Jungle Minds willen we graag dat iedereen op de hoogte is van ons werkprocedures. Bekijk hier hoe wij een project aanpakken van A tot Z.",
+                      "title": "0.4 Ons Workflow",
+                      "unlockText": "Ontgrendelt in week 4",
+                      "unlocked": "no",
+                    },
+                    Object {
+                      "image": "./images/0.5_our_clients.jpg",
+                      "slug": "/ourClients",
+                      "text": "Zonder hun warebn wij niet zo ver gekomen. Lees hier voor welke bedrijven wij werken en wat voor producten wij voor hun maken.",
+                      "title": "0.5 Ons Klanten",
+                      "unlockText": "Ontgrendelt in week 5",
+                      "unlocked": "no",
+                    },
+                  ]
+                }
+                introText="Allereerst verwelkomen wij jou graag bij Jungle Minds. We hopen dat dit het begin is van een goede samenwerking met jou. Door deze gids leer je Jungle Minds en jouw collega's beter kennen."
+                introTitle="Guide to the Jungle"
+                pageTitle="Overzicht"
+              />,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <PageTitle
+                    cards={
+                      Array [
+                        Object {
+                          "image": "./images/0.0_faq.jpg",
+                          "slug": "/faq",
+                          "text": "Bekijk hier de vragen die jij misschien nog niet druft te vragen maar die wel belangrijk zijn voor op de vloer.",
+                          "title": "0.0 FAQ",
+                          "unlocked": "yes",
+                        },
+                        Object {
+                          "image": "./images/0.1_jungle_minds.jpg",
+                          "slug": "/jungleMinds",
+                          "text": "Tijdens deze module leer je meer over de geschiedenis van Jungle Minds en hoe wij als bedrijf gevestigd zijn.",
+                          "title": "0.1 Jungle Minds",
+                          "unlocked": "yes",
+                        },
+                        Object {
+                          "image": "./images/team_design.jpg",
+                          "slug": "/jungleCulture",
+                          "text": "Tijdens deze module lees je meer over ons cultuur en wat wij doen om die te behouden.",
+                          "title": "0.2 De Jungle Cultuur",
+                          "unlockText": "Ontgrendelt in week 2",
+                          "unlocked": "no",
+                        },
+                        Object {
+                          "image": "./images/0.3_our_people.jpg",
+                          "slug": "/ourPeople",
+                          "text": "Lees hier meer over ons geweldige team, want zoals ze zeggen \\"vele handen maken licht werk.\\"",
+                          "title": "0.3 Ons Team",
+                          "unlockText": "Ontgrendelt in week 3",
+                          "unlocked": "no",
+                        },
+                        Object {
+                          "image": "./images/0.4_how_we_work.jpg",
+                          "slug": "/howWeWork",
+                          "text": "Binnen Jungle Minds willen we graag dat iedereen op de hoogte is van ons werkprocedures. Bekijk hier hoe wij een project aanpakken van A tot Z.",
+                          "title": "0.4 Ons Workflow",
+                          "unlockText": "Ontgrendelt in week 4",
+                          "unlocked": "no",
+                        },
+                        Object {
+                          "image": "./images/0.5_our_clients.jpg",
+                          "slug": "/ourClients",
+                          "text": "Zonder hun warebn wij niet zo ver gekomen. Lees hier voor welke bedrijven wij werken en wat voor producten wij voor hun maken.",
+                          "title": "0.5 Ons Klanten",
+                          "unlockText": "Ontgrendelt in week 5",
+                          "unlocked": "no",
+                        },
+                      ]
+                    }
+                    introText="Allereerst verwelkomen wij jou graag bij Jungle Minds. We hopen dat dit het begin is van een goede samenwerking met jou. Door deze gids leer je Jungle Minds en jouw collega's beter kennen."
+                    introTitle="Guide to the Jungle"
+                    pageTitle="Overzicht"
+                  />,
+                  <Intro
+                    cards={
+                      Array [
+                        Object {
+                          "image": "./images/0.0_faq.jpg",
+                          "slug": "/faq",
+                          "text": "Bekijk hier de vragen die jij misschien nog niet druft te vragen maar die wel belangrijk zijn voor op de vloer.",
+                          "title": "0.0 FAQ",
+                          "unlocked": "yes",
+                        },
+                        Object {
+                          "image": "./images/0.1_jungle_minds.jpg",
+                          "slug": "/jungleMinds",
+                          "text": "Tijdens deze module leer je meer over de geschiedenis van Jungle Minds en hoe wij als bedrijf gevestigd zijn.",
+                          "title": "0.1 Jungle Minds",
+                          "unlocked": "yes",
+                        },
+                        Object {
+                          "image": "./images/team_design.jpg",
+                          "slug": "/jungleCulture",
+                          "text": "Tijdens deze module lees je meer over ons cultuur en wat wij doen om die te behouden.",
+                          "title": "0.2 De Jungle Cultuur",
+                          "unlockText": "Ontgrendelt in week 2",
+                          "unlocked": "no",
+                        },
+                        Object {
+                          "image": "./images/0.3_our_people.jpg",
+                          "slug": "/ourPeople",
+                          "text": "Lees hier meer over ons geweldige team, want zoals ze zeggen \\"vele handen maken licht werk.\\"",
+                          "title": "0.3 Ons Team",
+                          "unlockText": "Ontgrendelt in week 3",
+                          "unlocked": "no",
+                        },
+                        Object {
+                          "image": "./images/0.4_how_we_work.jpg",
+                          "slug": "/howWeWork",
+                          "text": "Binnen Jungle Minds willen we graag dat iedereen op de hoogte is van ons werkprocedures. Bekijk hier hoe wij een project aanpakken van A tot Z.",
+                          "title": "0.4 Ons Workflow",
+                          "unlockText": "Ontgrendelt in week 4",
+                          "unlocked": "no",
+                        },
+                        Object {
+                          "image": "./images/0.5_our_clients.jpg",
+                          "slug": "/ourClients",
+                          "text": "Zonder hun warebn wij niet zo ver gekomen. Lees hier voor welke bedrijven wij werken en wat voor producten wij voor hun maken.",
+                          "title": "0.5 Ons Klanten",
+                          "unlockText": "Ontgrendelt in week 5",
+                          "unlocked": "no",
+                        },
+                      ]
+                    }
+                    introText="Allereerst verwelkomen wij jou graag bij Jungle Minds. We hopen dat dit het begin is van een goede samenwerking met jou. Door deze gids leer je Jungle Minds en jouw collega's beter kennen."
+                    introTitle="Guide to the Jungle"
+                    pageTitle="Overzicht"
+                  />,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "cards": Array [
+                      Object {
+                        "image": "./images/0.0_faq.jpg",
+                        "slug": "/faq",
+                        "text": "Bekijk hier de vragen die jij misschien nog niet druft te vragen maar die wel belangrijk zijn voor op de vloer.",
+                        "title": "0.0 FAQ",
+                        "unlocked": "yes",
+                      },
+                      Object {
+                        "image": "./images/0.1_jungle_minds.jpg",
+                        "slug": "/jungleMinds",
+                        "text": "Tijdens deze module leer je meer over de geschiedenis van Jungle Minds en hoe wij als bedrijf gevestigd zijn.",
+                        "title": "0.1 Jungle Minds",
+                        "unlocked": "yes",
+                      },
+                      Object {
+                        "image": "./images/team_design.jpg",
+                        "slug": "/jungleCulture",
+                        "text": "Tijdens deze module lees je meer over ons cultuur en wat wij doen om die te behouden.",
+                        "title": "0.2 De Jungle Cultuur",
+                        "unlockText": "Ontgrendelt in week 2",
+                        "unlocked": "no",
+                      },
+                      Object {
+                        "image": "./images/0.3_our_people.jpg",
+                        "slug": "/ourPeople",
+                        "text": "Lees hier meer over ons geweldige team, want zoals ze zeggen \\"vele handen maken licht werk.\\"",
+                        "title": "0.3 Ons Team",
+                        "unlockText": "Ontgrendelt in week 3",
+                        "unlocked": "no",
+                      },
+                      Object {
+                        "image": "./images/0.4_how_we_work.jpg",
+                        "slug": "/howWeWork",
+                        "text": "Binnen Jungle Minds willen we graag dat iedereen op de hoogte is van ons werkprocedures. Bekijk hier hoe wij een project aanpakken van A tot Z.",
+                        "title": "0.4 Ons Workflow",
+                        "unlockText": "Ontgrendelt in week 4",
+                        "unlocked": "no",
+                      },
+                      Object {
+                        "image": "./images/0.5_our_clients.jpg",
+                        "slug": "/ourClients",
+                        "text": "Zonder hun warebn wij niet zo ver gekomen. Lees hier voor welke bedrijven wij werken en wat voor producten wij voor hun maken.",
+                        "title": "0.5 Ons Klanten",
+                        "unlockText": "Ontgrendelt in week 5",
+                        "unlocked": "no",
+                      },
+                    ],
+                    "introText": "Allereerst verwelkomen wij jou graag bij Jungle Minds. We hopen dat dit het begin is van een goede samenwerking met jou. Door deze gids leer je Jungle Minds en jouw collega's beter kennen.",
+                    "introTitle": "Guide to the Jungle",
+                    "pageTitle": "Overzicht",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "cards": Array [
+                      Object {
+                        "image": "./images/0.0_faq.jpg",
+                        "slug": "/faq",
+                        "text": "Bekijk hier de vragen die jij misschien nog niet druft te vragen maar die wel belangrijk zijn voor op de vloer.",
+                        "title": "0.0 FAQ",
+                        "unlocked": "yes",
+                      },
+                      Object {
+                        "image": "./images/0.1_jungle_minds.jpg",
+                        "slug": "/jungleMinds",
+                        "text": "Tijdens deze module leer je meer over de geschiedenis van Jungle Minds en hoe wij als bedrijf gevestigd zijn.",
+                        "title": "0.1 Jungle Minds",
+                        "unlocked": "yes",
+                      },
+                      Object {
+                        "image": "./images/team_design.jpg",
+                        "slug": "/jungleCulture",
+                        "text": "Tijdens deze module lees je meer over ons cultuur en wat wij doen om die te behouden.",
+                        "title": "0.2 De Jungle Cultuur",
+                        "unlockText": "Ontgrendelt in week 2",
+                        "unlocked": "no",
+                      },
+                      Object {
+                        "image": "./images/0.3_our_people.jpg",
+                        "slug": "/ourPeople",
+                        "text": "Lees hier meer over ons geweldige team, want zoals ze zeggen \\"vele handen maken licht werk.\\"",
+                        "title": "0.3 Ons Team",
+                        "unlockText": "Ontgrendelt in week 3",
+                        "unlocked": "no",
+                      },
+                      Object {
+                        "image": "./images/0.4_how_we_work.jpg",
+                        "slug": "/howWeWork",
+                        "text": "Binnen Jungle Minds willen we graag dat iedereen op de hoogte is van ons werkprocedures. Bekijk hier hoe wij een project aanpakken van A tot Z.",
+                        "title": "0.4 Ons Workflow",
+                        "unlockText": "Ontgrendelt in week 4",
+                        "unlocked": "no",
+                      },
+                      Object {
+                        "image": "./images/0.5_our_clients.jpg",
+                        "slug": "/ourClients",
+                        "text": "Zonder hun warebn wij niet zo ver gekomen. Lees hier voor welke bedrijven wij werken en wat voor producten wij voor hun maken.",
+                        "title": "0.5 Ons Klanten",
+                        "unlockText": "Ontgrendelt in week 5",
+                        "unlocked": "no",
+                      },
+                    ],
+                    "introText": "Allereerst verwelkomen wij jou graag bij Jungle Minds. We hopen dat dit het begin is van een goede samenwerking met jou. Door deze gids leer je Jungle Minds en jouw collega's beter kennen.",
+                    "introTitle": "Guide to the Jungle",
+                    "pageTitle": "Overzicht",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": "header",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "cards": Array [
+                  Object {
+                    "image": "./images/0.0_faq.jpg",
+                    "slug": "/faq",
+                    "text": "Bekijk hier de vragen die jij misschien nog niet druft te vragen maar die wel belangrijk zijn voor op de vloer.",
+                    "title": "0.0 FAQ",
+                    "unlocked": "yes",
+                  },
+                  Object {
+                    "image": "./images/0.1_jungle_minds.jpg",
+                    "slug": "/jungleMinds",
+                    "text": "Tijdens deze module leer je meer over de geschiedenis van Jungle Minds en hoe wij als bedrijf gevestigd zijn.",
+                    "title": "0.1 Jungle Minds",
+                    "unlocked": "yes",
+                  },
+                  Object {
+                    "image": "./images/team_design.jpg",
+                    "slug": "/jungleCulture",
+                    "text": "Tijdens deze module lees je meer over ons cultuur en wat wij doen om die te behouden.",
+                    "title": "0.2 De Jungle Cultuur",
+                    "unlockText": "Ontgrendelt in week 2",
+                    "unlocked": "no",
+                  },
+                  Object {
+                    "image": "./images/0.3_our_people.jpg",
+                    "slug": "/ourPeople",
+                    "text": "Lees hier meer over ons geweldige team, want zoals ze zeggen \\"vele handen maken licht werk.\\"",
+                    "title": "0.3 Ons Team",
+                    "unlockText": "Ontgrendelt in week 3",
+                    "unlocked": "no",
+                  },
+                  Object {
+                    "image": "./images/0.4_how_we_work.jpg",
+                    "slug": "/howWeWork",
+                    "text": "Binnen Jungle Minds willen we graag dat iedereen op de hoogte is van ons werkprocedures. Bekijk hier hoe wij een project aanpakken van A tot Z.",
+                    "title": "0.4 Ons Workflow",
+                    "unlockText": "Ontgrendelt in week 4",
+                    "unlocked": "no",
+                  },
+                  Object {
+                    "image": "./images/0.5_our_clients.jpg",
+                    "slug": "/ourClients",
+                    "text": "Zonder hun warebn wij niet zo ver gekomen. Lees hier voor welke bedrijven wij werken en wat voor producten wij voor hun maken.",
+                    "title": "0.5 Ons Klanten",
+                    "unlockText": "Ontgrendelt in week 5",
+                    "unlocked": "no",
+                  },
+                ],
+                "introText": "Allereerst verwelkomen wij jou graag bij Jungle Minds. We hopen dat dit het begin is van een goede samenwerking met jou. Door deze gids leer je Jungle Minds en jouw collega's beter kennen.",
+                "introTitle": "Guide to the Jungle",
+                "pageTitle": "Overzicht",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
