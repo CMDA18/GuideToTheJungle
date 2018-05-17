@@ -20,7 +20,7 @@ class FAQ extends Component<Props> {
           title='FAQ'
         />
         <Wrapper>
-          <Navigation/>
+          <Navigation page='faq'/>
           <MainContentGrid>
             <header>
               <PageTitle {...faq}/>

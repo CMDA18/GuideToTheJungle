@@ -8,6 +8,7 @@ import LabelBestPractice from '../shared/elements/LabelBestPractice'
 type Props = {
   slug: string,
   image: string,
+  order: number,
   title: string,
   text: string,
   unlockText?: string,
@@ -33,6 +34,7 @@ const OverviewCard = (props: Props) => (
         </Wrapper>
       }
       <TextCard unlocked={props.unlocked}>
+        <Module>Module {props.order}</Module>
         <Title>{props.title}</Title>
         <Text>{props.text}</Text>
       </TextCard>
@@ -43,8 +45,15 @@ const OverviewCard = (props: Props) => (
 
 export default OverviewCard
 
-const Title = styled.h3`
+const Module = styled.h2`
   margin-top: 8px;
+  margin-bottom: 0;
+  transition: color 0.3s ease-in-out;
+  ${textStyles.title};
+`
+
+const Title = styled.h3`
+  margin-top: 0;
   margin-bottom: 20px;
   transition: color 0.3s ease-in-out;
   ${textStyles.title};
@@ -77,6 +86,9 @@ const Card = styled(Link)`
   pointer-events: ${props => (props.unlocked === 'yes' ? `auto` : `none`)};
 
   &:hover {
+    ${Module} {
+      color: ${colorPalette.orange};
+    }
     ${Title} {
       color: ${colorPalette.orange};
     }

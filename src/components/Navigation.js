@@ -2,7 +2,15 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import styled from 'styled-components'
-import { navigationPaths } from '../routes'
+import {
+  navigationPaths,
+  navigationFAQ,
+  navigationJungleMinds,
+  navigationJungleCulture,
+  navigationOurTeam,
+  navigationHowWeWork,
+  navigationOurClients
+} from '../routes'
 import {
   colorPalette,
   textStyles
@@ -10,26 +18,147 @@ import {
 import Jungle from '../shared/elements/Jungle'
 
 type Props = {
+  page: 'default' | 'faq' | 'jungleMinds' | 'jungleCulture' | 'ourTeam' | 'howWeWork' | 'ourClients'
 }
 
-const Navigation = (props: Props) =>
-  <Container>
-    <Wrapper>
-      <Logo><Jungle/></Logo>
-      <List>
-        { Object.keys(navigationPaths).map((path, i) => (
-          <Item key={i}>
-            <Line/>
-            {/* https://reacttraining.com/react-router/web/api/NavLink */}
-            <ItemLink to={navigationPaths[path]} activeStyle={{
-              color: `${colorPalette.orange}`
-            }} title={path}>{path}</ItemLink>
+const Navigation = (props: Props) => {
+  switch (props.page) {
+    case 'default':
+    default :
+      return (
+        <Container>
+          <Wrapper>
+            <Logo><Jungle/></Logo>
+            <List>
+              { Object.keys(navigationPaths).map((path, i) => (
+                <Item key={i}>
+                  {/* https://reacttraining.com/react-router/web/api/NavLink */}
+                  <ItemLink to={navigationPaths[path]} activeStyle={{
+                    color: `${colorPalette.orange}`
+                  }} title={path}>{path}</ItemLink>
+                </Item>
+              ))}
+            </List>
+          </Wrapper>
+        </Container>
+      )
 
-          </Item>
-        ))}
-      </List>
-    </Wrapper>
-  </Container>
+    case 'faq':
+      return (
+        <Container>
+          <Wrapper>
+            <Logo><Jungle/></Logo>
+            <List>
+              { Object.keys(navigationFAQ).map((path, i) => (
+                <Item key={i}>
+                  {/* https://reacttraining.com/react-router/web/api/NavLink */}
+                  <ItemLink to={navigationFAQ[path]} activeStyle={{
+                    color: `${colorPalette.orange}`
+                  }} title={path}>{path}</ItemLink>
+                </Item>
+              ))}
+            </List>
+          </Wrapper>
+        </Container>
+      )
+
+    case 'jungleMinds':
+      return (
+        <Container>
+          <Wrapper>
+            <Logo><Jungle/></Logo>
+            <List>
+              { Object.keys(navigationJungleMinds).map((path, i) => (
+                <Item key={i}>
+                  {/* https://reacttraining.com/react-router/web/api/NavLink */}
+                  <ItemLink to={navigationJungleMinds[path]} activeStyle={{
+                    color: `${colorPalette.orange}`
+                  }} title={path}>{path}</ItemLink>
+                </Item>
+              ))}
+            </List>
+          </Wrapper>
+        </Container>
+      )
+
+    case 'jungleCulture':
+      return (
+        <Container>
+          <Wrapper>
+            <Logo><Jungle/></Logo>
+            <List>
+              { Object.keys(navigationJungleCulture).map((path, i) => (
+                <Item key={i}>
+                  {/* https://reacttraining.com/react-router/web/api/NavLink */}
+                  <ItemLink to={navigationJungleCulture[path]} activeStyle={{
+                    color: `${colorPalette.orange}`
+                  }} title={path}>{path}</ItemLink>
+                </Item>
+              ))}
+            </List>
+          </Wrapper>
+        </Container>
+      )
+
+    case 'ourTeam':
+      return (
+        <Container>
+          <Wrapper>
+            <Logo><Jungle/></Logo>
+            <List>
+              { Object.keys(navigationOurTeam).map((path, i) => (
+                <Item key={i}>
+                  {/* https://reacttraining.com/react-router/web/api/NavLink */}
+                  <ItemLink to={navigationOurTeam[path]} activeStyle={{
+                    color: `${colorPalette.orange}`
+                  }} title={path}>{path}</ItemLink>
+                </Item>
+              ))}
+            </List>
+          </Wrapper>
+        </Container>
+      )
+
+    case 'howWeWork':
+      return (
+        <Container>
+          <Wrapper>
+            <Logo><Jungle/></Logo>
+            <List>
+              { Object.keys(navigationHowWeWork).map((path, i) => (
+                <Item key={i}>
+                  {/* https://reacttraining.com/react-router/web/api/NavLink */}
+                  <ItemLink to={navigationHowWeWork[path]} activeStyle={{
+                    color: `${colorPalette.orange}`
+                  }} title={path}>{path}</ItemLink>
+                </Item>
+              ))}
+            </List>
+          </Wrapper>
+        </Container>
+      )
+
+    case 'ourClients':
+      return (
+        <Container>
+          <Wrapper>
+            <Logo><Jungle/></Logo>
+            <List>
+              { Object.keys(navigationOurClients).map((path, i) => (
+                <Item key={i}>
+                  {/* https://reacttraining.com/react-router/web/api/NavLink */}
+                  <ItemLink to={navigationOurClients[path]}
+                    activeStyle={{ color: `${colorPalette.orange}` }}
+                    title={path}>{path}
+                  </ItemLink>
+                </Item>
+              ))}
+            </List>
+          </Wrapper>
+        </Container>
+      )
+  }
+}
 
 export default Navigation
 
@@ -39,7 +168,9 @@ const Container = styled.div`
 `
 
 const Wrapper = styled.div`
-  position: fixed;
+  position: sticky;
+  overflow: hidden;
+  height: 100vh;
 `
 
 const Logo = styled.div`
@@ -50,19 +181,28 @@ const List = styled.ul`
   list-style: none;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: flex-start;
   height: 80vh;
   padding: 0;
 
-  li:first-of-type {
-    span {
-      display: none;
-    }
-  }
 `
 
 const Item = styled.li`
   ${textStyles.navigationItems};
+  margin: 10px 0;
+  
+  :first-of-type {
+    border-bottom: 2px solid white;
+    padding: 10px 0;
+
+    span {
+      display: none;
+    }
+  }
+
+  :nth-of-type(n+3) {
+    margin-left: 17px;
+  }
 
   a {
     text-decoration: none;
@@ -75,10 +215,4 @@ const Item = styled.li`
 `
 
 const ItemLink = styled(NavLink)`
-`
-
-const Line = styled.span`
-  display: block;
-  border: 1px solid ${colorPalette.white};
-  width: 100%;
 `

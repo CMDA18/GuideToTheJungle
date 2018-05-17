@@ -20,7 +20,7 @@ class OurPeople extends Component<Props> {
           title='OurPeople'
         />
         <Wrapper>
-          <Navigation/>
+          <Navigation page='ourTeam'/>
           <MainContentGrid>
             <header>
               <PageTitle {...ourPeople}/>
