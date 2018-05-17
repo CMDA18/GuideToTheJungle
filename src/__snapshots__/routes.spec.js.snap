@@ -45,6 +45,12 @@ Array [
   Object {
     "component": [Function],
     "exact": true,
+    "path": "/faq",
+    "title": "0.0 FAQ",
+  },
+  Object {
+    "component": [Function],
+    "exact": true,
     "path": "/jungleMinds",
     "title": "0.1 Jungle Minds",
   },
@@ -71,12 +77,6 @@ Array [
     "exact": true,
     "path": "/ourClients",
     "title": "0.5 Our Clients",
-  },
-  Object {
-    "component": [Function],
-    "exact": true,
-    "path": "/faq",
-    "title": "0.6 FAQ",
   },
   Object {
     "component": [Function],

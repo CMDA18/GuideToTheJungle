@@ -20,7 +20,7 @@ class HowWeWork extends Component<Props> {
           title='HowWeWork'
         />
         <Wrapper>
-          <Navigation/>
+          <Navigation page='howWeWork'/>
           <MainContentGrid>
             <header>
               <PageTitle {...howWeWork}/>

@@ -9,21 +9,21 @@ export const overview = {
     {
       slug: '/faq',
       image: './images/0.0_faq.jpg',
-      title: '0.0 FAQ',
+      title: 'FAQ',
       text: 'Bekijk hier de vragen die jij misschien nog niet druft te vragen maar die wel belangrijk zijn voor op de vloer.',
       unlocked: 'yes'
     },
     {
       slug: '/jungleMinds',
       image: './images/0.1_jungle_minds.jpg',
-      title: '0.1 Jungle Minds',
+      title: 'Jungle Minds',
       text: 'Tijdens deze module leer je meer over de geschiedenis van Jungle Minds en hoe wij als bedrijf gevestigd zijn.',
       unlocked: 'yes'
     },
     {
       slug: '/jungleCulture',
       image: './images/team_design.jpg',
-      title: '0.2 De Jungle Cultuur',
+      title: 'De Jungle Cultuur',
       text: 'Tijdens deze module lees je meer over ons cultuur en wat wij doen om die te behouden.',
       unlockText: 'Ontgrendelt in week 2',
       unlocked: 'no'
@@ -31,7 +31,7 @@ export const overview = {
     {
       slug: '/ourPeople',
       image: './images/0.3_our_people.jpg',
-      title: '0.3 Ons Team',
+      title: 'Ons Team',
       text: 'Lees hier meer over ons geweldige team, want zoals ze zeggen "vele handen maken licht werk."',
       unlockText: 'Ontgrendelt in week 3',
       unlocked: 'no'
@@ -39,7 +39,7 @@ export const overview = {
     {
       slug: '/howWeWork',
       image: './images/0.4_how_we_work.jpg',
-      title: '0.4 Ons Workflow',
+      title: 'Ons Workflow',
       text: 'Binnen Jungle Minds willen we graag dat iedereen op de hoogte is van ons werkprocedures. Bekijk hier hoe wij een project aanpakken van A tot Z.',
       unlockText: 'Ontgrendelt in week 4',
       unlocked: 'no'
@@ -47,7 +47,7 @@ export const overview = {
     {
       slug: '/ourClients',
       image: './images/0.5_our_clients.jpg',
-      title: '0.5 Ons Klanten',
+      title: 'Ons Klanten',
       text: 'Zonder hun warebn wij niet zo ver gekomen. Lees hier voor welke bedrijven wij werken en wat voor producten wij voor hun maken.',
       unlockText: 'Ontgrendelt in week 5',
       unlocked: 'no'

@@ -21,7 +21,7 @@ class JungleMinds extends Component<Props> {
           title='Overview'
         />
         <Wrapper>
-          <Navigation/>
+          <Navigation page='jungleMinds'/>
           <MainContentGrid>
             <header>
               <PageTitle {...jungleMinds}/>

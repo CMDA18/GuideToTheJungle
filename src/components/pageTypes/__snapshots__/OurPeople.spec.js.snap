@@ -24,7 +24,9 @@ ShallowWrapper {
           title="OurPeople"
         />,
         <OurPeople__Wrapper>
-          <Navigation />
+          <Navigation
+            page="ourTeam"
+          />
           <MainContentGrid>
             <header>
               <PageTitle
@@ -65,7 +67,9 @@ ShallowWrapper {
         "nodeType": "class",
         "props": Object {
           "children": Array [
-            <Navigation />,
+            <Navigation
+              page="ourTeam"
+            />,
             <MainContentGrid>
               <header>
                 <PageTitle
@@ -88,7 +92,9 @@ ShallowWrapper {
             "instance": null,
             "key": undefined,
             "nodeType": "function",
-            "props": Object {},
+            "props": Object {
+              "page": "ourTeam",
+            },
             "ref": null,
             "rendered": null,
             "type": [Function],
@@ -182,7 +188,9 @@ ShallowWrapper {
             title="OurPeople"
           />,
           <OurPeople__Wrapper>
-            <Navigation />
+            <Navigation
+              page="ourTeam"
+            />
             <MainContentGrid>
               <header>
                 <PageTitle
@@ -223,7 +231,9 @@ ShallowWrapper {
           "nodeType": "class",
           "props": Object {
             "children": Array [
-              <Navigation />,
+              <Navigation
+                page="ourTeam"
+              />,
               <MainContentGrid>
                 <header>
                   <PageTitle
@@ -246,7 +256,9 @@ ShallowWrapper {
               "instance": null,
               "key": undefined,
               "nodeType": "function",
-              "props": Object {},
+              "props": Object {
+                "page": "ourTeam",
+              },
               "ref": null,
               "rendered": null,
               "type": [Function],

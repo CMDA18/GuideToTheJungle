@@ -22,7 +22,7 @@ class JungleCulture extends Component<Props> {
           title='JungleCulture'
         />
         <Wrapper>
-          <Navigation/>
+          <Navigation page='jungleCulture'/>
           <MainContentGrid>
             <PageTitle {...jungleCulture}/>
             <Intro {...jungleCulture}/>

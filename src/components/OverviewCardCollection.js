@@ -10,6 +10,7 @@ import OverviewCard from './OverviewCard'
 type ICards = {
   slug: string,
   image: string,
+  order: number,
   title: string,
   text: string,
   unlockText?: string,
@@ -26,6 +27,7 @@ const OverviewCardCollection = (props: Props) => (
       {(props.cards || []).map((item, index) => (
         <OverviewCard
           key={index}
+          order={index}
           {...item}
         />
       ))}
@@ -39,6 +41,7 @@ const CardsWrapper = styled.div`
   display: flex;
   flex-direction: column;
   width: 100%;
+
   > * {
     margin-bottom: 40px;
     ${fromBreakpoint.md`
@@ -52,6 +55,7 @@ const CardsWrapper = styled.div`
       }
     `};
   }
+
   ${fromBreakpoint.md`
     flex-direction: row;
     flex-wrap: wrap;
@@ -59,6 +63,18 @@ const CardsWrapper = styled.div`
   `} ${fromBreakpoint.lg`
     justify-content: flex-start;
   `};
+
+  a:first-of-type {
+
+    h2 {
+      display: none;
+    }
+
+    h3 {
+      margin-top: 8px;
+    }
+
+  }
 `
 
 const Container = styled.section`
