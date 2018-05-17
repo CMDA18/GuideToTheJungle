@@ -11,7 +11,9 @@ type ICards = {
   slug: string,
   image: string,
   title: string,
-  text: string
+  text: string,
+  unlockText?: string,
+  unlocked: 'yes' | 'no'
 }
 
 type Props ={

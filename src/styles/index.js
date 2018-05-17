@@ -26,4 +26,11 @@ injectGlobal`
 
     ${textStyles.general};
   }
+
+  a {
+    :active,
+    :visited{
+      color: currentColor;
+    }
+  }
 `
