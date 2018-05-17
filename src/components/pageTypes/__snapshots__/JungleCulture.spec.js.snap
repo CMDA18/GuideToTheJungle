@@ -24,7 +24,9 @@ ShallowWrapper {
           title="JungleCulture"
         />,
         <JungleCulture__Wrapper>
-          <Navigation />
+          <Navigation
+            page="jungleCulture"
+          />
           <MainContentGrid>
             <PageTitle
               image="./images/team_design.jpg"
@@ -165,7 +167,9 @@ ShallowWrapper {
         "nodeType": "class",
         "props": Object {
           "children": Array [
-            <Navigation />,
+            <Navigation
+              page="jungleCulture"
+            />,
             <MainContentGrid>
               <PageTitle
                 image="./images/team_design.jpg"
@@ -288,7 +292,9 @@ ShallowWrapper {
             "instance": null,
             "key": undefined,
             "nodeType": "function",
-            "props": Object {},
+            "props": Object {
+              "page": "jungleCulture",
+            },
             "ref": null,
             "rendered": null,
             "type": [Function],
@@ -573,7 +579,9 @@ ShallowWrapper {
             title="JungleCulture"
           />,
           <JungleCulture__Wrapper>
-            <Navigation />
+            <Navigation
+              page="jungleCulture"
+            />
             <MainContentGrid>
               <PageTitle
                 image="./images/team_design.jpg"
@@ -714,7 +722,9 @@ ShallowWrapper {
           "nodeType": "class",
           "props": Object {
             "children": Array [
-              <Navigation />,
+              <Navigation
+                page="jungleCulture"
+              />,
               <MainContentGrid>
                 <PageTitle
                   image="./images/team_design.jpg"
@@ -837,7 +847,9 @@ ShallowWrapper {
               "instance": null,
               "key": undefined,
               "nodeType": "function",
-              "props": Object {},
+              "props": Object {
+                "page": "jungleCulture",
+              },
               "ref": null,
               "rendered": null,
               "type": [Function],

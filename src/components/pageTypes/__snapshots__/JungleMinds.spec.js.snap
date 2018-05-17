@@ -24,7 +24,9 @@ ShallowWrapper {
           title="Overview"
         />,
         <JungleMinds__Wrapper>
-          <Navigation />
+          <Navigation
+            page="jungleMinds"
+          />
           <MainContentGrid>
             <header>
               <PageTitle
@@ -94,7 +96,9 @@ ShallowWrapper {
         "nodeType": "class",
         "props": Object {
           "children": Array [
-            <Navigation />,
+            <Navigation
+              page="jungleMinds"
+            />,
             <MainContentGrid>
               <header>
                 <PageTitle
@@ -146,7 +150,9 @@ ShallowWrapper {
             "instance": null,
             "key": undefined,
             "nodeType": "function",
-            "props": Object {},
+            "props": Object {
+              "page": "jungleMinds",
+            },
             "ref": null,
             "rendered": null,
             "type": [Function],
@@ -329,7 +335,9 @@ ShallowWrapper {
             title="Overview"
           />,
           <JungleMinds__Wrapper>
-            <Navigation />
+            <Navigation
+              page="jungleMinds"
+            />
             <MainContentGrid>
               <header>
                 <PageTitle
@@ -399,7 +407,9 @@ ShallowWrapper {
           "nodeType": "class",
           "props": Object {
             "children": Array [
-              <Navigation />,
+              <Navigation
+                page="jungleMinds"
+              />,
               <MainContentGrid>
                 <header>
                   <PageTitle
@@ -451,7 +461,9 @@ ShallowWrapper {
               "instance": null,
               "key": undefined,
               "nodeType": "function",
-              "props": Object {},
+              "props": Object {
+                "page": "jungleMinds",
+              },
               "ref": null,
               "rendered": null,
               "type": [Function],
