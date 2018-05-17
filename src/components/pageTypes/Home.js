@@ -10,17 +10,6 @@ type Props = {
   test: string
 }
 
-const Title = styled.h1`
-  color: palevioletred;
-`
-
-const Wrapper = styled.div`
-  box-sizing: border-box;
-  background: papayawhip;
-  padding: 5em;
-  min-height: 100vh;
-`
-
 class Home extends Component<Props> {
   render () {
     return (
@@ -29,17 +18,15 @@ class Home extends Component<Props> {
           title='Home'
         />
         <Wrapper>
-          <header>
-            <h1>Welcome to React</h1>
-            <Title>Basic Project</Title>
-          </header>
-          <ul>
-            { Object.keys(paths).map((path, i) => (
-              <li key={i}>
-                <Link to={paths[path]} title={path}>{path}</Link>
-              </li>
-            ))}
-          </ul>
+          <MainContent>
+            <ul>
+              { Object.keys(paths).map((path, i) => (
+                <li key={i}>
+                  <Link to={paths[path]} title={path}>{path}</Link>
+                </li>
+              ))}
+            </ul>
+          </MainContent>
         </Wrapper>
       </div>
     )
@@ -47,3 +34,15 @@ class Home extends Component<Props> {
 }
 
 export default Home
+
+const Wrapper = styled.div`
+  display: flex;
+`
+
+const MainContent = styled.div`
+  width: 100%;
+  min-height: 100vh;
+  box-sizing: border-box;
+  background: papayawhip;
+  padding: 5em;
+`
