@@ -2,7 +2,14 @@
 
 exports[`Routes Returns an array of paths 1`] = `
 Object {
+  "faq": "/faq",
   "home": "/",
+  "howWeWork": "/howWeWork",
+  "jungleCulture": "/jungleCulture",
+  "jungleMinds": "/jungleMinds",
+  "ourClients": "/ourClients",
+  "ourPeople": "/ourPeople",
+  "overview": "/overview",
   "pageNotFound": "*",
   "redirect": "/redirectToHome",
 }
@@ -28,6 +35,48 @@ Array [
     "exact": true,
     "path": "/redirectToHome",
     "title": "redirect to home",
+  },
+  Object {
+    "component": [Function],
+    "exact": true,
+    "path": "/overview",
+    "title": "Overview",
+  },
+  Object {
+    "component": [Function],
+    "exact": true,
+    "path": "/jungleMinds",
+    "title": "0.1 Jungle Minds",
+  },
+  Object {
+    "component": [Function],
+    "exact": true,
+    "path": "/jungleCulture",
+    "title": "0.2 The Jungle Culture",
+  },
+  Object {
+    "component": [Function],
+    "exact": true,
+    "path": "/ourPeople",
+    "title": "0.3 Our People",
+  },
+  Object {
+    "component": [Function],
+    "exact": true,
+    "path": "/howWeWork",
+    "title": "0.4 How We Work",
+  },
+  Object {
+    "component": [Function],
+    "exact": true,
+    "path": "/ourClients",
+    "title": "0.5 Our Clients",
+  },
+  Object {
+    "component": [Function],
+    "exact": true,
+    "path": "/faq",
+    "title": "0.6 FAQ",
   },
   Object {
     "component": [Function],
