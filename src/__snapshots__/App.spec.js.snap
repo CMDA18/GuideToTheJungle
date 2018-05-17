@@ -31,7 +31,56 @@ exports[`renders without crashing 1`] = `
     />
     <RouteWithSubRoutes
       component={[Function]}
+      exact={true}
       key="2"
+      path="/overview"
+      title="Overview"
+    />
+    <RouteWithSubRoutes
+      component={[Function]}
+      exact={true}
+      key="3"
+      path="/jungleMinds"
+      title="0.1 Jungle Minds"
+    />
+    <RouteWithSubRoutes
+      component={[Function]}
+      exact={true}
+      key="4"
+      path="/jungleCulture"
+      title="0.2 The Jungle Culture"
+    />
+    <RouteWithSubRoutes
+      component={[Function]}
+      exact={true}
+      key="5"
+      path="/ourPeople"
+      title="0.3 Our People"
+    />
+    <RouteWithSubRoutes
+      component={[Function]}
+      exact={true}
+      key="6"
+      path="/howWeWork"
+      title="0.4 How We Work"
+    />
+    <RouteWithSubRoutes
+      component={[Function]}
+      exact={true}
+      key="7"
+      path="/ourClients"
+      title="0.5 Our Clients"
+    />
+    <RouteWithSubRoutes
+      component={[Function]}
+      exact={true}
+      key="8"
+      path="/faq"
+      title="0.6 FAQ"
+    />
+    <RouteWithSubRoutes
+      component={[Function]}
+      key="9"
       path="*"
       status={404}
       title="Page Not Found"

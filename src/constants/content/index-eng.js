@@ -2,54 +2,56 @@ export const navigation = {
 }
 
 export const overview = {
-  pageTitle: 'Overzicht',
+  pageTitle: 'Overview',
   introTitle: 'Guide to the Jungle',
-  introText: `Allereerst verwelkomen wij jou graag bij Jungle Minds. We hopen dat dit het begin is van een goede samenwerking met jou. Door deze gids leer je Jungle Minds en jouw collega's beter kennen.`,
+  introText: 'First of all we like to welcome you to Jungle Minds. We hope that this will be the beginning of a good partnership with you. Though this guide you will be able to get to know Jungle Minds and your colleagues better.',
   cards: [
     {
       slug: '/faq',
-      image: './images/0.0_faq.jpg',
+      image: './images/team_design.jpg',
       title: '0.0 FAQ',
-      text: 'Bekijk hier de vragen die jij misschien nog niet druft te vragen maar die wel belangrijk zijn voor op de vloer.',
+      text: 'One madman can ask more than ten wise people can answer.',
+      unlockText: 'Unlocks in week 2',
       unlocked: 'yes'
     },
     {
       slug: '/jungleMinds',
-      image: './images/0.1_jungle_minds.jpg',
+      image: './images/team_design.jpg',
       title: '0.1 Jungle Minds',
-      text: 'Tijdens deze module leer je meer over de geschiedenis van Jungle Minds en hoe wij als bedrijf gevestigd zijn.',
+      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      unlockText: 'Unlocks in week 2',
       unlocked: 'yes'
     },
     {
       slug: '/jungleCulture',
       image: './images/team_design.jpg',
-      title: '0.2 De Jungle Cultuur',
-      text: 'Tijdens deze module lees je meer over ons cultuur en wat wij doen om die te behouden.',
-      unlockText: 'Ontgrendelt in week 2',
+      title: '0.2 The Jungle Culture',
+      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      unlockText: 'Unlocks in week 2',
       unlocked: 'no'
     },
     {
       slug: '/ourPeople',
-      image: './images/0.3_our_people.jpg',
-      title: '0.3 Ons Team',
-      text: 'Lees hier meer over ons geweldige team, want zoals ze zeggen "vele handen maken licht werk."',
-      unlockText: 'Ontgrendelt in week 3',
+      image: './images/team_design.jpg',
+      title: '0.3 Our People',
+      text: 'Many hands make light work.',
+      unlockText: 'Unlocks in week 2',
       unlocked: 'no'
     },
     {
       slug: '/howWeWork',
-      image: './images/0.4_how_we_work.jpg',
-      title: '0.4 Ons Workflow',
-      text: 'Binnen Jungle Minds willen we graag dat iedereen op de hoogte is van ons werkprocedures. Bekijk hier hoe wij een project aanpakken van A tot Z.',
-      unlockText: 'Ontgrendelt in week 4',
+      image: './images/team_design.jpg',
+      title: '0.4 How We Work',
+      text: 'Fishing between the meshes.',
+      unlockText: 'Unlocks in week 2',
       unlocked: 'no'
     },
     {
       slug: '/ourClients',
-      image: './images/0.5_our_clients.jpg',
-      title: '0.5 Ons Klanten',
-      text: 'Zonder hun warebn wij niet zo ver gekomen. Lees hier voor welke bedrijven wij werken en wat voor producten wij voor hun maken.',
-      unlockText: 'Ontgrendelt in week 5',
+      image: './images/team_design.jpg',
+      title: '0.5 Our Clients',
+      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      unlockText: 'Unlocks in week 2',
       unlocked: 'no'
     }
   ]
