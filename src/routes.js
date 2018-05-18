@@ -5,7 +5,6 @@ import HomePage from './components/pageTypes/Home'
 import RedirectToHomePage from './components/pageTypes/RedirectToHome'
 import ErrorPage from './components/pageTypes/Error'
 import Overview from './components/pageTypes/Overview'
-import JungleMinds from './components/pageTypes/JungleMinds'
 import JungleCulture from './components/pageTypes/JungleCulture'
 import OurPeople from './components/pageTypes/OurPeople'
 import HowWeWork from './components/pageTypes/HowWeWork'
@@ -16,6 +15,12 @@ import {
   createPreloadAction,
   type PreloadAction
 } from './redux/actions/settings'
+// Module 1
+import JungleMinds from './components/pageTypes/ModuleOne/JungleMinds'
+import OurStory from './components/pageTypes/ModuleOne/OurStory'
+import JungleMaslow from './components/pageTypes/ModuleOne/JungleMaslow'
+import Finances from './components/pageTypes/ModuleOne/Finances'
+import TasksModuleOne from './components/pageTypes/ModuleOne/TasksModuleOne'
 
 type Paths = {
   [key: string]: string
@@ -71,10 +76,10 @@ export const navigationFAQ: Paths = {
 export const navigationJungleMinds: Paths = {
   Overview: '/overview',
   '1 Jungle Minds': '/jungleMinds',
-  '1.1 Ons verhaal': '/#',
-  '1.2 Jungle Maslow': '/#',
-  '1.3 Financiën': '/#',
-  '1.4 Weekelijkse taken': '/#'
+  '1.1 Ons verhaal': '/ourStory',
+  '1.2 Jungle Maslow': '/jungleMaslow',
+  '1.3 Financiën': '/finances',
+  '1.4 Opdrachten': '/tasksModuleOne'
 }
 
 export const navigationJungleCulture: Paths = {
@@ -83,7 +88,7 @@ export const navigationJungleCulture: Paths = {
   '2.1 Jungle Formula': '/#',
   '2.2 Jungle Days': '/#',
   '2.3 .': '/#',
-  '2.4 Weekelijkse taken': '/#'
+  '2.4 Opdrachten': '/#'
 
 }
 
@@ -93,7 +98,7 @@ export const navigationOurTeam: Paths = {
   '3.1 Onze expertises': '/#',
   '3.2 De Wall of fame': '/#',
   '3.3 De go to mensen': '/#',
-  '3.4 Weekelijkse taken': '/#'
+  '3.4 Opdrachten': '/#'
 }
 
 export const navigationHowWeWork: Paths = {
@@ -102,7 +107,7 @@ export const navigationHowWeWork: Paths = {
   '4.1 Concept': '/#',
   '4.2 Product markt fit': '/#',
   '4.3 Groei': '/#',
-  '4.4 Weekelijkse taken': '/#'
+  '4.4 Opdrachten': '/#'
 }
 
 export const navigationOurClients: Paths = {
@@ -111,7 +116,7 @@ export const navigationOurClients: Paths = {
   '5.1 Klanten': '/#',
   '5.2 Portfolio': '/#',
   '5.3 .': '/#',
-  '5.4 Weekelijkse taken': '/#'
+  '5.4 Opdrachten': '/#'
 }
 
 const routes: Array<Route> = [
@@ -139,37 +144,61 @@ const routes: Array<Route> = [
   },
   {
     path: paths.faq,
-    title: '0.0 FAQ',
+    title: 'FAQ',
     component: FAQ,
     exact: true
   },
   {
     path: paths.jungleMinds,
-    title: '0.1 Jungle Minds',
+    title: 'Jungle Minds',
     component: JungleMinds,
     exact: true
   },
   {
+    path: paths.ourStory,
+    title: 'Our Story',
+    component: OurStory,
+    exact: true
+  },
+  {
+    path: paths.jungleMaslow,
+    title: 'Jungle Maslow',
+    component: JungleMaslow,
+    exact: true
+  },
+  {
+    path: paths.finances,
+    title: 'Finances',
+    component: Finances,
+    exact: true
+  },
+  {
+    path: paths.tasksModuleOne,
+    title: 'Tasks Module One',
+    component: TasksModuleOne,
+    exact: true
+  },
+  {
     path: paths.jungleCulture,
-    title: '0.2 The Jungle Culture',
+    title: 'The Jungle Culture',
     component: JungleCulture,
     exact: true
   },
   {
     path: paths.ourPeople,
-    title: '0.3 Our People',
+    title: 'Our People',
     component: OurPeople,
     exact: true
   },
   {
     path: paths.howWeWork,
-    title: '0.4 How We Work',
+    title: 'How We Work',
     component: HowWeWork,
     exact: true
   },
   {
     path: paths.ourClients,
-    title: '0.5 Our Clients',
+    title: 'Our Clients',
     component: OurClients,
     exact: true
   },

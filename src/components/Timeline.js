@@ -2,7 +2,6 @@
 import React from 'react'
 import styled from 'styled-components'
 import {
-  textStyles,
   colorPalette
 } from '../styles/styleGuide'
 
@@ -14,14 +13,14 @@ type Props = {
 
 }
 
-const TimelineTab = (props: Props) =>
+const Timeline = (props: Props) =>
   <Wrapper active={props.active} onClick={() => props.handleTabClick(props.index)}>
     <Container>
-      <Title>{props.name}</Title>
+
     </Container>
   </Wrapper>
 
-export default TimelineTab
+export default Timeline
 
 const Wrapper = styled.div`
   width: calc((100% / 3) - 2px);
@@ -55,8 +54,4 @@ const Container = styled.div`
   background: none;
   cursor: pointer;
   outline: none;
-`
-
-const Title = styled.h1`
-  ${textStyles.pageTitle};
 `

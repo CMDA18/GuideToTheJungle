@@ -28,7 +28,7 @@ class FAQ extends Component<Props> {
         </Grid>
       </div>
     )
-  };
+  }
 }
 
 export default FAQ

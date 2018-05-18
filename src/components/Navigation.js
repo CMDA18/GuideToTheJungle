@@ -1,6 +1,6 @@
 // @flow
 import React, { Fragment } from 'react'
-import { NavLink } from 'react-router-dom'
+import { NavLink, Link } from 'react-router-dom'
 import styled from 'styled-components'
 import {
   navigationPaths,
@@ -28,7 +28,7 @@ const Navigation = (props: Props) => {
       return (
         <Fragment>
           <Wrapper>
-            <Logo><Jungle/></Logo>
+            <Logo to='/'><Jungle/></Logo>
             <List>
               { Object.keys(navigationPaths).map((path, i) => (
                 <Item key={i}>
@@ -47,7 +47,7 @@ const Navigation = (props: Props) => {
       return (
         <Fragment>
           <Wrapper>
-            <Logo><Jungle/></Logo>
+            <Logo to='/'><Jungle/></Logo>
             <List>
               { Object.keys(navigationFAQ).map((path, i) => (
                 <Item key={i}>
@@ -66,7 +66,7 @@ const Navigation = (props: Props) => {
       return (
         <Fragment>
           <Wrapper>
-            <Logo><Jungle/></Logo>
+            <Logo to='/'><Jungle/></Logo>
             <List>
               { Object.keys(navigationJungleMinds).map((path, i) => (
                 <Item key={i}>
@@ -85,7 +85,7 @@ const Navigation = (props: Props) => {
       return (
         <Fragment>
           <Wrapper>
-            <Logo><Jungle/></Logo>
+            <Logo to='/'><Jungle/></Logo>
             <List>
               { Object.keys(navigationJungleCulture).map((path, i) => (
                 <Item key={i}>
@@ -104,7 +104,7 @@ const Navigation = (props: Props) => {
       return (
         <Fragment>
           <Wrapper>
-            <Logo><Jungle/></Logo>
+            <Logo to='/'><Jungle/></Logo>
             <List>
               { Object.keys(navigationOurTeam).map((path, i) => (
                 <Item key={i}>
@@ -123,7 +123,7 @@ const Navigation = (props: Props) => {
       return (
         <Fragment>
           <Wrapper>
-            <Logo><Jungle/></Logo>
+            <Logo to='/'><Jungle/></Logo>
             <List>
               { Object.keys(navigationHowWeWork).map((path, i) => (
                 <Item key={i}>
@@ -142,7 +142,7 @@ const Navigation = (props: Props) => {
       return (
         <Fragment>
           <Wrapper>
-            <Logo><Jungle/></Logo>
+            <Logo to='/'><Jungle/></Logo>
             <List>
               { Object.keys(navigationOurClients).map((path, i) => (
                 <Item key={i}>
@@ -170,7 +170,8 @@ const Wrapper = styled.nav`
   width: 300px;
 `
 
-const Logo = styled.div`
+const Logo = styled(Link)`
+  display: block;
   padding: 25px;
 `
 
