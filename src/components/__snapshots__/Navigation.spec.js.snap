@@ -15,7 +15,7 @@ ShallowWrapper {
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "class",
+    "nodeType": "function",
     "props": Object {
       "children": <Navigation__Wrapper>
         <Navigation__Logo>
@@ -601,13 +601,13 @@ ShallowWrapper {
       ],
       "type": [Function],
     },
-    "type": [Function],
+    "type": Symbol(react.fragment),
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "class",
+      "nodeType": "function",
       "props": Object {
         "children": <Navigation__Wrapper>
           <Navigation__Logo>
@@ -1193,7 +1193,7 @@ ShallowWrapper {
         ],
         "type": [Function],
       },
-      "type": [Function],
+      "type": Symbol(react.fragment),
     },
   ],
   Symbol(enzyme.__options__): Object {

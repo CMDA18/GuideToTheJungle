@@ -18,4 +18,5 @@ const MainContent = styled.div`
   min-height: 100vh;
   box-sizing: border-box;
   padding: 20px 50px 100px;
+  overflow: scroll;
 `

@@ -65,7 +65,7 @@ export const navigationPaths: Paths = {
 
 export const navigationFAQ: Paths = {
   Overview: '/overview',
-  '0.0 FAQ': '/faq'
+  'FAQ': '/faq'
 }
 
 export const navigationJungleMinds: Paths = {
