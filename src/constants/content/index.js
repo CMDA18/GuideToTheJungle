@@ -127,7 +127,166 @@ export const ourClients = {
 }
 
 export const faq = {
-  pageTitle: '0.6 FAQ',
-  introTitle: 'Questions to ...',
-  introText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur porta dolor ac sem egestas blandit. Praesent eget tempor nisi.'
+  pageTitle: 'FAQ',
+  introTitle: 'Vragen??',
+  introText: 'Eén gek kan meer vragen dan tien wijzen kunnen beantwoorden.',
+  questions: [
+    {
+      question: 'Hoe werkt de planning binnen Jungle Minds?',
+      answer:
+      `
+      <p>Over je planning en uren zijn er 3 simpele regels, namelijk:</p>
+      <ul>
+        <li>
+          <h4>
+            1. Eigen verantwoordelijkheid
+          </h4>
+          <p>
+            Je schrijft geen uren omdat we willen controleren of je je best
+            wel doet, want dat geloven we echt wel. Je schrijft je klanturen
+            en geplande interne uren voor eigen projecten zodat we weten
+            hoeveel tijd we ergens aan besteden. De rest van je tijd hoef je niet
+            te verantwoorden.
+          </p>
+        </li>
+        <li>
+          <h4>
+            2. Wees proactief 
+          </h4>
+          <p>
+            Ons werk is dynamisch, planningen zijn levende dingen. Dus:
+            schrijf altijd de uren die je daadwerkelijk werkt. Zie je aankomen
+            dat dit meer wordt dan je planning? Praat met je projectleider.
+            Verwacht je dat het fors minder wordt dan je planning? Praat met
+            je projectleider. Heb je zin in een kletspraatje? Je snapt ‘m. 
+          </p>
+        </li>
+        <li>
+          <h4>
+            3. Je eigen tijd
+          </h4>
+          <p>
+            Als je eigen beschikbaarheid wilt investeren in intern werk, extra
+            training of research: doen! Heb je hiervoor meer dan vier uur
+            nodig, praat dan even met resource management, dan kun je die
+            tijd reserveren. 
+          </p>
+        </li>
+      </ul>
+      <p>
+        We verkopen onze kennis en ervaring, en daarvoor brengen we tijd in rekening.
+        Nou is iedereen oud en wijs genoeg om daar goed mee om te gaan, en we zijn er
+        dus ook niet om je agenda te controleren. In plaats daarvan zijn er een paar vrij
+        voor de hand liggende (maar belangrijke) afspraken.
+      </p>
+      `
+    },
+    {
+      question: 'Hoe laat is de lunch en wat eten wij?',
+      answer:
+      `
+      <p>
+        Wie hard werkt moet goed eten. Daarom zorgen we voor
+        brood, heel veel beleg en zijn er soms kroketten als er iemand
+        jarig is. Je betaalt een kleine bijdrage voor de lunch, want dat
+        moet van de wet. Daar staat tegenover dat we op woensdag
+        een extra lekkere lunch voor je klaarzetten. 
+      </p>
+      <p>
+        Ons lunch tijd begint om 12:30. Dit doen we gezamelijk met het hele bedrijf.
+      </p>
+      `
+    },
+    {
+      question: 'Wat zijn mijn arbeidsvoorwaarden?',
+      answer:
+      `
+      <p>
+        Daar kunnen we kort over zijn:
+      </p>
+      <ul>
+        <li>
+          Pensioen? Krijg je.
+        </li>
+        <li>
+          Winstdeling? Oh zeker.
+        </li>
+        <li>
+          Ouderschapsverlof? Ook voor vaders!
+        </li>
+        <li>
+          Opleidingsbudget? Absoluut.
+        </li>
+        <li>
+          Reiskosten? Vergoeden we.
+        </li>
+        <li>
+          Telefoon en laptop? Check.
+        </li>
+        <li>
+          Tripjes, feestjes, bbq’s. Oh yeah
+        </li>
+      </ul>
+      `
+    },
+    {
+      question: 'Wat zijn mijn werktuigen binnen het bedrijf?',
+      answer:
+      `
+      <p>
+        Een computer is je werktuig, je bureau en stoel je werkplek.
+        Vanzelfsprekend moeten die van hoge kwaliteit zijn. Dus
+        zorgen we ervoor dat je fijne spullen krijgt op het moment
+        dat je hier komt werken. Mis je iets? Werk je het liefst met een
+        bepaalde Wacom? Kun je alleen schrijven met een roze pen?
+        Laat het ons weten. Binnen de grenzen van het redelijke doen
+        we er veel aan om het je naar de zin te maken. 
+      </p>
+      `
+    },
+    {
+      question: 'Ik wil een ruimte reserveren, hoe doe ik dat?',
+      answer:
+      `
+      <p>
+        Om een kamer te kunnen reserveren moet je bij Sadie of Astrid zijn om de beschikbaarheid van de kamer te controleren. 
+        Als de gewenste kamer beschikbaar is, kunnen zij het meteen voor je boeken en in je agenda zetten. Zoa weet je altijd zeker dat
+        jij de ruimte gereserveerd hebt.
+      </p>
+      <p>
+        Zijn de kamers al bezet? Probeer dan een van ons flexplekken, die bevinden zich naast de "Jungle" kamer.
+      </p>
+      `
+    },
+    {
+      question: 'Vraag 6',
+      answer: 'hhdhdh'
+    },
+    {
+      question: 'Vraag 7',
+      answer: 'hhdhdh'
+    },
+    {
+      question: 'Vraag 8',
+      answer: 'hhdhdh'
+    },
+    {
+      question: 'Vraag 9',
+      answer: 'hhdhdh'
+    },
+    {
+      question: 'Opleidingen, cursussen en trainingen, hoe zit het daarmee?',
+      answer:
+      `
+      <p>
+        We hebben een royaal bedrag gereserveerd om onszelf wijzer
+        te maken dan we al zijn. Wil je een van je vaardigheden
+        aanscherpen? Is er een training die je hart sneller doet
+        kloppen? Een dagje aan de lippen hangen van een obscure
+        held uit je vakgebied? Doen! Informeer wel eerst even naar je
+        planning en het beschikbare budget. 
+      </p>
+      `
+    }
+  ]
 }

@@ -1,5 +1,5 @@
 // @flow
-import React from 'react'
+import React, { Fragment } from 'react'
 import { NavLink } from 'react-router-dom'
 import styled from 'styled-components'
 import {
@@ -26,7 +26,7 @@ const Navigation = (props: Props) => {
     case 'default':
     default :
       return (
-        <Container>
+        <Fragment>
           <Wrapper>
             <Logo><Jungle/></Logo>
             <List>
@@ -40,12 +40,12 @@ const Navigation = (props: Props) => {
               ))}
             </List>
           </Wrapper>
-        </Container>
+        </Fragment>
       )
 
     case 'faq':
       return (
-        <Container>
+        <Fragment>
           <Wrapper>
             <Logo><Jungle/></Logo>
             <List>
@@ -59,12 +59,12 @@ const Navigation = (props: Props) => {
               ))}
             </List>
           </Wrapper>
-        </Container>
+        </Fragment>
       )
 
     case 'jungleMinds':
       return (
-        <Container>
+        <Fragment>
           <Wrapper>
             <Logo><Jungle/></Logo>
             <List>
@@ -78,12 +78,12 @@ const Navigation = (props: Props) => {
               ))}
             </List>
           </Wrapper>
-        </Container>
+        </Fragment>
       )
 
     case 'jungleCulture':
       return (
-        <Container>
+        <Fragment>
           <Wrapper>
             <Logo><Jungle/></Logo>
             <List>
@@ -97,12 +97,12 @@ const Navigation = (props: Props) => {
               ))}
             </List>
           </Wrapper>
-        </Container>
+        </Fragment>
       )
 
     case 'ourTeam':
       return (
-        <Container>
+        <Fragment>
           <Wrapper>
             <Logo><Jungle/></Logo>
             <List>
@@ -116,12 +116,12 @@ const Navigation = (props: Props) => {
               ))}
             </List>
           </Wrapper>
-        </Container>
+        </Fragment>
       )
 
     case 'howWeWork':
       return (
-        <Container>
+        <Fragment>
           <Wrapper>
             <Logo><Jungle/></Logo>
             <List>
@@ -135,12 +135,12 @@ const Navigation = (props: Props) => {
               ))}
             </List>
           </Wrapper>
-        </Container>
+        </Fragment>
       )
 
     case 'ourClients':
       return (
-        <Container>
+        <Fragment>
           <Wrapper>
             <Logo><Jungle/></Logo>
             <List>
@@ -155,22 +155,19 @@ const Navigation = (props: Props) => {
               ))}
             </List>
           </Wrapper>
-        </Container>
+        </Fragment>
       )
   }
 }
 
 export default Navigation
 
-const Container = styled.div`
-  background-color: ${colorPalette.lightBlue};
-  width: 300px;
-`
-
-const Wrapper = styled.div`
+const Wrapper = styled.nav`
   position: sticky;
   overflow: hidden;
   height: 100vh;
+  background-color: ${colorPalette.lightBlue};
+  width: 300px;
 `
 
 const Logo = styled.div`
@@ -192,7 +189,7 @@ const Item = styled.li`
   margin: 10px 0;
   
   :first-of-type {
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid ${colorPalette.white};
     padding: 10px 0;
 
     span {
