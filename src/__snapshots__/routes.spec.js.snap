@@ -12,6 +12,7 @@ Object {
   "jungleMaslow": "/jungleMaslow",
   "jungleMinds": "/jungleMinds",
   "ourClients": "/ourClients",
+  "ourExpertises": "/ourExpertises",
   "ourPeople": "/ourPeople",
   "ourStory": "/ourStory",
   "overview": "/overview",
@@ -19,7 +20,10 @@ Object {
   "pageNotFound": "*",
   "redirect": "/redirectToHome",
   "tasksModuleOne": "/tasksModuleOne",
+  "tasksModuleThree": "/tasksModuleThree",
   "tasksModuleTwo": "/tasksModuleTwo",
+  "theGoToPeople": "/theGoToPeople",
+  "theWallOfFame": "/theWallOfFame",
 }
 `;
 
@@ -121,6 +125,30 @@ Array [
     "exact": true,
     "path": "/ourPeople",
     "title": "3 Our People",
+  },
+  Object {
+    "component": [Function],
+    "exact": true,
+    "path": "/ourExpertises",
+    "title": "3.1 Onze expertise",
+  },
+  Object {
+    "component": [Function],
+    "exact": true,
+    "path": "/theWallOfFame",
+    "title": "3.2 The Wall Of Fame",
+  },
+  Object {
+    "component": [Function],
+    "exact": true,
+    "path": "/theGoToPeople",
+    "title": "3.3 The Go To People",
+  },
+  Object {
+    "component": [Function],
+    "exact": true,
+    "path": "/tasksModuleThree",
+    "title": "3.4 Opdrachten",
   },
   Object {
     "component": [Function],

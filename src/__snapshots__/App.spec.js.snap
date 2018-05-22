@@ -124,19 +124,47 @@ exports[`renders without crashing 1`] = `
       component={[Function]}
       exact={true}
       key="15"
+      path="/ourExpertises"
+      title="3.1 Onze expertise"
+    />
+    <RouteWithSubRoutes
+      component={[Function]}
+      exact={true}
+      key="16"
+      path="/theWallOfFame"
+      title="3.2 The Wall Of Fame"
+    />
+    <RouteWithSubRoutes
+      component={[Function]}
+      exact={true}
+      key="17"
+      path="/theGoToPeople"
+      title="3.3 The Go To People"
+    />
+    <RouteWithSubRoutes
+      component={[Function]}
+      exact={true}
+      key="18"
+      path="/tasksModuleThree"
+      title="3.4 Opdrachten"
+    />
+    <RouteWithSubRoutes
+      component={[Function]}
+      exact={true}
+      key="19"
       path="/howWeWork"
       title="4 How We Work"
     />
     <RouteWithSubRoutes
       component={[Function]}
       exact={true}
-      key="16"
+      key="20"
       path="/ourClients"
       title="Our Clients"
     />
     <RouteWithSubRoutes
       component={[Function]}
-      key="17"
+      key="21"
       path="*"
       status={404}
       title="Page Not Found"
