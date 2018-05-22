@@ -1,0 +1,1199 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <JungleDays />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <HelmetWrapper
+          defer={true}
+          encodeSpecialCharacters={true}
+          title="jungleDays"
+        />,
+        <Grid
+          page="jungleCulture"
+        >
+          <header>
+            <PageTitle
+              image="./images/2.1formula.jpg"
+              introText="Ongeveer eens per maand komen we ‘s middags samen om over belangrijke ontwikkelingen in Jungle Minds te praten. Op zo’n Jungle Day gaat het over de grote lijnen en het waarom van onze manier van werken en denken."
+              introTitle="Onze dagen"
+              mediaCaption="Office mood van Project Managers Jacinta & Jessica"
+              pageTitle="2.2 Jungle Days"
+              quote={
+                Object {
+                  "image": "./images/team_design.jpg",
+                  "metadata": "naam functie",
+                  "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+                }
+              }
+              textMedia={
+                Array [
+                  Object {
+                    "text": "
+      Elk kwartaal hebben we allemaal quality time op Jungle Day. Dan bespreken we de grote en kleine ambities van
+      ons bureau en maken we ons financiële welzijn voor iedereen inzichtelijk. Zo is ‘management’ geen vage taak van een select groepje maar het transparante resultaat van samenwerking met het hele bedrijf.
+      ",
+                    "title": "Jungle Day",
+                  },
+                  Object {
+                    "text": "
+      <ul>
+        <li>
+          Jungle day 1: 08 februari 2018
+        </li>
+        <li>
+          Jungle day XL: 20 april 2018
+        </li>
+        <li>
+          Jungle day 2: 21 juni 2018
+        </li>
+        <li>
+          Jungle day 3: november 2018
+        </li>
+      </ul>
+      ",
+                    "title": "Save the date",
+                  },
+                ]
+              }
+            />
+            <Intro
+              image="./images/2.1formula.jpg"
+              introText="Ongeveer eens per maand komen we ‘s middags samen om over belangrijke ontwikkelingen in Jungle Minds te praten. Op zo’n Jungle Day gaat het over de grote lijnen en het waarom van onze manier van werken en denken."
+              introTitle="Onze dagen"
+              mediaCaption="Office mood van Project Managers Jacinta & Jessica"
+              pageTitle="2.2 Jungle Days"
+              quote={
+                Object {
+                  "image": "./images/team_design.jpg",
+                  "metadata": "naam functie",
+                  "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+                }
+              }
+              textMedia={
+                Array [
+                  Object {
+                    "text": "
+      Elk kwartaal hebben we allemaal quality time op Jungle Day. Dan bespreken we de grote en kleine ambities van
+      ons bureau en maken we ons financiële welzijn voor iedereen inzichtelijk. Zo is ‘management’ geen vage taak van een select groepje maar het transparante resultaat van samenwerking met het hele bedrijf.
+      ",
+                    "title": "Jungle Day",
+                  },
+                  Object {
+                    "text": "
+      <ul>
+        <li>
+          Jungle day 1: 08 februari 2018
+        </li>
+        <li>
+          Jungle day XL: 20 april 2018
+        </li>
+        <li>
+          Jungle day 2: 21 juni 2018
+        </li>
+        <li>
+          Jungle day 3: november 2018
+        </li>
+      </ul>
+      ",
+                    "title": "Save the date",
+                  },
+                ]
+              }
+            />
+          </header>
+          <TextAndImage
+            image="./images/2.1formula.jpg"
+            introText="Ongeveer eens per maand komen we ‘s middags samen om over belangrijke ontwikkelingen in Jungle Minds te praten. Op zo’n Jungle Day gaat het over de grote lijnen en het waarom van onze manier van werken en denken."
+            introTitle="Onze dagen"
+            mediaCaption="Office mood van Project Managers Jacinta & Jessica"
+            pageTitle="2.2 Jungle Days"
+            quote={
+              Object {
+                "image": "./images/team_design.jpg",
+                "metadata": "naam functie",
+                "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+              }
+            }
+            textMedia={
+              Array [
+                Object {
+                  "text": "
+      Elk kwartaal hebben we allemaal quality time op Jungle Day. Dan bespreken we de grote en kleine ambities van
+      ons bureau en maken we ons financiële welzijn voor iedereen inzichtelijk. Zo is ‘management’ geen vage taak van een select groepje maar het transparante resultaat van samenwerking met het hele bedrijf.
+      ",
+                  "title": "Jungle Day",
+                },
+                Object {
+                  "text": "
+      <ul>
+        <li>
+          Jungle day 1: 08 februari 2018
+        </li>
+        <li>
+          Jungle day XL: 20 april 2018
+        </li>
+        <li>
+          Jungle day 2: 21 juni 2018
+        </li>
+        <li>
+          Jungle day 3: november 2018
+        </li>
+      </ul>
+      ",
+                  "title": "Save the date",
+                },
+              ]
+            }
+          />
+          <Quote
+            image="./images/team_design.jpg"
+            metadata="naam functie"
+            text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+          />
+        </Grid>,
+      ],
+      "className": "jungleDays",
+      "data-test": undefined,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "defer": true,
+          "encodeSpecialCharacters": true,
+          "title": "jungleDays",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <header>
+              <PageTitle
+                image="./images/2.1formula.jpg"
+                introText="Ongeveer eens per maand komen we ‘s middags samen om over belangrijke ontwikkelingen in Jungle Minds te praten. Op zo’n Jungle Day gaat het over de grote lijnen en het waarom van onze manier van werken en denken."
+                introTitle="Onze dagen"
+                mediaCaption="Office mood van Project Managers Jacinta & Jessica"
+                pageTitle="2.2 Jungle Days"
+                quote={
+                  Object {
+                    "image": "./images/team_design.jpg",
+                    "metadata": "naam functie",
+                    "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+                  }
+                }
+                textMedia={
+                  Array [
+                    Object {
+                      "text": "
+      Elk kwartaal hebben we allemaal quality time op Jungle Day. Dan bespreken we de grote en kleine ambities van
+      ons bureau en maken we ons financiële welzijn voor iedereen inzichtelijk. Zo is ‘management’ geen vage taak van een select groepje maar het transparante resultaat van samenwerking met het hele bedrijf.
+      ",
+                      "title": "Jungle Day",
+                    },
+                    Object {
+                      "text": "
+      <ul>
+        <li>
+          Jungle day 1: 08 februari 2018
+        </li>
+        <li>
+          Jungle day XL: 20 april 2018
+        </li>
+        <li>
+          Jungle day 2: 21 juni 2018
+        </li>
+        <li>
+          Jungle day 3: november 2018
+        </li>
+      </ul>
+      ",
+                      "title": "Save the date",
+                    },
+                  ]
+                }
+              />
+              <Intro
+                image="./images/2.1formula.jpg"
+                introText="Ongeveer eens per maand komen we ‘s middags samen om over belangrijke ontwikkelingen in Jungle Minds te praten. Op zo’n Jungle Day gaat het over de grote lijnen en het waarom van onze manier van werken en denken."
+                introTitle="Onze dagen"
+                mediaCaption="Office mood van Project Managers Jacinta & Jessica"
+                pageTitle="2.2 Jungle Days"
+                quote={
+                  Object {
+                    "image": "./images/team_design.jpg",
+                    "metadata": "naam functie",
+                    "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+                  }
+                }
+                textMedia={
+                  Array [
+                    Object {
+                      "text": "
+      Elk kwartaal hebben we allemaal quality time op Jungle Day. Dan bespreken we de grote en kleine ambities van
+      ons bureau en maken we ons financiële welzijn voor iedereen inzichtelijk. Zo is ‘management’ geen vage taak van een select groepje maar het transparante resultaat van samenwerking met het hele bedrijf.
+      ",
+                      "title": "Jungle Day",
+                    },
+                    Object {
+                      "text": "
+      <ul>
+        <li>
+          Jungle day 1: 08 februari 2018
+        </li>
+        <li>
+          Jungle day XL: 20 april 2018
+        </li>
+        <li>
+          Jungle day 2: 21 juni 2018
+        </li>
+        <li>
+          Jungle day 3: november 2018
+        </li>
+      </ul>
+      ",
+                      "title": "Save the date",
+                    },
+                  ]
+                }
+              />
+            </header>,
+            <TextAndImage
+              image="./images/2.1formula.jpg"
+              introText="Ongeveer eens per maand komen we ‘s middags samen om over belangrijke ontwikkelingen in Jungle Minds te praten. Op zo’n Jungle Day gaat het over de grote lijnen en het waarom van onze manier van werken en denken."
+              introTitle="Onze dagen"
+              mediaCaption="Office mood van Project Managers Jacinta & Jessica"
+              pageTitle="2.2 Jungle Days"
+              quote={
+                Object {
+                  "image": "./images/team_design.jpg",
+                  "metadata": "naam functie",
+                  "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+                }
+              }
+              textMedia={
+                Array [
+                  Object {
+                    "text": "
+      Elk kwartaal hebben we allemaal quality time op Jungle Day. Dan bespreken we de grote en kleine ambities van
+      ons bureau en maken we ons financiële welzijn voor iedereen inzichtelijk. Zo is ‘management’ geen vage taak van een select groepje maar het transparante resultaat van samenwerking met het hele bedrijf.
+      ",
+                    "title": "Jungle Day",
+                  },
+                  Object {
+                    "text": "
+      <ul>
+        <li>
+          Jungle day 1: 08 februari 2018
+        </li>
+        <li>
+          Jungle day XL: 20 april 2018
+        </li>
+        <li>
+          Jungle day 2: 21 juni 2018
+        </li>
+        <li>
+          Jungle day 3: november 2018
+        </li>
+      </ul>
+      ",
+                    "title": "Save the date",
+                  },
+                ]
+              }
+            />,
+            <Quote
+              image="./images/team_design.jpg"
+              metadata="naam functie"
+              text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+            />,
+          ],
+          "page": "jungleCulture",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <PageTitle
+                  image="./images/2.1formula.jpg"
+                  introText="Ongeveer eens per maand komen we ‘s middags samen om over belangrijke ontwikkelingen in Jungle Minds te praten. Op zo’n Jungle Day gaat het over de grote lijnen en het waarom van onze manier van werken en denken."
+                  introTitle="Onze dagen"
+                  mediaCaption="Office mood van Project Managers Jacinta & Jessica"
+                  pageTitle="2.2 Jungle Days"
+                  quote={
+                    Object {
+                      "image": "./images/team_design.jpg",
+                      "metadata": "naam functie",
+                      "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+                    }
+                  }
+                  textMedia={
+                    Array [
+                      Object {
+                        "text": "
+      Elk kwartaal hebben we allemaal quality time op Jungle Day. Dan bespreken we de grote en kleine ambities van
+      ons bureau en maken we ons financiële welzijn voor iedereen inzichtelijk. Zo is ‘management’ geen vage taak van een select groepje maar het transparante resultaat van samenwerking met het hele bedrijf.
+      ",
+                        "title": "Jungle Day",
+                      },
+                      Object {
+                        "text": "
+      <ul>
+        <li>
+          Jungle day 1: 08 februari 2018
+        </li>
+        <li>
+          Jungle day XL: 20 april 2018
+        </li>
+        <li>
+          Jungle day 2: 21 juni 2018
+        </li>
+        <li>
+          Jungle day 3: november 2018
+        </li>
+      </ul>
+      ",
+                        "title": "Save the date",
+                      },
+                    ]
+                  }
+                />,
+                <Intro
+                  image="./images/2.1formula.jpg"
+                  introText="Ongeveer eens per maand komen we ‘s middags samen om over belangrijke ontwikkelingen in Jungle Minds te praten. Op zo’n Jungle Day gaat het over de grote lijnen en het waarom van onze manier van werken en denken."
+                  introTitle="Onze dagen"
+                  mediaCaption="Office mood van Project Managers Jacinta & Jessica"
+                  pageTitle="2.2 Jungle Days"
+                  quote={
+                    Object {
+                      "image": "./images/team_design.jpg",
+                      "metadata": "naam functie",
+                      "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+                    }
+                  }
+                  textMedia={
+                    Array [
+                      Object {
+                        "text": "
+      Elk kwartaal hebben we allemaal quality time op Jungle Day. Dan bespreken we de grote en kleine ambities van
+      ons bureau en maken we ons financiële welzijn voor iedereen inzichtelijk. Zo is ‘management’ geen vage taak van een select groepje maar het transparante resultaat van samenwerking met het hele bedrijf.
+      ",
+                        "title": "Jungle Day",
+                      },
+                      Object {
+                        "text": "
+      <ul>
+        <li>
+          Jungle day 1: 08 februari 2018
+        </li>
+        <li>
+          Jungle day XL: 20 april 2018
+        </li>
+        <li>
+          Jungle day 2: 21 juni 2018
+        </li>
+        <li>
+          Jungle day 3: november 2018
+        </li>
+      </ul>
+      ",
+                        "title": "Save the date",
+                      },
+                    ]
+                  }
+                />,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "image": "./images/2.1formula.jpg",
+                  "introText": "Ongeveer eens per maand komen we ‘s middags samen om over belangrijke ontwikkelingen in Jungle Minds te praten. Op zo’n Jungle Day gaat het over de grote lijnen en het waarom van onze manier van werken en denken.",
+                  "introTitle": "Onze dagen",
+                  "mediaCaption": "Office mood van Project Managers Jacinta & Jessica",
+                  "pageTitle": "2.2 Jungle Days",
+                  "quote": Object {
+                    "image": "./images/team_design.jpg",
+                    "metadata": "naam functie",
+                    "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+                  },
+                  "textMedia": Array [
+                    Object {
+                      "text": "
+      Elk kwartaal hebben we allemaal quality time op Jungle Day. Dan bespreken we de grote en kleine ambities van
+      ons bureau en maken we ons financiële welzijn voor iedereen inzichtelijk. Zo is ‘management’ geen vage taak van een select groepje maar het transparante resultaat van samenwerking met het hele bedrijf.
+      ",
+                      "title": "Jungle Day",
+                    },
+                    Object {
+                      "text": "
+      <ul>
+        <li>
+          Jungle day 1: 08 februari 2018
+        </li>
+        <li>
+          Jungle day XL: 20 april 2018
+        </li>
+        <li>
+          Jungle day 2: 21 juni 2018
+        </li>
+        <li>
+          Jungle day 3: november 2018
+        </li>
+      </ul>
+      ",
+                      "title": "Save the date",
+                    },
+                  ],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "image": "./images/2.1formula.jpg",
+                  "introText": "Ongeveer eens per maand komen we ‘s middags samen om over belangrijke ontwikkelingen in Jungle Minds te praten. Op zo’n Jungle Day gaat het over de grote lijnen en het waarom van onze manier van werken en denken.",
+                  "introTitle": "Onze dagen",
+                  "mediaCaption": "Office mood van Project Managers Jacinta & Jessica",
+                  "pageTitle": "2.2 Jungle Days",
+                  "quote": Object {
+                    "image": "./images/team_design.jpg",
+                    "metadata": "naam functie",
+                    "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+                  },
+                  "textMedia": Array [
+                    Object {
+                      "text": "
+      Elk kwartaal hebben we allemaal quality time op Jungle Day. Dan bespreken we de grote en kleine ambities van
+      ons bureau en maken we ons financiële welzijn voor iedereen inzichtelijk. Zo is ‘management’ geen vage taak van een select groepje maar het transparante resultaat van samenwerking met het hele bedrijf.
+      ",
+                      "title": "Jungle Day",
+                    },
+                    Object {
+                      "text": "
+      <ul>
+        <li>
+          Jungle day 1: 08 februari 2018
+        </li>
+        <li>
+          Jungle day XL: 20 april 2018
+        </li>
+        <li>
+          Jungle day 2: 21 juni 2018
+        </li>
+        <li>
+          Jungle day 3: november 2018
+        </li>
+      </ul>
+      ",
+                      "title": "Save the date",
+                    },
+                  ],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": "header",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "image": "./images/2.1formula.jpg",
+              "introText": "Ongeveer eens per maand komen we ‘s middags samen om over belangrijke ontwikkelingen in Jungle Minds te praten. Op zo’n Jungle Day gaat het over de grote lijnen en het waarom van onze manier van werken en denken.",
+              "introTitle": "Onze dagen",
+              "mediaCaption": "Office mood van Project Managers Jacinta & Jessica",
+              "pageTitle": "2.2 Jungle Days",
+              "quote": Object {
+                "image": "./images/team_design.jpg",
+                "metadata": "naam functie",
+                "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+              },
+              "textMedia": Array [
+                Object {
+                  "text": "
+      Elk kwartaal hebben we allemaal quality time op Jungle Day. Dan bespreken we de grote en kleine ambities van
+      ons bureau en maken we ons financiële welzijn voor iedereen inzichtelijk. Zo is ‘management’ geen vage taak van een select groepje maar het transparante resultaat van samenwerking met het hele bedrijf.
+      ",
+                  "title": "Jungle Day",
+                },
+                Object {
+                  "text": "
+      <ul>
+        <li>
+          Jungle day 1: 08 februari 2018
+        </li>
+        <li>
+          Jungle day XL: 20 april 2018
+        </li>
+        <li>
+          Jungle day 2: 21 juni 2018
+        </li>
+        <li>
+          Jungle day 3: november 2018
+        </li>
+      </ul>
+      ",
+                  "title": "Save the date",
+                },
+              ],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "image": "./images/team_design.jpg",
+              "metadata": "naam functie",
+              "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <HelmetWrapper
+            defer={true}
+            encodeSpecialCharacters={true}
+            title="jungleDays"
+          />,
+          <Grid
+            page="jungleCulture"
+          >
+            <header>
+              <PageTitle
+                image="./images/2.1formula.jpg"
+                introText="Ongeveer eens per maand komen we ‘s middags samen om over belangrijke ontwikkelingen in Jungle Minds te praten. Op zo’n Jungle Day gaat het over de grote lijnen en het waarom van onze manier van werken en denken."
+                introTitle="Onze dagen"
+                mediaCaption="Office mood van Project Managers Jacinta & Jessica"
+                pageTitle="2.2 Jungle Days"
+                quote={
+                  Object {
+                    "image": "./images/team_design.jpg",
+                    "metadata": "naam functie",
+                    "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+                  }
+                }
+                textMedia={
+                  Array [
+                    Object {
+                      "text": "
+      Elk kwartaal hebben we allemaal quality time op Jungle Day. Dan bespreken we de grote en kleine ambities van
+      ons bureau en maken we ons financiële welzijn voor iedereen inzichtelijk. Zo is ‘management’ geen vage taak van een select groepje maar het transparante resultaat van samenwerking met het hele bedrijf.
+      ",
+                      "title": "Jungle Day",
+                    },
+                    Object {
+                      "text": "
+      <ul>
+        <li>
+          Jungle day 1: 08 februari 2018
+        </li>
+        <li>
+          Jungle day XL: 20 april 2018
+        </li>
+        <li>
+          Jungle day 2: 21 juni 2018
+        </li>
+        <li>
+          Jungle day 3: november 2018
+        </li>
+      </ul>
+      ",
+                      "title": "Save the date",
+                    },
+                  ]
+                }
+              />
+              <Intro
+                image="./images/2.1formula.jpg"
+                introText="Ongeveer eens per maand komen we ‘s middags samen om over belangrijke ontwikkelingen in Jungle Minds te praten. Op zo’n Jungle Day gaat het over de grote lijnen en het waarom van onze manier van werken en denken."
+                introTitle="Onze dagen"
+                mediaCaption="Office mood van Project Managers Jacinta & Jessica"
+                pageTitle="2.2 Jungle Days"
+                quote={
+                  Object {
+                    "image": "./images/team_design.jpg",
+                    "metadata": "naam functie",
+                    "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+                  }
+                }
+                textMedia={
+                  Array [
+                    Object {
+                      "text": "
+      Elk kwartaal hebben we allemaal quality time op Jungle Day. Dan bespreken we de grote en kleine ambities van
+      ons bureau en maken we ons financiële welzijn voor iedereen inzichtelijk. Zo is ‘management’ geen vage taak van een select groepje maar het transparante resultaat van samenwerking met het hele bedrijf.
+      ",
+                      "title": "Jungle Day",
+                    },
+                    Object {
+                      "text": "
+      <ul>
+        <li>
+          Jungle day 1: 08 februari 2018
+        </li>
+        <li>
+          Jungle day XL: 20 april 2018
+        </li>
+        <li>
+          Jungle day 2: 21 juni 2018
+        </li>
+        <li>
+          Jungle day 3: november 2018
+        </li>
+      </ul>
+      ",
+                      "title": "Save the date",
+                    },
+                  ]
+                }
+              />
+            </header>
+            <TextAndImage
+              image="./images/2.1formula.jpg"
+              introText="Ongeveer eens per maand komen we ‘s middags samen om over belangrijke ontwikkelingen in Jungle Minds te praten. Op zo’n Jungle Day gaat het over de grote lijnen en het waarom van onze manier van werken en denken."
+              introTitle="Onze dagen"
+              mediaCaption="Office mood van Project Managers Jacinta & Jessica"
+              pageTitle="2.2 Jungle Days"
+              quote={
+                Object {
+                  "image": "./images/team_design.jpg",
+                  "metadata": "naam functie",
+                  "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+                }
+              }
+              textMedia={
+                Array [
+                  Object {
+                    "text": "
+      Elk kwartaal hebben we allemaal quality time op Jungle Day. Dan bespreken we de grote en kleine ambities van
+      ons bureau en maken we ons financiële welzijn voor iedereen inzichtelijk. Zo is ‘management’ geen vage taak van een select groepje maar het transparante resultaat van samenwerking met het hele bedrijf.
+      ",
+                    "title": "Jungle Day",
+                  },
+                  Object {
+                    "text": "
+      <ul>
+        <li>
+          Jungle day 1: 08 februari 2018
+        </li>
+        <li>
+          Jungle day XL: 20 april 2018
+        </li>
+        <li>
+          Jungle day 2: 21 juni 2018
+        </li>
+        <li>
+          Jungle day 3: november 2018
+        </li>
+      </ul>
+      ",
+                    "title": "Save the date",
+                  },
+                ]
+              }
+            />
+            <Quote
+              image="./images/team_design.jpg"
+              metadata="naam functie"
+              text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+            />
+          </Grid>,
+        ],
+        "className": "jungleDays",
+        "data-test": undefined,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "defer": true,
+            "encodeSpecialCharacters": true,
+            "title": "jungleDays",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <header>
+                <PageTitle
+                  image="./images/2.1formula.jpg"
+                  introText="Ongeveer eens per maand komen we ‘s middags samen om over belangrijke ontwikkelingen in Jungle Minds te praten. Op zo’n Jungle Day gaat het over de grote lijnen en het waarom van onze manier van werken en denken."
+                  introTitle="Onze dagen"
+                  mediaCaption="Office mood van Project Managers Jacinta & Jessica"
+                  pageTitle="2.2 Jungle Days"
+                  quote={
+                    Object {
+                      "image": "./images/team_design.jpg",
+                      "metadata": "naam functie",
+                      "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+                    }
+                  }
+                  textMedia={
+                    Array [
+                      Object {
+                        "text": "
+      Elk kwartaal hebben we allemaal quality time op Jungle Day. Dan bespreken we de grote en kleine ambities van
+      ons bureau en maken we ons financiële welzijn voor iedereen inzichtelijk. Zo is ‘management’ geen vage taak van een select groepje maar het transparante resultaat van samenwerking met het hele bedrijf.
+      ",
+                        "title": "Jungle Day",
+                      },
+                      Object {
+                        "text": "
+      <ul>
+        <li>
+          Jungle day 1: 08 februari 2018
+        </li>
+        <li>
+          Jungle day XL: 20 april 2018
+        </li>
+        <li>
+          Jungle day 2: 21 juni 2018
+        </li>
+        <li>
+          Jungle day 3: november 2018
+        </li>
+      </ul>
+      ",
+                        "title": "Save the date",
+                      },
+                    ]
+                  }
+                />
+                <Intro
+                  image="./images/2.1formula.jpg"
+                  introText="Ongeveer eens per maand komen we ‘s middags samen om over belangrijke ontwikkelingen in Jungle Minds te praten. Op zo’n Jungle Day gaat het over de grote lijnen en het waarom van onze manier van werken en denken."
+                  introTitle="Onze dagen"
+                  mediaCaption="Office mood van Project Managers Jacinta & Jessica"
+                  pageTitle="2.2 Jungle Days"
+                  quote={
+                    Object {
+                      "image": "./images/team_design.jpg",
+                      "metadata": "naam functie",
+                      "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+                    }
+                  }
+                  textMedia={
+                    Array [
+                      Object {
+                        "text": "
+      Elk kwartaal hebben we allemaal quality time op Jungle Day. Dan bespreken we de grote en kleine ambities van
+      ons bureau en maken we ons financiële welzijn voor iedereen inzichtelijk. Zo is ‘management’ geen vage taak van een select groepje maar het transparante resultaat van samenwerking met het hele bedrijf.
+      ",
+                        "title": "Jungle Day",
+                      },
+                      Object {
+                        "text": "
+      <ul>
+        <li>
+          Jungle day 1: 08 februari 2018
+        </li>
+        <li>
+          Jungle day XL: 20 april 2018
+        </li>
+        <li>
+          Jungle day 2: 21 juni 2018
+        </li>
+        <li>
+          Jungle day 3: november 2018
+        </li>
+      </ul>
+      ",
+                        "title": "Save the date",
+                      },
+                    ]
+                  }
+                />
+              </header>,
+              <TextAndImage
+                image="./images/2.1formula.jpg"
+                introText="Ongeveer eens per maand komen we ‘s middags samen om over belangrijke ontwikkelingen in Jungle Minds te praten. Op zo’n Jungle Day gaat het over de grote lijnen en het waarom van onze manier van werken en denken."
+                introTitle="Onze dagen"
+                mediaCaption="Office mood van Project Managers Jacinta & Jessica"
+                pageTitle="2.2 Jungle Days"
+                quote={
+                  Object {
+                    "image": "./images/team_design.jpg",
+                    "metadata": "naam functie",
+                    "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+                  }
+                }
+                textMedia={
+                  Array [
+                    Object {
+                      "text": "
+      Elk kwartaal hebben we allemaal quality time op Jungle Day. Dan bespreken we de grote en kleine ambities van
+      ons bureau en maken we ons financiële welzijn voor iedereen inzichtelijk. Zo is ‘management’ geen vage taak van een select groepje maar het transparante resultaat van samenwerking met het hele bedrijf.
+      ",
+                      "title": "Jungle Day",
+                    },
+                    Object {
+                      "text": "
+      <ul>
+        <li>
+          Jungle day 1: 08 februari 2018
+        </li>
+        <li>
+          Jungle day XL: 20 april 2018
+        </li>
+        <li>
+          Jungle day 2: 21 juni 2018
+        </li>
+        <li>
+          Jungle day 3: november 2018
+        </li>
+      </ul>
+      ",
+                      "title": "Save the date",
+                    },
+                  ]
+                }
+              />,
+              <Quote
+                image="./images/team_design.jpg"
+                metadata="naam functie"
+                text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+              />,
+            ],
+            "page": "jungleCulture",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <PageTitle
+                    image="./images/2.1formula.jpg"
+                    introText="Ongeveer eens per maand komen we ‘s middags samen om over belangrijke ontwikkelingen in Jungle Minds te praten. Op zo’n Jungle Day gaat het over de grote lijnen en het waarom van onze manier van werken en denken."
+                    introTitle="Onze dagen"
+                    mediaCaption="Office mood van Project Managers Jacinta & Jessica"
+                    pageTitle="2.2 Jungle Days"
+                    quote={
+                      Object {
+                        "image": "./images/team_design.jpg",
+                        "metadata": "naam functie",
+                        "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+                      }
+                    }
+                    textMedia={
+                      Array [
+                        Object {
+                          "text": "
+      Elk kwartaal hebben we allemaal quality time op Jungle Day. Dan bespreken we de grote en kleine ambities van
+      ons bureau en maken we ons financiële welzijn voor iedereen inzichtelijk. Zo is ‘management’ geen vage taak van een select groepje maar het transparante resultaat van samenwerking met het hele bedrijf.
+      ",
+                          "title": "Jungle Day",
+                        },
+                        Object {
+                          "text": "
+      <ul>
+        <li>
+          Jungle day 1: 08 februari 2018
+        </li>
+        <li>
+          Jungle day XL: 20 april 2018
+        </li>
+        <li>
+          Jungle day 2: 21 juni 2018
+        </li>
+        <li>
+          Jungle day 3: november 2018
+        </li>
+      </ul>
+      ",
+                          "title": "Save the date",
+                        },
+                      ]
+                    }
+                  />,
+                  <Intro
+                    image="./images/2.1formula.jpg"
+                    introText="Ongeveer eens per maand komen we ‘s middags samen om over belangrijke ontwikkelingen in Jungle Minds te praten. Op zo’n Jungle Day gaat het over de grote lijnen en het waarom van onze manier van werken en denken."
+                    introTitle="Onze dagen"
+                    mediaCaption="Office mood van Project Managers Jacinta & Jessica"
+                    pageTitle="2.2 Jungle Days"
+                    quote={
+                      Object {
+                        "image": "./images/team_design.jpg",
+                        "metadata": "naam functie",
+                        "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+                      }
+                    }
+                    textMedia={
+                      Array [
+                        Object {
+                          "text": "
+      Elk kwartaal hebben we allemaal quality time op Jungle Day. Dan bespreken we de grote en kleine ambities van
+      ons bureau en maken we ons financiële welzijn voor iedereen inzichtelijk. Zo is ‘management’ geen vage taak van een select groepje maar het transparante resultaat van samenwerking met het hele bedrijf.
+      ",
+                          "title": "Jungle Day",
+                        },
+                        Object {
+                          "text": "
+      <ul>
+        <li>
+          Jungle day 1: 08 februari 2018
+        </li>
+        <li>
+          Jungle day XL: 20 april 2018
+        </li>
+        <li>
+          Jungle day 2: 21 juni 2018
+        </li>
+        <li>
+          Jungle day 3: november 2018
+        </li>
+      </ul>
+      ",
+                          "title": "Save the date",
+                        },
+                      ]
+                    }
+                  />,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "image": "./images/2.1formula.jpg",
+                    "introText": "Ongeveer eens per maand komen we ‘s middags samen om over belangrijke ontwikkelingen in Jungle Minds te praten. Op zo’n Jungle Day gaat het over de grote lijnen en het waarom van onze manier van werken en denken.",
+                    "introTitle": "Onze dagen",
+                    "mediaCaption": "Office mood van Project Managers Jacinta & Jessica",
+                    "pageTitle": "2.2 Jungle Days",
+                    "quote": Object {
+                      "image": "./images/team_design.jpg",
+                      "metadata": "naam functie",
+                      "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+                    },
+                    "textMedia": Array [
+                      Object {
+                        "text": "
+      Elk kwartaal hebben we allemaal quality time op Jungle Day. Dan bespreken we de grote en kleine ambities van
+      ons bureau en maken we ons financiële welzijn voor iedereen inzichtelijk. Zo is ‘management’ geen vage taak van een select groepje maar het transparante resultaat van samenwerking met het hele bedrijf.
+      ",
+                        "title": "Jungle Day",
+                      },
+                      Object {
+                        "text": "
+      <ul>
+        <li>
+          Jungle day 1: 08 februari 2018
+        </li>
+        <li>
+          Jungle day XL: 20 april 2018
+        </li>
+        <li>
+          Jungle day 2: 21 juni 2018
+        </li>
+        <li>
+          Jungle day 3: november 2018
+        </li>
+      </ul>
+      ",
+                        "title": "Save the date",
+                      },
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "image": "./images/2.1formula.jpg",
+                    "introText": "Ongeveer eens per maand komen we ‘s middags samen om over belangrijke ontwikkelingen in Jungle Minds te praten. Op zo’n Jungle Day gaat het over de grote lijnen en het waarom van onze manier van werken en denken.",
+                    "introTitle": "Onze dagen",
+                    "mediaCaption": "Office mood van Project Managers Jacinta & Jessica",
+                    "pageTitle": "2.2 Jungle Days",
+                    "quote": Object {
+                      "image": "./images/team_design.jpg",
+                      "metadata": "naam functie",
+                      "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+                    },
+                    "textMedia": Array [
+                      Object {
+                        "text": "
+      Elk kwartaal hebben we allemaal quality time op Jungle Day. Dan bespreken we de grote en kleine ambities van
+      ons bureau en maken we ons financiële welzijn voor iedereen inzichtelijk. Zo is ‘management’ geen vage taak van een select groepje maar het transparante resultaat van samenwerking met het hele bedrijf.
+      ",
+                        "title": "Jungle Day",
+                      },
+                      Object {
+                        "text": "
+      <ul>
+        <li>
+          Jungle day 1: 08 februari 2018
+        </li>
+        <li>
+          Jungle day XL: 20 april 2018
+        </li>
+        <li>
+          Jungle day 2: 21 juni 2018
+        </li>
+        <li>
+          Jungle day 3: november 2018
+        </li>
+      </ul>
+      ",
+                        "title": "Save the date",
+                      },
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": "header",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "image": "./images/2.1formula.jpg",
+                "introText": "Ongeveer eens per maand komen we ‘s middags samen om over belangrijke ontwikkelingen in Jungle Minds te praten. Op zo’n Jungle Day gaat het over de grote lijnen en het waarom van onze manier van werken en denken.",
+                "introTitle": "Onze dagen",
+                "mediaCaption": "Office mood van Project Managers Jacinta & Jessica",
+                "pageTitle": "2.2 Jungle Days",
+                "quote": Object {
+                  "image": "./images/team_design.jpg",
+                  "metadata": "naam functie",
+                  "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+                },
+                "textMedia": Array [
+                  Object {
+                    "text": "
+      Elk kwartaal hebben we allemaal quality time op Jungle Day. Dan bespreken we de grote en kleine ambities van
+      ons bureau en maken we ons financiële welzijn voor iedereen inzichtelijk. Zo is ‘management’ geen vage taak van een select groepje maar het transparante resultaat van samenwerking met het hele bedrijf.
+      ",
+                    "title": "Jungle Day",
+                  },
+                  Object {
+                    "text": "
+      <ul>
+        <li>
+          Jungle day 1: 08 februari 2018
+        </li>
+        <li>
+          Jungle day XL: 20 april 2018
+        </li>
+        <li>
+          Jungle day 2: 21 juni 2018
+        </li>
+        <li>
+          Jungle day 3: november 2018
+        </li>
+      </ul>
+      ",
+                    "title": "Save the date",
+                  },
+                ],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "image": "./images/team_design.jpg",
+                "metadata": "naam functie",
+                "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

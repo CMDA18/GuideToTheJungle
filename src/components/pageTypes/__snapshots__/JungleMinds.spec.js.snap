@@ -39,7 +39,7 @@ ShallowWrapper {
                 introTitle="Our evolution in time"
                 pageTitle="0.1 Jungle minds"
               />
-              <TimelineTabs
+              <UNDEFINED
                 0={
                   Object {
                     "content": Object {
@@ -111,7 +111,7 @@ ShallowWrapper {
                   introTitle="Our evolution in time"
                   pageTitle="0.1 Jungle minds"
                 />
-                <TimelineTabs
+                <UNDEFINED
                   0={
                     Object {
                       "content": Object {
@@ -173,7 +173,7 @@ ShallowWrapper {
                   introTitle="Our evolution in time"
                   pageTitle="0.1 Jungle minds"
                 />
-                <TimelineTabs
+                <UNDEFINED
                   0={
                     Object {
                       "content": Object {
@@ -221,7 +221,7 @@ ShallowWrapper {
                     introTitle="Our evolution in time"
                     pageTitle="0.1 Jungle minds"
                   />,
-                  <TimelineTabs
+                  <UNDEFINED
                     0={
                       Object {
                         "content": Object {
@@ -283,7 +283,7 @@ ShallowWrapper {
                 Object {
                   "instance": null,
                   "key": undefined,
-                  "nodeType": "class",
+                  "nodeType": "function",
                   "props": Object {
                     "0": Object {
                       "content": Object {
@@ -309,7 +309,7 @@ ShallowWrapper {
                   },
                   "ref": null,
                   "rendered": null,
-                  "type": [Function],
+                  "type": undefined,
                 },
               ],
               "type": "header",
@@ -350,7 +350,7 @@ ShallowWrapper {
                   introTitle="Our evolution in time"
                   pageTitle="0.1 Jungle minds"
                 />
-                <TimelineTabs
+                <UNDEFINED
                   0={
                     Object {
                       "content": Object {
@@ -422,7 +422,7 @@ ShallowWrapper {
                     introTitle="Our evolution in time"
                     pageTitle="0.1 Jungle minds"
                   />
-                  <TimelineTabs
+                  <UNDEFINED
                     0={
                       Object {
                         "content": Object {
@@ -484,7 +484,7 @@ ShallowWrapper {
                     introTitle="Our evolution in time"
                     pageTitle="0.1 Jungle minds"
                   />
-                  <TimelineTabs
+                  <UNDEFINED
                     0={
                       Object {
                         "content": Object {
@@ -532,7 +532,7 @@ ShallowWrapper {
                       introTitle="Our evolution in time"
                       pageTitle="0.1 Jungle minds"
                     />,
-                    <TimelineTabs
+                    <UNDEFINED
                       0={
                         Object {
                           "content": Object {
@@ -594,7 +594,7 @@ ShallowWrapper {
                   Object {
                     "instance": null,
                     "key": undefined,
-                    "nodeType": "class",
+                    "nodeType": "function",
                     "props": Object {
                       "0": Object {
                         "content": Object {
@@ -620,7 +620,7 @@ ShallowWrapper {
                     },
                     "ref": null,
                     "rendered": null,
-                    "type": [Function],
+                    "type": undefined,
                   },
                 ],
                 "type": "header",
