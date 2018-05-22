@@ -1,0 +1,1091 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <JungleMinds />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <HelmetWrapper
+          defer={true}
+          encodeSpecialCharacters={true}
+          title="JungleMinds"
+        />,
+        <Grid
+          page="jungleMinds"
+        >
+          <header>
+            <PageTitle
+              image="./images/team_design.jpg"
+              imageAlignment="left"
+              introText="Nu maak je echt deel uit onze Jungle Minds familie. Om met alles bij te zijn vragen wij je om deze onboarding tool te maken gedurende 5 weken. Je krijgt per module 3 nieuwe inzichten over het bedrijf, jouw collega's en over ons werkwijzen. Aan het einde van elke module vind je jouw weekelijkse opdrachten. Dit moeten voltooid zijn voor dat je met een nieuwe module begint. Succes!"
+              introTitle="Welkom"
+              mediaCaption="Jungle Cultuur"
+              pageTitle="1 Jungle Minds"
+              textMedia={
+                Array [
+                  Object {
+                    "text": "Tijdens deze week leer je meer over:
+      <ul>
+      <li>
+        1.1 Ons verhaal
+      </li>
+      <li>
+        2.2 Jungle Maslow
+      </li>
+      <li>
+        2.3 Financiën
+      </li>
+      </ul>
+      ",
+                    "title": "Week 1",
+                  },
+                  Object {
+                    "text": "Gedurende deze modules krijg je enkele opdrachten toegewegen. Het is de bedoeling dat je deze opdrachten uitvoert voor het einde van de week. Denk aan: de mandagen zijn de beste dagen om een gesprek aan te gaan met een collega. 
+      <ul>
+      <li>
+        1.4 Opdrachten
+      </li>
+      </ul>
+      ",
+                    "title": "Opdrachten",
+                  },
+                ]
+              }
+            />
+            <Intro
+              image="./images/team_design.jpg"
+              imageAlignment="left"
+              introText="Nu maak je echt deel uit onze Jungle Minds familie. Om met alles bij te zijn vragen wij je om deze onboarding tool te maken gedurende 5 weken. Je krijgt per module 3 nieuwe inzichten over het bedrijf, jouw collega's en over ons werkwijzen. Aan het einde van elke module vind je jouw weekelijkse opdrachten. Dit moeten voltooid zijn voor dat je met een nieuwe module begint. Succes!"
+              introTitle="Welkom"
+              mediaCaption="Jungle Cultuur"
+              pageTitle="1 Jungle Minds"
+              textMedia={
+                Array [
+                  Object {
+                    "text": "Tijdens deze week leer je meer over:
+      <ul>
+      <li>
+        1.1 Ons verhaal
+      </li>
+      <li>
+        2.2 Jungle Maslow
+      </li>
+      <li>
+        2.3 Financiën
+      </li>
+      </ul>
+      ",
+                    "title": "Week 1",
+                  },
+                  Object {
+                    "text": "Gedurende deze modules krijg je enkele opdrachten toegewegen. Het is de bedoeling dat je deze opdrachten uitvoert voor het einde van de week. Denk aan: de mandagen zijn de beste dagen om een gesprek aan te gaan met een collega. 
+      <ul>
+      <li>
+        1.4 Opdrachten
+      </li>
+      </ul>
+      ",
+                    "title": "Opdrachten",
+                  },
+                ]
+              }
+            />
+          </header>
+          <TextAndImage
+            image="./images/team_design.jpg"
+            imageAlignment="left"
+            introText="Nu maak je echt deel uit onze Jungle Minds familie. Om met alles bij te zijn vragen wij je om deze onboarding tool te maken gedurende 5 weken. Je krijgt per module 3 nieuwe inzichten over het bedrijf, jouw collega's en over ons werkwijzen. Aan het einde van elke module vind je jouw weekelijkse opdrachten. Dit moeten voltooid zijn voor dat je met een nieuwe module begint. Succes!"
+            introTitle="Welkom"
+            mediaCaption="Jungle Cultuur"
+            pageTitle="1 Jungle Minds"
+            textMedia={
+              Array [
+                Object {
+                  "text": "Tijdens deze week leer je meer over:
+      <ul>
+      <li>
+        1.1 Ons verhaal
+      </li>
+      <li>
+        2.2 Jungle Maslow
+      </li>
+      <li>
+        2.3 Financiën
+      </li>
+      </ul>
+      ",
+                  "title": "Week 1",
+                },
+                Object {
+                  "text": "Gedurende deze modules krijg je enkele opdrachten toegewegen. Het is de bedoeling dat je deze opdrachten uitvoert voor het einde van de week. Denk aan: de mandagen zijn de beste dagen om een gesprek aan te gaan met een collega. 
+      <ul>
+      <li>
+        1.4 Opdrachten
+      </li>
+      </ul>
+      ",
+                  "title": "Opdrachten",
+                },
+              ]
+            }
+          />
+          <JungleMinds__Video
+            allowFullScreen={true}
+            frameBorder="0"
+            height="500"
+            src="https://cdn.jungleminds.com/video/header/jungleminds_web_720p.mp4"
+            width="1000"
+          />
+        </Grid>,
+      ],
+      "className": "JungleMinds",
+      "data-test": undefined,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "defer": true,
+          "encodeSpecialCharacters": true,
+          "title": "JungleMinds",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <header>
+              <PageTitle
+                image="./images/team_design.jpg"
+                imageAlignment="left"
+                introText="Nu maak je echt deel uit onze Jungle Minds familie. Om met alles bij te zijn vragen wij je om deze onboarding tool te maken gedurende 5 weken. Je krijgt per module 3 nieuwe inzichten over het bedrijf, jouw collega's en over ons werkwijzen. Aan het einde van elke module vind je jouw weekelijkse opdrachten. Dit moeten voltooid zijn voor dat je met een nieuwe module begint. Succes!"
+                introTitle="Welkom"
+                mediaCaption="Jungle Cultuur"
+                pageTitle="1 Jungle Minds"
+                textMedia={
+                  Array [
+                    Object {
+                      "text": "Tijdens deze week leer je meer over:
+      <ul>
+      <li>
+        1.1 Ons verhaal
+      </li>
+      <li>
+        2.2 Jungle Maslow
+      </li>
+      <li>
+        2.3 Financiën
+      </li>
+      </ul>
+      ",
+                      "title": "Week 1",
+                    },
+                    Object {
+                      "text": "Gedurende deze modules krijg je enkele opdrachten toegewegen. Het is de bedoeling dat je deze opdrachten uitvoert voor het einde van de week. Denk aan: de mandagen zijn de beste dagen om een gesprek aan te gaan met een collega. 
+      <ul>
+      <li>
+        1.4 Opdrachten
+      </li>
+      </ul>
+      ",
+                      "title": "Opdrachten",
+                    },
+                  ]
+                }
+              />
+              <Intro
+                image="./images/team_design.jpg"
+                imageAlignment="left"
+                introText="Nu maak je echt deel uit onze Jungle Minds familie. Om met alles bij te zijn vragen wij je om deze onboarding tool te maken gedurende 5 weken. Je krijgt per module 3 nieuwe inzichten over het bedrijf, jouw collega's en over ons werkwijzen. Aan het einde van elke module vind je jouw weekelijkse opdrachten. Dit moeten voltooid zijn voor dat je met een nieuwe module begint. Succes!"
+                introTitle="Welkom"
+                mediaCaption="Jungle Cultuur"
+                pageTitle="1 Jungle Minds"
+                textMedia={
+                  Array [
+                    Object {
+                      "text": "Tijdens deze week leer je meer over:
+      <ul>
+      <li>
+        1.1 Ons verhaal
+      </li>
+      <li>
+        2.2 Jungle Maslow
+      </li>
+      <li>
+        2.3 Financiën
+      </li>
+      </ul>
+      ",
+                      "title": "Week 1",
+                    },
+                    Object {
+                      "text": "Gedurende deze modules krijg je enkele opdrachten toegewegen. Het is de bedoeling dat je deze opdrachten uitvoert voor het einde van de week. Denk aan: de mandagen zijn de beste dagen om een gesprek aan te gaan met een collega. 
+      <ul>
+      <li>
+        1.4 Opdrachten
+      </li>
+      </ul>
+      ",
+                      "title": "Opdrachten",
+                    },
+                  ]
+                }
+              />
+            </header>,
+            <TextAndImage
+              image="./images/team_design.jpg"
+              imageAlignment="left"
+              introText="Nu maak je echt deel uit onze Jungle Minds familie. Om met alles bij te zijn vragen wij je om deze onboarding tool te maken gedurende 5 weken. Je krijgt per module 3 nieuwe inzichten over het bedrijf, jouw collega's en over ons werkwijzen. Aan het einde van elke module vind je jouw weekelijkse opdrachten. Dit moeten voltooid zijn voor dat je met een nieuwe module begint. Succes!"
+              introTitle="Welkom"
+              mediaCaption="Jungle Cultuur"
+              pageTitle="1 Jungle Minds"
+              textMedia={
+                Array [
+                  Object {
+                    "text": "Tijdens deze week leer je meer over:
+      <ul>
+      <li>
+        1.1 Ons verhaal
+      </li>
+      <li>
+        2.2 Jungle Maslow
+      </li>
+      <li>
+        2.3 Financiën
+      </li>
+      </ul>
+      ",
+                    "title": "Week 1",
+                  },
+                  Object {
+                    "text": "Gedurende deze modules krijg je enkele opdrachten toegewegen. Het is de bedoeling dat je deze opdrachten uitvoert voor het einde van de week. Denk aan: de mandagen zijn de beste dagen om een gesprek aan te gaan met een collega. 
+      <ul>
+      <li>
+        1.4 Opdrachten
+      </li>
+      </ul>
+      ",
+                    "title": "Opdrachten",
+                  },
+                ]
+              }
+            />,
+            <JungleMinds__Video
+              allowFullScreen={true}
+              frameBorder="0"
+              height="500"
+              src="https://cdn.jungleminds.com/video/header/jungleminds_web_720p.mp4"
+              width="1000"
+            />,
+          ],
+          "page": "jungleMinds",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <PageTitle
+                  image="./images/team_design.jpg"
+                  imageAlignment="left"
+                  introText="Nu maak je echt deel uit onze Jungle Minds familie. Om met alles bij te zijn vragen wij je om deze onboarding tool te maken gedurende 5 weken. Je krijgt per module 3 nieuwe inzichten over het bedrijf, jouw collega's en over ons werkwijzen. Aan het einde van elke module vind je jouw weekelijkse opdrachten. Dit moeten voltooid zijn voor dat je met een nieuwe module begint. Succes!"
+                  introTitle="Welkom"
+                  mediaCaption="Jungle Cultuur"
+                  pageTitle="1 Jungle Minds"
+                  textMedia={
+                    Array [
+                      Object {
+                        "text": "Tijdens deze week leer je meer over:
+      <ul>
+      <li>
+        1.1 Ons verhaal
+      </li>
+      <li>
+        2.2 Jungle Maslow
+      </li>
+      <li>
+        2.3 Financiën
+      </li>
+      </ul>
+      ",
+                        "title": "Week 1",
+                      },
+                      Object {
+                        "text": "Gedurende deze modules krijg je enkele opdrachten toegewegen. Het is de bedoeling dat je deze opdrachten uitvoert voor het einde van de week. Denk aan: de mandagen zijn de beste dagen om een gesprek aan te gaan met een collega. 
+      <ul>
+      <li>
+        1.4 Opdrachten
+      </li>
+      </ul>
+      ",
+                        "title": "Opdrachten",
+                      },
+                    ]
+                  }
+                />,
+                <Intro
+                  image="./images/team_design.jpg"
+                  imageAlignment="left"
+                  introText="Nu maak je echt deel uit onze Jungle Minds familie. Om met alles bij te zijn vragen wij je om deze onboarding tool te maken gedurende 5 weken. Je krijgt per module 3 nieuwe inzichten over het bedrijf, jouw collega's en over ons werkwijzen. Aan het einde van elke module vind je jouw weekelijkse opdrachten. Dit moeten voltooid zijn voor dat je met een nieuwe module begint. Succes!"
+                  introTitle="Welkom"
+                  mediaCaption="Jungle Cultuur"
+                  pageTitle="1 Jungle Minds"
+                  textMedia={
+                    Array [
+                      Object {
+                        "text": "Tijdens deze week leer je meer over:
+      <ul>
+      <li>
+        1.1 Ons verhaal
+      </li>
+      <li>
+        2.2 Jungle Maslow
+      </li>
+      <li>
+        2.3 Financiën
+      </li>
+      </ul>
+      ",
+                        "title": "Week 1",
+                      },
+                      Object {
+                        "text": "Gedurende deze modules krijg je enkele opdrachten toegewegen. Het is de bedoeling dat je deze opdrachten uitvoert voor het einde van de week. Denk aan: de mandagen zijn de beste dagen om een gesprek aan te gaan met een collega. 
+      <ul>
+      <li>
+        1.4 Opdrachten
+      </li>
+      </ul>
+      ",
+                        "title": "Opdrachten",
+                      },
+                    ]
+                  }
+                />,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "image": "./images/team_design.jpg",
+                  "imageAlignment": "left",
+                  "introText": "Nu maak je echt deel uit onze Jungle Minds familie. Om met alles bij te zijn vragen wij je om deze onboarding tool te maken gedurende 5 weken. Je krijgt per module 3 nieuwe inzichten over het bedrijf, jouw collega's en over ons werkwijzen. Aan het einde van elke module vind je jouw weekelijkse opdrachten. Dit moeten voltooid zijn voor dat je met een nieuwe module begint. Succes!",
+                  "introTitle": "Welkom",
+                  "mediaCaption": "Jungle Cultuur",
+                  "pageTitle": "1 Jungle Minds",
+                  "textMedia": Array [
+                    Object {
+                      "text": "Tijdens deze week leer je meer over:
+      <ul>
+      <li>
+        1.1 Ons verhaal
+      </li>
+      <li>
+        2.2 Jungle Maslow
+      </li>
+      <li>
+        2.3 Financiën
+      </li>
+      </ul>
+      ",
+                      "title": "Week 1",
+                    },
+                    Object {
+                      "text": "Gedurende deze modules krijg je enkele opdrachten toegewegen. Het is de bedoeling dat je deze opdrachten uitvoert voor het einde van de week. Denk aan: de mandagen zijn de beste dagen om een gesprek aan te gaan met een collega. 
+      <ul>
+      <li>
+        1.4 Opdrachten
+      </li>
+      </ul>
+      ",
+                      "title": "Opdrachten",
+                    },
+                  ],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "image": "./images/team_design.jpg",
+                  "imageAlignment": "left",
+                  "introText": "Nu maak je echt deel uit onze Jungle Minds familie. Om met alles bij te zijn vragen wij je om deze onboarding tool te maken gedurende 5 weken. Je krijgt per module 3 nieuwe inzichten over het bedrijf, jouw collega's en over ons werkwijzen. Aan het einde van elke module vind je jouw weekelijkse opdrachten. Dit moeten voltooid zijn voor dat je met een nieuwe module begint. Succes!",
+                  "introTitle": "Welkom",
+                  "mediaCaption": "Jungle Cultuur",
+                  "pageTitle": "1 Jungle Minds",
+                  "textMedia": Array [
+                    Object {
+                      "text": "Tijdens deze week leer je meer over:
+      <ul>
+      <li>
+        1.1 Ons verhaal
+      </li>
+      <li>
+        2.2 Jungle Maslow
+      </li>
+      <li>
+        2.3 Financiën
+      </li>
+      </ul>
+      ",
+                      "title": "Week 1",
+                    },
+                    Object {
+                      "text": "Gedurende deze modules krijg je enkele opdrachten toegewegen. Het is de bedoeling dat je deze opdrachten uitvoert voor het einde van de week. Denk aan: de mandagen zijn de beste dagen om een gesprek aan te gaan met een collega. 
+      <ul>
+      <li>
+        1.4 Opdrachten
+      </li>
+      </ul>
+      ",
+                      "title": "Opdrachten",
+                    },
+                  ],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": "header",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "image": "./images/team_design.jpg",
+              "imageAlignment": "left",
+              "introText": "Nu maak je echt deel uit onze Jungle Minds familie. Om met alles bij te zijn vragen wij je om deze onboarding tool te maken gedurende 5 weken. Je krijgt per module 3 nieuwe inzichten over het bedrijf, jouw collega's en over ons werkwijzen. Aan het einde van elke module vind je jouw weekelijkse opdrachten. Dit moeten voltooid zijn voor dat je met een nieuwe module begint. Succes!",
+              "introTitle": "Welkom",
+              "mediaCaption": "Jungle Cultuur",
+              "pageTitle": "1 Jungle Minds",
+              "textMedia": Array [
+                Object {
+                  "text": "Tijdens deze week leer je meer over:
+      <ul>
+      <li>
+        1.1 Ons verhaal
+      </li>
+      <li>
+        2.2 Jungle Maslow
+      </li>
+      <li>
+        2.3 Financiën
+      </li>
+      </ul>
+      ",
+                  "title": "Week 1",
+                },
+                Object {
+                  "text": "Gedurende deze modules krijg je enkele opdrachten toegewegen. Het is de bedoeling dat je deze opdrachten uitvoert voor het einde van de week. Denk aan: de mandagen zijn de beste dagen om een gesprek aan te gaan met een collega. 
+      <ul>
+      <li>
+        1.4 Opdrachten
+      </li>
+      </ul>
+      ",
+                  "title": "Opdrachten",
+                },
+              ],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "allowFullScreen": true,
+              "frameBorder": "0",
+              "height": "500",
+              "src": "https://cdn.jungleminds.com/video/header/jungleminds_web_720p.mp4",
+              "width": "1000",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <HelmetWrapper
+            defer={true}
+            encodeSpecialCharacters={true}
+            title="JungleMinds"
+          />,
+          <Grid
+            page="jungleMinds"
+          >
+            <header>
+              <PageTitle
+                image="./images/team_design.jpg"
+                imageAlignment="left"
+                introText="Nu maak je echt deel uit onze Jungle Minds familie. Om met alles bij te zijn vragen wij je om deze onboarding tool te maken gedurende 5 weken. Je krijgt per module 3 nieuwe inzichten over het bedrijf, jouw collega's en over ons werkwijzen. Aan het einde van elke module vind je jouw weekelijkse opdrachten. Dit moeten voltooid zijn voor dat je met een nieuwe module begint. Succes!"
+                introTitle="Welkom"
+                mediaCaption="Jungle Cultuur"
+                pageTitle="1 Jungle Minds"
+                textMedia={
+                  Array [
+                    Object {
+                      "text": "Tijdens deze week leer je meer over:
+      <ul>
+      <li>
+        1.1 Ons verhaal
+      </li>
+      <li>
+        2.2 Jungle Maslow
+      </li>
+      <li>
+        2.3 Financiën
+      </li>
+      </ul>
+      ",
+                      "title": "Week 1",
+                    },
+                    Object {
+                      "text": "Gedurende deze modules krijg je enkele opdrachten toegewegen. Het is de bedoeling dat je deze opdrachten uitvoert voor het einde van de week. Denk aan: de mandagen zijn de beste dagen om een gesprek aan te gaan met een collega. 
+      <ul>
+      <li>
+        1.4 Opdrachten
+      </li>
+      </ul>
+      ",
+                      "title": "Opdrachten",
+                    },
+                  ]
+                }
+              />
+              <Intro
+                image="./images/team_design.jpg"
+                imageAlignment="left"
+                introText="Nu maak je echt deel uit onze Jungle Minds familie. Om met alles bij te zijn vragen wij je om deze onboarding tool te maken gedurende 5 weken. Je krijgt per module 3 nieuwe inzichten over het bedrijf, jouw collega's en over ons werkwijzen. Aan het einde van elke module vind je jouw weekelijkse opdrachten. Dit moeten voltooid zijn voor dat je met een nieuwe module begint. Succes!"
+                introTitle="Welkom"
+                mediaCaption="Jungle Cultuur"
+                pageTitle="1 Jungle Minds"
+                textMedia={
+                  Array [
+                    Object {
+                      "text": "Tijdens deze week leer je meer over:
+      <ul>
+      <li>
+        1.1 Ons verhaal
+      </li>
+      <li>
+        2.2 Jungle Maslow
+      </li>
+      <li>
+        2.3 Financiën
+      </li>
+      </ul>
+      ",
+                      "title": "Week 1",
+                    },
+                    Object {
+                      "text": "Gedurende deze modules krijg je enkele opdrachten toegewegen. Het is de bedoeling dat je deze opdrachten uitvoert voor het einde van de week. Denk aan: de mandagen zijn de beste dagen om een gesprek aan te gaan met een collega. 
+      <ul>
+      <li>
+        1.4 Opdrachten
+      </li>
+      </ul>
+      ",
+                      "title": "Opdrachten",
+                    },
+                  ]
+                }
+              />
+            </header>
+            <TextAndImage
+              image="./images/team_design.jpg"
+              imageAlignment="left"
+              introText="Nu maak je echt deel uit onze Jungle Minds familie. Om met alles bij te zijn vragen wij je om deze onboarding tool te maken gedurende 5 weken. Je krijgt per module 3 nieuwe inzichten over het bedrijf, jouw collega's en over ons werkwijzen. Aan het einde van elke module vind je jouw weekelijkse opdrachten. Dit moeten voltooid zijn voor dat je met een nieuwe module begint. Succes!"
+              introTitle="Welkom"
+              mediaCaption="Jungle Cultuur"
+              pageTitle="1 Jungle Minds"
+              textMedia={
+                Array [
+                  Object {
+                    "text": "Tijdens deze week leer je meer over:
+      <ul>
+      <li>
+        1.1 Ons verhaal
+      </li>
+      <li>
+        2.2 Jungle Maslow
+      </li>
+      <li>
+        2.3 Financiën
+      </li>
+      </ul>
+      ",
+                    "title": "Week 1",
+                  },
+                  Object {
+                    "text": "Gedurende deze modules krijg je enkele opdrachten toegewegen. Het is de bedoeling dat je deze opdrachten uitvoert voor het einde van de week. Denk aan: de mandagen zijn de beste dagen om een gesprek aan te gaan met een collega. 
+      <ul>
+      <li>
+        1.4 Opdrachten
+      </li>
+      </ul>
+      ",
+                    "title": "Opdrachten",
+                  },
+                ]
+              }
+            />
+            <JungleMinds__Video
+              allowFullScreen={true}
+              frameBorder="0"
+              height="500"
+              src="https://cdn.jungleminds.com/video/header/jungleminds_web_720p.mp4"
+              width="1000"
+            />
+          </Grid>,
+        ],
+        "className": "JungleMinds",
+        "data-test": undefined,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "defer": true,
+            "encodeSpecialCharacters": true,
+            "title": "JungleMinds",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <header>
+                <PageTitle
+                  image="./images/team_design.jpg"
+                  imageAlignment="left"
+                  introText="Nu maak je echt deel uit onze Jungle Minds familie. Om met alles bij te zijn vragen wij je om deze onboarding tool te maken gedurende 5 weken. Je krijgt per module 3 nieuwe inzichten over het bedrijf, jouw collega's en over ons werkwijzen. Aan het einde van elke module vind je jouw weekelijkse opdrachten. Dit moeten voltooid zijn voor dat je met een nieuwe module begint. Succes!"
+                  introTitle="Welkom"
+                  mediaCaption="Jungle Cultuur"
+                  pageTitle="1 Jungle Minds"
+                  textMedia={
+                    Array [
+                      Object {
+                        "text": "Tijdens deze week leer je meer over:
+      <ul>
+      <li>
+        1.1 Ons verhaal
+      </li>
+      <li>
+        2.2 Jungle Maslow
+      </li>
+      <li>
+        2.3 Financiën
+      </li>
+      </ul>
+      ",
+                        "title": "Week 1",
+                      },
+                      Object {
+                        "text": "Gedurende deze modules krijg je enkele opdrachten toegewegen. Het is de bedoeling dat je deze opdrachten uitvoert voor het einde van de week. Denk aan: de mandagen zijn de beste dagen om een gesprek aan te gaan met een collega. 
+      <ul>
+      <li>
+        1.4 Opdrachten
+      </li>
+      </ul>
+      ",
+                        "title": "Opdrachten",
+                      },
+                    ]
+                  }
+                />
+                <Intro
+                  image="./images/team_design.jpg"
+                  imageAlignment="left"
+                  introText="Nu maak je echt deel uit onze Jungle Minds familie. Om met alles bij te zijn vragen wij je om deze onboarding tool te maken gedurende 5 weken. Je krijgt per module 3 nieuwe inzichten over het bedrijf, jouw collega's en over ons werkwijzen. Aan het einde van elke module vind je jouw weekelijkse opdrachten. Dit moeten voltooid zijn voor dat je met een nieuwe module begint. Succes!"
+                  introTitle="Welkom"
+                  mediaCaption="Jungle Cultuur"
+                  pageTitle="1 Jungle Minds"
+                  textMedia={
+                    Array [
+                      Object {
+                        "text": "Tijdens deze week leer je meer over:
+      <ul>
+      <li>
+        1.1 Ons verhaal
+      </li>
+      <li>
+        2.2 Jungle Maslow
+      </li>
+      <li>
+        2.3 Financiën
+      </li>
+      </ul>
+      ",
+                        "title": "Week 1",
+                      },
+                      Object {
+                        "text": "Gedurende deze modules krijg je enkele opdrachten toegewegen. Het is de bedoeling dat je deze opdrachten uitvoert voor het einde van de week. Denk aan: de mandagen zijn de beste dagen om een gesprek aan te gaan met een collega. 
+      <ul>
+      <li>
+        1.4 Opdrachten
+      </li>
+      </ul>
+      ",
+                        "title": "Opdrachten",
+                      },
+                    ]
+                  }
+                />
+              </header>,
+              <TextAndImage
+                image="./images/team_design.jpg"
+                imageAlignment="left"
+                introText="Nu maak je echt deel uit onze Jungle Minds familie. Om met alles bij te zijn vragen wij je om deze onboarding tool te maken gedurende 5 weken. Je krijgt per module 3 nieuwe inzichten over het bedrijf, jouw collega's en over ons werkwijzen. Aan het einde van elke module vind je jouw weekelijkse opdrachten. Dit moeten voltooid zijn voor dat je met een nieuwe module begint. Succes!"
+                introTitle="Welkom"
+                mediaCaption="Jungle Cultuur"
+                pageTitle="1 Jungle Minds"
+                textMedia={
+                  Array [
+                    Object {
+                      "text": "Tijdens deze week leer je meer over:
+      <ul>
+      <li>
+        1.1 Ons verhaal
+      </li>
+      <li>
+        2.2 Jungle Maslow
+      </li>
+      <li>
+        2.3 Financiën
+      </li>
+      </ul>
+      ",
+                      "title": "Week 1",
+                    },
+                    Object {
+                      "text": "Gedurende deze modules krijg je enkele opdrachten toegewegen. Het is de bedoeling dat je deze opdrachten uitvoert voor het einde van de week. Denk aan: de mandagen zijn de beste dagen om een gesprek aan te gaan met een collega. 
+      <ul>
+      <li>
+        1.4 Opdrachten
+      </li>
+      </ul>
+      ",
+                      "title": "Opdrachten",
+                    },
+                  ]
+                }
+              />,
+              <JungleMinds__Video
+                allowFullScreen={true}
+                frameBorder="0"
+                height="500"
+                src="https://cdn.jungleminds.com/video/header/jungleminds_web_720p.mp4"
+                width="1000"
+              />,
+            ],
+            "page": "jungleMinds",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <PageTitle
+                    image="./images/team_design.jpg"
+                    imageAlignment="left"
+                    introText="Nu maak je echt deel uit onze Jungle Minds familie. Om met alles bij te zijn vragen wij je om deze onboarding tool te maken gedurende 5 weken. Je krijgt per module 3 nieuwe inzichten over het bedrijf, jouw collega's en over ons werkwijzen. Aan het einde van elke module vind je jouw weekelijkse opdrachten. Dit moeten voltooid zijn voor dat je met een nieuwe module begint. Succes!"
+                    introTitle="Welkom"
+                    mediaCaption="Jungle Cultuur"
+                    pageTitle="1 Jungle Minds"
+                    textMedia={
+                      Array [
+                        Object {
+                          "text": "Tijdens deze week leer je meer over:
+      <ul>
+      <li>
+        1.1 Ons verhaal
+      </li>
+      <li>
+        2.2 Jungle Maslow
+      </li>
+      <li>
+        2.3 Financiën
+      </li>
+      </ul>
+      ",
+                          "title": "Week 1",
+                        },
+                        Object {
+                          "text": "Gedurende deze modules krijg je enkele opdrachten toegewegen. Het is de bedoeling dat je deze opdrachten uitvoert voor het einde van de week. Denk aan: de mandagen zijn de beste dagen om een gesprek aan te gaan met een collega. 
+      <ul>
+      <li>
+        1.4 Opdrachten
+      </li>
+      </ul>
+      ",
+                          "title": "Opdrachten",
+                        },
+                      ]
+                    }
+                  />,
+                  <Intro
+                    image="./images/team_design.jpg"
+                    imageAlignment="left"
+                    introText="Nu maak je echt deel uit onze Jungle Minds familie. Om met alles bij te zijn vragen wij je om deze onboarding tool te maken gedurende 5 weken. Je krijgt per module 3 nieuwe inzichten over het bedrijf, jouw collega's en over ons werkwijzen. Aan het einde van elke module vind je jouw weekelijkse opdrachten. Dit moeten voltooid zijn voor dat je met een nieuwe module begint. Succes!"
+                    introTitle="Welkom"
+                    mediaCaption="Jungle Cultuur"
+                    pageTitle="1 Jungle Minds"
+                    textMedia={
+                      Array [
+                        Object {
+                          "text": "Tijdens deze week leer je meer over:
+      <ul>
+      <li>
+        1.1 Ons verhaal
+      </li>
+      <li>
+        2.2 Jungle Maslow
+      </li>
+      <li>
+        2.3 Financiën
+      </li>
+      </ul>
+      ",
+                          "title": "Week 1",
+                        },
+                        Object {
+                          "text": "Gedurende deze modules krijg je enkele opdrachten toegewegen. Het is de bedoeling dat je deze opdrachten uitvoert voor het einde van de week. Denk aan: de mandagen zijn de beste dagen om een gesprek aan te gaan met een collega. 
+      <ul>
+      <li>
+        1.4 Opdrachten
+      </li>
+      </ul>
+      ",
+                          "title": "Opdrachten",
+                        },
+                      ]
+                    }
+                  />,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "image": "./images/team_design.jpg",
+                    "imageAlignment": "left",
+                    "introText": "Nu maak je echt deel uit onze Jungle Minds familie. Om met alles bij te zijn vragen wij je om deze onboarding tool te maken gedurende 5 weken. Je krijgt per module 3 nieuwe inzichten over het bedrijf, jouw collega's en over ons werkwijzen. Aan het einde van elke module vind je jouw weekelijkse opdrachten. Dit moeten voltooid zijn voor dat je met een nieuwe module begint. Succes!",
+                    "introTitle": "Welkom",
+                    "mediaCaption": "Jungle Cultuur",
+                    "pageTitle": "1 Jungle Minds",
+                    "textMedia": Array [
+                      Object {
+                        "text": "Tijdens deze week leer je meer over:
+      <ul>
+      <li>
+        1.1 Ons verhaal
+      </li>
+      <li>
+        2.2 Jungle Maslow
+      </li>
+      <li>
+        2.3 Financiën
+      </li>
+      </ul>
+      ",
+                        "title": "Week 1",
+                      },
+                      Object {
+                        "text": "Gedurende deze modules krijg je enkele opdrachten toegewegen. Het is de bedoeling dat je deze opdrachten uitvoert voor het einde van de week. Denk aan: de mandagen zijn de beste dagen om een gesprek aan te gaan met een collega. 
+      <ul>
+      <li>
+        1.4 Opdrachten
+      </li>
+      </ul>
+      ",
+                        "title": "Opdrachten",
+                      },
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "image": "./images/team_design.jpg",
+                    "imageAlignment": "left",
+                    "introText": "Nu maak je echt deel uit onze Jungle Minds familie. Om met alles bij te zijn vragen wij je om deze onboarding tool te maken gedurende 5 weken. Je krijgt per module 3 nieuwe inzichten over het bedrijf, jouw collega's en over ons werkwijzen. Aan het einde van elke module vind je jouw weekelijkse opdrachten. Dit moeten voltooid zijn voor dat je met een nieuwe module begint. Succes!",
+                    "introTitle": "Welkom",
+                    "mediaCaption": "Jungle Cultuur",
+                    "pageTitle": "1 Jungle Minds",
+                    "textMedia": Array [
+                      Object {
+                        "text": "Tijdens deze week leer je meer over:
+      <ul>
+      <li>
+        1.1 Ons verhaal
+      </li>
+      <li>
+        2.2 Jungle Maslow
+      </li>
+      <li>
+        2.3 Financiën
+      </li>
+      </ul>
+      ",
+                        "title": "Week 1",
+                      },
+                      Object {
+                        "text": "Gedurende deze modules krijg je enkele opdrachten toegewegen. Het is de bedoeling dat je deze opdrachten uitvoert voor het einde van de week. Denk aan: de mandagen zijn de beste dagen om een gesprek aan te gaan met een collega. 
+      <ul>
+      <li>
+        1.4 Opdrachten
+      </li>
+      </ul>
+      ",
+                        "title": "Opdrachten",
+                      },
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": "header",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "image": "./images/team_design.jpg",
+                "imageAlignment": "left",
+                "introText": "Nu maak je echt deel uit onze Jungle Minds familie. Om met alles bij te zijn vragen wij je om deze onboarding tool te maken gedurende 5 weken. Je krijgt per module 3 nieuwe inzichten over het bedrijf, jouw collega's en over ons werkwijzen. Aan het einde van elke module vind je jouw weekelijkse opdrachten. Dit moeten voltooid zijn voor dat je met een nieuwe module begint. Succes!",
+                "introTitle": "Welkom",
+                "mediaCaption": "Jungle Cultuur",
+                "pageTitle": "1 Jungle Minds",
+                "textMedia": Array [
+                  Object {
+                    "text": "Tijdens deze week leer je meer over:
+      <ul>
+      <li>
+        1.1 Ons verhaal
+      </li>
+      <li>
+        2.2 Jungle Maslow
+      </li>
+      <li>
+        2.3 Financiën
+      </li>
+      </ul>
+      ",
+                    "title": "Week 1",
+                  },
+                  Object {
+                    "text": "Gedurende deze modules krijg je enkele opdrachten toegewegen. Het is de bedoeling dat je deze opdrachten uitvoert voor het einde van de week. Denk aan: de mandagen zijn de beste dagen om een gesprek aan te gaan met een collega. 
+      <ul>
+      <li>
+        1.4 Opdrachten
+      </li>
+      </ul>
+      ",
+                    "title": "Opdrachten",
+                  },
+                ],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "allowFullScreen": true,
+                "frameBorder": "0",
+                "height": "500",
+                "src": "https://cdn.jungleminds.com/video/header/jungleminds_web_720p.mp4",
+                "width": "1000",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

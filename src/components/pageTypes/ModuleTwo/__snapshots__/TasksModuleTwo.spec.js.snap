@@ -4,7 +4,7 @@ exports[`renders without crashing 1`] = `
 ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <TasksWeekTwo />,
+  Symbol(enzyme.__unrendered__): <TasksModuleTwo />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -21,7 +21,7 @@ ShallowWrapper {
         <HelmetWrapper
           defer={true}
           encodeSpecialCharacters={true}
-          title="tasksWeekTwo"
+          title="tasksModuleTwo"
         />,
         <Grid
           page="jungleCulture"
@@ -40,7 +40,7 @@ ShallowWrapper {
           </header>
         </Grid>,
       ],
-      "className": "tasksWeekTwo",
+      "className": "tasksModuleTwo",
       "data-test": undefined,
     },
     "ref": null,
@@ -52,7 +52,7 @@ ShallowWrapper {
         "props": Object {
           "defer": true,
           "encodeSpecialCharacters": true,
-          "title": "tasksWeekTwo",
+          "title": "tasksModuleTwo",
         },
         "ref": null,
         "rendered": null,
@@ -142,7 +142,7 @@ ShallowWrapper {
           <HelmetWrapper
             defer={true}
             encodeSpecialCharacters={true}
-            title="tasksWeekTwo"
+            title="tasksModuleTwo"
           />,
           <Grid
             page="jungleCulture"
@@ -161,7 +161,7 @@ ShallowWrapper {
             </header>
           </Grid>,
         ],
-        "className": "tasksWeekTwo",
+        "className": "tasksModuleTwo",
         "data-test": undefined,
       },
       "ref": null,
@@ -173,7 +173,7 @@ ShallowWrapper {
           "props": Object {
             "defer": true,
             "encodeSpecialCharacters": true,
-            "title": "tasksWeekTwo",
+            "title": "tasksModuleTwo",
           },
           "ref": null,
           "rendered": null,

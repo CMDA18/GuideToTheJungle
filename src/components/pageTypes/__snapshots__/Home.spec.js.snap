@@ -83,6 +83,42 @@ ShallowWrapper {
               <li>
                 <Link
                   replace={false}
+                  title="ourStory"
+                  to="/ourStory"
+                >
+                  ourStory
+                </Link>
+              </li>
+              <li>
+                <Link
+                  replace={false}
+                  title="jungleMaslow"
+                  to="/jungleMaslow"
+                >
+                  jungleMaslow
+                </Link>
+              </li>
+              <li>
+                <Link
+                  replace={false}
+                  title="finances"
+                  to="/finances"
+                >
+                  finances
+                </Link>
+              </li>
+              <li>
+                <Link
+                  replace={false}
+                  title="tasksModuleOne"
+                  to="/tasksModuleOne"
+                >
+                  tasksModuleOne
+                </Link>
+              </li>
+              <li>
+                <Link
+                  replace={false}
                   title="jungleCulture"
                   to="/jungleCulture"
                 >
@@ -119,10 +155,10 @@ ShallowWrapper {
               <li>
                 <Link
                   replace={false}
-                  title="tasksWeekTwo"
-                  to="/tasksWeekTwo"
+                  title="tasksModuleTwo"
+                  to="/tasksModuleTwo"
                 >
-                  tasksWeekTwo
+                  tasksModuleTwo
                 </Link>
               </li>
               <li>
@@ -237,6 +273,42 @@ ShallowWrapper {
               <li>
                 <Link
                   replace={false}
+                  title="ourStory"
+                  to="/ourStory"
+                >
+                  ourStory
+                </Link>
+              </li>
+              <li>
+                <Link
+                  replace={false}
+                  title="jungleMaslow"
+                  to="/jungleMaslow"
+                >
+                  jungleMaslow
+                </Link>
+              </li>
+              <li>
+                <Link
+                  replace={false}
+                  title="finances"
+                  to="/finances"
+                >
+                  finances
+                </Link>
+              </li>
+              <li>
+                <Link
+                  replace={false}
+                  title="tasksModuleOne"
+                  to="/tasksModuleOne"
+                >
+                  tasksModuleOne
+                </Link>
+              </li>
+              <li>
+                <Link
+                  replace={false}
                   title="jungleCulture"
                   to="/jungleCulture"
                 >
@@ -273,10 +345,10 @@ ShallowWrapper {
               <li>
                 <Link
                   replace={false}
-                  title="tasksWeekTwo"
-                  to="/tasksWeekTwo"
+                  title="tasksModuleTwo"
+                  to="/tasksModuleTwo"
                 >
-                  tasksWeekTwo
+                  tasksModuleTwo
                 </Link>
               </li>
               <li>
@@ -373,6 +445,42 @@ ShallowWrapper {
               <li>
                 <Link
                   replace={false}
+                  title="ourStory"
+                  to="/ourStory"
+                >
+                  ourStory
+                </Link>
+              </li>
+              <li>
+                <Link
+                  replace={false}
+                  title="jungleMaslow"
+                  to="/jungleMaslow"
+                >
+                  jungleMaslow
+                </Link>
+              </li>
+              <li>
+                <Link
+                  replace={false}
+                  title="finances"
+                  to="/finances"
+                >
+                  finances
+                </Link>
+              </li>
+              <li>
+                <Link
+                  replace={false}
+                  title="tasksModuleOne"
+                  to="/tasksModuleOne"
+                >
+                  tasksModuleOne
+                </Link>
+              </li>
+              <li>
+                <Link
+                  replace={false}
                   title="jungleCulture"
                   to="/jungleCulture"
                 >
@@ -409,10 +517,10 @@ ShallowWrapper {
               <li>
                 <Link
                   replace={false}
-                  title="tasksWeekTwo"
-                  to="/tasksWeekTwo"
+                  title="tasksModuleTwo"
+                  to="/tasksModuleTwo"
                 >
-                  tasksWeekTwo
+                  tasksModuleTwo
                 </Link>
               </li>
               <li>
@@ -508,6 +616,42 @@ ShallowWrapper {
                 <li>
                   <Link
                     replace={false}
+                    title="ourStory"
+                    to="/ourStory"
+                  >
+                    ourStory
+                  </Link>
+                </li>,
+                <li>
+                  <Link
+                    replace={false}
+                    title="jungleMaslow"
+                    to="/jungleMaslow"
+                  >
+                    jungleMaslow
+                  </Link>
+                </li>,
+                <li>
+                  <Link
+                    replace={false}
+                    title="finances"
+                    to="/finances"
+                  >
+                    finances
+                  </Link>
+                </li>,
+                <li>
+                  <Link
+                    replace={false}
+                    title="tasksModuleOne"
+                    to="/tasksModuleOne"
+                  >
+                    tasksModuleOne
+                  </Link>
+                </li>,
+                <li>
+                  <Link
+                    replace={false}
                     title="jungleCulture"
                     to="/jungleCulture"
                   >
@@ -544,10 +688,10 @@ ShallowWrapper {
                 <li>
                   <Link
                     replace={false}
-                    title="tasksWeekTwo"
-                    to="/tasksWeekTwo"
+                    title="tasksModuleTwo"
+                    to="/tasksModuleTwo"
                   >
-                    tasksWeekTwo
+                    tasksModuleTwo
                   </Link>
                 </li>,
                 <li>
@@ -768,6 +912,126 @@ ShallowWrapper {
                 "props": Object {
                   "children": <Link
                     replace={false}
+                    title="ourStory"
+                    to="/ourStory"
+                  >
+                    ourStory
+                  </Link>,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "ourStory",
+                    "replace": false,
+                    "title": "ourStory",
+                    "to": "/ourStory",
+                  },
+                  "ref": null,
+                  "rendered": "ourStory",
+                  "type": [Function],
+                },
+                "type": "li",
+              },
+              Object {
+                "instance": null,
+                "key": "7",
+                "nodeType": "host",
+                "props": Object {
+                  "children": <Link
+                    replace={false}
+                    title="jungleMaslow"
+                    to="/jungleMaslow"
+                  >
+                    jungleMaslow
+                  </Link>,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "jungleMaslow",
+                    "replace": false,
+                    "title": "jungleMaslow",
+                    "to": "/jungleMaslow",
+                  },
+                  "ref": null,
+                  "rendered": "jungleMaslow",
+                  "type": [Function],
+                },
+                "type": "li",
+              },
+              Object {
+                "instance": null,
+                "key": "8",
+                "nodeType": "host",
+                "props": Object {
+                  "children": <Link
+                    replace={false}
+                    title="finances"
+                    to="/finances"
+                  >
+                    finances
+                  </Link>,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "finances",
+                    "replace": false,
+                    "title": "finances",
+                    "to": "/finances",
+                  },
+                  "ref": null,
+                  "rendered": "finances",
+                  "type": [Function],
+                },
+                "type": "li",
+              },
+              Object {
+                "instance": null,
+                "key": "9",
+                "nodeType": "host",
+                "props": Object {
+                  "children": <Link
+                    replace={false}
+                    title="tasksModuleOne"
+                    to="/tasksModuleOne"
+                  >
+                    tasksModuleOne
+                  </Link>,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "tasksModuleOne",
+                    "replace": false,
+                    "title": "tasksModuleOne",
+                    "to": "/tasksModuleOne",
+                  },
+                  "ref": null,
+                  "rendered": "tasksModuleOne",
+                  "type": [Function],
+                },
+                "type": "li",
+              },
+              Object {
+                "instance": null,
+                "key": "10",
+                "nodeType": "host",
+                "props": Object {
+                  "children": <Link
+                    replace={false}
                     title="jungleCulture"
                     to="/jungleCulture"
                   >
@@ -793,7 +1057,7 @@ ShallowWrapper {
               },
               Object {
                 "instance": null,
-                "key": "7",
+                "key": "11",
                 "nodeType": "host",
                 "props": Object {
                   "children": <Link
@@ -823,7 +1087,7 @@ ShallowWrapper {
               },
               Object {
                 "instance": null,
-                "key": "8",
+                "key": "12",
                 "nodeType": "host",
                 "props": Object {
                   "children": <Link
@@ -853,7 +1117,7 @@ ShallowWrapper {
               },
               Object {
                 "instance": null,
-                "key": "9",
+                "key": "13",
                 "nodeType": "host",
                 "props": Object {
                   "children": <Link
@@ -883,15 +1147,15 @@ ShallowWrapper {
               },
               Object {
                 "instance": null,
-                "key": "10",
+                "key": "14",
                 "nodeType": "host",
                 "props": Object {
                   "children": <Link
                     replace={false}
-                    title="tasksWeekTwo"
-                    to="/tasksWeekTwo"
+                    title="tasksModuleTwo"
+                    to="/tasksModuleTwo"
                   >
-                    tasksWeekTwo
+                    tasksModuleTwo
                   </Link>,
                 },
                 "ref": null,
@@ -900,20 +1164,20 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "class",
                   "props": Object {
-                    "children": "tasksWeekTwo",
+                    "children": "tasksModuleTwo",
                     "replace": false,
-                    "title": "tasksWeekTwo",
-                    "to": "/tasksWeekTwo",
+                    "title": "tasksModuleTwo",
+                    "to": "/tasksModuleTwo",
                   },
                   "ref": null,
-                  "rendered": "tasksWeekTwo",
+                  "rendered": "tasksModuleTwo",
                   "type": [Function],
                 },
                 "type": "li",
               },
               Object {
                 "instance": null,
-                "key": "11",
+                "key": "15",
                 "nodeType": "host",
                 "props": Object {
                   "children": <Link
@@ -943,7 +1207,7 @@ ShallowWrapper {
               },
               Object {
                 "instance": null,
-                "key": "12",
+                "key": "16",
                 "nodeType": "host",
                 "props": Object {
                   "children": <Link
@@ -973,7 +1237,7 @@ ShallowWrapper {
               },
               Object {
                 "instance": null,
-                "key": "13",
+                "key": "17",
                 "nodeType": "host",
                 "props": Object {
                   "children": <Link
@@ -1083,6 +1347,42 @@ ShallowWrapper {
                 <li>
                   <Link
                     replace={false}
+                    title="ourStory"
+                    to="/ourStory"
+                  >
+                    ourStory
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    replace={false}
+                    title="jungleMaslow"
+                    to="/jungleMaslow"
+                  >
+                    jungleMaslow
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    replace={false}
+                    title="finances"
+                    to="/finances"
+                  >
+                    finances
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    replace={false}
+                    title="tasksModuleOne"
+                    to="/tasksModuleOne"
+                  >
+                    tasksModuleOne
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    replace={false}
                     title="jungleCulture"
                     to="/jungleCulture"
                   >
@@ -1119,10 +1419,10 @@ ShallowWrapper {
                 <li>
                   <Link
                     replace={false}
-                    title="tasksWeekTwo"
-                    to="/tasksWeekTwo"
+                    title="tasksModuleTwo"
+                    to="/tasksModuleTwo"
                   >
-                    tasksWeekTwo
+                    tasksModuleTwo
                   </Link>
                 </li>
                 <li>
@@ -1237,6 +1537,42 @@ ShallowWrapper {
                 <li>
                   <Link
                     replace={false}
+                    title="ourStory"
+                    to="/ourStory"
+                  >
+                    ourStory
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    replace={false}
+                    title="jungleMaslow"
+                    to="/jungleMaslow"
+                  >
+                    jungleMaslow
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    replace={false}
+                    title="finances"
+                    to="/finances"
+                  >
+                    finances
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    replace={false}
+                    title="tasksModuleOne"
+                    to="/tasksModuleOne"
+                  >
+                    tasksModuleOne
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    replace={false}
                     title="jungleCulture"
                     to="/jungleCulture"
                   >
@@ -1273,10 +1609,10 @@ ShallowWrapper {
                 <li>
                   <Link
                     replace={false}
-                    title="tasksWeekTwo"
-                    to="/tasksWeekTwo"
+                    title="tasksModuleTwo"
+                    to="/tasksModuleTwo"
                   >
-                    tasksWeekTwo
+                    tasksModuleTwo
                   </Link>
                 </li>
                 <li>
@@ -1373,6 +1709,42 @@ ShallowWrapper {
                 <li>
                   <Link
                     replace={false}
+                    title="ourStory"
+                    to="/ourStory"
+                  >
+                    ourStory
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    replace={false}
+                    title="jungleMaslow"
+                    to="/jungleMaslow"
+                  >
+                    jungleMaslow
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    replace={false}
+                    title="finances"
+                    to="/finances"
+                  >
+                    finances
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    replace={false}
+                    title="tasksModuleOne"
+                    to="/tasksModuleOne"
+                  >
+                    tasksModuleOne
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    replace={false}
                     title="jungleCulture"
                     to="/jungleCulture"
                   >
@@ -1409,10 +1781,10 @@ ShallowWrapper {
                 <li>
                   <Link
                     replace={false}
-                    title="tasksWeekTwo"
-                    to="/tasksWeekTwo"
+                    title="tasksModuleTwo"
+                    to="/tasksModuleTwo"
                   >
-                    tasksWeekTwo
+                    tasksModuleTwo
                   </Link>
                 </li>
                 <li>
@@ -1508,6 +1880,42 @@ ShallowWrapper {
                   <li>
                     <Link
                       replace={false}
+                      title="ourStory"
+                      to="/ourStory"
+                    >
+                      ourStory
+                    </Link>
+                  </li>,
+                  <li>
+                    <Link
+                      replace={false}
+                      title="jungleMaslow"
+                      to="/jungleMaslow"
+                    >
+                      jungleMaslow
+                    </Link>
+                  </li>,
+                  <li>
+                    <Link
+                      replace={false}
+                      title="finances"
+                      to="/finances"
+                    >
+                      finances
+                    </Link>
+                  </li>,
+                  <li>
+                    <Link
+                      replace={false}
+                      title="tasksModuleOne"
+                      to="/tasksModuleOne"
+                    >
+                      tasksModuleOne
+                    </Link>
+                  </li>,
+                  <li>
+                    <Link
+                      replace={false}
                       title="jungleCulture"
                       to="/jungleCulture"
                     >
@@ -1544,10 +1952,10 @@ ShallowWrapper {
                   <li>
                     <Link
                       replace={false}
-                      title="tasksWeekTwo"
-                      to="/tasksWeekTwo"
+                      title="tasksModuleTwo"
+                      to="/tasksModuleTwo"
                     >
-                      tasksWeekTwo
+                      tasksModuleTwo
                     </Link>
                   </li>,
                   <li>
@@ -1768,6 +2176,126 @@ ShallowWrapper {
                   "props": Object {
                     "children": <Link
                       replace={false}
+                      title="ourStory"
+                      to="/ourStory"
+                    >
+                      ourStory
+                    </Link>,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "ourStory",
+                      "replace": false,
+                      "title": "ourStory",
+                      "to": "/ourStory",
+                    },
+                    "ref": null,
+                    "rendered": "ourStory",
+                    "type": [Function],
+                  },
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": "7",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <Link
+                      replace={false}
+                      title="jungleMaslow"
+                      to="/jungleMaslow"
+                    >
+                      jungleMaslow
+                    </Link>,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "jungleMaslow",
+                      "replace": false,
+                      "title": "jungleMaslow",
+                      "to": "/jungleMaslow",
+                    },
+                    "ref": null,
+                    "rendered": "jungleMaslow",
+                    "type": [Function],
+                  },
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": "8",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <Link
+                      replace={false}
+                      title="finances"
+                      to="/finances"
+                    >
+                      finances
+                    </Link>,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "finances",
+                      "replace": false,
+                      "title": "finances",
+                      "to": "/finances",
+                    },
+                    "ref": null,
+                    "rendered": "finances",
+                    "type": [Function],
+                  },
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": "9",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <Link
+                      replace={false}
+                      title="tasksModuleOne"
+                      to="/tasksModuleOne"
+                    >
+                      tasksModuleOne
+                    </Link>,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "tasksModuleOne",
+                      "replace": false,
+                      "title": "tasksModuleOne",
+                      "to": "/tasksModuleOne",
+                    },
+                    "ref": null,
+                    "rendered": "tasksModuleOne",
+                    "type": [Function],
+                  },
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": "10",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <Link
+                      replace={false}
                       title="jungleCulture"
                       to="/jungleCulture"
                     >
@@ -1793,7 +2321,7 @@ ShallowWrapper {
                 },
                 Object {
                   "instance": null,
-                  "key": "7",
+                  "key": "11",
                   "nodeType": "host",
                   "props": Object {
                     "children": <Link
@@ -1823,7 +2351,7 @@ ShallowWrapper {
                 },
                 Object {
                   "instance": null,
-                  "key": "8",
+                  "key": "12",
                   "nodeType": "host",
                   "props": Object {
                     "children": <Link
@@ -1853,7 +2381,7 @@ ShallowWrapper {
                 },
                 Object {
                   "instance": null,
-                  "key": "9",
+                  "key": "13",
                   "nodeType": "host",
                   "props": Object {
                     "children": <Link
@@ -1883,15 +2411,15 @@ ShallowWrapper {
                 },
                 Object {
                   "instance": null,
-                  "key": "10",
+                  "key": "14",
                   "nodeType": "host",
                   "props": Object {
                     "children": <Link
                       replace={false}
-                      title="tasksWeekTwo"
-                      to="/tasksWeekTwo"
+                      title="tasksModuleTwo"
+                      to="/tasksModuleTwo"
                     >
-                      tasksWeekTwo
+                      tasksModuleTwo
                     </Link>,
                   },
                   "ref": null,
@@ -1900,20 +2428,20 @@ ShallowWrapper {
                     "key": undefined,
                     "nodeType": "class",
                     "props": Object {
-                      "children": "tasksWeekTwo",
+                      "children": "tasksModuleTwo",
                       "replace": false,
-                      "title": "tasksWeekTwo",
-                      "to": "/tasksWeekTwo",
+                      "title": "tasksModuleTwo",
+                      "to": "/tasksModuleTwo",
                     },
                     "ref": null,
-                    "rendered": "tasksWeekTwo",
+                    "rendered": "tasksModuleTwo",
                     "type": [Function],
                   },
                   "type": "li",
                 },
                 Object {
                   "instance": null,
-                  "key": "11",
+                  "key": "15",
                   "nodeType": "host",
                   "props": Object {
                     "children": <Link
@@ -1943,7 +2471,7 @@ ShallowWrapper {
                 },
                 Object {
                   "instance": null,
-                  "key": "12",
+                  "key": "16",
                   "nodeType": "host",
                   "props": Object {
                     "children": <Link
@@ -1973,7 +2501,7 @@ ShallowWrapper {
                 },
                 Object {
                   "instance": null,
-                  "key": "13",
+                  "key": "17",
                   "nodeType": "host",
                   "props": Object {
                     "children": <Link

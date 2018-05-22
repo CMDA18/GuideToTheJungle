@@ -41,7 +41,7 @@ exports[`renders without crashing 1`] = `
       exact={true}
       key="3"
       path="/faq"
-      title="0.0 FAQ"
+      title="FAQ"
     />
     <RouteWithSubRoutes
       component={[Function]}
@@ -54,61 +54,89 @@ exports[`renders without crashing 1`] = `
       component={[Function]}
       exact={true}
       key="5"
+      path="/ourStory"
+      title="Our Story"
+    />
+    <RouteWithSubRoutes
+      component={[Function]}
+      exact={true}
+      key="6"
+      path="/jungleMaslow"
+      title="Jungle Maslow"
+    />
+    <RouteWithSubRoutes
+      component={[Function]}
+      exact={true}
+      key="7"
+      path="/finances"
+      title="Finances"
+    />
+    <RouteWithSubRoutes
+      component={[Function]}
+      exact={true}
+      key="8"
+      path="/tasksModuleOne"
+      title="Tasks Module One"
+    />
+    <RouteWithSubRoutes
+      component={[Function]}
+      exact={true}
+      key="9"
       path="/jungleCulture"
       title="2 The Jungle Culture"
     />
     <RouteWithSubRoutes
       component={[Function]}
       exact={true}
-      key="6"
+      key="10"
       path="/jungleFormula"
       title="2.1 Jungle Formula"
     />
     <RouteWithSubRoutes
       component={[Function]}
       exact={true}
-      key="7"
+      key="11"
       path="/jungleDays"
       title="2.2 Jungle Days"
     />
     <RouteWithSubRoutes
       component={[Function]}
       exact={true}
-      key="8"
+      key="12"
       path="/ownGrowth"
       title="2.3 Ontwikkeling"
     />
     <RouteWithSubRoutes
       component={[Function]}
       exact={true}
-      key="9"
-      path="/tasksWeekTwo"
+      key="13"
+      path="/tasksModuleTwo"
       title="2.4 Opdrachten"
     />
     <RouteWithSubRoutes
       component={[Function]}
       exact={true}
-      key="10"
+      key="14"
       path="/ourPeople"
       title="3 Our People"
     />
     <RouteWithSubRoutes
       component={[Function]}
       exact={true}
-      key="11"
+      key="15"
       path="/howWeWork"
       title="4 How We Work"
     />
     <RouteWithSubRoutes
       component={[Function]}
       exact={true}
-      key="12"
+      key="16"
       path="/ourClients"
-      title="0.5 Our Clients"
+      title="Our Clients"
     />
     <RouteWithSubRoutes
       component={[Function]}
-      key="13"
+      key="17"
       path="*"
       status={404}
       title="Page Not Found"

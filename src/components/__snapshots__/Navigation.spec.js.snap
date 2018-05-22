@@ -18,7 +18,9 @@ ShallowWrapper {
     "nodeType": "function",
     "props": Object {
       "children": <Navigation__Wrapper>
-        <Navigation__Logo>
+        <Navigation__Logo
+          to="/"
+        >
           <Jungle />
         </Navigation__Logo>
         <Navigation__List>
@@ -123,7 +125,9 @@ ShallowWrapper {
       "nodeType": "class",
       "props": Object {
         "children": Array [
-          <Navigation__Logo>
+          <Navigation__Logo
+            to="/"
+          >
             <Jungle />
           </Navigation__Logo>,
           <Navigation__List>
@@ -229,6 +233,7 @@ ShallowWrapper {
           "nodeType": "class",
           "props": Object {
             "children": <Jungle />,
+            "to": "/",
           },
           "ref": null,
           "rendered": Object {
@@ -610,7 +615,9 @@ ShallowWrapper {
       "nodeType": "function",
       "props": Object {
         "children": <Navigation__Wrapper>
-          <Navigation__Logo>
+          <Navigation__Logo
+            to="/"
+          >
             <Jungle />
           </Navigation__Logo>
           <Navigation__List>
@@ -715,7 +722,9 @@ ShallowWrapper {
         "nodeType": "class",
         "props": Object {
           "children": Array [
-            <Navigation__Logo>
+            <Navigation__Logo
+              to="/"
+            >
               <Jungle />
             </Navigation__Logo>,
             <Navigation__List>
@@ -821,6 +830,7 @@ ShallowWrapper {
             "nodeType": "class",
             "props": Object {
               "children": <Jungle />,
+              "to": "/",
             },
             "ref": null,
             "rendered": Object {

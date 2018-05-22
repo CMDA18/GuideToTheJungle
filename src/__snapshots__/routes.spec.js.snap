@@ -3,19 +3,23 @@
 exports[`Routes Returns an array of paths 1`] = `
 Object {
   "faq": "/faq",
+  "finances": "/finances",
   "home": "/",
   "howWeWork": "/howWeWork",
   "jungleCulture": "/jungleCulture",
   "jungleDays": "/jungleDays",
   "jungleFormula": "/jungleFormula",
+  "jungleMaslow": "/jungleMaslow",
   "jungleMinds": "/jungleMinds",
   "ourClients": "/ourClients",
   "ourPeople": "/ourPeople",
+  "ourStory": "/ourStory",
   "overview": "/overview",
   "ownGrowth": "/ownGrowth",
   "pageNotFound": "*",
   "redirect": "/redirectToHome",
-  "tasksWeekTwo": "/tasksWeekTwo",
+  "tasksModuleOne": "/tasksModuleOne",
+  "tasksModuleTwo": "/tasksModuleTwo",
 }
 `;
 
@@ -50,13 +54,37 @@ Array [
     "component": [Function],
     "exact": true,
     "path": "/faq",
-    "title": "0.0 FAQ",
+    "title": "FAQ",
   },
   Object {
     "component": [Function],
     "exact": true,
     "path": "/jungleMinds",
     "title": "1 Jungle Minds",
+  },
+  Object {
+    "component": [Function],
+    "exact": true,
+    "path": "/ourStory",
+    "title": "Our Story",
+  },
+  Object {
+    "component": [Function],
+    "exact": true,
+    "path": "/jungleMaslow",
+    "title": "Jungle Maslow",
+  },
+  Object {
+    "component": [Function],
+    "exact": true,
+    "path": "/finances",
+    "title": "Finances",
+  },
+  Object {
+    "component": [Function],
+    "exact": true,
+    "path": "/tasksModuleOne",
+    "title": "Tasks Module One",
   },
   Object {
     "component": [Function],
@@ -85,7 +113,7 @@ Array [
   Object {
     "component": [Function],
     "exact": true,
-    "path": "/tasksWeekTwo",
+    "path": "/tasksModuleTwo",
     "title": "2.4 Opdrachten",
   },
   Object {
@@ -104,7 +132,7 @@ Array [
     "component": [Function],
     "exact": true,
     "path": "/ourClients",
-    "title": "0.5 Our Clients",
+    "title": "Our Clients",
   },
   Object {
     "component": [Function],
