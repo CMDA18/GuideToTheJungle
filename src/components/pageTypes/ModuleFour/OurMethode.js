@@ -1,3 +1,4 @@
+
 // @flow
 import React, { Component } from 'react'
 import Helmet from 'react-helmet'
@@ -5,23 +6,23 @@ import Helmet from 'react-helmet'
 import Grid from '../../Grid'
 import PageTitle from '../../PageTitle'
 import Intro from '../../Intro'
-import { tasksModuleThree } from '../../../constants/content/index'
+import { ourMethode } from '../../../constants/content/index'
 
 type Props = {
   test: string
 }
 
-class TasksModuleThree extends Component<Props> {
+class OurMethode extends Component<Props> {
   render () {
     return (
-      <div className='tasksModuleThree' data-test={this.props.test}>
+      <div className='ourMethode' data-test={this.props.test}>
         <Helmet
-          title='tasksModuleThree'
+          title='outsideTheJungle'
         />
-        <Grid page='ourTeam'>
+        <Grid page='howWeWork'>
           <header>
-            <PageTitle {...tasksModuleThree}/>
-            <Intro {...tasksModuleThree}/>
+            <PageTitle {...ourMethode}/>
+            <Intro {...ourMethode}/>
           </header>
         </Grid>
       </div>
@@ -29,4 +30,4 @@ class TasksModuleThree extends Component<Props> {
   };
 }
 
-export default TasksModuleThree
+export default OurMethode

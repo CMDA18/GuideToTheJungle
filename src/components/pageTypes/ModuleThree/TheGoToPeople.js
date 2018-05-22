@@ -18,7 +18,7 @@ class TheGoToPeople extends Component<Props> {
         <Helmet
           title='theGoToPeople'
         />
-        <Grid page='jungleMinds'>
+        <Grid page='ourTeam'>
           <header>
             <PageTitle {...theGoToPeople}/>
             <Intro {...theGoToPeople}/>

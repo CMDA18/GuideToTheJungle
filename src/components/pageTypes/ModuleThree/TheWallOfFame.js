@@ -18,7 +18,7 @@ class TheWallOfFame extends Component<Props> {
         <Helmet
           title='theWallOfFame'
         />
-        <Grid page='jungleMinds'>
+        <Grid page='ourTeam'>
           <header>
             <PageTitle {...theWallOfFame}/>
             <Intro {...theWallOfFame}/>

@@ -1,7 +1,7 @@
 import React from 'react'
 import { shallow } from 'enzyme'
-import OurExpertises from './OurExpertises'
+import OurTeam from './OurTeam'
 
 it('renders without crashing', () => {
-  expect(shallow(<OurExpertises />)).toMatchSnapshot()
+  expect(shallow(<OurTeam />)).toMatchSnapshot()
 })

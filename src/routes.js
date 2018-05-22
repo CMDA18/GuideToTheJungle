@@ -28,10 +28,14 @@ import {
   createPreloadAction,
   type PreloadAction
 } from './redux/actions/settings'
-import OurExpertises from './components/pageTypes/ModuleThree/OurExpertises'
+import OurTeam from './components/pageTypes/ModuleThree/OurTeam'
 import TheWallOfFame from './components/pageTypes/ModuleThree/TheWallOfFame'
 import TasksModuleThree from './components/pageTypes/ModuleThree/TasksModuleThree'
 import TheGoToPeople from './components/pageTypes/ModuleThree/TheGoToPeople'
+import OurMethode from './components/pageTypes/ModuleFour/OurMethode'
+import InsideTheJungle from './components/pageTypes/ModuleFour/InsideTheJungle'
+import OutsideTheJungle from './components/pageTypes/ModuleFour/OutsideTheJungle'
+import TasksModuleFour from './components/pageTypes/ModuleFour/TasksModuleFour'
 
 type Paths = {
   [key: string]: string
@@ -76,12 +80,16 @@ export const paths: Paths = {
   tasksModuleTwo: '/tasksModuleTwo',
   // Module 3
   ourPeople: '/ourPeople',
-  ourExpertises: '/ourExpertises',
+  ourTeam: '/ourTeam',
   theWallOfFame: '/theWallOfFame',
   theGoToPeople: '/theGoToPeople',
   tasksModuleThree: '/tasksModuleThree',
   // Module 4
   howWeWork: '/howWeWork',
+  ourMethode: '/ourMethode',
+  insideTheJungle: '/insideTheJungle',
+  outsideTheJungle: '/outsideTheJungle',
+  tasksModuleFour: '/tasksModuleFour',
   // Module 5
   ourClients: '/ourClients'
 }
@@ -127,7 +135,7 @@ export const navigationJungleCulture: Paths = {
 export const navigationOurTeam: Paths = {
   Overview: '/overview',
   '3 Ons Team': '/ourPeople',
-  '3.1 Onze expertises': '/ourexpertises',
+  '3.1 Onze Team': '/ourTeam',
   '3.2 De Wall of fame': '/theWallOfFame',
   '3.3 De go to mensen': '/theGoToPeople',
   '3.4 Opdrachten': '/tasksModuleThree'
@@ -137,10 +145,10 @@ export const navigationOurTeam: Paths = {
 export const navigationHowWeWork: Paths = {
   Overview: '/overview',
   '4 Ons Workflow': '/howWeWork',
-  '4.1 Concept': '/#',
-  '4.2 Product markt fit': '/#',
-  '4.3 Groei': '/#',
-  '4.4 Opdrachten': '/#'
+  '4.1 Onze methode': '/ourMethode',
+  '4.2 Binnen de Jungle': '/insideTheJungle',
+  '4.3 Buiten de Jungle': '/outsideTheJungle',
+  '4.4 Opdrachten': '/tasksModuleFour'
 }
 
 // Module 5
@@ -252,9 +260,9 @@ const routes: Array<Route> = [
     exact: true
   },
   {
-    path: paths.ourExpertises,
-    title: '3.1 Onze expertise',
-    component: OurExpertises,
+    path: paths.ourTeam,
+    title: '3.1 Onze Team',
+    component: OurTeam,
     exact: true
   },
   {
@@ -280,6 +288,30 @@ const routes: Array<Route> = [
     path: paths.howWeWork,
     title: '4 How We Work',
     component: HowWeWork,
+    exact: true
+  },
+  {
+    path: paths.ourMethode,
+    title: '4.1 Onze Methode',
+    component: OurMethode,
+    exact: true
+  },
+  {
+    path: paths.insideTheJungle,
+    title: '4.2 Binnen ons Jungle',
+    component: InsideTheJungle,
+    exact: true
+  },
+  {
+    path: paths.outsideTheJungle,
+    title: '4.3 Buiten de Jungle',
+    component: OutsideTheJungle,
+    exact: true
+  },
+  {
+    path: paths.tasksModuleFour,
+    title: '4.4 Opdrachten',
+    component: TasksModuleFour,
     exact: true
   },
   // Module 5
