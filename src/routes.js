@@ -21,13 +21,17 @@ import TasksModuleOne from './components/pageTypes/ModuleOne/TasksModuleOne'
 // Module 2
 import JungleFormula from './components/pageTypes/ModuleTwo/JungleFormula'
 import JungleDays from './components/pageTypes/ModuleTwo/JungleDays'
-import tasksModuleTwo from './components/pageTypes/ModuleTwo/TasksModuleTwo'
+import TasksModuleTwo from './components/pageTypes/ModuleTwo/TasksModuleTwo'
 import OwnGrowth from './components/pageTypes/ModuleTwo/OwnGrowth'
 
 import {
   createPreloadAction,
   type PreloadAction
 } from './redux/actions/settings'
+import OurExpertises from './components/pageTypes/ModuleThree/OurExpertises'
+import TheWallOfFame from './components/pageTypes/ModuleThree/TheWallOfFame'
+import TasksModuleThree from './components/pageTypes/ModuleThree/TasksModuleThree'
+import TheGoToPeople from './components/pageTypes/ModuleThree/TheGoToPeople'
 
 type Paths = {
   [key: string]: string
@@ -72,6 +76,10 @@ export const paths: Paths = {
   tasksModuleTwo: '/tasksModuleTwo',
   // Module 3
   ourPeople: '/ourPeople',
+  ourExpertises: '/ourExpertises',
+  theWallOfFame: '/theWallOfFame',
+  theGoToPeople: '/theGoToPeople',
+  tasksModuleThree: '/tasksModuleThree',
   // Module 4
   howWeWork: '/howWeWork',
   // Module 5
@@ -119,10 +127,10 @@ export const navigationJungleCulture: Paths = {
 export const navigationOurTeam: Paths = {
   Overview: '/overview',
   '3 Ons Team': '/ourPeople',
-  '3.1 Onze expertises': '/#',
-  '3.2 De Wall of fame': '/#',
-  '3.3 De go to mensen': '/#',
-  '3.4 Opdrachten': '/#'
+  '3.1 Onze expertises': '/ourexpertises',
+  '3.2 De Wall of fame': '/theWallOfFame',
+  '3.3 De go to mensen': '/theGoToPeople',
+  '3.4 Opdrachten': '/tasksModuleThree'
 }
 
 // Module 4
@@ -233,7 +241,7 @@ const routes: Array<Route> = [
   {
     path: paths.tasksModuleTwo,
     title: '2.4 Opdrachten',
-    component: tasksModuleTwo,
+    component: TasksModuleTwo,
     exact: true
   },
   // Module 3
@@ -241,6 +249,30 @@ const routes: Array<Route> = [
     path: paths.ourPeople,
     title: '3 Our People',
     component: OurPeople,
+    exact: true
+  },
+  {
+    path: paths.ourExpertises,
+    title: '3.1 Onze expertise',
+    component: OurExpertises,
+    exact: true
+  },
+  {
+    path: paths.theWallOfFame,
+    title: '3.2 The Wall Of Fame',
+    component: TheWallOfFame,
+    exact: true
+  },
+  {
+    path: paths.theGoToPeople,
+    title: '3.3 The Go To People',
+    component: TheGoToPeople,
+    exact: true
+  },
+  {
+    path: paths.tasksModuleThree,
+    title: '3.4 Opdrachten',
+    component: TasksModuleThree,
     exact: true
   },
   // Module 4
