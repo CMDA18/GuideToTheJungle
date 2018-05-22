@@ -5,7 +5,8 @@ import styled from 'styled-components'
 import Grid from '../../Grid'
 import PageTitle from '../../PageTitle'
 import Intro from '../../Intro'
-import { jungleMinds } from '../../../constants/content/modules/moduleOne'
+import TextAndImage from '../../TextAndImage'
+import { jungleMinds } from '../../../constants/content/index'
 
 type Props = {
   test: string
@@ -23,6 +24,7 @@ class JungleMinds extends Component<Props> {
             <PageTitle {...jungleMinds}/>
             <Intro {...jungleMinds}/>
           </header>
+          <TextAndImage {...jungleMinds} />
           <Video src="https://cdn.jungleminds.com/video/header/jungleminds_web_720p.mp4"
             width="1000"
             height="500"

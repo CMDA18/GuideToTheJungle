@@ -5,7 +5,7 @@ import Helmet from 'react-helmet'
 import Grid from '../../Grid'
 import PageTitle from '../../PageTitle'
 import Intro from '../../Intro'
-import { tasksModuleOne } from '../../../constants/content/modules/moduleOne'
+import { tasksModuleOne } from '../../../constants/content/index'
 
 type Props = {
   test: string

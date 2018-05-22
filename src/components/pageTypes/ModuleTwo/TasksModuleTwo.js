@@ -5,23 +5,23 @@ import Helmet from 'react-helmet'
 import Grid from '../../Grid'
 import PageTitle from '../../PageTitle'
 import Intro from '../../Intro'
-import { tasksWeekTwo } from '../../../constants/content/index'
+import { tasksModuleTwo } from '../../../constants/content/index'
 
 type Props = {
   test: string
 }
 
-class TasksWeekTwo extends Component<Props> {
+class TasksModuleTwo extends Component<Props> {
   render () {
     return (
-      <div className='tasksWeekTwo' data-test={this.props.test}>
+      <div className='tasksModuleTwo' data-test={this.props.test}>
         <Helmet
-          title='tasksWeekTwo'
+          title='tasksModuleTwo'
         />
         <Grid page='jungleCulture'>
           <header>
-            <PageTitle {...tasksWeekTwo}/>
-            <Intro {...tasksWeekTwo}/>
+            <PageTitle {...tasksModuleTwo}/>
+            <Intro {...tasksModuleTwo}/>
           </header>
         </Grid>
       </div>
@@ -29,4 +29,4 @@ class TasksWeekTwo extends Component<Props> {
   };
 }
 
-export default TasksWeekTwo
+export default TasksModuleTwo

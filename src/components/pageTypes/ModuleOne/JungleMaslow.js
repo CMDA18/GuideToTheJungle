@@ -5,7 +5,7 @@ import Helmet from 'react-helmet'
 import Grid from '../../Grid'
 import PageTitle from '../../PageTitle'
 import Intro from '../../Intro'
-import { jungleMaslow } from '../../../constants/content/modules/moduleOne'
+import { jungleMaslow } from '../../../constants/content/index'
 import TextAndImage from '../../TextAndImage'
 
 type Props = {

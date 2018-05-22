@@ -11,10 +11,6 @@ import HowWeWork from './components/pageTypes/HowWeWork'
 import OurClients from './components/pageTypes/OurClients'
 import FAQ from './components/pageTypes/FAQ'
 
-import {
-  createPreloadAction,
-  type PreloadAction
-} from './redux/actions/settings'
 // Module 1
 import JungleMinds from './components/pageTypes/ModuleOne/JungleMinds'
 import OurStory from './components/pageTypes/ModuleOne/OurStory'
@@ -25,8 +21,13 @@ import TasksModuleOne from './components/pageTypes/ModuleOne/TasksModuleOne'
 // Module 2
 import JungleFormula from './components/pageTypes/ModuleTwo/JungleFormula'
 import JungleDays from './components/pageTypes/ModuleTwo/JungleDays'
-import TasksWeekTwo from './components/pageTypes/ModuleTwo/TasksWeekTwo'
+import tasksModuleTwo from './components/pageTypes/ModuleTwo/tasksModuleTwo'
 import OwnGrowth from './components/pageTypes/ModuleTwo/OwnGrowth'
+
+import {
+  createPreloadAction,
+  type PreloadAction
+} from './redux/actions/settings'
 
 type Paths = {
   [key: string]: string
@@ -59,12 +60,16 @@ export const paths: Paths = {
   faq: '/faq',
   // Module 1
   jungleMinds: '/jungleMinds',
+  ourStory: '/ourStory',
+  jungleMaslow: '/jungleMaslow',
+  finances: '/finances',
+  tasksModuleOne: '/tasksModuleOne',
   // Moduke 2
   jungleCulture: '/jungleCulture',
   jungleFormula: '/jungleFormula',
   jungleDays: '/jungleDays',
   ownGrowth: '/ownGrowth',
-  tasksWeekTwo: '/tasksWeekTwo',
+  tasksModuleTwo: '/tasksModuleTwo',
   // Module 3
   ourPeople: '/ourPeople',
   // Module 4
@@ -106,7 +111,7 @@ export const navigationJungleCulture: Paths = {
   '2.1 Jungle Formula': '/jungleFormula',
   '2.2 Jungle Days': '/jungleDays',
   '2.3 Ontwikkeling': '/ownGrowth',
-  '2.4 Opdrachten': '/tasksWeekTwo'
+  '2.4 Opdrachten': '/tasksModuleTwo'
 
 }
 
@@ -226,9 +231,9 @@ const routes: Array<Route> = [
     exact: true
   },
   {
-    path: paths.tasksWeekTwo,
+    path: paths.tasksModuleTwo,
     title: '2.4 Opdrachten',
-    component: TasksWeekTwo,
+    component: tasksModuleTwo,
     exact: true
   },
   // Module 3
