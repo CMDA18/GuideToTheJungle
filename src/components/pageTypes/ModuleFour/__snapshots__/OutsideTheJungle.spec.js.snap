@@ -4,7 +4,7 @@ exports[`renders without crashing 1`] = `
 ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <OurExpertises />,
+  Symbol(enzyme.__unrendered__): <OutsideTheJungle />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -21,18 +21,26 @@ ShallowWrapper {
         <HelmetWrapper
           defer={true}
           encodeSpecialCharacters={true}
-          title="ourExpertises"
+          title="outsideTheJungle"
         />,
         <Grid
-          page="jungleMinds"
+          page="howWeWork"
         >
           <header>
-            <PageTitle />
-            <Intro />
+            <PageTitle
+              introText="test"
+              introTitle="Transparantie"
+              pageTitle="4.3 Buiten de Jungle"
+            />
+            <Intro
+              introText="test"
+              introTitle="Transparantie"
+              pageTitle="4.3 Buiten de Jungle"
+            />
           </header>
         </Grid>,
       ],
-      "className": "ourExpertises",
+      "className": "outsideTheJungle",
       "data-test": undefined,
     },
     "ref": null,
@@ -44,7 +52,7 @@ ShallowWrapper {
         "props": Object {
           "defer": true,
           "encodeSpecialCharacters": true,
-          "title": "ourExpertises",
+          "title": "outsideTheJungle",
         },
         "ref": null,
         "rendered": null,
@@ -56,10 +64,18 @@ ShallowWrapper {
         "nodeType": "function",
         "props": Object {
           "children": <header>
-            <PageTitle />
-            <Intro />
+            <PageTitle
+              introText="test"
+              introTitle="Transparantie"
+              pageTitle="4.3 Buiten de Jungle"
+            />
+            <Intro
+              introText="test"
+              introTitle="Transparantie"
+              pageTitle="4.3 Buiten de Jungle"
+            />
           </header>,
-          "page": "jungleMinds",
+          "page": "howWeWork",
         },
         "ref": null,
         "rendered": Object {
@@ -68,8 +84,16 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": Array [
-              <PageTitle />,
-              <Intro />,
+              <PageTitle
+                introText="test"
+                introTitle="Transparantie"
+                pageTitle="4.3 Buiten de Jungle"
+              />,
+              <Intro
+                introText="test"
+                introTitle="Transparantie"
+                pageTitle="4.3 Buiten de Jungle"
+              />,
             ],
           },
           "ref": null,
@@ -78,7 +102,11 @@ ShallowWrapper {
               "instance": null,
               "key": undefined,
               "nodeType": "function",
-              "props": Object {},
+              "props": Object {
+                "introText": "test",
+                "introTitle": "Transparantie",
+                "pageTitle": "4.3 Buiten de Jungle",
+              },
               "ref": null,
               "rendered": null,
               "type": [Function],
@@ -87,7 +115,11 @@ ShallowWrapper {
               "instance": null,
               "key": undefined,
               "nodeType": "function",
-              "props": Object {},
+              "props": Object {
+                "introText": "test",
+                "introTitle": "Transparantie",
+                "pageTitle": "4.3 Buiten de Jungle",
+              },
               "ref": null,
               "rendered": null,
               "type": [Function],
@@ -110,18 +142,26 @@ ShallowWrapper {
           <HelmetWrapper
             defer={true}
             encodeSpecialCharacters={true}
-            title="ourExpertises"
+            title="outsideTheJungle"
           />,
           <Grid
-            page="jungleMinds"
+            page="howWeWork"
           >
             <header>
-              <PageTitle />
-              <Intro />
+              <PageTitle
+                introText="test"
+                introTitle="Transparantie"
+                pageTitle="4.3 Buiten de Jungle"
+              />
+              <Intro
+                introText="test"
+                introTitle="Transparantie"
+                pageTitle="4.3 Buiten de Jungle"
+              />
             </header>
           </Grid>,
         ],
-        "className": "ourExpertises",
+        "className": "outsideTheJungle",
         "data-test": undefined,
       },
       "ref": null,
@@ -133,7 +173,7 @@ ShallowWrapper {
           "props": Object {
             "defer": true,
             "encodeSpecialCharacters": true,
-            "title": "ourExpertises",
+            "title": "outsideTheJungle",
           },
           "ref": null,
           "rendered": null,
@@ -145,10 +185,18 @@ ShallowWrapper {
           "nodeType": "function",
           "props": Object {
             "children": <header>
-              <PageTitle />
-              <Intro />
+              <PageTitle
+                introText="test"
+                introTitle="Transparantie"
+                pageTitle="4.3 Buiten de Jungle"
+              />
+              <Intro
+                introText="test"
+                introTitle="Transparantie"
+                pageTitle="4.3 Buiten de Jungle"
+              />
             </header>,
-            "page": "jungleMinds",
+            "page": "howWeWork",
           },
           "ref": null,
           "rendered": Object {
@@ -157,8 +205,16 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": Array [
-                <PageTitle />,
-                <Intro />,
+                <PageTitle
+                  introText="test"
+                  introTitle="Transparantie"
+                  pageTitle="4.3 Buiten de Jungle"
+                />,
+                <Intro
+                  introText="test"
+                  introTitle="Transparantie"
+                  pageTitle="4.3 Buiten de Jungle"
+                />,
               ],
             },
             "ref": null,
@@ -167,7 +223,11 @@ ShallowWrapper {
                 "instance": null,
                 "key": undefined,
                 "nodeType": "function",
-                "props": Object {},
+                "props": Object {
+                  "introText": "test",
+                  "introTitle": "Transparantie",
+                  "pageTitle": "4.3 Buiten de Jungle",
+                },
                 "ref": null,
                 "rendered": null,
                 "type": [Function],
@@ -176,7 +236,11 @@ ShallowWrapper {
                 "instance": null,
                 "key": undefined,
                 "nodeType": "function",
-                "props": Object {},
+                "props": Object {
+                  "introText": "test",
+                  "introTitle": "Transparantie",
+                  "pageTitle": "4.3 Buiten de Jungle",
+                },
                 "ref": null,
                 "rendered": null,
                 "type": [Function],

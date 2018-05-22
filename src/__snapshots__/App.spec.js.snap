@@ -124,8 +124,8 @@ exports[`renders without crashing 1`] = `
       component={[Function]}
       exact={true}
       key="15"
-      path="/ourExpertises"
-      title="3.1 Onze expertise"
+      path="/ourTeam"
+      title="3.1 Onze Team"
     />
     <RouteWithSubRoutes
       component={[Function]}
@@ -159,12 +159,40 @@ exports[`renders without crashing 1`] = `
       component={[Function]}
       exact={true}
       key="20"
+      path="/ourMethode"
+      title="4.1 Onze Methode"
+    />
+    <RouteWithSubRoutes
+      component={[Function]}
+      exact={true}
+      key="21"
+      path="/insideTheJungle"
+      title="4.2 Binnen ons Jungle"
+    />
+    <RouteWithSubRoutes
+      component={[Function]}
+      exact={true}
+      key="22"
+      path="/outsideTheJungle"
+      title="4.3 Buiten de Jungle"
+    />
+    <RouteWithSubRoutes
+      component={[Function]}
+      exact={true}
+      key="23"
+      path="/tasksModuleFour"
+      title="4.4 Opdrachten"
+    />
+    <RouteWithSubRoutes
+      component={[Function]}
+      exact={true}
+      key="24"
       path="/ourClients"
       title="Our Clients"
     />
     <RouteWithSubRoutes
       component={[Function]}
-      key="21"
+      key="25"
       path="*"
       status={404}
       title="Page Not Found"

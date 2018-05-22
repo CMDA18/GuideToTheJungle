@@ -4,7 +4,7 @@ exports[`renders without crashing 1`] = `
 ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <TheGoToPeople />,
+  Symbol(enzyme.__unrendered__): <TasksModuleFour />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -21,26 +21,26 @@ ShallowWrapper {
         <HelmetWrapper
           defer={true}
           encodeSpecialCharacters={true}
-          title="theGoToPeople"
+          title="tasksModuleFour"
         />,
         <Grid
-          page="ourTeam"
+          page="howWeWork"
         >
           <header>
             <PageTitle
-              introText="test"
-              introTitle="Transparantie"
-              pageTitle="3.3 De go to mensen"
+              introText="Uitleg ..."
+              introTitle="Opdrachten"
+              pageTitle="4.4 Opdrachten"
             />
             <Intro
-              introText="test"
-              introTitle="Transparantie"
-              pageTitle="3.3 De go to mensen"
+              introText="Uitleg ..."
+              introTitle="Opdrachten"
+              pageTitle="4.4 Opdrachten"
             />
           </header>
         </Grid>,
       ],
-      "className": "theGoToPeople",
+      "className": "tasksModuleFour",
       "data-test": undefined,
     },
     "ref": null,
@@ -52,7 +52,7 @@ ShallowWrapper {
         "props": Object {
           "defer": true,
           "encodeSpecialCharacters": true,
-          "title": "theGoToPeople",
+          "title": "tasksModuleFour",
         },
         "ref": null,
         "rendered": null,
@@ -65,17 +65,17 @@ ShallowWrapper {
         "props": Object {
           "children": <header>
             <PageTitle
-              introText="test"
-              introTitle="Transparantie"
-              pageTitle="3.3 De go to mensen"
+              introText="Uitleg ..."
+              introTitle="Opdrachten"
+              pageTitle="4.4 Opdrachten"
             />
             <Intro
-              introText="test"
-              introTitle="Transparantie"
-              pageTitle="3.3 De go to mensen"
+              introText="Uitleg ..."
+              introTitle="Opdrachten"
+              pageTitle="4.4 Opdrachten"
             />
           </header>,
-          "page": "ourTeam",
+          "page": "howWeWork",
         },
         "ref": null,
         "rendered": Object {
@@ -85,14 +85,14 @@ ShallowWrapper {
           "props": Object {
             "children": Array [
               <PageTitle
-                introText="test"
-                introTitle="Transparantie"
-                pageTitle="3.3 De go to mensen"
+                introText="Uitleg ..."
+                introTitle="Opdrachten"
+                pageTitle="4.4 Opdrachten"
               />,
               <Intro
-                introText="test"
-                introTitle="Transparantie"
-                pageTitle="3.3 De go to mensen"
+                introText="Uitleg ..."
+                introTitle="Opdrachten"
+                pageTitle="4.4 Opdrachten"
               />,
             ],
           },
@@ -103,9 +103,9 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "function",
               "props": Object {
-                "introText": "test",
-                "introTitle": "Transparantie",
-                "pageTitle": "3.3 De go to mensen",
+                "introText": "Uitleg ...",
+                "introTitle": "Opdrachten",
+                "pageTitle": "4.4 Opdrachten",
               },
               "ref": null,
               "rendered": null,
@@ -116,9 +116,9 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "function",
               "props": Object {
-                "introText": "test",
-                "introTitle": "Transparantie",
-                "pageTitle": "3.3 De go to mensen",
+                "introText": "Uitleg ...",
+                "introTitle": "Opdrachten",
+                "pageTitle": "4.4 Opdrachten",
               },
               "ref": null,
               "rendered": null,
@@ -142,26 +142,26 @@ ShallowWrapper {
           <HelmetWrapper
             defer={true}
             encodeSpecialCharacters={true}
-            title="theGoToPeople"
+            title="tasksModuleFour"
           />,
           <Grid
-            page="ourTeam"
+            page="howWeWork"
           >
             <header>
               <PageTitle
-                introText="test"
-                introTitle="Transparantie"
-                pageTitle="3.3 De go to mensen"
+                introText="Uitleg ..."
+                introTitle="Opdrachten"
+                pageTitle="4.4 Opdrachten"
               />
               <Intro
-                introText="test"
-                introTitle="Transparantie"
-                pageTitle="3.3 De go to mensen"
+                introText="Uitleg ..."
+                introTitle="Opdrachten"
+                pageTitle="4.4 Opdrachten"
               />
             </header>
           </Grid>,
         ],
-        "className": "theGoToPeople",
+        "className": "tasksModuleFour",
         "data-test": undefined,
       },
       "ref": null,
@@ -173,7 +173,7 @@ ShallowWrapper {
           "props": Object {
             "defer": true,
             "encodeSpecialCharacters": true,
-            "title": "theGoToPeople",
+            "title": "tasksModuleFour",
           },
           "ref": null,
           "rendered": null,
@@ -186,17 +186,17 @@ ShallowWrapper {
           "props": Object {
             "children": <header>
               <PageTitle
-                introText="test"
-                introTitle="Transparantie"
-                pageTitle="3.3 De go to mensen"
+                introText="Uitleg ..."
+                introTitle="Opdrachten"
+                pageTitle="4.4 Opdrachten"
               />
               <Intro
-                introText="test"
-                introTitle="Transparantie"
-                pageTitle="3.3 De go to mensen"
+                introText="Uitleg ..."
+                introTitle="Opdrachten"
+                pageTitle="4.4 Opdrachten"
               />
             </header>,
-            "page": "ourTeam",
+            "page": "howWeWork",
           },
           "ref": null,
           "rendered": Object {
@@ -206,14 +206,14 @@ ShallowWrapper {
             "props": Object {
               "children": Array [
                 <PageTitle
-                  introText="test"
-                  introTitle="Transparantie"
-                  pageTitle="3.3 De go to mensen"
+                  introText="Uitleg ..."
+                  introTitle="Opdrachten"
+                  pageTitle="4.4 Opdrachten"
                 />,
                 <Intro
-                  introText="test"
-                  introTitle="Transparantie"
-                  pageTitle="3.3 De go to mensen"
+                  introText="Uitleg ..."
+                  introTitle="Opdrachten"
+                  pageTitle="4.4 Opdrachten"
                 />,
               ],
             },
@@ -224,9 +224,9 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "function",
                 "props": Object {
-                  "introText": "test",
-                  "introTitle": "Transparantie",
-                  "pageTitle": "3.3 De go to mensen",
+                  "introText": "Uitleg ...",
+                  "introTitle": "Opdrachten",
+                  "pageTitle": "4.4 Opdrachten",
                 },
                 "ref": null,
                 "rendered": null,
@@ -237,9 +237,9 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "function",
                 "props": Object {
-                  "introText": "test",
-                  "introTitle": "Transparantie",
-                  "pageTitle": "3.3 De go to mensen",
+                  "introText": "Uitleg ...",
+                  "introTitle": "Opdrachten",
+                  "pageTitle": "4.4 Opdrachten",
                 },
                 "ref": null,
                 "rendered": null,

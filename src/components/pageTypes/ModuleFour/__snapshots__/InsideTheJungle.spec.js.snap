@@ -4,7 +4,7 @@ exports[`renders without crashing 1`] = `
 ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <TheWallOfFame />,
+  Symbol(enzyme.__unrendered__): <InsideTheJungle />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -21,10 +21,10 @@ ShallowWrapper {
         <HelmetWrapper
           defer={true}
           encodeSpecialCharacters={true}
-          title="theWallOfFame"
+          title="insideTheJungle"
         />,
         <Grid
-          page="ourTeam"
+          page="howWeWork"
         >
           <header>
             <PageTitle
@@ -32,7 +32,7 @@ ShallowWrapper {
               introText="test"
               introTitle="Onze structuur"
               mediaCaption="test"
-              pageTitle="3.2 De Wall of Fame"
+              pageTitle="4.2 Binnen de Jungle"
               textMedia={
                 Array [
                   Object {
@@ -51,7 +51,7 @@ ShallowWrapper {
               introText="test"
               introTitle="Onze structuur"
               mediaCaption="test"
-              pageTitle="3.2 De Wall of Fame"
+              pageTitle="4.2 Binnen de Jungle"
               textMedia={
                 Array [
                   Object {
@@ -68,7 +68,7 @@ ShallowWrapper {
           </header>
         </Grid>,
       ],
-      "className": "theWallOfFame",
+      "className": "insideTheJungle",
       "data-test": undefined,
     },
     "ref": null,
@@ -80,7 +80,7 @@ ShallowWrapper {
         "props": Object {
           "defer": true,
           "encodeSpecialCharacters": true,
-          "title": "theWallOfFame",
+          "title": "insideTheJungle",
         },
         "ref": null,
         "rendered": null,
@@ -97,7 +97,7 @@ ShallowWrapper {
               introText="test"
               introTitle="Onze structuur"
               mediaCaption="test"
-              pageTitle="3.2 De Wall of Fame"
+              pageTitle="4.2 Binnen de Jungle"
               textMedia={
                 Array [
                   Object {
@@ -116,7 +116,7 @@ ShallowWrapper {
               introText="test"
               introTitle="Onze structuur"
               mediaCaption="test"
-              pageTitle="3.2 De Wall of Fame"
+              pageTitle="4.2 Binnen de Jungle"
               textMedia={
                 Array [
                   Object {
@@ -131,7 +131,7 @@ ShallowWrapper {
               }
             />
           </header>,
-          "page": "ourTeam",
+          "page": "howWeWork",
         },
         "ref": null,
         "rendered": Object {
@@ -145,7 +145,7 @@ ShallowWrapper {
                 introText="test"
                 introTitle="Onze structuur"
                 mediaCaption="test"
-                pageTitle="3.2 De Wall of Fame"
+                pageTitle="4.2 Binnen de Jungle"
                 textMedia={
                   Array [
                     Object {
@@ -164,7 +164,7 @@ ShallowWrapper {
                 introText="test"
                 introTitle="Onze structuur"
                 mediaCaption="test"
-                pageTitle="3.2 De Wall of Fame"
+                pageTitle="4.2 Binnen de Jungle"
                 textMedia={
                   Array [
                     Object {
@@ -191,7 +191,7 @@ ShallowWrapper {
                 "introText": "test",
                 "introTitle": "Onze structuur",
                 "mediaCaption": "test",
-                "pageTitle": "3.2 De Wall of Fame",
+                "pageTitle": "4.2 Binnen de Jungle",
                 "textMedia": Array [
                   Object {
                     "text": "Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.",
@@ -216,7 +216,7 @@ ShallowWrapper {
                 "introText": "test",
                 "introTitle": "Onze structuur",
                 "mediaCaption": "test",
-                "pageTitle": "3.2 De Wall of Fame",
+                "pageTitle": "4.2 Binnen de Jungle",
                 "textMedia": Array [
                   Object {
                     "text": "Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.",
@@ -250,10 +250,10 @@ ShallowWrapper {
           <HelmetWrapper
             defer={true}
             encodeSpecialCharacters={true}
-            title="theWallOfFame"
+            title="insideTheJungle"
           />,
           <Grid
-            page="ourTeam"
+            page="howWeWork"
           >
             <header>
               <PageTitle
@@ -261,7 +261,7 @@ ShallowWrapper {
                 introText="test"
                 introTitle="Onze structuur"
                 mediaCaption="test"
-                pageTitle="3.2 De Wall of Fame"
+                pageTitle="4.2 Binnen de Jungle"
                 textMedia={
                   Array [
                     Object {
@@ -280,7 +280,7 @@ ShallowWrapper {
                 introText="test"
                 introTitle="Onze structuur"
                 mediaCaption="test"
-                pageTitle="3.2 De Wall of Fame"
+                pageTitle="4.2 Binnen de Jungle"
                 textMedia={
                   Array [
                     Object {
@@ -297,7 +297,7 @@ ShallowWrapper {
             </header>
           </Grid>,
         ],
-        "className": "theWallOfFame",
+        "className": "insideTheJungle",
         "data-test": undefined,
       },
       "ref": null,
@@ -309,7 +309,7 @@ ShallowWrapper {
           "props": Object {
             "defer": true,
             "encodeSpecialCharacters": true,
-            "title": "theWallOfFame",
+            "title": "insideTheJungle",
           },
           "ref": null,
           "rendered": null,
@@ -326,7 +326,7 @@ ShallowWrapper {
                 introText="test"
                 introTitle="Onze structuur"
                 mediaCaption="test"
-                pageTitle="3.2 De Wall of Fame"
+                pageTitle="4.2 Binnen de Jungle"
                 textMedia={
                   Array [
                     Object {
@@ -345,7 +345,7 @@ ShallowWrapper {
                 introText="test"
                 introTitle="Onze structuur"
                 mediaCaption="test"
-                pageTitle="3.2 De Wall of Fame"
+                pageTitle="4.2 Binnen de Jungle"
                 textMedia={
                   Array [
                     Object {
@@ -360,7 +360,7 @@ ShallowWrapper {
                 }
               />
             </header>,
-            "page": "ourTeam",
+            "page": "howWeWork",
           },
           "ref": null,
           "rendered": Object {
@@ -374,7 +374,7 @@ ShallowWrapper {
                   introText="test"
                   introTitle="Onze structuur"
                   mediaCaption="test"
-                  pageTitle="3.2 De Wall of Fame"
+                  pageTitle="4.2 Binnen de Jungle"
                   textMedia={
                     Array [
                       Object {
@@ -393,7 +393,7 @@ ShallowWrapper {
                   introText="test"
                   introTitle="Onze structuur"
                   mediaCaption="test"
-                  pageTitle="3.2 De Wall of Fame"
+                  pageTitle="4.2 Binnen de Jungle"
                   textMedia={
                     Array [
                       Object {
@@ -420,7 +420,7 @@ ShallowWrapper {
                   "introText": "test",
                   "introTitle": "Onze structuur",
                   "mediaCaption": "test",
-                  "pageTitle": "3.2 De Wall of Fame",
+                  "pageTitle": "4.2 Binnen de Jungle",
                   "textMedia": Array [
                     Object {
                       "text": "Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.",
@@ -445,7 +445,7 @@ ShallowWrapper {
                   "introText": "test",
                   "introTitle": "Onze structuur",
                   "mediaCaption": "test",
-                  "pageTitle": "3.2 De Wall of Fame",
+                  "pageTitle": "4.2 Binnen de Jungle",
                   "textMedia": Array [
                     Object {
                       "text": "Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.",
