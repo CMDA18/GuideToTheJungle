@@ -21,7 +21,7 @@ import TasksModuleOne from './components/pageTypes/ModuleOne/TasksModuleOne'
 // Module 2
 import JungleFormula from './components/pageTypes/ModuleTwo/JungleFormula'
 import JungleDays from './components/pageTypes/ModuleTwo/JungleDays'
-import tasksModuleTwo from './components/pageTypes/ModuleTwo/tasksModuleTwo'
+import tasksModuleTwo from './components/pageTypes/ModuleTwo/TasksModuleTwo'
 import OwnGrowth from './components/pageTypes/ModuleTwo/OwnGrowth'
 
 import {
