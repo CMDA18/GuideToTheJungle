@@ -79,5 +79,10 @@ export const textStyles = {
     font-size: 20px;
     line-height: 32px;
     text-align: center;
+  `,
+  // quote
+  quote: css`
+    font-size: 16px;
+    line-height: 30px;
   `
 }

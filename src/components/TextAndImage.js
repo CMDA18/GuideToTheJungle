@@ -26,12 +26,12 @@ const TextAndImage = (props: Props) => {
         {(props.textMedia || []).map((item, index) => (
           <Wrapper key={index} >
             <Title>{item.title}</Title>
-            <Text>
-              {item.text}
-            </Text>
+            <Text dangerouslySetInnerHTML={{__html: `${item.text}`}} />
           </Wrapper>
         ))}
       </TextContainer>
+      <TriangleWrapper>
+      </TriangleWrapper>
       <ImageContainer imageAlignment={props.imageAlignment}>
         <Media
           backgroundImage={props.image ? props.image : props.image}
@@ -54,25 +54,32 @@ const Container = styled.div`
 `
 
 const TextContainer = styled.div`
-${fromBreakpoint.lg`
-    width: 600px;
-    flex-shrink: 0;
+  ${fromBreakpoint.lg`
+      width: 600px;
+      flex-shrink: 0;
 
-${props =>
+    ${props =>
     props.imageAlignment === 'left'
       ? `
-    order: 2;
-    margin-left: 50px;
-  `
+        order: 2;
+        margin-left: 50px;
+      `
       : `
-    order: 1;
-    margin-right: 50px;
-`}
-`};
+        order: 1;
+        margin-right: 50px;
+    `}
+  `};
 `
 
 const Wrapper = styled.div`
   margin-bottom: 50px;
+`
+
+const TriangleWrapper = styled.div`
+  position: absolute;
+  right: 70px;
+  top: 350px;
+  display: none;
 `
 
 const Title = styled.h1`
@@ -94,6 +101,22 @@ const ImageContainer = styled.div`
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  align-self: center;
+  z-index: 2;
+
+  :before {
+    content : '';
+    width: 0;
+    height: 0;
+    border-width: 165px 113.5px 0 113.5px;
+    border-color: ${colorPalette.orange} transparent transparent transparent;
+    border-style: solid;
+    position: relative;
+    z-index: -1;
+    top: 289px;
+    right: 73px;
+    transform: rotate(47deg) scale(2);
+  }
 
   ${fromBreakpoint.lg`
   order: ${props =>

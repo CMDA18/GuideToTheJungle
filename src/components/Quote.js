@@ -3,7 +3,7 @@ import React from 'react'
 import styled from 'styled-components'
 import Quotemark from '../shared/elements/QuoteMark'
 import {
-  // textStyles,
+  textStyles,
   colorPalette
 } from '../styles/styleGuide'
 
@@ -15,9 +15,11 @@ type Props = {
 
 const Quote = (props: Props) =>
   <Container>
-    <Image url={props.image}/>
+    <Image backgroundImage={props.image ? props.image : props.image}/>
     <TextContainer>
-      <Quotemark />
+      <Wrapper>
+        <Quotemark />
+      </Wrapper>
       <QuoteText>{props.text}</QuoteText>
       <Line />
       <Metadata>{props.metadata}</Metadata>
@@ -32,16 +34,27 @@ const Container = styled.div`
 `
 
 const Image = styled.div`
+background-image: url(${props =>
+    props.backgroundImage ? props.backgroundImage : ''});
   width: 305px;
   height: 330px;
+  background-size: cover;
+  background-position: center;
+`
+
+const Wrapper = styled.div`
+  margin-top: -20px;
 `
 
 const TextContainer = styled.div`
   background-color: ${colorPalette.lightBlue};
   width: 722px;
+  max-height: 330px;
 `
 
 const QuoteText = styled.p`
+  margin: 30px 50px;
+  ${textStyles.quote};
 `
 
 const Line = styled.span`
@@ -53,4 +66,5 @@ const Line = styled.span`
 `
 
 const Metadata = styled.p`
+  margin: 30px 50px
 `

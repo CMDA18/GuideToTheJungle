@@ -48,39 +48,67 @@ exports[`renders without crashing 1`] = `
       exact={true}
       key="4"
       path="/jungleMinds"
-      title="0.1 Jungle Minds"
+      title="1 Jungle Minds"
     />
     <RouteWithSubRoutes
       component={[Function]}
       exact={true}
       key="5"
       path="/jungleCulture"
-      title="0.2 The Jungle Culture"
+      title="2 The Jungle Culture"
     />
     <RouteWithSubRoutes
       component={[Function]}
       exact={true}
       key="6"
-      path="/ourPeople"
-      title="0.3 Our People"
+      path="/jungleFormula"
+      title="2.1 Jungle Formula"
     />
     <RouteWithSubRoutes
       component={[Function]}
       exact={true}
       key="7"
-      path="/howWeWork"
-      title="0.4 How We Work"
+      path="/jungleDays"
+      title="2.2 Jungle Days"
     />
     <RouteWithSubRoutes
       component={[Function]}
       exact={true}
       key="8"
+      path="/ownGrowth"
+      title="2.3 Ontwikkeling"
+    />
+    <RouteWithSubRoutes
+      component={[Function]}
+      exact={true}
+      key="9"
+      path="/tasksWeekTwo"
+      title="2.4 Opdrachten"
+    />
+    <RouteWithSubRoutes
+      component={[Function]}
+      exact={true}
+      key="10"
+      path="/ourPeople"
+      title="3 Our People"
+    />
+    <RouteWithSubRoutes
+      component={[Function]}
+      exact={true}
+      key="11"
+      path="/howWeWork"
+      title="4 How We Work"
+    />
+    <RouteWithSubRoutes
+      component={[Function]}
+      exact={true}
+      key="12"
       path="/ourClients"
       title="0.5 Our Clients"
     />
     <RouteWithSubRoutes
       component={[Function]}
-      key="9"
+      key="13"
       path="*"
       status={404}
       title="Page Not Found"

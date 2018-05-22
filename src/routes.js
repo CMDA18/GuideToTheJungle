@@ -22,6 +22,12 @@ import JungleMaslow from './components/pageTypes/ModuleOne/JungleMaslow'
 import Finances from './components/pageTypes/ModuleOne/Finances'
 import TasksModuleOne from './components/pageTypes/ModuleOne/TasksModuleOne'
 
+// Module 2
+import JungleFormula from './components/pageTypes/ModuleTwo/JungleFormula'
+import JungleDays from './components/pageTypes/ModuleTwo/JungleDays'
+import TasksWeekTwo from './components/pageTypes/ModuleTwo/TasksWeekTwo'
+import OwnGrowth from './components/pageTypes/ModuleTwo/OwnGrowth'
+
 type Paths = {
   [key: string]: string
 }
@@ -48,14 +54,23 @@ export type Route = {
 export const paths: Paths = {
   home: '/',
   redirect: '/redirectToHome',
+  pageNotFound: '*',
   overview: '/overview',
-  jungleMinds: '/jungleMinds',
-  jungleCulture: '/jungleCulture',
-  ourPeople: '/ourPeople',
-  howWeWork: '/howWeWork',
-  ourClients: '/ourClients',
   faq: '/faq',
-  pageNotFound: '*'
+  // Module 1
+  jungleMinds: '/jungleMinds',
+  // Moduke 2
+  jungleCulture: '/jungleCulture',
+  jungleFormula: '/jungleFormula',
+  jungleDays: '/jungleDays',
+  ownGrowth: '/ownGrowth',
+  tasksWeekTwo: '/tasksWeekTwo',
+  // Module 3
+  ourPeople: '/ourPeople',
+  // Module 4
+  howWeWork: '/howWeWork',
+  // Module 5
+  ourClients: '/ourClients'
 }
 
 export const navigationPaths: Paths = {
@@ -68,11 +83,13 @@ export const navigationPaths: Paths = {
   '0.5 Our Clients': '/ourClients'
 }
 
+// FAQ
 export const navigationFAQ: Paths = {
   Overview: '/overview',
   'FAQ': '/faq'
 }
 
+// Module 1
 export const navigationJungleMinds: Paths = {
   Overview: '/overview',
   '1 Jungle Minds': '/jungleMinds',
@@ -82,16 +99,18 @@ export const navigationJungleMinds: Paths = {
   '1.4 Opdrachten': '/tasksModuleOne'
 }
 
+// Module 2
 export const navigationJungleCulture: Paths = {
   Overview: '/overview',
   '2 De Jungle Cultuur': '/jungleCulture',
-  '2.1 Jungle Formula': '/#',
-  '2.2 Jungle Days': '/#',
-  '2.3 .': '/#',
-  '2.4 Opdrachten': '/#'
+  '2.1 Jungle Formula': '/jungleFormula',
+  '2.2 Jungle Days': '/jungleDays',
+  '2.3 Ontwikkeling': '/ownGrowth',
+  '2.4 Opdrachten': '/tasksWeekTwo'
 
 }
 
+// Module 3
 export const navigationOurTeam: Paths = {
   Overview: '/overview',
   '3 Ons Team': '/ourPeople',
@@ -101,6 +120,7 @@ export const navigationOurTeam: Paths = {
   '3.4 Opdrachten': '/#'
 }
 
+// Module 4
 export const navigationHowWeWork: Paths = {
   Overview: '/overview',
   '4 Ons Workflow': '/howWeWork',
@@ -110,6 +130,7 @@ export const navigationHowWeWork: Paths = {
   '4.4 Opdrachten': '/#'
 }
 
+// Module 5
 export const navigationOurClients: Paths = {
   Overview: '/overview',
   '5 Ons Klanten': '/ourClients',
@@ -148,9 +169,10 @@ const routes: Array<Route> = [
     component: FAQ,
     exact: true
   },
+  // Module 1
   {
     path: paths.jungleMinds,
-    title: 'Jungle Minds',
+    title: '1 Jungle Minds',
     component: JungleMinds,
     exact: true
   },
@@ -178,24 +200,52 @@ const routes: Array<Route> = [
     component: TasksModuleOne,
     exact: true
   },
+  // Module 2
   {
     path: paths.jungleCulture,
-    title: 'The Jungle Culture',
+    title: '2 The Jungle Culture',
     component: JungleCulture,
     exact: true
   },
   {
-    path: paths.ourPeople,
-    title: 'Our People',
-    component: OurPeople,
+    path: paths.jungleFormula,
+    title: '2.1 Jungle Formula',
+    component: JungleFormula,
     exact: true
   },
   {
+    path: paths.jungleDays,
+    title: '2.2 Jungle Days',
+    component: JungleDays,
+    exact: true
+  },
+  {
+    path: paths.ownGrowth,
+    title: '2.3 Ontwikkeling',
+    component: OwnGrowth,
+    exact: true
+  },
+  {
+    path: paths.tasksWeekTwo,
+    title: '2.4 Opdrachten',
+    component: TasksWeekTwo,
+    exact: true
+  },
+  // Module 3
+  {
+    path: paths.ourPeople,
+    title: '3 Our People',
+    component: OurPeople,
+    exact: true
+  },
+  // Module 4
+  {
     path: paths.howWeWork,
-    title: 'How We Work',
+    title: '4 How We Work',
     component: HowWeWork,
     exact: true
   },
+  // Module 5
   {
     path: paths.ourClients,
     title: 'Our Clients',

@@ -55,77 +55,6 @@ export const overview = {
   ]
 }
 
-export const jungleMinds = {
-  pageTitle: '0.1 Jungle minds',
-  introTitle: 'Our evolution in time',
-  introText: `Our company is founded in 2000 as the first user centric company. Since then we keep deserving this title by making products that really matters in a person's life.`
-}
-
-export const testTekst = {
-  title: 'Our evolution in time',
-  text: `Our company is founded in 2000 as the first user centric company. Since then we keep deserving this title by making products that really matters in a person's life.`
-}
-
-export const overallData = [
-  {
-    name: 'Today',
-    content: testTekst
-  },
-  {
-    name: 'Tomorrow',
-    content: testTekst
-  },
-  {
-    name: 'Beyond',
-    content: testTekst
-  }
-]
-
-export const jungleCulture = {
-  pageTitle: '0.2 The Jungle Culture',
-  introTitle: 'Jungle Maslow',
-  introText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur porta dolor ac sem egestas blandit. Praesent eget tempor nisi.',
-  imageAlignment: 'right',
-  textMedia: [
-    {
-      title: 'Financiële autonomie',
-      text: 'Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.'
-    },
-    {
-      title: 'Een ijzersterk team op een fijne plek ',
-      text: 'Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.'
-    },
-    {
-      title: 'Een portfolio met smoel',
-      text: 'We bedenken en maken oplossingen voor complexe vraagstukken waar we trots op zijn. Het is mooi om te zien dat de werkelijkheid zoals we hem voorstelden vaak echt goed uitpakt. En dat ons werk nieuwe vragen van nieuwe klanten oproept die we ook mogen beantwoorden is dan natuurlijk heel mooi meegenomen.'
-    },
-    {
-      title: 'Werk van betekenis ',
-      text: 'En ja, hier is het ons om te doen. Oplossingen maken die betekenis hebben.'
-    }
-  ],
-  image: './images/team_design.jpg',
-  mediaCaption: 'test'
-}
-
-export const ourPeople = {
-  pageTitle: '0.3 Our People',
-  introTitle: 'Our team',
-  introText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur porta dolor ac sem egestas blandit. Praesent eget tempor nisi.'
-}
-
-export const howWeWork = {
-  pageTitle: '0.4 How We Work',
-  introTitle: 'One methode',
-  introText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur porta dolor ac sem egestas blandit. Praesent eget tempor nisi.'
-}
-
-export const ourClients = {
-  pageTitle: '0.5 Our Clients',
-  introTitle: 'How they describe us',
-  introText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur porta dolor ac sem egestas blandit. Praesent eget tempor nisi.'
-}
-
 export const faq = {
   pageTitle: 'FAQ',
   introTitle: 'Vragen??',
@@ -290,3 +219,196 @@ export const faq = {
     }
   ]
 }
+
+// Module 1
+export const jungleMinds = {
+  pageTitle: '0.1 Jungle minds',
+  introTitle: 'Our evolution in time',
+  introText: `Our company is founded in 2000 as the first user centric company. Since then we keep deserving this title by making products that really matters in a person's life.`
+}
+
+// Module 2
+export const jungleCulture = {
+  pageTitle: '2 De Jungle Cultuur',
+  introTitle: 'Module 2',
+  introText: 'Welkom tijdens jouw tweede week binnen Jungle Minds. Deze week staat in de teken van ons cultuur. Tijdens deze module leer je hoe wij ons cultuur gevormd hebben en hoe wij deze doorvertallen aan onze medewerkers.',
+  imageAlignment: 'left',
+  textMedia: [
+    {
+      title: 'Week 2',
+      text: `Tijdens deze week leer je meer over:
+      <ul>
+      <li>
+        2.1 Jungle Formula
+      </li>
+      <li>
+        2.2 Jungle Days
+      </li>
+      <li>
+        2.3 ...
+      </li>
+      </ul>
+      `
+    },
+    {
+      title: 'Opdrachten',
+      text: `Gedurende deze modules krijg je enkele opdrachten toegewegen. Het is de bedoeling dat je deze opdrachten uitvoert voor het einde van de week. Denk aan: de mandagen zijn de beste dagen om een gesprek aan te gaan met een collega. 
+      <ul>
+      <li>
+        2.4 Opdrachten
+      </li>
+      </ul>
+      `
+    }
+  ],
+  image: './images/team_design.jpg',
+  mediaCaption: 'Jungle Cultuur'
+}
+
+export const jungleFormula = {
+  pageTitle: '2.1 Jungle Formula',
+  introTitle: 'Een mentaliteit',
+  introText: `In de Jungle hechten we waarde aan karakter. Want kennis en skills veranderen, de houding blijft. Met onze manier van werken gaan we complexe vraagstukken te lijf.`,
+  textMedia: [
+    {
+      title: 'Een open blik',
+      text: 'We zijn specialisten, maar geïnteresseerd in bijna alles. Hierdoor zijn we in staat om in korte tijd tot de kern van elk vraagstuk of organisatie te komen. Zonder daarbij ooit het frisse perspectief van de buitenstaander te verliezen.'
+    },
+    {
+      title: 'Een koel hoofd',
+      text: 'Het ontdekken van nieuwe, complexe gebieden gaat nooit zonder slag of stoot. Het is rommelig en onoverzichtelijk, en zo zien we het graag. Dat we gedijen in chaotische omstandigheden betekent niet dat we ondoordacht of half werk leveren. Persoonlijk kwaliteitsbesef en toewijding maken in ons vak het verschil.'
+    },
+    {
+      title: 'Trots op wat je doet',
+      text: 'Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.'
+    }
+  ],
+  image: './images/2.1formula.jpg',
+  mediaCaption: 'Office mood van Project Managers Jacinta & Jessica',
+  quote:
+    {
+      image: './images/team_design.jpg',
+      text: 'Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.',
+      metadata: 'Naam en functie'
+    }
+}
+
+export const jungleDays = {
+  pageTitle: '2.2 Jungle Days',
+  introTitle: 'Onze dagen',
+  introText: `Ongeveer eens per maand komen we ‘s middags samen om over belangrijke ontwikkelingen in Jungle Minds te praten. Op zo’n Jungle Day gaat het over de grote lijnen en het waarom van onze manier van werken en denken.`,
+  textMedia: [
+    {
+      title: 'Jungle Day',
+      text:
+      `
+      Elk kwartaal hebben we allemaal quality time op Jungle Day. Dan bespreken we de grote en kleine ambities van
+      ons bureau en maken we ons financiële welzijn voor iedereen inzichtelijk. Zo is ‘management’ geen vage taak van een select groepje maar het transparante resultaat van samenwerking met het hele bedrijf.
+      `
+    },
+    {
+      title: 'Save the date',
+      text:
+      `
+      <ul>
+        <li>
+          Jungle day 1: 08 februari 2018
+        </li>
+        <li>
+          Jungle day XL: 20 april 2018
+        </li>
+        <li>
+          Jungle day 2: 21 juni 2018
+        </li>
+        <li>
+          Jungle day 3: november 2018
+        </li>
+      </ul>
+      `
+    }
+  ],
+  image: './images/2.1formula.jpg',
+  mediaCaption: 'Office mood van Project Managers Jacinta & Jessica',
+  quote:
+    {
+      image: './images/team_design.jpg',
+      text: 'Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.',
+      metadata: 'naam functie'
+    }
+}
+
+export const ownGrowth = {
+  pageTitle: '2.3 Ontwikkeling',
+  introTitle: 'Eigen groei',
+  introText: `Uitleg ...`,
+  textMedia: [
+    {
+      title: 'Tribe bijeenkomsten',
+      text:
+      `
+        Elke maandag zijn er Tribe-bijeenkomsten, met ruimte voor persoonlijke ontwikkeling en verdieping van je expertise. En elke zes weken komen de vertegenwoordigers van elke Tribe dan weer bijeen om de inhoudelijke ontwikkeling van ons bureau te stroomlijnen.`
+    },
+    {
+      title: 'Opleidingen, cursussen, trainingen',
+      text:
+          `
+        We hebben een royaal bedrag gereserveerd om onszelf wijzer te maken dan we al zijn. Wil je een van je vaardigheden aanscherpen? Is er een training die je hart sneller doet kloppen? Een dagje aan de lippen hangen van een obscure held uit je vakgebied? Doen! Informeer wel eerst even naar je planning en het beschikbare budget.
+      `
+    }
+  ],
+  image: './images/2.1formula.jpg',
+  mediaCaption: 'Office mood van Project Managers Jacinta & Jessica',
+  quote:
+    {
+      image: './images/team_design.jpg',
+      text: 'Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.',
+      metadata: 'naam functie'
+    }
+}
+
+export const tasksWeekTwo = {
+  pageTitle: '2.4 Opdrachten',
+  introTitle: 'Opdrachten',
+  introText: `Uitleg ...`
+}
+
+// Module 3
+export const ourPeople = {
+  pageTitle: '0.3 Our People',
+  introTitle: 'Our team',
+  introText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur porta dolor ac sem egestas blandit. Praesent eget tempor nisi.'
+}
+
+// Module 4
+export const howWeWork = {
+  pageTitle: '0.4 How We Work',
+  introTitle: 'One methode',
+  introText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur porta dolor ac sem egestas blandit. Praesent eget tempor nisi.'
+}
+
+// Module 5
+export const ourClients = {
+  pageTitle: '0.5 Our Clients',
+  introTitle: 'How they describe us',
+  introText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur porta dolor ac sem egestas blandit. Praesent eget tempor nisi.'
+}
+
+export const testTekst = {
+  title: 'Our evolution in time',
+  text: `Our company is founded in 2000 as the first user centric company. Since then we keep deserving this title by making products that really matters in a person's life.`
+}
+
+export const overallData = [
+  {
+    name: 'Today',
+    content: testTekst
+  },
+  {
+    name: 'Tomorrow',
+    content: testTekst
+  },
+  {
+    name: 'Beyond',
+    content: testTekst
+  }
+]

@@ -1,0 +1,891 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <JungleFormula />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <HelmetWrapper
+          defer={true}
+          encodeSpecialCharacters={true}
+          title="JungleFormula"
+        />,
+        <Grid
+          page="jungleCulture"
+        >
+          <header>
+            <PageTitle
+              image="./images/2.1formula.jpg"
+              introText="In de Jungle hechten we waarde aan karakter. Want kennis en skills veranderen, de houding blijft. Met onze manier van werken gaan we complexe vraagstukken te lijf."
+              introTitle="Een mentaliteit"
+              mediaCaption="Office mood van Project Managers Jacinta & Jessica"
+              pageTitle="2.1 Jungle Formula"
+              quote={
+                Object {
+                  "image": "./images/team_design.jpg",
+                  "metadata": "Naam en functie",
+                  "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+                }
+              }
+              textMedia={
+                Array [
+                  Object {
+                    "text": "We zijn specialisten, maar geïnteresseerd in bijna alles. Hierdoor zijn we in staat om in korte tijd tot de kern van elk vraagstuk of organisatie te komen. Zonder daarbij ooit het frisse perspectief van de buitenstaander te verliezen.",
+                    "title": "Een open blik",
+                  },
+                  Object {
+                    "text": "Het ontdekken van nieuwe, complexe gebieden gaat nooit zonder slag of stoot. Het is rommelig en onoverzichtelijk, en zo zien we het graag. Dat we gedijen in chaotische omstandigheden betekent niet dat we ondoordacht of half werk leveren. Persoonlijk kwaliteitsbesef en toewijding maken in ons vak het verschil.",
+                    "title": "Een koel hoofd",
+                  },
+                  Object {
+                    "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+                    "title": "Trots op wat je doet",
+                  },
+                ]
+              }
+            />
+            <Intro
+              image="./images/2.1formula.jpg"
+              introText="In de Jungle hechten we waarde aan karakter. Want kennis en skills veranderen, de houding blijft. Met onze manier van werken gaan we complexe vraagstukken te lijf."
+              introTitle="Een mentaliteit"
+              mediaCaption="Office mood van Project Managers Jacinta & Jessica"
+              pageTitle="2.1 Jungle Formula"
+              quote={
+                Object {
+                  "image": "./images/team_design.jpg",
+                  "metadata": "Naam en functie",
+                  "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+                }
+              }
+              textMedia={
+                Array [
+                  Object {
+                    "text": "We zijn specialisten, maar geïnteresseerd in bijna alles. Hierdoor zijn we in staat om in korte tijd tot de kern van elk vraagstuk of organisatie te komen. Zonder daarbij ooit het frisse perspectief van de buitenstaander te verliezen.",
+                    "title": "Een open blik",
+                  },
+                  Object {
+                    "text": "Het ontdekken van nieuwe, complexe gebieden gaat nooit zonder slag of stoot. Het is rommelig en onoverzichtelijk, en zo zien we het graag. Dat we gedijen in chaotische omstandigheden betekent niet dat we ondoordacht of half werk leveren. Persoonlijk kwaliteitsbesef en toewijding maken in ons vak het verschil.",
+                    "title": "Een koel hoofd",
+                  },
+                  Object {
+                    "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+                    "title": "Trots op wat je doet",
+                  },
+                ]
+              }
+            />
+          </header>
+          <TextAndImage
+            image="./images/2.1formula.jpg"
+            introText="In de Jungle hechten we waarde aan karakter. Want kennis en skills veranderen, de houding blijft. Met onze manier van werken gaan we complexe vraagstukken te lijf."
+            introTitle="Een mentaliteit"
+            mediaCaption="Office mood van Project Managers Jacinta & Jessica"
+            pageTitle="2.1 Jungle Formula"
+            quote={
+              Object {
+                "image": "./images/team_design.jpg",
+                "metadata": "Naam en functie",
+                "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+              }
+            }
+            textMedia={
+              Array [
+                Object {
+                  "text": "We zijn specialisten, maar geïnteresseerd in bijna alles. Hierdoor zijn we in staat om in korte tijd tot de kern van elk vraagstuk of organisatie te komen. Zonder daarbij ooit het frisse perspectief van de buitenstaander te verliezen.",
+                  "title": "Een open blik",
+                },
+                Object {
+                  "text": "Het ontdekken van nieuwe, complexe gebieden gaat nooit zonder slag of stoot. Het is rommelig en onoverzichtelijk, en zo zien we het graag. Dat we gedijen in chaotische omstandigheden betekent niet dat we ondoordacht of half werk leveren. Persoonlijk kwaliteitsbesef en toewijding maken in ons vak het verschil.",
+                  "title": "Een koel hoofd",
+                },
+                Object {
+                  "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+                  "title": "Trots op wat je doet",
+                },
+              ]
+            }
+          />
+          <Quote
+            image="./images/team_design.jpg"
+            metadata="Naam en functie"
+            text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+          />
+        </Grid>,
+      ],
+      "className": "JungleFormula",
+      "data-test": undefined,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "defer": true,
+          "encodeSpecialCharacters": true,
+          "title": "JungleFormula",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <header>
+              <PageTitle
+                image="./images/2.1formula.jpg"
+                introText="In de Jungle hechten we waarde aan karakter. Want kennis en skills veranderen, de houding blijft. Met onze manier van werken gaan we complexe vraagstukken te lijf."
+                introTitle="Een mentaliteit"
+                mediaCaption="Office mood van Project Managers Jacinta & Jessica"
+                pageTitle="2.1 Jungle Formula"
+                quote={
+                  Object {
+                    "image": "./images/team_design.jpg",
+                    "metadata": "Naam en functie",
+                    "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+                  }
+                }
+                textMedia={
+                  Array [
+                    Object {
+                      "text": "We zijn specialisten, maar geïnteresseerd in bijna alles. Hierdoor zijn we in staat om in korte tijd tot de kern van elk vraagstuk of organisatie te komen. Zonder daarbij ooit het frisse perspectief van de buitenstaander te verliezen.",
+                      "title": "Een open blik",
+                    },
+                    Object {
+                      "text": "Het ontdekken van nieuwe, complexe gebieden gaat nooit zonder slag of stoot. Het is rommelig en onoverzichtelijk, en zo zien we het graag. Dat we gedijen in chaotische omstandigheden betekent niet dat we ondoordacht of half werk leveren. Persoonlijk kwaliteitsbesef en toewijding maken in ons vak het verschil.",
+                      "title": "Een koel hoofd",
+                    },
+                    Object {
+                      "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+                      "title": "Trots op wat je doet",
+                    },
+                  ]
+                }
+              />
+              <Intro
+                image="./images/2.1formula.jpg"
+                introText="In de Jungle hechten we waarde aan karakter. Want kennis en skills veranderen, de houding blijft. Met onze manier van werken gaan we complexe vraagstukken te lijf."
+                introTitle="Een mentaliteit"
+                mediaCaption="Office mood van Project Managers Jacinta & Jessica"
+                pageTitle="2.1 Jungle Formula"
+                quote={
+                  Object {
+                    "image": "./images/team_design.jpg",
+                    "metadata": "Naam en functie",
+                    "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+                  }
+                }
+                textMedia={
+                  Array [
+                    Object {
+                      "text": "We zijn specialisten, maar geïnteresseerd in bijna alles. Hierdoor zijn we in staat om in korte tijd tot de kern van elk vraagstuk of organisatie te komen. Zonder daarbij ooit het frisse perspectief van de buitenstaander te verliezen.",
+                      "title": "Een open blik",
+                    },
+                    Object {
+                      "text": "Het ontdekken van nieuwe, complexe gebieden gaat nooit zonder slag of stoot. Het is rommelig en onoverzichtelijk, en zo zien we het graag. Dat we gedijen in chaotische omstandigheden betekent niet dat we ondoordacht of half werk leveren. Persoonlijk kwaliteitsbesef en toewijding maken in ons vak het verschil.",
+                      "title": "Een koel hoofd",
+                    },
+                    Object {
+                      "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+                      "title": "Trots op wat je doet",
+                    },
+                  ]
+                }
+              />
+            </header>,
+            <TextAndImage
+              image="./images/2.1formula.jpg"
+              introText="In de Jungle hechten we waarde aan karakter. Want kennis en skills veranderen, de houding blijft. Met onze manier van werken gaan we complexe vraagstukken te lijf."
+              introTitle="Een mentaliteit"
+              mediaCaption="Office mood van Project Managers Jacinta & Jessica"
+              pageTitle="2.1 Jungle Formula"
+              quote={
+                Object {
+                  "image": "./images/team_design.jpg",
+                  "metadata": "Naam en functie",
+                  "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+                }
+              }
+              textMedia={
+                Array [
+                  Object {
+                    "text": "We zijn specialisten, maar geïnteresseerd in bijna alles. Hierdoor zijn we in staat om in korte tijd tot de kern van elk vraagstuk of organisatie te komen. Zonder daarbij ooit het frisse perspectief van de buitenstaander te verliezen.",
+                    "title": "Een open blik",
+                  },
+                  Object {
+                    "text": "Het ontdekken van nieuwe, complexe gebieden gaat nooit zonder slag of stoot. Het is rommelig en onoverzichtelijk, en zo zien we het graag. Dat we gedijen in chaotische omstandigheden betekent niet dat we ondoordacht of half werk leveren. Persoonlijk kwaliteitsbesef en toewijding maken in ons vak het verschil.",
+                    "title": "Een koel hoofd",
+                  },
+                  Object {
+                    "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+                    "title": "Trots op wat je doet",
+                  },
+                ]
+              }
+            />,
+            <Quote
+              image="./images/team_design.jpg"
+              metadata="Naam en functie"
+              text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+            />,
+          ],
+          "page": "jungleCulture",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <PageTitle
+                  image="./images/2.1formula.jpg"
+                  introText="In de Jungle hechten we waarde aan karakter. Want kennis en skills veranderen, de houding blijft. Met onze manier van werken gaan we complexe vraagstukken te lijf."
+                  introTitle="Een mentaliteit"
+                  mediaCaption="Office mood van Project Managers Jacinta & Jessica"
+                  pageTitle="2.1 Jungle Formula"
+                  quote={
+                    Object {
+                      "image": "./images/team_design.jpg",
+                      "metadata": "Naam en functie",
+                      "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+                    }
+                  }
+                  textMedia={
+                    Array [
+                      Object {
+                        "text": "We zijn specialisten, maar geïnteresseerd in bijna alles. Hierdoor zijn we in staat om in korte tijd tot de kern van elk vraagstuk of organisatie te komen. Zonder daarbij ooit het frisse perspectief van de buitenstaander te verliezen.",
+                        "title": "Een open blik",
+                      },
+                      Object {
+                        "text": "Het ontdekken van nieuwe, complexe gebieden gaat nooit zonder slag of stoot. Het is rommelig en onoverzichtelijk, en zo zien we het graag. Dat we gedijen in chaotische omstandigheden betekent niet dat we ondoordacht of half werk leveren. Persoonlijk kwaliteitsbesef en toewijding maken in ons vak het verschil.",
+                        "title": "Een koel hoofd",
+                      },
+                      Object {
+                        "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+                        "title": "Trots op wat je doet",
+                      },
+                    ]
+                  }
+                />,
+                <Intro
+                  image="./images/2.1formula.jpg"
+                  introText="In de Jungle hechten we waarde aan karakter. Want kennis en skills veranderen, de houding blijft. Met onze manier van werken gaan we complexe vraagstukken te lijf."
+                  introTitle="Een mentaliteit"
+                  mediaCaption="Office mood van Project Managers Jacinta & Jessica"
+                  pageTitle="2.1 Jungle Formula"
+                  quote={
+                    Object {
+                      "image": "./images/team_design.jpg",
+                      "metadata": "Naam en functie",
+                      "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+                    }
+                  }
+                  textMedia={
+                    Array [
+                      Object {
+                        "text": "We zijn specialisten, maar geïnteresseerd in bijna alles. Hierdoor zijn we in staat om in korte tijd tot de kern van elk vraagstuk of organisatie te komen. Zonder daarbij ooit het frisse perspectief van de buitenstaander te verliezen.",
+                        "title": "Een open blik",
+                      },
+                      Object {
+                        "text": "Het ontdekken van nieuwe, complexe gebieden gaat nooit zonder slag of stoot. Het is rommelig en onoverzichtelijk, en zo zien we het graag. Dat we gedijen in chaotische omstandigheden betekent niet dat we ondoordacht of half werk leveren. Persoonlijk kwaliteitsbesef en toewijding maken in ons vak het verschil.",
+                        "title": "Een koel hoofd",
+                      },
+                      Object {
+                        "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+                        "title": "Trots op wat je doet",
+                      },
+                    ]
+                  }
+                />,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "image": "./images/2.1formula.jpg",
+                  "introText": "In de Jungle hechten we waarde aan karakter. Want kennis en skills veranderen, de houding blijft. Met onze manier van werken gaan we complexe vraagstukken te lijf.",
+                  "introTitle": "Een mentaliteit",
+                  "mediaCaption": "Office mood van Project Managers Jacinta & Jessica",
+                  "pageTitle": "2.1 Jungle Formula",
+                  "quote": Object {
+                    "image": "./images/team_design.jpg",
+                    "metadata": "Naam en functie",
+                    "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+                  },
+                  "textMedia": Array [
+                    Object {
+                      "text": "We zijn specialisten, maar geïnteresseerd in bijna alles. Hierdoor zijn we in staat om in korte tijd tot de kern van elk vraagstuk of organisatie te komen. Zonder daarbij ooit het frisse perspectief van de buitenstaander te verliezen.",
+                      "title": "Een open blik",
+                    },
+                    Object {
+                      "text": "Het ontdekken van nieuwe, complexe gebieden gaat nooit zonder slag of stoot. Het is rommelig en onoverzichtelijk, en zo zien we het graag. Dat we gedijen in chaotische omstandigheden betekent niet dat we ondoordacht of half werk leveren. Persoonlijk kwaliteitsbesef en toewijding maken in ons vak het verschil.",
+                      "title": "Een koel hoofd",
+                    },
+                    Object {
+                      "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+                      "title": "Trots op wat je doet",
+                    },
+                  ],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "image": "./images/2.1formula.jpg",
+                  "introText": "In de Jungle hechten we waarde aan karakter. Want kennis en skills veranderen, de houding blijft. Met onze manier van werken gaan we complexe vraagstukken te lijf.",
+                  "introTitle": "Een mentaliteit",
+                  "mediaCaption": "Office mood van Project Managers Jacinta & Jessica",
+                  "pageTitle": "2.1 Jungle Formula",
+                  "quote": Object {
+                    "image": "./images/team_design.jpg",
+                    "metadata": "Naam en functie",
+                    "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+                  },
+                  "textMedia": Array [
+                    Object {
+                      "text": "We zijn specialisten, maar geïnteresseerd in bijna alles. Hierdoor zijn we in staat om in korte tijd tot de kern van elk vraagstuk of organisatie te komen. Zonder daarbij ooit het frisse perspectief van de buitenstaander te verliezen.",
+                      "title": "Een open blik",
+                    },
+                    Object {
+                      "text": "Het ontdekken van nieuwe, complexe gebieden gaat nooit zonder slag of stoot. Het is rommelig en onoverzichtelijk, en zo zien we het graag. Dat we gedijen in chaotische omstandigheden betekent niet dat we ondoordacht of half werk leveren. Persoonlijk kwaliteitsbesef en toewijding maken in ons vak het verschil.",
+                      "title": "Een koel hoofd",
+                    },
+                    Object {
+                      "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+                      "title": "Trots op wat je doet",
+                    },
+                  ],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": "header",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "image": "./images/2.1formula.jpg",
+              "introText": "In de Jungle hechten we waarde aan karakter. Want kennis en skills veranderen, de houding blijft. Met onze manier van werken gaan we complexe vraagstukken te lijf.",
+              "introTitle": "Een mentaliteit",
+              "mediaCaption": "Office mood van Project Managers Jacinta & Jessica",
+              "pageTitle": "2.1 Jungle Formula",
+              "quote": Object {
+                "image": "./images/team_design.jpg",
+                "metadata": "Naam en functie",
+                "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+              },
+              "textMedia": Array [
+                Object {
+                  "text": "We zijn specialisten, maar geïnteresseerd in bijna alles. Hierdoor zijn we in staat om in korte tijd tot de kern van elk vraagstuk of organisatie te komen. Zonder daarbij ooit het frisse perspectief van de buitenstaander te verliezen.",
+                  "title": "Een open blik",
+                },
+                Object {
+                  "text": "Het ontdekken van nieuwe, complexe gebieden gaat nooit zonder slag of stoot. Het is rommelig en onoverzichtelijk, en zo zien we het graag. Dat we gedijen in chaotische omstandigheden betekent niet dat we ondoordacht of half werk leveren. Persoonlijk kwaliteitsbesef en toewijding maken in ons vak het verschil.",
+                  "title": "Een koel hoofd",
+                },
+                Object {
+                  "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+                  "title": "Trots op wat je doet",
+                },
+              ],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "image": "./images/team_design.jpg",
+              "metadata": "Naam en functie",
+              "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <HelmetWrapper
+            defer={true}
+            encodeSpecialCharacters={true}
+            title="JungleFormula"
+          />,
+          <Grid
+            page="jungleCulture"
+          >
+            <header>
+              <PageTitle
+                image="./images/2.1formula.jpg"
+                introText="In de Jungle hechten we waarde aan karakter. Want kennis en skills veranderen, de houding blijft. Met onze manier van werken gaan we complexe vraagstukken te lijf."
+                introTitle="Een mentaliteit"
+                mediaCaption="Office mood van Project Managers Jacinta & Jessica"
+                pageTitle="2.1 Jungle Formula"
+                quote={
+                  Object {
+                    "image": "./images/team_design.jpg",
+                    "metadata": "Naam en functie",
+                    "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+                  }
+                }
+                textMedia={
+                  Array [
+                    Object {
+                      "text": "We zijn specialisten, maar geïnteresseerd in bijna alles. Hierdoor zijn we in staat om in korte tijd tot de kern van elk vraagstuk of organisatie te komen. Zonder daarbij ooit het frisse perspectief van de buitenstaander te verliezen.",
+                      "title": "Een open blik",
+                    },
+                    Object {
+                      "text": "Het ontdekken van nieuwe, complexe gebieden gaat nooit zonder slag of stoot. Het is rommelig en onoverzichtelijk, en zo zien we het graag. Dat we gedijen in chaotische omstandigheden betekent niet dat we ondoordacht of half werk leveren. Persoonlijk kwaliteitsbesef en toewijding maken in ons vak het verschil.",
+                      "title": "Een koel hoofd",
+                    },
+                    Object {
+                      "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+                      "title": "Trots op wat je doet",
+                    },
+                  ]
+                }
+              />
+              <Intro
+                image="./images/2.1formula.jpg"
+                introText="In de Jungle hechten we waarde aan karakter. Want kennis en skills veranderen, de houding blijft. Met onze manier van werken gaan we complexe vraagstukken te lijf."
+                introTitle="Een mentaliteit"
+                mediaCaption="Office mood van Project Managers Jacinta & Jessica"
+                pageTitle="2.1 Jungle Formula"
+                quote={
+                  Object {
+                    "image": "./images/team_design.jpg",
+                    "metadata": "Naam en functie",
+                    "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+                  }
+                }
+                textMedia={
+                  Array [
+                    Object {
+                      "text": "We zijn specialisten, maar geïnteresseerd in bijna alles. Hierdoor zijn we in staat om in korte tijd tot de kern van elk vraagstuk of organisatie te komen. Zonder daarbij ooit het frisse perspectief van de buitenstaander te verliezen.",
+                      "title": "Een open blik",
+                    },
+                    Object {
+                      "text": "Het ontdekken van nieuwe, complexe gebieden gaat nooit zonder slag of stoot. Het is rommelig en onoverzichtelijk, en zo zien we het graag. Dat we gedijen in chaotische omstandigheden betekent niet dat we ondoordacht of half werk leveren. Persoonlijk kwaliteitsbesef en toewijding maken in ons vak het verschil.",
+                      "title": "Een koel hoofd",
+                    },
+                    Object {
+                      "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+                      "title": "Trots op wat je doet",
+                    },
+                  ]
+                }
+              />
+            </header>
+            <TextAndImage
+              image="./images/2.1formula.jpg"
+              introText="In de Jungle hechten we waarde aan karakter. Want kennis en skills veranderen, de houding blijft. Met onze manier van werken gaan we complexe vraagstukken te lijf."
+              introTitle="Een mentaliteit"
+              mediaCaption="Office mood van Project Managers Jacinta & Jessica"
+              pageTitle="2.1 Jungle Formula"
+              quote={
+                Object {
+                  "image": "./images/team_design.jpg",
+                  "metadata": "Naam en functie",
+                  "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+                }
+              }
+              textMedia={
+                Array [
+                  Object {
+                    "text": "We zijn specialisten, maar geïnteresseerd in bijna alles. Hierdoor zijn we in staat om in korte tijd tot de kern van elk vraagstuk of organisatie te komen. Zonder daarbij ooit het frisse perspectief van de buitenstaander te verliezen.",
+                    "title": "Een open blik",
+                  },
+                  Object {
+                    "text": "Het ontdekken van nieuwe, complexe gebieden gaat nooit zonder slag of stoot. Het is rommelig en onoverzichtelijk, en zo zien we het graag. Dat we gedijen in chaotische omstandigheden betekent niet dat we ondoordacht of half werk leveren. Persoonlijk kwaliteitsbesef en toewijding maken in ons vak het verschil.",
+                    "title": "Een koel hoofd",
+                  },
+                  Object {
+                    "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+                    "title": "Trots op wat je doet",
+                  },
+                ]
+              }
+            />
+            <Quote
+              image="./images/team_design.jpg"
+              metadata="Naam en functie"
+              text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+            />
+          </Grid>,
+        ],
+        "className": "JungleFormula",
+        "data-test": undefined,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "defer": true,
+            "encodeSpecialCharacters": true,
+            "title": "JungleFormula",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <header>
+                <PageTitle
+                  image="./images/2.1formula.jpg"
+                  introText="In de Jungle hechten we waarde aan karakter. Want kennis en skills veranderen, de houding blijft. Met onze manier van werken gaan we complexe vraagstukken te lijf."
+                  introTitle="Een mentaliteit"
+                  mediaCaption="Office mood van Project Managers Jacinta & Jessica"
+                  pageTitle="2.1 Jungle Formula"
+                  quote={
+                    Object {
+                      "image": "./images/team_design.jpg",
+                      "metadata": "Naam en functie",
+                      "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+                    }
+                  }
+                  textMedia={
+                    Array [
+                      Object {
+                        "text": "We zijn specialisten, maar geïnteresseerd in bijna alles. Hierdoor zijn we in staat om in korte tijd tot de kern van elk vraagstuk of organisatie te komen. Zonder daarbij ooit het frisse perspectief van de buitenstaander te verliezen.",
+                        "title": "Een open blik",
+                      },
+                      Object {
+                        "text": "Het ontdekken van nieuwe, complexe gebieden gaat nooit zonder slag of stoot. Het is rommelig en onoverzichtelijk, en zo zien we het graag. Dat we gedijen in chaotische omstandigheden betekent niet dat we ondoordacht of half werk leveren. Persoonlijk kwaliteitsbesef en toewijding maken in ons vak het verschil.",
+                        "title": "Een koel hoofd",
+                      },
+                      Object {
+                        "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+                        "title": "Trots op wat je doet",
+                      },
+                    ]
+                  }
+                />
+                <Intro
+                  image="./images/2.1formula.jpg"
+                  introText="In de Jungle hechten we waarde aan karakter. Want kennis en skills veranderen, de houding blijft. Met onze manier van werken gaan we complexe vraagstukken te lijf."
+                  introTitle="Een mentaliteit"
+                  mediaCaption="Office mood van Project Managers Jacinta & Jessica"
+                  pageTitle="2.1 Jungle Formula"
+                  quote={
+                    Object {
+                      "image": "./images/team_design.jpg",
+                      "metadata": "Naam en functie",
+                      "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+                    }
+                  }
+                  textMedia={
+                    Array [
+                      Object {
+                        "text": "We zijn specialisten, maar geïnteresseerd in bijna alles. Hierdoor zijn we in staat om in korte tijd tot de kern van elk vraagstuk of organisatie te komen. Zonder daarbij ooit het frisse perspectief van de buitenstaander te verliezen.",
+                        "title": "Een open blik",
+                      },
+                      Object {
+                        "text": "Het ontdekken van nieuwe, complexe gebieden gaat nooit zonder slag of stoot. Het is rommelig en onoverzichtelijk, en zo zien we het graag. Dat we gedijen in chaotische omstandigheden betekent niet dat we ondoordacht of half werk leveren. Persoonlijk kwaliteitsbesef en toewijding maken in ons vak het verschil.",
+                        "title": "Een koel hoofd",
+                      },
+                      Object {
+                        "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+                        "title": "Trots op wat je doet",
+                      },
+                    ]
+                  }
+                />
+              </header>,
+              <TextAndImage
+                image="./images/2.1formula.jpg"
+                introText="In de Jungle hechten we waarde aan karakter. Want kennis en skills veranderen, de houding blijft. Met onze manier van werken gaan we complexe vraagstukken te lijf."
+                introTitle="Een mentaliteit"
+                mediaCaption="Office mood van Project Managers Jacinta & Jessica"
+                pageTitle="2.1 Jungle Formula"
+                quote={
+                  Object {
+                    "image": "./images/team_design.jpg",
+                    "metadata": "Naam en functie",
+                    "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+                  }
+                }
+                textMedia={
+                  Array [
+                    Object {
+                      "text": "We zijn specialisten, maar geïnteresseerd in bijna alles. Hierdoor zijn we in staat om in korte tijd tot de kern van elk vraagstuk of organisatie te komen. Zonder daarbij ooit het frisse perspectief van de buitenstaander te verliezen.",
+                      "title": "Een open blik",
+                    },
+                    Object {
+                      "text": "Het ontdekken van nieuwe, complexe gebieden gaat nooit zonder slag of stoot. Het is rommelig en onoverzichtelijk, en zo zien we het graag. Dat we gedijen in chaotische omstandigheden betekent niet dat we ondoordacht of half werk leveren. Persoonlijk kwaliteitsbesef en toewijding maken in ons vak het verschil.",
+                      "title": "Een koel hoofd",
+                    },
+                    Object {
+                      "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+                      "title": "Trots op wat je doet",
+                    },
+                  ]
+                }
+              />,
+              <Quote
+                image="./images/team_design.jpg"
+                metadata="Naam en functie"
+                text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+              />,
+            ],
+            "page": "jungleCulture",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <PageTitle
+                    image="./images/2.1formula.jpg"
+                    introText="In de Jungle hechten we waarde aan karakter. Want kennis en skills veranderen, de houding blijft. Met onze manier van werken gaan we complexe vraagstukken te lijf."
+                    introTitle="Een mentaliteit"
+                    mediaCaption="Office mood van Project Managers Jacinta & Jessica"
+                    pageTitle="2.1 Jungle Formula"
+                    quote={
+                      Object {
+                        "image": "./images/team_design.jpg",
+                        "metadata": "Naam en functie",
+                        "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+                      }
+                    }
+                    textMedia={
+                      Array [
+                        Object {
+                          "text": "We zijn specialisten, maar geïnteresseerd in bijna alles. Hierdoor zijn we in staat om in korte tijd tot de kern van elk vraagstuk of organisatie te komen. Zonder daarbij ooit het frisse perspectief van de buitenstaander te verliezen.",
+                          "title": "Een open blik",
+                        },
+                        Object {
+                          "text": "Het ontdekken van nieuwe, complexe gebieden gaat nooit zonder slag of stoot. Het is rommelig en onoverzichtelijk, en zo zien we het graag. Dat we gedijen in chaotische omstandigheden betekent niet dat we ondoordacht of half werk leveren. Persoonlijk kwaliteitsbesef en toewijding maken in ons vak het verschil.",
+                          "title": "Een koel hoofd",
+                        },
+                        Object {
+                          "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+                          "title": "Trots op wat je doet",
+                        },
+                      ]
+                    }
+                  />,
+                  <Intro
+                    image="./images/2.1formula.jpg"
+                    introText="In de Jungle hechten we waarde aan karakter. Want kennis en skills veranderen, de houding blijft. Met onze manier van werken gaan we complexe vraagstukken te lijf."
+                    introTitle="Een mentaliteit"
+                    mediaCaption="Office mood van Project Managers Jacinta & Jessica"
+                    pageTitle="2.1 Jungle Formula"
+                    quote={
+                      Object {
+                        "image": "./images/team_design.jpg",
+                        "metadata": "Naam en functie",
+                        "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+                      }
+                    }
+                    textMedia={
+                      Array [
+                        Object {
+                          "text": "We zijn specialisten, maar geïnteresseerd in bijna alles. Hierdoor zijn we in staat om in korte tijd tot de kern van elk vraagstuk of organisatie te komen. Zonder daarbij ooit het frisse perspectief van de buitenstaander te verliezen.",
+                          "title": "Een open blik",
+                        },
+                        Object {
+                          "text": "Het ontdekken van nieuwe, complexe gebieden gaat nooit zonder slag of stoot. Het is rommelig en onoverzichtelijk, en zo zien we het graag. Dat we gedijen in chaotische omstandigheden betekent niet dat we ondoordacht of half werk leveren. Persoonlijk kwaliteitsbesef en toewijding maken in ons vak het verschil.",
+                          "title": "Een koel hoofd",
+                        },
+                        Object {
+                          "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+                          "title": "Trots op wat je doet",
+                        },
+                      ]
+                    }
+                  />,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "image": "./images/2.1formula.jpg",
+                    "introText": "In de Jungle hechten we waarde aan karakter. Want kennis en skills veranderen, de houding blijft. Met onze manier van werken gaan we complexe vraagstukken te lijf.",
+                    "introTitle": "Een mentaliteit",
+                    "mediaCaption": "Office mood van Project Managers Jacinta & Jessica",
+                    "pageTitle": "2.1 Jungle Formula",
+                    "quote": Object {
+                      "image": "./images/team_design.jpg",
+                      "metadata": "Naam en functie",
+                      "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+                    },
+                    "textMedia": Array [
+                      Object {
+                        "text": "We zijn specialisten, maar geïnteresseerd in bijna alles. Hierdoor zijn we in staat om in korte tijd tot de kern van elk vraagstuk of organisatie te komen. Zonder daarbij ooit het frisse perspectief van de buitenstaander te verliezen.",
+                        "title": "Een open blik",
+                      },
+                      Object {
+                        "text": "Het ontdekken van nieuwe, complexe gebieden gaat nooit zonder slag of stoot. Het is rommelig en onoverzichtelijk, en zo zien we het graag. Dat we gedijen in chaotische omstandigheden betekent niet dat we ondoordacht of half werk leveren. Persoonlijk kwaliteitsbesef en toewijding maken in ons vak het verschil.",
+                        "title": "Een koel hoofd",
+                      },
+                      Object {
+                        "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+                        "title": "Trots op wat je doet",
+                      },
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "image": "./images/2.1formula.jpg",
+                    "introText": "In de Jungle hechten we waarde aan karakter. Want kennis en skills veranderen, de houding blijft. Met onze manier van werken gaan we complexe vraagstukken te lijf.",
+                    "introTitle": "Een mentaliteit",
+                    "mediaCaption": "Office mood van Project Managers Jacinta & Jessica",
+                    "pageTitle": "2.1 Jungle Formula",
+                    "quote": Object {
+                      "image": "./images/team_design.jpg",
+                      "metadata": "Naam en functie",
+                      "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+                    },
+                    "textMedia": Array [
+                      Object {
+                        "text": "We zijn specialisten, maar geïnteresseerd in bijna alles. Hierdoor zijn we in staat om in korte tijd tot de kern van elk vraagstuk of organisatie te komen. Zonder daarbij ooit het frisse perspectief van de buitenstaander te verliezen.",
+                        "title": "Een open blik",
+                      },
+                      Object {
+                        "text": "Het ontdekken van nieuwe, complexe gebieden gaat nooit zonder slag of stoot. Het is rommelig en onoverzichtelijk, en zo zien we het graag. Dat we gedijen in chaotische omstandigheden betekent niet dat we ondoordacht of half werk leveren. Persoonlijk kwaliteitsbesef en toewijding maken in ons vak het verschil.",
+                        "title": "Een koel hoofd",
+                      },
+                      Object {
+                        "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+                        "title": "Trots op wat je doet",
+                      },
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": "header",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "image": "./images/2.1formula.jpg",
+                "introText": "In de Jungle hechten we waarde aan karakter. Want kennis en skills veranderen, de houding blijft. Met onze manier van werken gaan we complexe vraagstukken te lijf.",
+                "introTitle": "Een mentaliteit",
+                "mediaCaption": "Office mood van Project Managers Jacinta & Jessica",
+                "pageTitle": "2.1 Jungle Formula",
+                "quote": Object {
+                  "image": "./images/team_design.jpg",
+                  "metadata": "Naam en functie",
+                  "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+                },
+                "textMedia": Array [
+                  Object {
+                    "text": "We zijn specialisten, maar geïnteresseerd in bijna alles. Hierdoor zijn we in staat om in korte tijd tot de kern van elk vraagstuk of organisatie te komen. Zonder daarbij ooit het frisse perspectief van de buitenstaander te verliezen.",
+                    "title": "Een open blik",
+                  },
+                  Object {
+                    "text": "Het ontdekken van nieuwe, complexe gebieden gaat nooit zonder slag of stoot. Het is rommelig en onoverzichtelijk, en zo zien we het graag. Dat we gedijen in chaotische omstandigheden betekent niet dat we ondoordacht of half werk leveren. Persoonlijk kwaliteitsbesef en toewijding maken in ons vak het verschil.",
+                    "title": "Een koel hoofd",
+                  },
+                  Object {
+                    "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+                    "title": "Trots op wat je doet",
+                  },
+                ],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "image": "./images/team_design.jpg",
+                "metadata": "Naam en functie",
+                "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
