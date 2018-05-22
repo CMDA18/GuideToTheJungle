@@ -24,11 +24,19 @@ ShallowWrapper {
           title="tasksModuleThree"
         />,
         <Grid
-          page="jungleMinds"
+          page="ourTeam"
         >
           <header>
-            <PageTitle />
-            <Intro />
+            <PageTitle
+              introText="Uitleg ..."
+              introTitle="Opdrachten"
+              pageTitle="3.4 Opdrachten"
+            />
+            <Intro
+              introText="Uitleg ..."
+              introTitle="Opdrachten"
+              pageTitle="3.4 Opdrachten"
+            />
           </header>
         </Grid>,
       ],
@@ -56,10 +64,18 @@ ShallowWrapper {
         "nodeType": "function",
         "props": Object {
           "children": <header>
-            <PageTitle />
-            <Intro />
+            <PageTitle
+              introText="Uitleg ..."
+              introTitle="Opdrachten"
+              pageTitle="3.4 Opdrachten"
+            />
+            <Intro
+              introText="Uitleg ..."
+              introTitle="Opdrachten"
+              pageTitle="3.4 Opdrachten"
+            />
           </header>,
-          "page": "jungleMinds",
+          "page": "ourTeam",
         },
         "ref": null,
         "rendered": Object {
@@ -68,8 +84,16 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": Array [
-              <PageTitle />,
-              <Intro />,
+              <PageTitle
+                introText="Uitleg ..."
+                introTitle="Opdrachten"
+                pageTitle="3.4 Opdrachten"
+              />,
+              <Intro
+                introText="Uitleg ..."
+                introTitle="Opdrachten"
+                pageTitle="3.4 Opdrachten"
+              />,
             ],
           },
           "ref": null,
@@ -78,7 +102,11 @@ ShallowWrapper {
               "instance": null,
               "key": undefined,
               "nodeType": "function",
-              "props": Object {},
+              "props": Object {
+                "introText": "Uitleg ...",
+                "introTitle": "Opdrachten",
+                "pageTitle": "3.4 Opdrachten",
+              },
               "ref": null,
               "rendered": null,
               "type": [Function],
@@ -87,7 +115,11 @@ ShallowWrapper {
               "instance": null,
               "key": undefined,
               "nodeType": "function",
-              "props": Object {},
+              "props": Object {
+                "introText": "Uitleg ...",
+                "introTitle": "Opdrachten",
+                "pageTitle": "3.4 Opdrachten",
+              },
               "ref": null,
               "rendered": null,
               "type": [Function],
@@ -113,11 +145,19 @@ ShallowWrapper {
             title="tasksModuleThree"
           />,
           <Grid
-            page="jungleMinds"
+            page="ourTeam"
           >
             <header>
-              <PageTitle />
-              <Intro />
+              <PageTitle
+                introText="Uitleg ..."
+                introTitle="Opdrachten"
+                pageTitle="3.4 Opdrachten"
+              />
+              <Intro
+                introText="Uitleg ..."
+                introTitle="Opdrachten"
+                pageTitle="3.4 Opdrachten"
+              />
             </header>
           </Grid>,
         ],
@@ -145,10 +185,18 @@ ShallowWrapper {
           "nodeType": "function",
           "props": Object {
             "children": <header>
-              <PageTitle />
-              <Intro />
+              <PageTitle
+                introText="Uitleg ..."
+                introTitle="Opdrachten"
+                pageTitle="3.4 Opdrachten"
+              />
+              <Intro
+                introText="Uitleg ..."
+                introTitle="Opdrachten"
+                pageTitle="3.4 Opdrachten"
+              />
             </header>,
-            "page": "jungleMinds",
+            "page": "ourTeam",
           },
           "ref": null,
           "rendered": Object {
@@ -157,8 +205,16 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": Array [
-                <PageTitle />,
-                <Intro />,
+                <PageTitle
+                  introText="Uitleg ..."
+                  introTitle="Opdrachten"
+                  pageTitle="3.4 Opdrachten"
+                />,
+                <Intro
+                  introText="Uitleg ..."
+                  introTitle="Opdrachten"
+                  pageTitle="3.4 Opdrachten"
+                />,
               ],
             },
             "ref": null,
@@ -167,7 +223,11 @@ ShallowWrapper {
                 "instance": null,
                 "key": undefined,
                 "nodeType": "function",
-                "props": Object {},
+                "props": Object {
+                  "introText": "Uitleg ...",
+                  "introTitle": "Opdrachten",
+                  "pageTitle": "3.4 Opdrachten",
+                },
                 "ref": null,
                 "rendered": null,
                 "type": [Function],
@@ -176,7 +236,11 @@ ShallowWrapper {
                 "instance": null,
                 "key": undefined,
                 "nodeType": "function",
-                "props": Object {},
+                "props": Object {
+                  "introText": "Uitleg ...",
+                  "introTitle": "Opdrachten",
+                  "pageTitle": "3.4 Opdrachten",
+                },
                 "ref": null,
                 "rendered": null,
                 "type": [Function],
