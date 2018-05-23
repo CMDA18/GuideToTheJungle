@@ -192,7 +192,35 @@ exports[`renders without crashing 1`] = `
     />
     <RouteWithSubRoutes
       component={[Function]}
+      exact={true}
       key="25"
+      path="/clients"
+      title="5.1 Klanten"
+    />
+    <RouteWithSubRoutes
+      component={[Function]}
+      exact={true}
+      key="26"
+      path="/portfolio"
+      title="5.2 Portfolio"
+    />
+    <RouteWithSubRoutes
+      component={[Function]}
+      exact={true}
+      key="27"
+      path="/future"
+      title="5.3 Toekomst"
+    />
+    <RouteWithSubRoutes
+      component={[Function]}
+      exact={true}
+      key="28"
+      path="/tasksModuleFive"
+      title="5.4 Opdrachten"
+    />
+    <RouteWithSubRoutes
+      component={[Function]}
+      key="29"
       path="*"
       status={404}
       title="Page Not Found"
