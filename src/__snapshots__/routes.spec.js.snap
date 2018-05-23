@@ -2,8 +2,10 @@
 
 exports[`Routes Returns an array of paths 1`] = `
 Object {
+  "clients": "/clients",
   "faq": "/faq",
   "finances": "/finances",
+  "future": "/future",
   "home": "/",
   "howWeWork": "/howWeWork",
   "insideTheJungle": "/insideTheJungle",
@@ -21,7 +23,9 @@ Object {
   "overview": "/overview",
   "ownGrowth": "/ownGrowth",
   "pageNotFound": "*",
+  "portfolio": "/portfolio",
   "redirect": "/redirectToHome",
+  "tasksModuleFive": "/tasksModuleFive",
   "tasksModuleFour": "/tasksModuleFour",
   "tasksModuleOne": "/tasksModuleOne",
   "tasksModuleThree": "/tasksModuleThree",
@@ -189,6 +193,30 @@ Array [
     "exact": true,
     "path": "/ourClients",
     "title": "Our Clients",
+  },
+  Object {
+    "component": [Function],
+    "exact": true,
+    "path": "/clients",
+    "title": "5.1 Klanten",
+  },
+  Object {
+    "component": [Function],
+    "exact": true,
+    "path": "/portfolio",
+    "title": "5.2 Portfolio",
+  },
+  Object {
+    "component": [Function],
+    "exact": true,
+    "path": "/future",
+    "title": "5.3 Toekomst",
+  },
+  Object {
+    "component": [Function],
+    "exact": true,
+    "path": "/tasksModuleFive",
+    "title": "5.4 Opdrachten",
   },
   Object {
     "component": [Function],

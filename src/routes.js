@@ -36,6 +36,10 @@ import OurMethode from './components/pageTypes/ModuleFour/OurMethode'
 import InsideTheJungle from './components/pageTypes/ModuleFour/InsideTheJungle'
 import OutsideTheJungle from './components/pageTypes/ModuleFour/OutsideTheJungle'
 import TasksModuleFour from './components/pageTypes/ModuleFour/TasksModuleFour'
+import Clients from './components/pageTypes/ModuleFive/Clients'
+import Portfolio from './components/pageTypes/ModuleFive/Portfolio'
+import Future from './components/pageTypes/ModuleFive/Future'
+import TasksModuleFive from './components/pageTypes/ModuleFive/TasksModuleFive'
 
 type Paths = {
   [key: string]: string
@@ -91,7 +95,11 @@ export const paths: Paths = {
   outsideTheJungle: '/outsideTheJungle',
   tasksModuleFour: '/tasksModuleFour',
   // Module 5
-  ourClients: '/ourClients'
+  ourClients: '/ourClients',
+  clients: '/clients',
+  portfolio: '/portfolio',
+  future: '/future',
+  tasksModuleFive: '/tasksModuleFive'
 }
 
 export const navigationPaths: Paths = {
@@ -155,10 +163,10 @@ export const navigationHowWeWork: Paths = {
 export const navigationOurClients: Paths = {
   Overview: '/overview',
   '5 Ons Klanten': '/ourClients',
-  '5.1 Klanten': '/#',
-  '5.2 Portfolio': '/#',
-  '5.3 .': '/#',
-  '5.4 Opdrachten': '/#'
+  '5.1 Klanten': '/clients',
+  '5.2 Portfolio': '/portfolio',
+  '5.3 Toekomst': '/future',
+  '5.4 Opdrachten': '/tasksModuleFive'
 }
 
 const routes: Array<Route> = [
@@ -319,6 +327,30 @@ const routes: Array<Route> = [
     path: paths.ourClients,
     title: 'Our Clients',
     component: OurClients,
+    exact: true
+  },
+  {
+    path: paths.clients,
+    title: '5.1 Klanten',
+    component: Clients,
+    exact: true
+  },
+  {
+    path: paths.portfolio,
+    title: '5.2 Portfolio',
+    component: Portfolio,
+    exact: true
+  },
+  {
+    path: paths.future,
+    title: '5.3 Toekomst',
+    component: Future,
+    exact: true
+  },
+  {
+    path: paths.tasksModuleFive,
+    title: '5.4 Opdrachten',
+    component: TasksModuleFive,
     exact: true
   },
   {
