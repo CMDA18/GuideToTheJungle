@@ -527,9 +527,45 @@ export const tasksModuleFour = {
 
 // Module 5
 export const ourClients = {
-  pageTitle: '0.5 Our Clients',
+  pageTitle: '5 Ons Klanten',
   introTitle: 'How they describe us',
   introText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur porta dolor ac sem egestas blandit. Praesent eget tempor nisi.'
+}
+
+export const clients = {
+  pageTitle: '5.1 Klanten',
+  introTitle: 'Onze evolutie in tijd',
+  introText: 'Ons bedrijf is in 2000 opgericht als het eerste digital focussed onderzoeks- en strategiebureau van Nederland. Sindsdien blijven we deze titel verdienen door producten te maken die er echt toe doen in iemands leven.'
+}
+
+export const portfolio = {
+  pageTitle: '5.2 Portfolio',
+  introTitle: 'Onze structuur',
+  introText: 'test',
+  textMedia: [
+    {
+      title: 'Financiële autonomie',
+      text: 'Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.'
+    },
+    {
+      title: 'Een ijzersterk team op een fijne plek ',
+      text: 'Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.'
+    }
+  ],
+  image: './images/team_design.jpg',
+  mediaCaption: 'test'
+}
+
+export const future = {
+  pageTitle: '5.3 Toekomst',
+  introTitle: 'Transparantie',
+  introText: 'test'
+}
+
+export const tasksModuleFive = {
+  pageTitle: '5.4 Opdrachten',
+  introTitle: 'Opdrachten',
+  introText: `Uitleg ...`
 }
 
 export const testTekst = {
