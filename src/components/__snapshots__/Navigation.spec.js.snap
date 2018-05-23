@@ -19,7 +19,7 @@ ShallowWrapper {
     "props": Object {
       "children": <Navigation__Wrapper>
         <Navigation__Logo
-          to="/"
+          to="/overview"
         >
           <Jungle />
         </Navigation__Logo>
@@ -126,7 +126,7 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <Navigation__Logo
-            to="/"
+            to="/overview"
           >
             <Jungle />
           </Navigation__Logo>,
@@ -233,7 +233,7 @@ ShallowWrapper {
           "nodeType": "class",
           "props": Object {
             "children": <Jungle />,
-            "to": "/",
+            "to": "/overview",
           },
           "ref": null,
           "rendered": Object {
@@ -616,7 +616,7 @@ ShallowWrapper {
       "props": Object {
         "children": <Navigation__Wrapper>
           <Navigation__Logo
-            to="/"
+            to="/overview"
           >
             <Jungle />
           </Navigation__Logo>
@@ -723,7 +723,7 @@ ShallowWrapper {
         "props": Object {
           "children": Array [
             <Navigation__Logo
-              to="/"
+              to="/overview"
             >
               <Jungle />
             </Navigation__Logo>,
@@ -830,7 +830,7 @@ ShallowWrapper {
             "nodeType": "class",
             "props": Object {
               "children": <Jungle />,
-              "to": "/",
+              "to": "/overview",
             },
             "ref": null,
             "rendered": Object {
