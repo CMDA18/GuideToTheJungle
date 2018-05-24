@@ -29,21 +29,21 @@ ShallowWrapper {
               cards={
                 Array [
                   Object {
-                    "image": "./images/0.0_faq.jpg",
+                    "image": "./images/faq.jpg",
                     "slug": "/faq",
                     "text": "Bekijk hier de vragen die jij misschien nog niet druft te vragen maar die wel belangrijk zijn voor op de vloer.",
                     "title": "FAQ",
                     "unlocked": "yes",
                   },
                   Object {
-                    "image": "./images/0.1_jungle_minds.jpg",
+                    "image": "./images/jungle_minds.jpg",
                     "slug": "/jungleMinds",
                     "text": "Tijdens deze module leer je meer over de geschiedenis van Jungle Minds en hoe wij als bedrijf gevestigd zijn.",
                     "title": "Jungle Minds",
                     "unlocked": "yes",
                   },
                   Object {
-                    "image": "./images/team_design.jpg",
+                    "image": "./images/jungle_culture.jpg",
                     "slug": "/jungleCulture",
                     "text": "Tijdens deze module lees je meer over ons cultuur en wat wij doen om die te behouden.",
                     "title": "De Jungle Cultuur",
@@ -51,7 +51,7 @@ ShallowWrapper {
                     "unlocked": "no",
                   },
                   Object {
-                    "image": "./images/0.3_our_people.jpg",
+                    "image": "./images/our_people.jpg",
                     "slug": "/ourPeople",
                     "text": "Lees hier meer over ons geweldige team, want zoals ze zeggen \\"vele handen maken licht werk.\\"",
                     "title": "Ons Team",
@@ -59,7 +59,7 @@ ShallowWrapper {
                     "unlocked": "no",
                   },
                   Object {
-                    "image": "./images/0.4_how_we_work.jpg",
+                    "image": "./images/how_we_work.jpg",
                     "slug": "/howWeWork",
                     "text": "Binnen Jungle Minds willen we graag dat iedereen op de hoogte is van ons werkprocedures. Bekijk hier hoe wij een project aanpakken van A tot Z.",
                     "title": "Ons Workflow",
@@ -67,7 +67,7 @@ ShallowWrapper {
                     "unlocked": "no",
                   },
                   Object {
-                    "image": "./images/0.5_our_clients.jpg",
+                    "image": "./images/our_clients.jpg",
                     "slug": "/ourClients",
                     "text": "Zonder hun warebn wij niet zo ver gekomen. Lees hier voor welke bedrijven wij werken en wat voor producten wij voor hun maken.",
                     "title": "Ons Klanten",
@@ -76,7 +76,7 @@ ShallowWrapper {
                   },
                 ]
               }
-              introText="Allereerst verwelkomen wij jou graag bij Jungle Minds. We hopen dat dit het begin is van een goede samenwerking met jou. Door deze gids leer je Jungle Minds en jouw collega's beter kennen."
+              introText="Nu maak je echt deel uit onze Jungle Minds familie. Om met alles bij te zijn, vragen wij je om deze onboarding tool te gebruiken komende 5 weken. Per module krijg je 3 nieuwe inzichten over het bedrijf, collega's en over ons werkwijzen. Aan het einde van elke module vind je een overzicht van jouw weekelijkse opdrachten. Deze moeten voltooid zijn voordat je met een nieuwe module kunt beginnen."
               introTitle="Guide to the Jungle"
               pageTitle="Overzicht"
             />
@@ -84,21 +84,21 @@ ShallowWrapper {
               cards={
                 Array [
                   Object {
-                    "image": "./images/0.0_faq.jpg",
+                    "image": "./images/faq.jpg",
                     "slug": "/faq",
                     "text": "Bekijk hier de vragen die jij misschien nog niet druft te vragen maar die wel belangrijk zijn voor op de vloer.",
                     "title": "FAQ",
                     "unlocked": "yes",
                   },
                   Object {
-                    "image": "./images/0.1_jungle_minds.jpg",
+                    "image": "./images/jungle_minds.jpg",
                     "slug": "/jungleMinds",
                     "text": "Tijdens deze module leer je meer over de geschiedenis van Jungle Minds en hoe wij als bedrijf gevestigd zijn.",
                     "title": "Jungle Minds",
                     "unlocked": "yes",
                   },
                   Object {
-                    "image": "./images/team_design.jpg",
+                    "image": "./images/jungle_culture.jpg",
                     "slug": "/jungleCulture",
                     "text": "Tijdens deze module lees je meer over ons cultuur en wat wij doen om die te behouden.",
                     "title": "De Jungle Cultuur",
@@ -106,7 +106,7 @@ ShallowWrapper {
                     "unlocked": "no",
                   },
                   Object {
-                    "image": "./images/0.3_our_people.jpg",
+                    "image": "./images/our_people.jpg",
                     "slug": "/ourPeople",
                     "text": "Lees hier meer over ons geweldige team, want zoals ze zeggen \\"vele handen maken licht werk.\\"",
                     "title": "Ons Team",
@@ -114,7 +114,7 @@ ShallowWrapper {
                     "unlocked": "no",
                   },
                   Object {
-                    "image": "./images/0.4_how_we_work.jpg",
+                    "image": "./images/how_we_work.jpg",
                     "slug": "/howWeWork",
                     "text": "Binnen Jungle Minds willen we graag dat iedereen op de hoogte is van ons werkprocedures. Bekijk hier hoe wij een project aanpakken van A tot Z.",
                     "title": "Ons Workflow",
@@ -122,7 +122,7 @@ ShallowWrapper {
                     "unlocked": "no",
                   },
                   Object {
-                    "image": "./images/0.5_our_clients.jpg",
+                    "image": "./images/our_clients.jpg",
                     "slug": "/ourClients",
                     "text": "Zonder hun warebn wij niet zo ver gekomen. Lees hier voor welke bedrijven wij werken en wat voor producten wij voor hun maken.",
                     "title": "Ons Klanten",
@@ -131,7 +131,7 @@ ShallowWrapper {
                   },
                 ]
               }
-              introText="Allereerst verwelkomen wij jou graag bij Jungle Minds. We hopen dat dit het begin is van een goede samenwerking met jou. Door deze gids leer je Jungle Minds en jouw collega's beter kennen."
+              introText="Nu maak je echt deel uit onze Jungle Minds familie. Om met alles bij te zijn, vragen wij je om deze onboarding tool te gebruiken komende 5 weken. Per module krijg je 3 nieuwe inzichten over het bedrijf, collega's en over ons werkwijzen. Aan het einde van elke module vind je een overzicht van jouw weekelijkse opdrachten. Deze moeten voltooid zijn voordat je met een nieuwe module kunt beginnen."
               introTitle="Guide to the Jungle"
               pageTitle="Overzicht"
             />
@@ -140,21 +140,21 @@ ShallowWrapper {
             cards={
               Array [
                 Object {
-                  "image": "./images/0.0_faq.jpg",
+                  "image": "./images/faq.jpg",
                   "slug": "/faq",
                   "text": "Bekijk hier de vragen die jij misschien nog niet druft te vragen maar die wel belangrijk zijn voor op de vloer.",
                   "title": "FAQ",
                   "unlocked": "yes",
                 },
                 Object {
-                  "image": "./images/0.1_jungle_minds.jpg",
+                  "image": "./images/jungle_minds.jpg",
                   "slug": "/jungleMinds",
                   "text": "Tijdens deze module leer je meer over de geschiedenis van Jungle Minds en hoe wij als bedrijf gevestigd zijn.",
                   "title": "Jungle Minds",
                   "unlocked": "yes",
                 },
                 Object {
-                  "image": "./images/team_design.jpg",
+                  "image": "./images/jungle_culture.jpg",
                   "slug": "/jungleCulture",
                   "text": "Tijdens deze module lees je meer over ons cultuur en wat wij doen om die te behouden.",
                   "title": "De Jungle Cultuur",
@@ -162,7 +162,7 @@ ShallowWrapper {
                   "unlocked": "no",
                 },
                 Object {
-                  "image": "./images/0.3_our_people.jpg",
+                  "image": "./images/our_people.jpg",
                   "slug": "/ourPeople",
                   "text": "Lees hier meer over ons geweldige team, want zoals ze zeggen \\"vele handen maken licht werk.\\"",
                   "title": "Ons Team",
@@ -170,7 +170,7 @@ ShallowWrapper {
                   "unlocked": "no",
                 },
                 Object {
-                  "image": "./images/0.4_how_we_work.jpg",
+                  "image": "./images/how_we_work.jpg",
                   "slug": "/howWeWork",
                   "text": "Binnen Jungle Minds willen we graag dat iedereen op de hoogte is van ons werkprocedures. Bekijk hier hoe wij een project aanpakken van A tot Z.",
                   "title": "Ons Workflow",
@@ -178,7 +178,7 @@ ShallowWrapper {
                   "unlocked": "no",
                 },
                 Object {
-                  "image": "./images/0.5_our_clients.jpg",
+                  "image": "./images/our_clients.jpg",
                   "slug": "/ourClients",
                   "text": "Zonder hun warebn wij niet zo ver gekomen. Lees hier voor welke bedrijven wij werken en wat voor producten wij voor hun maken.",
                   "title": "Ons Klanten",
@@ -187,7 +187,7 @@ ShallowWrapper {
                 },
               ]
             }
-            introText="Allereerst verwelkomen wij jou graag bij Jungle Minds. We hopen dat dit het begin is van een goede samenwerking met jou. Door deze gids leer je Jungle Minds en jouw collega's beter kennen."
+            introText="Nu maak je echt deel uit onze Jungle Minds familie. Om met alles bij te zijn, vragen wij je om deze onboarding tool te gebruiken komende 5 weken. Per module krijg je 3 nieuwe inzichten over het bedrijf, collega's en over ons werkwijzen. Aan het einde van elke module vind je een overzicht van jouw weekelijkse opdrachten. Deze moeten voltooid zijn voordat je met een nieuwe module kunt beginnen."
             introTitle="Guide to the Jungle"
             pageTitle="Overzicht"
           />
@@ -222,21 +222,21 @@ ShallowWrapper {
                 cards={
                   Array [
                     Object {
-                      "image": "./images/0.0_faq.jpg",
+                      "image": "./images/faq.jpg",
                       "slug": "/faq",
                       "text": "Bekijk hier de vragen die jij misschien nog niet druft te vragen maar die wel belangrijk zijn voor op de vloer.",
                       "title": "FAQ",
                       "unlocked": "yes",
                     },
                     Object {
-                      "image": "./images/0.1_jungle_minds.jpg",
+                      "image": "./images/jungle_minds.jpg",
                       "slug": "/jungleMinds",
                       "text": "Tijdens deze module leer je meer over de geschiedenis van Jungle Minds en hoe wij als bedrijf gevestigd zijn.",
                       "title": "Jungle Minds",
                       "unlocked": "yes",
                     },
                     Object {
-                      "image": "./images/team_design.jpg",
+                      "image": "./images/jungle_culture.jpg",
                       "slug": "/jungleCulture",
                       "text": "Tijdens deze module lees je meer over ons cultuur en wat wij doen om die te behouden.",
                       "title": "De Jungle Cultuur",
@@ -244,7 +244,7 @@ ShallowWrapper {
                       "unlocked": "no",
                     },
                     Object {
-                      "image": "./images/0.3_our_people.jpg",
+                      "image": "./images/our_people.jpg",
                       "slug": "/ourPeople",
                       "text": "Lees hier meer over ons geweldige team, want zoals ze zeggen \\"vele handen maken licht werk.\\"",
                       "title": "Ons Team",
@@ -252,7 +252,7 @@ ShallowWrapper {
                       "unlocked": "no",
                     },
                     Object {
-                      "image": "./images/0.4_how_we_work.jpg",
+                      "image": "./images/how_we_work.jpg",
                       "slug": "/howWeWork",
                       "text": "Binnen Jungle Minds willen we graag dat iedereen op de hoogte is van ons werkprocedures. Bekijk hier hoe wij een project aanpakken van A tot Z.",
                       "title": "Ons Workflow",
@@ -260,7 +260,7 @@ ShallowWrapper {
                       "unlocked": "no",
                     },
                     Object {
-                      "image": "./images/0.5_our_clients.jpg",
+                      "image": "./images/our_clients.jpg",
                       "slug": "/ourClients",
                       "text": "Zonder hun warebn wij niet zo ver gekomen. Lees hier voor welke bedrijven wij werken en wat voor producten wij voor hun maken.",
                       "title": "Ons Klanten",
@@ -269,7 +269,7 @@ ShallowWrapper {
                     },
                   ]
                 }
-                introText="Allereerst verwelkomen wij jou graag bij Jungle Minds. We hopen dat dit het begin is van een goede samenwerking met jou. Door deze gids leer je Jungle Minds en jouw collega's beter kennen."
+                introText="Nu maak je echt deel uit onze Jungle Minds familie. Om met alles bij te zijn, vragen wij je om deze onboarding tool te gebruiken komende 5 weken. Per module krijg je 3 nieuwe inzichten over het bedrijf, collega's en over ons werkwijzen. Aan het einde van elke module vind je een overzicht van jouw weekelijkse opdrachten. Deze moeten voltooid zijn voordat je met een nieuwe module kunt beginnen."
                 introTitle="Guide to the Jungle"
                 pageTitle="Overzicht"
               />
@@ -277,21 +277,21 @@ ShallowWrapper {
                 cards={
                   Array [
                     Object {
-                      "image": "./images/0.0_faq.jpg",
+                      "image": "./images/faq.jpg",
                       "slug": "/faq",
                       "text": "Bekijk hier de vragen die jij misschien nog niet druft te vragen maar die wel belangrijk zijn voor op de vloer.",
                       "title": "FAQ",
                       "unlocked": "yes",
                     },
                     Object {
-                      "image": "./images/0.1_jungle_minds.jpg",
+                      "image": "./images/jungle_minds.jpg",
                       "slug": "/jungleMinds",
                       "text": "Tijdens deze module leer je meer over de geschiedenis van Jungle Minds en hoe wij als bedrijf gevestigd zijn.",
                       "title": "Jungle Minds",
                       "unlocked": "yes",
                     },
                     Object {
-                      "image": "./images/team_design.jpg",
+                      "image": "./images/jungle_culture.jpg",
                       "slug": "/jungleCulture",
                       "text": "Tijdens deze module lees je meer over ons cultuur en wat wij doen om die te behouden.",
                       "title": "De Jungle Cultuur",
@@ -299,7 +299,7 @@ ShallowWrapper {
                       "unlocked": "no",
                     },
                     Object {
-                      "image": "./images/0.3_our_people.jpg",
+                      "image": "./images/our_people.jpg",
                       "slug": "/ourPeople",
                       "text": "Lees hier meer over ons geweldige team, want zoals ze zeggen \\"vele handen maken licht werk.\\"",
                       "title": "Ons Team",
@@ -307,7 +307,7 @@ ShallowWrapper {
                       "unlocked": "no",
                     },
                     Object {
-                      "image": "./images/0.4_how_we_work.jpg",
+                      "image": "./images/how_we_work.jpg",
                       "slug": "/howWeWork",
                       "text": "Binnen Jungle Minds willen we graag dat iedereen op de hoogte is van ons werkprocedures. Bekijk hier hoe wij een project aanpakken van A tot Z.",
                       "title": "Ons Workflow",
@@ -315,7 +315,7 @@ ShallowWrapper {
                       "unlocked": "no",
                     },
                     Object {
-                      "image": "./images/0.5_our_clients.jpg",
+                      "image": "./images/our_clients.jpg",
                       "slug": "/ourClients",
                       "text": "Zonder hun warebn wij niet zo ver gekomen. Lees hier voor welke bedrijven wij werken en wat voor producten wij voor hun maken.",
                       "title": "Ons Klanten",
@@ -324,7 +324,7 @@ ShallowWrapper {
                     },
                   ]
                 }
-                introText="Allereerst verwelkomen wij jou graag bij Jungle Minds. We hopen dat dit het begin is van een goede samenwerking met jou. Door deze gids leer je Jungle Minds en jouw collega's beter kennen."
+                introText="Nu maak je echt deel uit onze Jungle Minds familie. Om met alles bij te zijn, vragen wij je om deze onboarding tool te gebruiken komende 5 weken. Per module krijg je 3 nieuwe inzichten over het bedrijf, collega's en over ons werkwijzen. Aan het einde van elke module vind je een overzicht van jouw weekelijkse opdrachten. Deze moeten voltooid zijn voordat je met een nieuwe module kunt beginnen."
                 introTitle="Guide to the Jungle"
                 pageTitle="Overzicht"
               />
@@ -333,21 +333,21 @@ ShallowWrapper {
               cards={
                 Array [
                   Object {
-                    "image": "./images/0.0_faq.jpg",
+                    "image": "./images/faq.jpg",
                     "slug": "/faq",
                     "text": "Bekijk hier de vragen die jij misschien nog niet druft te vragen maar die wel belangrijk zijn voor op de vloer.",
                     "title": "FAQ",
                     "unlocked": "yes",
                   },
                   Object {
-                    "image": "./images/0.1_jungle_minds.jpg",
+                    "image": "./images/jungle_minds.jpg",
                     "slug": "/jungleMinds",
                     "text": "Tijdens deze module leer je meer over de geschiedenis van Jungle Minds en hoe wij als bedrijf gevestigd zijn.",
                     "title": "Jungle Minds",
                     "unlocked": "yes",
                   },
                   Object {
-                    "image": "./images/team_design.jpg",
+                    "image": "./images/jungle_culture.jpg",
                     "slug": "/jungleCulture",
                     "text": "Tijdens deze module lees je meer over ons cultuur en wat wij doen om die te behouden.",
                     "title": "De Jungle Cultuur",
@@ -355,7 +355,7 @@ ShallowWrapper {
                     "unlocked": "no",
                   },
                   Object {
-                    "image": "./images/0.3_our_people.jpg",
+                    "image": "./images/our_people.jpg",
                     "slug": "/ourPeople",
                     "text": "Lees hier meer over ons geweldige team, want zoals ze zeggen \\"vele handen maken licht werk.\\"",
                     "title": "Ons Team",
@@ -363,7 +363,7 @@ ShallowWrapper {
                     "unlocked": "no",
                   },
                   Object {
-                    "image": "./images/0.4_how_we_work.jpg",
+                    "image": "./images/how_we_work.jpg",
                     "slug": "/howWeWork",
                     "text": "Binnen Jungle Minds willen we graag dat iedereen op de hoogte is van ons werkprocedures. Bekijk hier hoe wij een project aanpakken van A tot Z.",
                     "title": "Ons Workflow",
@@ -371,7 +371,7 @@ ShallowWrapper {
                     "unlocked": "no",
                   },
                   Object {
-                    "image": "./images/0.5_our_clients.jpg",
+                    "image": "./images/our_clients.jpg",
                     "slug": "/ourClients",
                     "text": "Zonder hun warebn wij niet zo ver gekomen. Lees hier voor welke bedrijven wij werken en wat voor producten wij voor hun maken.",
                     "title": "Ons Klanten",
@@ -380,7 +380,7 @@ ShallowWrapper {
                   },
                 ]
               }
-              introText="Allereerst verwelkomen wij jou graag bij Jungle Minds. We hopen dat dit het begin is van een goede samenwerking met jou. Door deze gids leer je Jungle Minds en jouw collega's beter kennen."
+              introText="Nu maak je echt deel uit onze Jungle Minds familie. Om met alles bij te zijn, vragen wij je om deze onboarding tool te gebruiken komende 5 weken. Per module krijg je 3 nieuwe inzichten over het bedrijf, collega's en over ons werkwijzen. Aan het einde van elke module vind je een overzicht van jouw weekelijkse opdrachten. Deze moeten voltooid zijn voordat je met een nieuwe module kunt beginnen."
               introTitle="Guide to the Jungle"
               pageTitle="Overzicht"
             />,
@@ -398,21 +398,21 @@ ShallowWrapper {
                   cards={
                     Array [
                       Object {
-                        "image": "./images/0.0_faq.jpg",
+                        "image": "./images/faq.jpg",
                         "slug": "/faq",
                         "text": "Bekijk hier de vragen die jij misschien nog niet druft te vragen maar die wel belangrijk zijn voor op de vloer.",
                         "title": "FAQ",
                         "unlocked": "yes",
                       },
                       Object {
-                        "image": "./images/0.1_jungle_minds.jpg",
+                        "image": "./images/jungle_minds.jpg",
                         "slug": "/jungleMinds",
                         "text": "Tijdens deze module leer je meer over de geschiedenis van Jungle Minds en hoe wij als bedrijf gevestigd zijn.",
                         "title": "Jungle Minds",
                         "unlocked": "yes",
                       },
                       Object {
-                        "image": "./images/team_design.jpg",
+                        "image": "./images/jungle_culture.jpg",
                         "slug": "/jungleCulture",
                         "text": "Tijdens deze module lees je meer over ons cultuur en wat wij doen om die te behouden.",
                         "title": "De Jungle Cultuur",
@@ -420,7 +420,7 @@ ShallowWrapper {
                         "unlocked": "no",
                       },
                       Object {
-                        "image": "./images/0.3_our_people.jpg",
+                        "image": "./images/our_people.jpg",
                         "slug": "/ourPeople",
                         "text": "Lees hier meer over ons geweldige team, want zoals ze zeggen \\"vele handen maken licht werk.\\"",
                         "title": "Ons Team",
@@ -428,7 +428,7 @@ ShallowWrapper {
                         "unlocked": "no",
                       },
                       Object {
-                        "image": "./images/0.4_how_we_work.jpg",
+                        "image": "./images/how_we_work.jpg",
                         "slug": "/howWeWork",
                         "text": "Binnen Jungle Minds willen we graag dat iedereen op de hoogte is van ons werkprocedures. Bekijk hier hoe wij een project aanpakken van A tot Z.",
                         "title": "Ons Workflow",
@@ -436,7 +436,7 @@ ShallowWrapper {
                         "unlocked": "no",
                       },
                       Object {
-                        "image": "./images/0.5_our_clients.jpg",
+                        "image": "./images/our_clients.jpg",
                         "slug": "/ourClients",
                         "text": "Zonder hun warebn wij niet zo ver gekomen. Lees hier voor welke bedrijven wij werken en wat voor producten wij voor hun maken.",
                         "title": "Ons Klanten",
@@ -445,7 +445,7 @@ ShallowWrapper {
                       },
                     ]
                   }
-                  introText="Allereerst verwelkomen wij jou graag bij Jungle Minds. We hopen dat dit het begin is van een goede samenwerking met jou. Door deze gids leer je Jungle Minds en jouw collega's beter kennen."
+                  introText="Nu maak je echt deel uit onze Jungle Minds familie. Om met alles bij te zijn, vragen wij je om deze onboarding tool te gebruiken komende 5 weken. Per module krijg je 3 nieuwe inzichten over het bedrijf, collega's en over ons werkwijzen. Aan het einde van elke module vind je een overzicht van jouw weekelijkse opdrachten. Deze moeten voltooid zijn voordat je met een nieuwe module kunt beginnen."
                   introTitle="Guide to the Jungle"
                   pageTitle="Overzicht"
                 />,
@@ -453,21 +453,21 @@ ShallowWrapper {
                   cards={
                     Array [
                       Object {
-                        "image": "./images/0.0_faq.jpg",
+                        "image": "./images/faq.jpg",
                         "slug": "/faq",
                         "text": "Bekijk hier de vragen die jij misschien nog niet druft te vragen maar die wel belangrijk zijn voor op de vloer.",
                         "title": "FAQ",
                         "unlocked": "yes",
                       },
                       Object {
-                        "image": "./images/0.1_jungle_minds.jpg",
+                        "image": "./images/jungle_minds.jpg",
                         "slug": "/jungleMinds",
                         "text": "Tijdens deze module leer je meer over de geschiedenis van Jungle Minds en hoe wij als bedrijf gevestigd zijn.",
                         "title": "Jungle Minds",
                         "unlocked": "yes",
                       },
                       Object {
-                        "image": "./images/team_design.jpg",
+                        "image": "./images/jungle_culture.jpg",
                         "slug": "/jungleCulture",
                         "text": "Tijdens deze module lees je meer over ons cultuur en wat wij doen om die te behouden.",
                         "title": "De Jungle Cultuur",
@@ -475,7 +475,7 @@ ShallowWrapper {
                         "unlocked": "no",
                       },
                       Object {
-                        "image": "./images/0.3_our_people.jpg",
+                        "image": "./images/our_people.jpg",
                         "slug": "/ourPeople",
                         "text": "Lees hier meer over ons geweldige team, want zoals ze zeggen \\"vele handen maken licht werk.\\"",
                         "title": "Ons Team",
@@ -483,7 +483,7 @@ ShallowWrapper {
                         "unlocked": "no",
                       },
                       Object {
-                        "image": "./images/0.4_how_we_work.jpg",
+                        "image": "./images/how_we_work.jpg",
                         "slug": "/howWeWork",
                         "text": "Binnen Jungle Minds willen we graag dat iedereen op de hoogte is van ons werkprocedures. Bekijk hier hoe wij een project aanpakken van A tot Z.",
                         "title": "Ons Workflow",
@@ -491,7 +491,7 @@ ShallowWrapper {
                         "unlocked": "no",
                       },
                       Object {
-                        "image": "./images/0.5_our_clients.jpg",
+                        "image": "./images/our_clients.jpg",
                         "slug": "/ourClients",
                         "text": "Zonder hun warebn wij niet zo ver gekomen. Lees hier voor welke bedrijven wij werken en wat voor producten wij voor hun maken.",
                         "title": "Ons Klanten",
@@ -500,7 +500,7 @@ ShallowWrapper {
                       },
                     ]
                   }
-                  introText="Allereerst verwelkomen wij jou graag bij Jungle Minds. We hopen dat dit het begin is van een goede samenwerking met jou. Door deze gids leer je Jungle Minds en jouw collega's beter kennen."
+                  introText="Nu maak je echt deel uit onze Jungle Minds familie. Om met alles bij te zijn, vragen wij je om deze onboarding tool te gebruiken komende 5 weken. Per module krijg je 3 nieuwe inzichten over het bedrijf, collega's en over ons werkwijzen. Aan het einde van elke module vind je een overzicht van jouw weekelijkse opdrachten. Deze moeten voltooid zijn voordat je met een nieuwe module kunt beginnen."
                   introTitle="Guide to the Jungle"
                   pageTitle="Overzicht"
                 />,
@@ -515,21 +515,21 @@ ShallowWrapper {
                 "props": Object {
                   "cards": Array [
                     Object {
-                      "image": "./images/0.0_faq.jpg",
+                      "image": "./images/faq.jpg",
                       "slug": "/faq",
                       "text": "Bekijk hier de vragen die jij misschien nog niet druft te vragen maar die wel belangrijk zijn voor op de vloer.",
                       "title": "FAQ",
                       "unlocked": "yes",
                     },
                     Object {
-                      "image": "./images/0.1_jungle_minds.jpg",
+                      "image": "./images/jungle_minds.jpg",
                       "slug": "/jungleMinds",
                       "text": "Tijdens deze module leer je meer over de geschiedenis van Jungle Minds en hoe wij als bedrijf gevestigd zijn.",
                       "title": "Jungle Minds",
                       "unlocked": "yes",
                     },
                     Object {
-                      "image": "./images/team_design.jpg",
+                      "image": "./images/jungle_culture.jpg",
                       "slug": "/jungleCulture",
                       "text": "Tijdens deze module lees je meer over ons cultuur en wat wij doen om die te behouden.",
                       "title": "De Jungle Cultuur",
@@ -537,7 +537,7 @@ ShallowWrapper {
                       "unlocked": "no",
                     },
                     Object {
-                      "image": "./images/0.3_our_people.jpg",
+                      "image": "./images/our_people.jpg",
                       "slug": "/ourPeople",
                       "text": "Lees hier meer over ons geweldige team, want zoals ze zeggen \\"vele handen maken licht werk.\\"",
                       "title": "Ons Team",
@@ -545,7 +545,7 @@ ShallowWrapper {
                       "unlocked": "no",
                     },
                     Object {
-                      "image": "./images/0.4_how_we_work.jpg",
+                      "image": "./images/how_we_work.jpg",
                       "slug": "/howWeWork",
                       "text": "Binnen Jungle Minds willen we graag dat iedereen op de hoogte is van ons werkprocedures. Bekijk hier hoe wij een project aanpakken van A tot Z.",
                       "title": "Ons Workflow",
@@ -553,7 +553,7 @@ ShallowWrapper {
                       "unlocked": "no",
                     },
                     Object {
-                      "image": "./images/0.5_our_clients.jpg",
+                      "image": "./images/our_clients.jpg",
                       "slug": "/ourClients",
                       "text": "Zonder hun warebn wij niet zo ver gekomen. Lees hier voor welke bedrijven wij werken en wat voor producten wij voor hun maken.",
                       "title": "Ons Klanten",
@@ -561,7 +561,7 @@ ShallowWrapper {
                       "unlocked": "no",
                     },
                   ],
-                  "introText": "Allereerst verwelkomen wij jou graag bij Jungle Minds. We hopen dat dit het begin is van een goede samenwerking met jou. Door deze gids leer je Jungle Minds en jouw collega's beter kennen.",
+                  "introText": "Nu maak je echt deel uit onze Jungle Minds familie. Om met alles bij te zijn, vragen wij je om deze onboarding tool te gebruiken komende 5 weken. Per module krijg je 3 nieuwe inzichten over het bedrijf, collega's en over ons werkwijzen. Aan het einde van elke module vind je een overzicht van jouw weekelijkse opdrachten. Deze moeten voltooid zijn voordat je met een nieuwe module kunt beginnen.",
                   "introTitle": "Guide to the Jungle",
                   "pageTitle": "Overzicht",
                 },
@@ -576,21 +576,21 @@ ShallowWrapper {
                 "props": Object {
                   "cards": Array [
                     Object {
-                      "image": "./images/0.0_faq.jpg",
+                      "image": "./images/faq.jpg",
                       "slug": "/faq",
                       "text": "Bekijk hier de vragen die jij misschien nog niet druft te vragen maar die wel belangrijk zijn voor op de vloer.",
                       "title": "FAQ",
                       "unlocked": "yes",
                     },
                     Object {
-                      "image": "./images/0.1_jungle_minds.jpg",
+                      "image": "./images/jungle_minds.jpg",
                       "slug": "/jungleMinds",
                       "text": "Tijdens deze module leer je meer over de geschiedenis van Jungle Minds en hoe wij als bedrijf gevestigd zijn.",
                       "title": "Jungle Minds",
                       "unlocked": "yes",
                     },
                     Object {
-                      "image": "./images/team_design.jpg",
+                      "image": "./images/jungle_culture.jpg",
                       "slug": "/jungleCulture",
                       "text": "Tijdens deze module lees je meer over ons cultuur en wat wij doen om die te behouden.",
                       "title": "De Jungle Cultuur",
@@ -598,7 +598,7 @@ ShallowWrapper {
                       "unlocked": "no",
                     },
                     Object {
-                      "image": "./images/0.3_our_people.jpg",
+                      "image": "./images/our_people.jpg",
                       "slug": "/ourPeople",
                       "text": "Lees hier meer over ons geweldige team, want zoals ze zeggen \\"vele handen maken licht werk.\\"",
                       "title": "Ons Team",
@@ -606,7 +606,7 @@ ShallowWrapper {
                       "unlocked": "no",
                     },
                     Object {
-                      "image": "./images/0.4_how_we_work.jpg",
+                      "image": "./images/how_we_work.jpg",
                       "slug": "/howWeWork",
                       "text": "Binnen Jungle Minds willen we graag dat iedereen op de hoogte is van ons werkprocedures. Bekijk hier hoe wij een project aanpakken van A tot Z.",
                       "title": "Ons Workflow",
@@ -614,7 +614,7 @@ ShallowWrapper {
                       "unlocked": "no",
                     },
                     Object {
-                      "image": "./images/0.5_our_clients.jpg",
+                      "image": "./images/our_clients.jpg",
                       "slug": "/ourClients",
                       "text": "Zonder hun warebn wij niet zo ver gekomen. Lees hier voor welke bedrijven wij werken en wat voor producten wij voor hun maken.",
                       "title": "Ons Klanten",
@@ -622,7 +622,7 @@ ShallowWrapper {
                       "unlocked": "no",
                     },
                   ],
-                  "introText": "Allereerst verwelkomen wij jou graag bij Jungle Minds. We hopen dat dit het begin is van een goede samenwerking met jou. Door deze gids leer je Jungle Minds en jouw collega's beter kennen.",
+                  "introText": "Nu maak je echt deel uit onze Jungle Minds familie. Om met alles bij te zijn, vragen wij je om deze onboarding tool te gebruiken komende 5 weken. Per module krijg je 3 nieuwe inzichten over het bedrijf, collega's en over ons werkwijzen. Aan het einde van elke module vind je een overzicht van jouw weekelijkse opdrachten. Deze moeten voltooid zijn voordat je met een nieuwe module kunt beginnen.",
                   "introTitle": "Guide to the Jungle",
                   "pageTitle": "Overzicht",
                 },
@@ -640,21 +640,21 @@ ShallowWrapper {
             "props": Object {
               "cards": Array [
                 Object {
-                  "image": "./images/0.0_faq.jpg",
+                  "image": "./images/faq.jpg",
                   "slug": "/faq",
                   "text": "Bekijk hier de vragen die jij misschien nog niet druft te vragen maar die wel belangrijk zijn voor op de vloer.",
                   "title": "FAQ",
                   "unlocked": "yes",
                 },
                 Object {
-                  "image": "./images/0.1_jungle_minds.jpg",
+                  "image": "./images/jungle_minds.jpg",
                   "slug": "/jungleMinds",
                   "text": "Tijdens deze module leer je meer over de geschiedenis van Jungle Minds en hoe wij als bedrijf gevestigd zijn.",
                   "title": "Jungle Minds",
                   "unlocked": "yes",
                 },
                 Object {
-                  "image": "./images/team_design.jpg",
+                  "image": "./images/jungle_culture.jpg",
                   "slug": "/jungleCulture",
                   "text": "Tijdens deze module lees je meer over ons cultuur en wat wij doen om die te behouden.",
                   "title": "De Jungle Cultuur",
@@ -662,7 +662,7 @@ ShallowWrapper {
                   "unlocked": "no",
                 },
                 Object {
-                  "image": "./images/0.3_our_people.jpg",
+                  "image": "./images/our_people.jpg",
                   "slug": "/ourPeople",
                   "text": "Lees hier meer over ons geweldige team, want zoals ze zeggen \\"vele handen maken licht werk.\\"",
                   "title": "Ons Team",
@@ -670,7 +670,7 @@ ShallowWrapper {
                   "unlocked": "no",
                 },
                 Object {
-                  "image": "./images/0.4_how_we_work.jpg",
+                  "image": "./images/how_we_work.jpg",
                   "slug": "/howWeWork",
                   "text": "Binnen Jungle Minds willen we graag dat iedereen op de hoogte is van ons werkprocedures. Bekijk hier hoe wij een project aanpakken van A tot Z.",
                   "title": "Ons Workflow",
@@ -678,7 +678,7 @@ ShallowWrapper {
                   "unlocked": "no",
                 },
                 Object {
-                  "image": "./images/0.5_our_clients.jpg",
+                  "image": "./images/our_clients.jpg",
                   "slug": "/ourClients",
                   "text": "Zonder hun warebn wij niet zo ver gekomen. Lees hier voor welke bedrijven wij werken en wat voor producten wij voor hun maken.",
                   "title": "Ons Klanten",
@@ -686,7 +686,7 @@ ShallowWrapper {
                   "unlocked": "no",
                 },
               ],
-              "introText": "Allereerst verwelkomen wij jou graag bij Jungle Minds. We hopen dat dit het begin is van een goede samenwerking met jou. Door deze gids leer je Jungle Minds en jouw collega's beter kennen.",
+              "introText": "Nu maak je echt deel uit onze Jungle Minds familie. Om met alles bij te zijn, vragen wij je om deze onboarding tool te gebruiken komende 5 weken. Per module krijg je 3 nieuwe inzichten over het bedrijf, collega's en over ons werkwijzen. Aan het einde van elke module vind je een overzicht van jouw weekelijkse opdrachten. Deze moeten voltooid zijn voordat je met een nieuwe module kunt beginnen.",
               "introTitle": "Guide to the Jungle",
               "pageTitle": "Overzicht",
             },
@@ -718,21 +718,21 @@ ShallowWrapper {
                 cards={
                   Array [
                     Object {
-                      "image": "./images/0.0_faq.jpg",
+                      "image": "./images/faq.jpg",
                       "slug": "/faq",
                       "text": "Bekijk hier de vragen die jij misschien nog niet druft te vragen maar die wel belangrijk zijn voor op de vloer.",
                       "title": "FAQ",
                       "unlocked": "yes",
                     },
                     Object {
-                      "image": "./images/0.1_jungle_minds.jpg",
+                      "image": "./images/jungle_minds.jpg",
                       "slug": "/jungleMinds",
                       "text": "Tijdens deze module leer je meer over de geschiedenis van Jungle Minds en hoe wij als bedrijf gevestigd zijn.",
                       "title": "Jungle Minds",
                       "unlocked": "yes",
                     },
                     Object {
-                      "image": "./images/team_design.jpg",
+                      "image": "./images/jungle_culture.jpg",
                       "slug": "/jungleCulture",
                       "text": "Tijdens deze module lees je meer over ons cultuur en wat wij doen om die te behouden.",
                       "title": "De Jungle Cultuur",
@@ -740,7 +740,7 @@ ShallowWrapper {
                       "unlocked": "no",
                     },
                     Object {
-                      "image": "./images/0.3_our_people.jpg",
+                      "image": "./images/our_people.jpg",
                       "slug": "/ourPeople",
                       "text": "Lees hier meer over ons geweldige team, want zoals ze zeggen \\"vele handen maken licht werk.\\"",
                       "title": "Ons Team",
@@ -748,7 +748,7 @@ ShallowWrapper {
                       "unlocked": "no",
                     },
                     Object {
-                      "image": "./images/0.4_how_we_work.jpg",
+                      "image": "./images/how_we_work.jpg",
                       "slug": "/howWeWork",
                       "text": "Binnen Jungle Minds willen we graag dat iedereen op de hoogte is van ons werkprocedures. Bekijk hier hoe wij een project aanpakken van A tot Z.",
                       "title": "Ons Workflow",
@@ -756,7 +756,7 @@ ShallowWrapper {
                       "unlocked": "no",
                     },
                     Object {
-                      "image": "./images/0.5_our_clients.jpg",
+                      "image": "./images/our_clients.jpg",
                       "slug": "/ourClients",
                       "text": "Zonder hun warebn wij niet zo ver gekomen. Lees hier voor welke bedrijven wij werken en wat voor producten wij voor hun maken.",
                       "title": "Ons Klanten",
@@ -765,7 +765,7 @@ ShallowWrapper {
                     },
                   ]
                 }
-                introText="Allereerst verwelkomen wij jou graag bij Jungle Minds. We hopen dat dit het begin is van een goede samenwerking met jou. Door deze gids leer je Jungle Minds en jouw collega's beter kennen."
+                introText="Nu maak je echt deel uit onze Jungle Minds familie. Om met alles bij te zijn, vragen wij je om deze onboarding tool te gebruiken komende 5 weken. Per module krijg je 3 nieuwe inzichten over het bedrijf, collega's en over ons werkwijzen. Aan het einde van elke module vind je een overzicht van jouw weekelijkse opdrachten. Deze moeten voltooid zijn voordat je met een nieuwe module kunt beginnen."
                 introTitle="Guide to the Jungle"
                 pageTitle="Overzicht"
               />
@@ -773,21 +773,21 @@ ShallowWrapper {
                 cards={
                   Array [
                     Object {
-                      "image": "./images/0.0_faq.jpg",
+                      "image": "./images/faq.jpg",
                       "slug": "/faq",
                       "text": "Bekijk hier de vragen die jij misschien nog niet druft te vragen maar die wel belangrijk zijn voor op de vloer.",
                       "title": "FAQ",
                       "unlocked": "yes",
                     },
                     Object {
-                      "image": "./images/0.1_jungle_minds.jpg",
+                      "image": "./images/jungle_minds.jpg",
                       "slug": "/jungleMinds",
                       "text": "Tijdens deze module leer je meer over de geschiedenis van Jungle Minds en hoe wij als bedrijf gevestigd zijn.",
                       "title": "Jungle Minds",
                       "unlocked": "yes",
                     },
                     Object {
-                      "image": "./images/team_design.jpg",
+                      "image": "./images/jungle_culture.jpg",
                       "slug": "/jungleCulture",
                       "text": "Tijdens deze module lees je meer over ons cultuur en wat wij doen om die te behouden.",
                       "title": "De Jungle Cultuur",
@@ -795,7 +795,7 @@ ShallowWrapper {
                       "unlocked": "no",
                     },
                     Object {
-                      "image": "./images/0.3_our_people.jpg",
+                      "image": "./images/our_people.jpg",
                       "slug": "/ourPeople",
                       "text": "Lees hier meer over ons geweldige team, want zoals ze zeggen \\"vele handen maken licht werk.\\"",
                       "title": "Ons Team",
@@ -803,7 +803,7 @@ ShallowWrapper {
                       "unlocked": "no",
                     },
                     Object {
-                      "image": "./images/0.4_how_we_work.jpg",
+                      "image": "./images/how_we_work.jpg",
                       "slug": "/howWeWork",
                       "text": "Binnen Jungle Minds willen we graag dat iedereen op de hoogte is van ons werkprocedures. Bekijk hier hoe wij een project aanpakken van A tot Z.",
                       "title": "Ons Workflow",
@@ -811,7 +811,7 @@ ShallowWrapper {
                       "unlocked": "no",
                     },
                     Object {
-                      "image": "./images/0.5_our_clients.jpg",
+                      "image": "./images/our_clients.jpg",
                       "slug": "/ourClients",
                       "text": "Zonder hun warebn wij niet zo ver gekomen. Lees hier voor welke bedrijven wij werken en wat voor producten wij voor hun maken.",
                       "title": "Ons Klanten",
@@ -820,7 +820,7 @@ ShallowWrapper {
                     },
                   ]
                 }
-                introText="Allereerst verwelkomen wij jou graag bij Jungle Minds. We hopen dat dit het begin is van een goede samenwerking met jou. Door deze gids leer je Jungle Minds en jouw collega's beter kennen."
+                introText="Nu maak je echt deel uit onze Jungle Minds familie. Om met alles bij te zijn, vragen wij je om deze onboarding tool te gebruiken komende 5 weken. Per module krijg je 3 nieuwe inzichten over het bedrijf, collega's en over ons werkwijzen. Aan het einde van elke module vind je een overzicht van jouw weekelijkse opdrachten. Deze moeten voltooid zijn voordat je met een nieuwe module kunt beginnen."
                 introTitle="Guide to the Jungle"
                 pageTitle="Overzicht"
               />
@@ -829,21 +829,21 @@ ShallowWrapper {
               cards={
                 Array [
                   Object {
-                    "image": "./images/0.0_faq.jpg",
+                    "image": "./images/faq.jpg",
                     "slug": "/faq",
                     "text": "Bekijk hier de vragen die jij misschien nog niet druft te vragen maar die wel belangrijk zijn voor op de vloer.",
                     "title": "FAQ",
                     "unlocked": "yes",
                   },
                   Object {
-                    "image": "./images/0.1_jungle_minds.jpg",
+                    "image": "./images/jungle_minds.jpg",
                     "slug": "/jungleMinds",
                     "text": "Tijdens deze module leer je meer over de geschiedenis van Jungle Minds en hoe wij als bedrijf gevestigd zijn.",
                     "title": "Jungle Minds",
                     "unlocked": "yes",
                   },
                   Object {
-                    "image": "./images/team_design.jpg",
+                    "image": "./images/jungle_culture.jpg",
                     "slug": "/jungleCulture",
                     "text": "Tijdens deze module lees je meer over ons cultuur en wat wij doen om die te behouden.",
                     "title": "De Jungle Cultuur",
@@ -851,7 +851,7 @@ ShallowWrapper {
                     "unlocked": "no",
                   },
                   Object {
-                    "image": "./images/0.3_our_people.jpg",
+                    "image": "./images/our_people.jpg",
                     "slug": "/ourPeople",
                     "text": "Lees hier meer over ons geweldige team, want zoals ze zeggen \\"vele handen maken licht werk.\\"",
                     "title": "Ons Team",
@@ -859,7 +859,7 @@ ShallowWrapper {
                     "unlocked": "no",
                   },
                   Object {
-                    "image": "./images/0.4_how_we_work.jpg",
+                    "image": "./images/how_we_work.jpg",
                     "slug": "/howWeWork",
                     "text": "Binnen Jungle Minds willen we graag dat iedereen op de hoogte is van ons werkprocedures. Bekijk hier hoe wij een project aanpakken van A tot Z.",
                     "title": "Ons Workflow",
@@ -867,7 +867,7 @@ ShallowWrapper {
                     "unlocked": "no",
                   },
                   Object {
-                    "image": "./images/0.5_our_clients.jpg",
+                    "image": "./images/our_clients.jpg",
                     "slug": "/ourClients",
                     "text": "Zonder hun warebn wij niet zo ver gekomen. Lees hier voor welke bedrijven wij werken en wat voor producten wij voor hun maken.",
                     "title": "Ons Klanten",
@@ -876,7 +876,7 @@ ShallowWrapper {
                   },
                 ]
               }
-              introText="Allereerst verwelkomen wij jou graag bij Jungle Minds. We hopen dat dit het begin is van een goede samenwerking met jou. Door deze gids leer je Jungle Minds en jouw collega's beter kennen."
+              introText="Nu maak je echt deel uit onze Jungle Minds familie. Om met alles bij te zijn, vragen wij je om deze onboarding tool te gebruiken komende 5 weken. Per module krijg je 3 nieuwe inzichten over het bedrijf, collega's en over ons werkwijzen. Aan het einde van elke module vind je een overzicht van jouw weekelijkse opdrachten. Deze moeten voltooid zijn voordat je met een nieuwe module kunt beginnen."
               introTitle="Guide to the Jungle"
               pageTitle="Overzicht"
             />
@@ -911,21 +911,21 @@ ShallowWrapper {
                   cards={
                     Array [
                       Object {
-                        "image": "./images/0.0_faq.jpg",
+                        "image": "./images/faq.jpg",
                         "slug": "/faq",
                         "text": "Bekijk hier de vragen die jij misschien nog niet druft te vragen maar die wel belangrijk zijn voor op de vloer.",
                         "title": "FAQ",
                         "unlocked": "yes",
                       },
                       Object {
-                        "image": "./images/0.1_jungle_minds.jpg",
+                        "image": "./images/jungle_minds.jpg",
                         "slug": "/jungleMinds",
                         "text": "Tijdens deze module leer je meer over de geschiedenis van Jungle Minds en hoe wij als bedrijf gevestigd zijn.",
                         "title": "Jungle Minds",
                         "unlocked": "yes",
                       },
                       Object {
-                        "image": "./images/team_design.jpg",
+                        "image": "./images/jungle_culture.jpg",
                         "slug": "/jungleCulture",
                         "text": "Tijdens deze module lees je meer over ons cultuur en wat wij doen om die te behouden.",
                         "title": "De Jungle Cultuur",
@@ -933,7 +933,7 @@ ShallowWrapper {
                         "unlocked": "no",
                       },
                       Object {
-                        "image": "./images/0.3_our_people.jpg",
+                        "image": "./images/our_people.jpg",
                         "slug": "/ourPeople",
                         "text": "Lees hier meer over ons geweldige team, want zoals ze zeggen \\"vele handen maken licht werk.\\"",
                         "title": "Ons Team",
@@ -941,7 +941,7 @@ ShallowWrapper {
                         "unlocked": "no",
                       },
                       Object {
-                        "image": "./images/0.4_how_we_work.jpg",
+                        "image": "./images/how_we_work.jpg",
                         "slug": "/howWeWork",
                         "text": "Binnen Jungle Minds willen we graag dat iedereen op de hoogte is van ons werkprocedures. Bekijk hier hoe wij een project aanpakken van A tot Z.",
                         "title": "Ons Workflow",
@@ -949,7 +949,7 @@ ShallowWrapper {
                         "unlocked": "no",
                       },
                       Object {
-                        "image": "./images/0.5_our_clients.jpg",
+                        "image": "./images/our_clients.jpg",
                         "slug": "/ourClients",
                         "text": "Zonder hun warebn wij niet zo ver gekomen. Lees hier voor welke bedrijven wij werken en wat voor producten wij voor hun maken.",
                         "title": "Ons Klanten",
@@ -958,7 +958,7 @@ ShallowWrapper {
                       },
                     ]
                   }
-                  introText="Allereerst verwelkomen wij jou graag bij Jungle Minds. We hopen dat dit het begin is van een goede samenwerking met jou. Door deze gids leer je Jungle Minds en jouw collega's beter kennen."
+                  introText="Nu maak je echt deel uit onze Jungle Minds familie. Om met alles bij te zijn, vragen wij je om deze onboarding tool te gebruiken komende 5 weken. Per module krijg je 3 nieuwe inzichten over het bedrijf, collega's en over ons werkwijzen. Aan het einde van elke module vind je een overzicht van jouw weekelijkse opdrachten. Deze moeten voltooid zijn voordat je met een nieuwe module kunt beginnen."
                   introTitle="Guide to the Jungle"
                   pageTitle="Overzicht"
                 />
@@ -966,21 +966,21 @@ ShallowWrapper {
                   cards={
                     Array [
                       Object {
-                        "image": "./images/0.0_faq.jpg",
+                        "image": "./images/faq.jpg",
                         "slug": "/faq",
                         "text": "Bekijk hier de vragen die jij misschien nog niet druft te vragen maar die wel belangrijk zijn voor op de vloer.",
                         "title": "FAQ",
                         "unlocked": "yes",
                       },
                       Object {
-                        "image": "./images/0.1_jungle_minds.jpg",
+                        "image": "./images/jungle_minds.jpg",
                         "slug": "/jungleMinds",
                         "text": "Tijdens deze module leer je meer over de geschiedenis van Jungle Minds en hoe wij als bedrijf gevestigd zijn.",
                         "title": "Jungle Minds",
                         "unlocked": "yes",
                       },
                       Object {
-                        "image": "./images/team_design.jpg",
+                        "image": "./images/jungle_culture.jpg",
                         "slug": "/jungleCulture",
                         "text": "Tijdens deze module lees je meer over ons cultuur en wat wij doen om die te behouden.",
                         "title": "De Jungle Cultuur",
@@ -988,7 +988,7 @@ ShallowWrapper {
                         "unlocked": "no",
                       },
                       Object {
-                        "image": "./images/0.3_our_people.jpg",
+                        "image": "./images/our_people.jpg",
                         "slug": "/ourPeople",
                         "text": "Lees hier meer over ons geweldige team, want zoals ze zeggen \\"vele handen maken licht werk.\\"",
                         "title": "Ons Team",
@@ -996,7 +996,7 @@ ShallowWrapper {
                         "unlocked": "no",
                       },
                       Object {
-                        "image": "./images/0.4_how_we_work.jpg",
+                        "image": "./images/how_we_work.jpg",
                         "slug": "/howWeWork",
                         "text": "Binnen Jungle Minds willen we graag dat iedereen op de hoogte is van ons werkprocedures. Bekijk hier hoe wij een project aanpakken van A tot Z.",
                         "title": "Ons Workflow",
@@ -1004,7 +1004,7 @@ ShallowWrapper {
                         "unlocked": "no",
                       },
                       Object {
-                        "image": "./images/0.5_our_clients.jpg",
+                        "image": "./images/our_clients.jpg",
                         "slug": "/ourClients",
                         "text": "Zonder hun warebn wij niet zo ver gekomen. Lees hier voor welke bedrijven wij werken en wat voor producten wij voor hun maken.",
                         "title": "Ons Klanten",
@@ -1013,7 +1013,7 @@ ShallowWrapper {
                       },
                     ]
                   }
-                  introText="Allereerst verwelkomen wij jou graag bij Jungle Minds. We hopen dat dit het begin is van een goede samenwerking met jou. Door deze gids leer je Jungle Minds en jouw collega's beter kennen."
+                  introText="Nu maak je echt deel uit onze Jungle Minds familie. Om met alles bij te zijn, vragen wij je om deze onboarding tool te gebruiken komende 5 weken. Per module krijg je 3 nieuwe inzichten over het bedrijf, collega's en over ons werkwijzen. Aan het einde van elke module vind je een overzicht van jouw weekelijkse opdrachten. Deze moeten voltooid zijn voordat je met een nieuwe module kunt beginnen."
                   introTitle="Guide to the Jungle"
                   pageTitle="Overzicht"
                 />
@@ -1022,21 +1022,21 @@ ShallowWrapper {
                 cards={
                   Array [
                     Object {
-                      "image": "./images/0.0_faq.jpg",
+                      "image": "./images/faq.jpg",
                       "slug": "/faq",
                       "text": "Bekijk hier de vragen die jij misschien nog niet druft te vragen maar die wel belangrijk zijn voor op de vloer.",
                       "title": "FAQ",
                       "unlocked": "yes",
                     },
                     Object {
-                      "image": "./images/0.1_jungle_minds.jpg",
+                      "image": "./images/jungle_minds.jpg",
                       "slug": "/jungleMinds",
                       "text": "Tijdens deze module leer je meer over de geschiedenis van Jungle Minds en hoe wij als bedrijf gevestigd zijn.",
                       "title": "Jungle Minds",
                       "unlocked": "yes",
                     },
                     Object {
-                      "image": "./images/team_design.jpg",
+                      "image": "./images/jungle_culture.jpg",
                       "slug": "/jungleCulture",
                       "text": "Tijdens deze module lees je meer over ons cultuur en wat wij doen om die te behouden.",
                       "title": "De Jungle Cultuur",
@@ -1044,7 +1044,7 @@ ShallowWrapper {
                       "unlocked": "no",
                     },
                     Object {
-                      "image": "./images/0.3_our_people.jpg",
+                      "image": "./images/our_people.jpg",
                       "slug": "/ourPeople",
                       "text": "Lees hier meer over ons geweldige team, want zoals ze zeggen \\"vele handen maken licht werk.\\"",
                       "title": "Ons Team",
@@ -1052,7 +1052,7 @@ ShallowWrapper {
                       "unlocked": "no",
                     },
                     Object {
-                      "image": "./images/0.4_how_we_work.jpg",
+                      "image": "./images/how_we_work.jpg",
                       "slug": "/howWeWork",
                       "text": "Binnen Jungle Minds willen we graag dat iedereen op de hoogte is van ons werkprocedures. Bekijk hier hoe wij een project aanpakken van A tot Z.",
                       "title": "Ons Workflow",
@@ -1060,7 +1060,7 @@ ShallowWrapper {
                       "unlocked": "no",
                     },
                     Object {
-                      "image": "./images/0.5_our_clients.jpg",
+                      "image": "./images/our_clients.jpg",
                       "slug": "/ourClients",
                       "text": "Zonder hun warebn wij niet zo ver gekomen. Lees hier voor welke bedrijven wij werken en wat voor producten wij voor hun maken.",
                       "title": "Ons Klanten",
@@ -1069,7 +1069,7 @@ ShallowWrapper {
                     },
                   ]
                 }
-                introText="Allereerst verwelkomen wij jou graag bij Jungle Minds. We hopen dat dit het begin is van een goede samenwerking met jou. Door deze gids leer je Jungle Minds en jouw collega's beter kennen."
+                introText="Nu maak je echt deel uit onze Jungle Minds familie. Om met alles bij te zijn, vragen wij je om deze onboarding tool te gebruiken komende 5 weken. Per module krijg je 3 nieuwe inzichten over het bedrijf, collega's en over ons werkwijzen. Aan het einde van elke module vind je een overzicht van jouw weekelijkse opdrachten. Deze moeten voltooid zijn voordat je met een nieuwe module kunt beginnen."
                 introTitle="Guide to the Jungle"
                 pageTitle="Overzicht"
               />,
@@ -1087,21 +1087,21 @@ ShallowWrapper {
                     cards={
                       Array [
                         Object {
-                          "image": "./images/0.0_faq.jpg",
+                          "image": "./images/faq.jpg",
                           "slug": "/faq",
                           "text": "Bekijk hier de vragen die jij misschien nog niet druft te vragen maar die wel belangrijk zijn voor op de vloer.",
                           "title": "FAQ",
                           "unlocked": "yes",
                         },
                         Object {
-                          "image": "./images/0.1_jungle_minds.jpg",
+                          "image": "./images/jungle_minds.jpg",
                           "slug": "/jungleMinds",
                           "text": "Tijdens deze module leer je meer over de geschiedenis van Jungle Minds en hoe wij als bedrijf gevestigd zijn.",
                           "title": "Jungle Minds",
                           "unlocked": "yes",
                         },
                         Object {
-                          "image": "./images/team_design.jpg",
+                          "image": "./images/jungle_culture.jpg",
                           "slug": "/jungleCulture",
                           "text": "Tijdens deze module lees je meer over ons cultuur en wat wij doen om die te behouden.",
                           "title": "De Jungle Cultuur",
@@ -1109,7 +1109,7 @@ ShallowWrapper {
                           "unlocked": "no",
                         },
                         Object {
-                          "image": "./images/0.3_our_people.jpg",
+                          "image": "./images/our_people.jpg",
                           "slug": "/ourPeople",
                           "text": "Lees hier meer over ons geweldige team, want zoals ze zeggen \\"vele handen maken licht werk.\\"",
                           "title": "Ons Team",
@@ -1117,7 +1117,7 @@ ShallowWrapper {
                           "unlocked": "no",
                         },
                         Object {
-                          "image": "./images/0.4_how_we_work.jpg",
+                          "image": "./images/how_we_work.jpg",
                           "slug": "/howWeWork",
                           "text": "Binnen Jungle Minds willen we graag dat iedereen op de hoogte is van ons werkprocedures. Bekijk hier hoe wij een project aanpakken van A tot Z.",
                           "title": "Ons Workflow",
@@ -1125,7 +1125,7 @@ ShallowWrapper {
                           "unlocked": "no",
                         },
                         Object {
-                          "image": "./images/0.5_our_clients.jpg",
+                          "image": "./images/our_clients.jpg",
                           "slug": "/ourClients",
                           "text": "Zonder hun warebn wij niet zo ver gekomen. Lees hier voor welke bedrijven wij werken en wat voor producten wij voor hun maken.",
                           "title": "Ons Klanten",
@@ -1134,7 +1134,7 @@ ShallowWrapper {
                         },
                       ]
                     }
-                    introText="Allereerst verwelkomen wij jou graag bij Jungle Minds. We hopen dat dit het begin is van een goede samenwerking met jou. Door deze gids leer je Jungle Minds en jouw collega's beter kennen."
+                    introText="Nu maak je echt deel uit onze Jungle Minds familie. Om met alles bij te zijn, vragen wij je om deze onboarding tool te gebruiken komende 5 weken. Per module krijg je 3 nieuwe inzichten over het bedrijf, collega's en over ons werkwijzen. Aan het einde van elke module vind je een overzicht van jouw weekelijkse opdrachten. Deze moeten voltooid zijn voordat je met een nieuwe module kunt beginnen."
                     introTitle="Guide to the Jungle"
                     pageTitle="Overzicht"
                   />,
@@ -1142,21 +1142,21 @@ ShallowWrapper {
                     cards={
                       Array [
                         Object {
-                          "image": "./images/0.0_faq.jpg",
+                          "image": "./images/faq.jpg",
                           "slug": "/faq",
                           "text": "Bekijk hier de vragen die jij misschien nog niet druft te vragen maar die wel belangrijk zijn voor op de vloer.",
                           "title": "FAQ",
                           "unlocked": "yes",
                         },
                         Object {
-                          "image": "./images/0.1_jungle_minds.jpg",
+                          "image": "./images/jungle_minds.jpg",
                           "slug": "/jungleMinds",
                           "text": "Tijdens deze module leer je meer over de geschiedenis van Jungle Minds en hoe wij als bedrijf gevestigd zijn.",
                           "title": "Jungle Minds",
                           "unlocked": "yes",
                         },
                         Object {
-                          "image": "./images/team_design.jpg",
+                          "image": "./images/jungle_culture.jpg",
                           "slug": "/jungleCulture",
                           "text": "Tijdens deze module lees je meer over ons cultuur en wat wij doen om die te behouden.",
                           "title": "De Jungle Cultuur",
@@ -1164,7 +1164,7 @@ ShallowWrapper {
                           "unlocked": "no",
                         },
                         Object {
-                          "image": "./images/0.3_our_people.jpg",
+                          "image": "./images/our_people.jpg",
                           "slug": "/ourPeople",
                           "text": "Lees hier meer over ons geweldige team, want zoals ze zeggen \\"vele handen maken licht werk.\\"",
                           "title": "Ons Team",
@@ -1172,7 +1172,7 @@ ShallowWrapper {
                           "unlocked": "no",
                         },
                         Object {
-                          "image": "./images/0.4_how_we_work.jpg",
+                          "image": "./images/how_we_work.jpg",
                           "slug": "/howWeWork",
                           "text": "Binnen Jungle Minds willen we graag dat iedereen op de hoogte is van ons werkprocedures. Bekijk hier hoe wij een project aanpakken van A tot Z.",
                           "title": "Ons Workflow",
@@ -1180,7 +1180,7 @@ ShallowWrapper {
                           "unlocked": "no",
                         },
                         Object {
-                          "image": "./images/0.5_our_clients.jpg",
+                          "image": "./images/our_clients.jpg",
                           "slug": "/ourClients",
                           "text": "Zonder hun warebn wij niet zo ver gekomen. Lees hier voor welke bedrijven wij werken en wat voor producten wij voor hun maken.",
                           "title": "Ons Klanten",
@@ -1189,7 +1189,7 @@ ShallowWrapper {
                         },
                       ]
                     }
-                    introText="Allereerst verwelkomen wij jou graag bij Jungle Minds. We hopen dat dit het begin is van een goede samenwerking met jou. Door deze gids leer je Jungle Minds en jouw collega's beter kennen."
+                    introText="Nu maak je echt deel uit onze Jungle Minds familie. Om met alles bij te zijn, vragen wij je om deze onboarding tool te gebruiken komende 5 weken. Per module krijg je 3 nieuwe inzichten over het bedrijf, collega's en over ons werkwijzen. Aan het einde van elke module vind je een overzicht van jouw weekelijkse opdrachten. Deze moeten voltooid zijn voordat je met een nieuwe module kunt beginnen."
                     introTitle="Guide to the Jungle"
                     pageTitle="Overzicht"
                   />,
@@ -1204,21 +1204,21 @@ ShallowWrapper {
                   "props": Object {
                     "cards": Array [
                       Object {
-                        "image": "./images/0.0_faq.jpg",
+                        "image": "./images/faq.jpg",
                         "slug": "/faq",
                         "text": "Bekijk hier de vragen die jij misschien nog niet druft te vragen maar die wel belangrijk zijn voor op de vloer.",
                         "title": "FAQ",
                         "unlocked": "yes",
                       },
                       Object {
-                        "image": "./images/0.1_jungle_minds.jpg",
+                        "image": "./images/jungle_minds.jpg",
                         "slug": "/jungleMinds",
                         "text": "Tijdens deze module leer je meer over de geschiedenis van Jungle Minds en hoe wij als bedrijf gevestigd zijn.",
                         "title": "Jungle Minds",
                         "unlocked": "yes",
                       },
                       Object {
-                        "image": "./images/team_design.jpg",
+                        "image": "./images/jungle_culture.jpg",
                         "slug": "/jungleCulture",
                         "text": "Tijdens deze module lees je meer over ons cultuur en wat wij doen om die te behouden.",
                         "title": "De Jungle Cultuur",
@@ -1226,7 +1226,7 @@ ShallowWrapper {
                         "unlocked": "no",
                       },
                       Object {
-                        "image": "./images/0.3_our_people.jpg",
+                        "image": "./images/our_people.jpg",
                         "slug": "/ourPeople",
                         "text": "Lees hier meer over ons geweldige team, want zoals ze zeggen \\"vele handen maken licht werk.\\"",
                         "title": "Ons Team",
@@ -1234,7 +1234,7 @@ ShallowWrapper {
                         "unlocked": "no",
                       },
                       Object {
-                        "image": "./images/0.4_how_we_work.jpg",
+                        "image": "./images/how_we_work.jpg",
                         "slug": "/howWeWork",
                         "text": "Binnen Jungle Minds willen we graag dat iedereen op de hoogte is van ons werkprocedures. Bekijk hier hoe wij een project aanpakken van A tot Z.",
                         "title": "Ons Workflow",
@@ -1242,7 +1242,7 @@ ShallowWrapper {
                         "unlocked": "no",
                       },
                       Object {
-                        "image": "./images/0.5_our_clients.jpg",
+                        "image": "./images/our_clients.jpg",
                         "slug": "/ourClients",
                         "text": "Zonder hun warebn wij niet zo ver gekomen. Lees hier voor welke bedrijven wij werken en wat voor producten wij voor hun maken.",
                         "title": "Ons Klanten",
@@ -1250,7 +1250,7 @@ ShallowWrapper {
                         "unlocked": "no",
                       },
                     ],
-                    "introText": "Allereerst verwelkomen wij jou graag bij Jungle Minds. We hopen dat dit het begin is van een goede samenwerking met jou. Door deze gids leer je Jungle Minds en jouw collega's beter kennen.",
+                    "introText": "Nu maak je echt deel uit onze Jungle Minds familie. Om met alles bij te zijn, vragen wij je om deze onboarding tool te gebruiken komende 5 weken. Per module krijg je 3 nieuwe inzichten over het bedrijf, collega's en over ons werkwijzen. Aan het einde van elke module vind je een overzicht van jouw weekelijkse opdrachten. Deze moeten voltooid zijn voordat je met een nieuwe module kunt beginnen.",
                     "introTitle": "Guide to the Jungle",
                     "pageTitle": "Overzicht",
                   },
@@ -1265,21 +1265,21 @@ ShallowWrapper {
                   "props": Object {
                     "cards": Array [
                       Object {
-                        "image": "./images/0.0_faq.jpg",
+                        "image": "./images/faq.jpg",
                         "slug": "/faq",
                         "text": "Bekijk hier de vragen die jij misschien nog niet druft te vragen maar die wel belangrijk zijn voor op de vloer.",
                         "title": "FAQ",
                         "unlocked": "yes",
                       },
                       Object {
-                        "image": "./images/0.1_jungle_minds.jpg",
+                        "image": "./images/jungle_minds.jpg",
                         "slug": "/jungleMinds",
                         "text": "Tijdens deze module leer je meer over de geschiedenis van Jungle Minds en hoe wij als bedrijf gevestigd zijn.",
                         "title": "Jungle Minds",
                         "unlocked": "yes",
                       },
                       Object {
-                        "image": "./images/team_design.jpg",
+                        "image": "./images/jungle_culture.jpg",
                         "slug": "/jungleCulture",
                         "text": "Tijdens deze module lees je meer over ons cultuur en wat wij doen om die te behouden.",
                         "title": "De Jungle Cultuur",
@@ -1287,7 +1287,7 @@ ShallowWrapper {
                         "unlocked": "no",
                       },
                       Object {
-                        "image": "./images/0.3_our_people.jpg",
+                        "image": "./images/our_people.jpg",
                         "slug": "/ourPeople",
                         "text": "Lees hier meer over ons geweldige team, want zoals ze zeggen \\"vele handen maken licht werk.\\"",
                         "title": "Ons Team",
@@ -1295,7 +1295,7 @@ ShallowWrapper {
                         "unlocked": "no",
                       },
                       Object {
-                        "image": "./images/0.4_how_we_work.jpg",
+                        "image": "./images/how_we_work.jpg",
                         "slug": "/howWeWork",
                         "text": "Binnen Jungle Minds willen we graag dat iedereen op de hoogte is van ons werkprocedures. Bekijk hier hoe wij een project aanpakken van A tot Z.",
                         "title": "Ons Workflow",
@@ -1303,7 +1303,7 @@ ShallowWrapper {
                         "unlocked": "no",
                       },
                       Object {
-                        "image": "./images/0.5_our_clients.jpg",
+                        "image": "./images/our_clients.jpg",
                         "slug": "/ourClients",
                         "text": "Zonder hun warebn wij niet zo ver gekomen. Lees hier voor welke bedrijven wij werken en wat voor producten wij voor hun maken.",
                         "title": "Ons Klanten",
@@ -1311,7 +1311,7 @@ ShallowWrapper {
                         "unlocked": "no",
                       },
                     ],
-                    "introText": "Allereerst verwelkomen wij jou graag bij Jungle Minds. We hopen dat dit het begin is van een goede samenwerking met jou. Door deze gids leer je Jungle Minds en jouw collega's beter kennen.",
+                    "introText": "Nu maak je echt deel uit onze Jungle Minds familie. Om met alles bij te zijn, vragen wij je om deze onboarding tool te gebruiken komende 5 weken. Per module krijg je 3 nieuwe inzichten over het bedrijf, collega's en over ons werkwijzen. Aan het einde van elke module vind je een overzicht van jouw weekelijkse opdrachten. Deze moeten voltooid zijn voordat je met een nieuwe module kunt beginnen.",
                     "introTitle": "Guide to the Jungle",
                     "pageTitle": "Overzicht",
                   },
@@ -1329,21 +1329,21 @@ ShallowWrapper {
               "props": Object {
                 "cards": Array [
                   Object {
-                    "image": "./images/0.0_faq.jpg",
+                    "image": "./images/faq.jpg",
                     "slug": "/faq",
                     "text": "Bekijk hier de vragen die jij misschien nog niet druft te vragen maar die wel belangrijk zijn voor op de vloer.",
                     "title": "FAQ",
                     "unlocked": "yes",
                   },
                   Object {
-                    "image": "./images/0.1_jungle_minds.jpg",
+                    "image": "./images/jungle_minds.jpg",
                     "slug": "/jungleMinds",
                     "text": "Tijdens deze module leer je meer over de geschiedenis van Jungle Minds en hoe wij als bedrijf gevestigd zijn.",
                     "title": "Jungle Minds",
                     "unlocked": "yes",
                   },
                   Object {
-                    "image": "./images/team_design.jpg",
+                    "image": "./images/jungle_culture.jpg",
                     "slug": "/jungleCulture",
                     "text": "Tijdens deze module lees je meer over ons cultuur en wat wij doen om die te behouden.",
                     "title": "De Jungle Cultuur",
@@ -1351,7 +1351,7 @@ ShallowWrapper {
                     "unlocked": "no",
                   },
                   Object {
-                    "image": "./images/0.3_our_people.jpg",
+                    "image": "./images/our_people.jpg",
                     "slug": "/ourPeople",
                     "text": "Lees hier meer over ons geweldige team, want zoals ze zeggen \\"vele handen maken licht werk.\\"",
                     "title": "Ons Team",
@@ -1359,7 +1359,7 @@ ShallowWrapper {
                     "unlocked": "no",
                   },
                   Object {
-                    "image": "./images/0.4_how_we_work.jpg",
+                    "image": "./images/how_we_work.jpg",
                     "slug": "/howWeWork",
                     "text": "Binnen Jungle Minds willen we graag dat iedereen op de hoogte is van ons werkprocedures. Bekijk hier hoe wij een project aanpakken van A tot Z.",
                     "title": "Ons Workflow",
@@ -1367,7 +1367,7 @@ ShallowWrapper {
                     "unlocked": "no",
                   },
                   Object {
-                    "image": "./images/0.5_our_clients.jpg",
+                    "image": "./images/our_clients.jpg",
                     "slug": "/ourClients",
                     "text": "Zonder hun warebn wij niet zo ver gekomen. Lees hier voor welke bedrijven wij werken en wat voor producten wij voor hun maken.",
                     "title": "Ons Klanten",
@@ -1375,7 +1375,7 @@ ShallowWrapper {
                     "unlocked": "no",
                   },
                 ],
-                "introText": "Allereerst verwelkomen wij jou graag bij Jungle Minds. We hopen dat dit het begin is van een goede samenwerking met jou. Door deze gids leer je Jungle Minds en jouw collega's beter kennen.",
+                "introText": "Nu maak je echt deel uit onze Jungle Minds familie. Om met alles bij te zijn, vragen wij je om deze onboarding tool te gebruiken komende 5 weken. Per module krijg je 3 nieuwe inzichten over het bedrijf, collega's en over ons werkwijzen. Aan het einde van elke module vind je een overzicht van jouw weekelijkse opdrachten. Deze moeten voltooid zijn voordat je met een nieuwe module kunt beginnen.",
                 "introTitle": "Guide to the Jungle",
                 "pageTitle": "Overzicht",
               },

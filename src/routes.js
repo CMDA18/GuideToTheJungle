@@ -124,7 +124,7 @@ export const navigationJungleMinds: Paths = {
   '1 Jungle Minds': '/jungleMinds',
   '1.1 Ons verhaal': '/ourStory',
   '1.2 Jungle Maslow': '/jungleMaslow',
-  '1.3 Financiën': '/finances',
+  '1.3 Financiële Model': '/finances',
   '1.4 Opdrachten': '/tasksModuleOne'
 }
 

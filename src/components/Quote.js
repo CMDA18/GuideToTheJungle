@@ -7,13 +7,13 @@ import {
   colorPalette
 } from '../styles/styleGuide'
 
-type Props = {
+export type QuoteProps = {
   image: string,
   text: string,
   metadata: string
 }
 
-const Quote = (props: Props) =>
+const Quote = (props: QuoteProps) =>
   <Container>
     <Image backgroundImage={props.image ? props.image : props.image}/>
     <TextContainer>

@@ -15,8 +15,14 @@ type Props = {
 
 const QuestionFAQ = (props: Props) => {
   switch (props.state) {
-    case 'close':
     default :
+      return (
+        <Container>
+          <Question>{props.question}</Question>
+        </Container>
+      )
+
+    case 'close':
       return (
         <Container>
           <Question>{props.question}</Question>

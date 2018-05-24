@@ -9,22 +9,43 @@ import {
 } from '../styles/styleGuide'
 
 type Props = {
-  answer: string
+  answer: string,
+  state: 'faq'
 }
 
-const AnswerFAQ = (props: Props) =>
-  <Container>
-    <Answer dangerouslySetInnerHTML={{__html: `${props.answer}`}} />
-  </Container>
+const AnswerFAQ = (props: Props) => {
+  switch (props.state) {
+    default :
+      return (
+        <Container>
+          <Answer dangerouslySetInnerHTML={{__html: `${props.answer}`}} />
+        </Container>
+      )
+
+    case 'faq':
+      return (
+        <ContainerFAQ>
+          <Answer dangerouslySetInnerHTML={{__html: `${props.answer}`}} />
+        </ContainerFAQ>
+      )
+  }
+}
 
 export default AnswerFAQ
 
 const Container = styled.div`
   padding: 10px 30px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+`
+
+const ContainerFAQ = styled.div`
+  padding: 10px 30px;
   background-color: ${colorPalette.lightBlue};
   display: flex;
   justify-content: space-between;
-  
+  width: 100%;
 `
 
 const Answer = styled.h1`

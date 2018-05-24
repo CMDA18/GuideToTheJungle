@@ -40,7 +40,7 @@ class QuestionCollection extends Component<Props, State> {
             {this.state.showAnswer ? (
               <Fragment>
                 <QuestionFAQ state='open' {...item} />
-                <AnswerFAQ {...item}/>
+                <AnswerFAQ state='faq' {...item}/>
               </Fragment>
             )
               : <QuestionFAQ state='close' {...item} />

@@ -1,0 +1,4005 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Timeline />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <div
+          style={
+            Object {
+              "height": "100px",
+              "margin": "0 auto",
+              "width": "100%",
+            }
+          }
+        >
+          <DimensionsHOC
+            index={0}
+            indexClick={[Function]}
+            isOpenBeginning={false}
+            isOpenEnding={true}
+            styles={
+              Object {
+                "background": "#f8f8f8",
+                "foreground": "#ffa50d",
+                "outline": "#dfdfdf",
+              }
+            }
+            values={
+              Array [
+                "01/01/2000",
+                "01/01/2001",
+                "01/01/2006",
+                "01/01/2008",
+                "01/01/2010",
+                "11/11/2011",
+                "01/01/2014",
+                "01/01/2015",
+                "01/01/2016",
+                "01/01/2017",
+              ]
+            }
+          />
+        </div>,
+        <TimeLine__Content
+          className="text-center"
+        >
+          <ReactSwipableView
+            animateHeight={false}
+            animateTransitions={true}
+            axis="x"
+            disableLazyLoading={false}
+            disabled={false}
+            enableMouseEvents={false}
+            hysteresis={0.6}
+            ignoreNativeScroll={false}
+            index={0}
+            onChangeIndex={[Function]}
+            resistance={true}
+            springConfig={
+              Object {
+                "delay": "0s",
+                "duration": "0.35s",
+                "easeFunction": "cubic-bezier(0.15, 0.3, 0.25, 1)",
+              }
+            }
+            threshold={5}
+          >
+            <TimeLine__Wrapper
+              className="container"
+            >
+              <TimeLine__Title>
+                The Rating Company opgericht
+              </TimeLine__Title>
+              <TimeLine__ImageContainer>
+                <TimeLine__Media
+                  backgroundImage="https://images6.alphacoders.com/599/599052.jpg"
+                />
+                <TimeLine__Caption>
+                  test
+                </TimeLine__Caption>
+              </TimeLine__ImageContainer>
+              <TimeLine__Text>
+                Opgericht door Geert-Jan Smits en Matthijs Kanis als The Rating Company met als doel ‘orde te scheppen in de jungle’ die het dan nog ontluikende internet is.
+              </TimeLine__Text>
+              <Quote
+                image="./images/team_design.jpg"
+                metadata="Naam en functie"
+                text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+              />
+            </TimeLine__Wrapper>
+            <TimeLine__Wrapper
+              className="container"
+            >
+              <TimeLine__Title>
+                Joost de nieuwe partner
+              </TimeLine__Title>
+              <TimeLine__ImageContainer>
+                <TimeLine__Media
+                  backgroundImage="https://images6.alphacoders.com/599/599052.jpg"
+                />
+                <TimeLine__Caption>
+                  test
+                </TimeLine__Caption>
+              </TimeLine__ImageContainer>
+              <TimeLine__Text>
+                Joost treedt toe als partner, het bedrijf heet inmiddels Jungle Rating en doet voornamelijk research.
+              </TimeLine__Text>
+              <Quote
+                image="./images/team_design.jpg"
+                metadata="Naam en functie"
+                text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+              />
+            </TimeLine__Wrapper>
+            <TimeLine__Wrapper
+              className="container"
+            >
+              <TimeLine__Title>
+                Geen anti-kraakkantoor meer
+              </TimeLine__Title>
+              <TimeLine__ImageContainer>
+                <TimeLine__Media
+                  backgroundImage="http://elder-scrolls.com/uploads/posts/2013-11/1384956239_m43.jpg"
+                />
+                <TimeLine__Caption>
+                  test
+                </TimeLine__Caption>
+              </TimeLine__ImageContainer>
+              <TimeLine__Text>
+                Jungle Rating is in haar eerste vijf jaar stevig gegroeid, past niet meer in het anti-kraakkantoor in het Wibauthuis en verhuist naar de Weesperstraat.
+              </TimeLine__Text>
+              <Quote
+                image="./images/team_design.jpg"
+                metadata="Naam en functie"
+                text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+              />
+            </TimeLine__Wrapper>
+            <TimeLine__Wrapper
+              className="container"
+            >
+              <TimeLine__Title>
+                Twintigkoppige strategieclub
+              </TimeLine__Title>
+              <TimeLine__ImageContainer>
+                <TimeLine__Media
+                  backgroundImage="https://images8.alphacoders.com/410/410161.jpg"
+                />
+                <TimeLine__Caption>
+                  test
+                </TimeLine__Caption>
+              </TimeLine__ImageContainer>
+              <TimeLine__Text>
+                Jungle Rating heeft zich doorontwikkeld tot een twintigkoppige strategieclub. De naam ‘Rating’ dekt de lading niet meer helemaal en dus wordt de naam veranderd in Jungle Minds
+              </TimeLine__Text>
+              <Quote
+                image="./images/team_design.jpg"
+                metadata="Naam en functie"
+                text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+              />
+            </TimeLine__Wrapper>
+            <TimeLine__Wrapper
+              className="container"
+            >
+              <TimeLine__Title>
+                Geert-Jan Smits draagt zijn taken over
+              </TimeLine__Title>
+              <TimeLine__ImageContainer>
+                <TimeLine__Media
+                  backgroundImage="http://wallpapercave.com/wp/GMifnUB.jpg"
+                />
+                <TimeLine__Caption>
+                  test
+                </TimeLine__Caption>
+              </TimeLine__ImageContainer>
+              <TimeLine__Text>
+                Oprichter Geert-Jan Smits gaat zich volledig richten op zijn nieuwe onderneming Flinders Design en draagt zijn taken over aan een nieuwe directie.
+              </TimeLine__Text>
+              <Quote
+                image="./images/team_design.jpg"
+                metadata="Naam en functie"
+                text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+              />
+            </TimeLine__Wrapper>
+            <TimeLine__Wrapper
+              className="container"
+            >
+              <TimeLine__Title>
+                Tienjarige bestaan
+              </TimeLine__Title>
+              <TimeLine__ImageContainer>
+                <TimeLine__Media
+                  backgroundImage="http://wallpapercave.com/wp/GMifnUB.jpg"
+                />
+                <TimeLine__Caption>
+                  test
+                </TimeLine__Caption>
+              </TimeLine__ImageContainer>
+              <TimeLine__Text>
+                Jungle Minds viert haar tienjarige bestaan met een groot feest in het concertgebouw en een trip naar Andalusië.
+              </TimeLine__Text>
+              <Quote
+                image="./images/team_design.jpg"
+                metadata="Naam en functie"
+                text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+              />
+            </TimeLine__Wrapper>
+            <TimeLine__Wrapper
+              className="container"
+            >
+              <TimeLine__Title>
+                Drie medewerkers: Één team
+              </TimeLine__Title>
+              <TimeLine__ImageContainer>
+                <TimeLine__Media
+                  backgroundImage="http://wallpapercave.com/wp/GMifnUB.jpg"
+                />
+                <TimeLine__Caption>
+                  test
+                </TimeLine__Caption>
+              </TimeLine__ImageContainer>
+              <TimeLine__Text>
+                Drie medewerkers van Jungle Minds vormen een team en nemen samen een meerderheid van de aandelen over van de oprichters. Ondertussen speelt design en development een steeds grotere rol bij Jungle Minds, wat beloond wordt met een European Design Award voor IMC.nl.
+              </TimeLine__Text>
+              <Quote
+                image="./images/team_design.jpg"
+                metadata="Naam en functie"
+                text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+              />
+            </TimeLine__Wrapper>
+            <TimeLine__Wrapper
+              className="container"
+            >
+              <TimeLine__Title>
+                De Groene Draeck
+              </TimeLine__Title>
+              <TimeLine__ImageContainer>
+                <TimeLine__Media
+                  backgroundImage="http://wallpapercave.com/wp/GMifnUB.jpg"
+                />
+                <TimeLine__Caption>
+                  test
+                </TimeLine__Caption>
+              </TimeLine__ImageContainer>
+              <TimeLine__Text>
+                Jungle Minds steekt het IJ over naar Amsterdam Noord en betrekt de Groene Draeck. Jungle Minds wordt door Emerce uitgeroepen als het beste bureau van Nederland 2015.
+              </TimeLine__Text>
+              <Quote
+                image="./images/team_design.jpg"
+                metadata="Naam en functie"
+                text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+              />
+            </TimeLine__Wrapper>
+            <TimeLine__Wrapper
+              className="container"
+            >
+              <TimeLine__Title>
+                Top 10 werkgevers
+              </TimeLine__Title>
+              <TimeLine__ImageContainer>
+                <TimeLine__Media
+                  backgroundImage="http://wallpapercave.com/wp/GMifnUB.jpg"
+                />
+                <TimeLine__Caption>
+                  test
+                </TimeLine__Caption>
+              </TimeLine__ImageContainer>
+              <TimeLine__Text>
+                NRC plaatst Jungle Minds in de top 10 beste werkgevers van Nederland
+              </TimeLine__Text>
+              <Quote
+                image="./images/team_design.jpg"
+                metadata="Naam en functie"
+                text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+              />
+            </TimeLine__Wrapper>
+            <TimeLine__Wrapper
+              className="container"
+            >
+              <TimeLine__Title>
+                VYŌO
+              </TimeLine__Title>
+              <TimeLine__ImageContainer>
+                <TimeLine__Media
+                  backgroundImage="http://wallpapercave.com/wp/GMifnUB.jpg"
+                />
+                <TimeLine__Caption>
+                  test
+                </TimeLine__Caption>
+              </TimeLine__ImageContainer>
+              <TimeLine__Text>
+                Samen met SBK initieert Jungle Minds VYŌO, het meedenkende abonnement voor mensen die willen starten met kunst in huis. 
+              </TimeLine__Text>
+              <Quote
+                image="./images/team_design.jpg"
+                metadata="Naam en functie"
+                text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+              />
+            </TimeLine__Wrapper>
+          </ReactSwipableView>
+        </TimeLine__Content>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <DimensionsHOC
+            index={0}
+            indexClick={[Function]}
+            isOpenBeginning={false}
+            isOpenEnding={true}
+            styles={
+              Object {
+                "background": "#f8f8f8",
+                "foreground": "#ffa50d",
+                "outline": "#dfdfdf",
+              }
+            }
+            values={
+              Array [
+                "01/01/2000",
+                "01/01/2001",
+                "01/01/2006",
+                "01/01/2008",
+                "01/01/2010",
+                "11/11/2011",
+                "01/01/2014",
+                "01/01/2015",
+                "01/01/2016",
+                "01/01/2017",
+              ]
+            }
+          />,
+          "style": Object {
+            "height": "100px",
+            "margin": "0 auto",
+            "width": "100%",
+          },
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "index": 0,
+            "indexClick": [Function],
+            "isOpenBeginning": false,
+            "isOpenEnding": true,
+            "styles": Object {
+              "background": "#f8f8f8",
+              "foreground": "#ffa50d",
+              "outline": "#dfdfdf",
+            },
+            "values": Array [
+              "01/01/2000",
+              "01/01/2001",
+              "01/01/2006",
+              "01/01/2008",
+              "01/01/2010",
+              "11/11/2011",
+              "01/01/2014",
+              "01/01/2015",
+              "01/01/2016",
+              "01/01/2017",
+            ],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <ReactSwipableView
+            animateHeight={false}
+            animateTransitions={true}
+            axis="x"
+            disableLazyLoading={false}
+            disabled={false}
+            enableMouseEvents={false}
+            hysteresis={0.6}
+            ignoreNativeScroll={false}
+            index={0}
+            onChangeIndex={[Function]}
+            resistance={true}
+            springConfig={
+              Object {
+                "delay": "0s",
+                "duration": "0.35s",
+                "easeFunction": "cubic-bezier(0.15, 0.3, 0.25, 1)",
+              }
+            }
+            threshold={5}
+          >
+            <TimeLine__Wrapper
+              className="container"
+            >
+              <TimeLine__Title>
+                The Rating Company opgericht
+              </TimeLine__Title>
+              <TimeLine__ImageContainer>
+                <TimeLine__Media
+                  backgroundImage="https://images6.alphacoders.com/599/599052.jpg"
+                />
+                <TimeLine__Caption>
+                  test
+                </TimeLine__Caption>
+              </TimeLine__ImageContainer>
+              <TimeLine__Text>
+                Opgericht door Geert-Jan Smits en Matthijs Kanis als The Rating Company met als doel ‘orde te scheppen in de jungle’ die het dan nog ontluikende internet is.
+              </TimeLine__Text>
+              <Quote
+                image="./images/team_design.jpg"
+                metadata="Naam en functie"
+                text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+              />
+            </TimeLine__Wrapper>
+            <TimeLine__Wrapper
+              className="container"
+            >
+              <TimeLine__Title>
+                Joost de nieuwe partner
+              </TimeLine__Title>
+              <TimeLine__ImageContainer>
+                <TimeLine__Media
+                  backgroundImage="https://images6.alphacoders.com/599/599052.jpg"
+                />
+                <TimeLine__Caption>
+                  test
+                </TimeLine__Caption>
+              </TimeLine__ImageContainer>
+              <TimeLine__Text>
+                Joost treedt toe als partner, het bedrijf heet inmiddels Jungle Rating en doet voornamelijk research.
+              </TimeLine__Text>
+              <Quote
+                image="./images/team_design.jpg"
+                metadata="Naam en functie"
+                text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+              />
+            </TimeLine__Wrapper>
+            <TimeLine__Wrapper
+              className="container"
+            >
+              <TimeLine__Title>
+                Geen anti-kraakkantoor meer
+              </TimeLine__Title>
+              <TimeLine__ImageContainer>
+                <TimeLine__Media
+                  backgroundImage="http://elder-scrolls.com/uploads/posts/2013-11/1384956239_m43.jpg"
+                />
+                <TimeLine__Caption>
+                  test
+                </TimeLine__Caption>
+              </TimeLine__ImageContainer>
+              <TimeLine__Text>
+                Jungle Rating is in haar eerste vijf jaar stevig gegroeid, past niet meer in het anti-kraakkantoor in het Wibauthuis en verhuist naar de Weesperstraat.
+              </TimeLine__Text>
+              <Quote
+                image="./images/team_design.jpg"
+                metadata="Naam en functie"
+                text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+              />
+            </TimeLine__Wrapper>
+            <TimeLine__Wrapper
+              className="container"
+            >
+              <TimeLine__Title>
+                Twintigkoppige strategieclub
+              </TimeLine__Title>
+              <TimeLine__ImageContainer>
+                <TimeLine__Media
+                  backgroundImage="https://images8.alphacoders.com/410/410161.jpg"
+                />
+                <TimeLine__Caption>
+                  test
+                </TimeLine__Caption>
+              </TimeLine__ImageContainer>
+              <TimeLine__Text>
+                Jungle Rating heeft zich doorontwikkeld tot een twintigkoppige strategieclub. De naam ‘Rating’ dekt de lading niet meer helemaal en dus wordt de naam veranderd in Jungle Minds
+              </TimeLine__Text>
+              <Quote
+                image="./images/team_design.jpg"
+                metadata="Naam en functie"
+                text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+              />
+            </TimeLine__Wrapper>
+            <TimeLine__Wrapper
+              className="container"
+            >
+              <TimeLine__Title>
+                Geert-Jan Smits draagt zijn taken over
+              </TimeLine__Title>
+              <TimeLine__ImageContainer>
+                <TimeLine__Media
+                  backgroundImage="http://wallpapercave.com/wp/GMifnUB.jpg"
+                />
+                <TimeLine__Caption>
+                  test
+                </TimeLine__Caption>
+              </TimeLine__ImageContainer>
+              <TimeLine__Text>
+                Oprichter Geert-Jan Smits gaat zich volledig richten op zijn nieuwe onderneming Flinders Design en draagt zijn taken over aan een nieuwe directie.
+              </TimeLine__Text>
+              <Quote
+                image="./images/team_design.jpg"
+                metadata="Naam en functie"
+                text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+              />
+            </TimeLine__Wrapper>
+            <TimeLine__Wrapper
+              className="container"
+            >
+              <TimeLine__Title>
+                Tienjarige bestaan
+              </TimeLine__Title>
+              <TimeLine__ImageContainer>
+                <TimeLine__Media
+                  backgroundImage="http://wallpapercave.com/wp/GMifnUB.jpg"
+                />
+                <TimeLine__Caption>
+                  test
+                </TimeLine__Caption>
+              </TimeLine__ImageContainer>
+              <TimeLine__Text>
+                Jungle Minds viert haar tienjarige bestaan met een groot feest in het concertgebouw en een trip naar Andalusië.
+              </TimeLine__Text>
+              <Quote
+                image="./images/team_design.jpg"
+                metadata="Naam en functie"
+                text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+              />
+            </TimeLine__Wrapper>
+            <TimeLine__Wrapper
+              className="container"
+            >
+              <TimeLine__Title>
+                Drie medewerkers: Één team
+              </TimeLine__Title>
+              <TimeLine__ImageContainer>
+                <TimeLine__Media
+                  backgroundImage="http://wallpapercave.com/wp/GMifnUB.jpg"
+                />
+                <TimeLine__Caption>
+                  test
+                </TimeLine__Caption>
+              </TimeLine__ImageContainer>
+              <TimeLine__Text>
+                Drie medewerkers van Jungle Minds vormen een team en nemen samen een meerderheid van de aandelen over van de oprichters. Ondertussen speelt design en development een steeds grotere rol bij Jungle Minds, wat beloond wordt met een European Design Award voor IMC.nl.
+              </TimeLine__Text>
+              <Quote
+                image="./images/team_design.jpg"
+                metadata="Naam en functie"
+                text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+              />
+            </TimeLine__Wrapper>
+            <TimeLine__Wrapper
+              className="container"
+            >
+              <TimeLine__Title>
+                De Groene Draeck
+              </TimeLine__Title>
+              <TimeLine__ImageContainer>
+                <TimeLine__Media
+                  backgroundImage="http://wallpapercave.com/wp/GMifnUB.jpg"
+                />
+                <TimeLine__Caption>
+                  test
+                </TimeLine__Caption>
+              </TimeLine__ImageContainer>
+              <TimeLine__Text>
+                Jungle Minds steekt het IJ over naar Amsterdam Noord en betrekt de Groene Draeck. Jungle Minds wordt door Emerce uitgeroepen als het beste bureau van Nederland 2015.
+              </TimeLine__Text>
+              <Quote
+                image="./images/team_design.jpg"
+                metadata="Naam en functie"
+                text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+              />
+            </TimeLine__Wrapper>
+            <TimeLine__Wrapper
+              className="container"
+            >
+              <TimeLine__Title>
+                Top 10 werkgevers
+              </TimeLine__Title>
+              <TimeLine__ImageContainer>
+                <TimeLine__Media
+                  backgroundImage="http://wallpapercave.com/wp/GMifnUB.jpg"
+                />
+                <TimeLine__Caption>
+                  test
+                </TimeLine__Caption>
+              </TimeLine__ImageContainer>
+              <TimeLine__Text>
+                NRC plaatst Jungle Minds in de top 10 beste werkgevers van Nederland
+              </TimeLine__Text>
+              <Quote
+                image="./images/team_design.jpg"
+                metadata="Naam en functie"
+                text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+              />
+            </TimeLine__Wrapper>
+            <TimeLine__Wrapper
+              className="container"
+            >
+              <TimeLine__Title>
+                VYŌO
+              </TimeLine__Title>
+              <TimeLine__ImageContainer>
+                <TimeLine__Media
+                  backgroundImage="http://wallpapercave.com/wp/GMifnUB.jpg"
+                />
+                <TimeLine__Caption>
+                  test
+                </TimeLine__Caption>
+              </TimeLine__ImageContainer>
+              <TimeLine__Text>
+                Samen met SBK initieert Jungle Minds VYŌO, het meedenkende abonnement voor mensen die willen starten met kunst in huis. 
+              </TimeLine__Text>
+              <Quote
+                image="./images/team_design.jpg"
+                metadata="Naam en functie"
+                text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+              />
+            </TimeLine__Wrapper>
+          </ReactSwipableView>,
+          "className": "text-center",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "animateHeight": false,
+            "animateTransitions": true,
+            "axis": "x",
+            "children": Array [
+              <TimeLine__Wrapper
+                className="container"
+              >
+                <TimeLine__Title>
+                  The Rating Company opgericht
+                </TimeLine__Title>
+                <TimeLine__ImageContainer>
+                  <TimeLine__Media
+                    backgroundImage="https://images6.alphacoders.com/599/599052.jpg"
+                  />
+                  <TimeLine__Caption>
+                    test
+                  </TimeLine__Caption>
+                </TimeLine__ImageContainer>
+                <TimeLine__Text>
+                  Opgericht door Geert-Jan Smits en Matthijs Kanis als The Rating Company met als doel ‘orde te scheppen in de jungle’ die het dan nog ontluikende internet is.
+                </TimeLine__Text>
+                <Quote
+                  image="./images/team_design.jpg"
+                  metadata="Naam en functie"
+                  text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+                />
+              </TimeLine__Wrapper>,
+              <TimeLine__Wrapper
+                className="container"
+              >
+                <TimeLine__Title>
+                  Joost de nieuwe partner
+                </TimeLine__Title>
+                <TimeLine__ImageContainer>
+                  <TimeLine__Media
+                    backgroundImage="https://images6.alphacoders.com/599/599052.jpg"
+                  />
+                  <TimeLine__Caption>
+                    test
+                  </TimeLine__Caption>
+                </TimeLine__ImageContainer>
+                <TimeLine__Text>
+                  Joost treedt toe als partner, het bedrijf heet inmiddels Jungle Rating en doet voornamelijk research.
+                </TimeLine__Text>
+                <Quote
+                  image="./images/team_design.jpg"
+                  metadata="Naam en functie"
+                  text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+                />
+              </TimeLine__Wrapper>,
+              <TimeLine__Wrapper
+                className="container"
+              >
+                <TimeLine__Title>
+                  Geen anti-kraakkantoor meer
+                </TimeLine__Title>
+                <TimeLine__ImageContainer>
+                  <TimeLine__Media
+                    backgroundImage="http://elder-scrolls.com/uploads/posts/2013-11/1384956239_m43.jpg"
+                  />
+                  <TimeLine__Caption>
+                    test
+                  </TimeLine__Caption>
+                </TimeLine__ImageContainer>
+                <TimeLine__Text>
+                  Jungle Rating is in haar eerste vijf jaar stevig gegroeid, past niet meer in het anti-kraakkantoor in het Wibauthuis en verhuist naar de Weesperstraat.
+                </TimeLine__Text>
+                <Quote
+                  image="./images/team_design.jpg"
+                  metadata="Naam en functie"
+                  text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+                />
+              </TimeLine__Wrapper>,
+              <TimeLine__Wrapper
+                className="container"
+              >
+                <TimeLine__Title>
+                  Twintigkoppige strategieclub
+                </TimeLine__Title>
+                <TimeLine__ImageContainer>
+                  <TimeLine__Media
+                    backgroundImage="https://images8.alphacoders.com/410/410161.jpg"
+                  />
+                  <TimeLine__Caption>
+                    test
+                  </TimeLine__Caption>
+                </TimeLine__ImageContainer>
+                <TimeLine__Text>
+                  Jungle Rating heeft zich doorontwikkeld tot een twintigkoppige strategieclub. De naam ‘Rating’ dekt de lading niet meer helemaal en dus wordt de naam veranderd in Jungle Minds
+                </TimeLine__Text>
+                <Quote
+                  image="./images/team_design.jpg"
+                  metadata="Naam en functie"
+                  text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+                />
+              </TimeLine__Wrapper>,
+              <TimeLine__Wrapper
+                className="container"
+              >
+                <TimeLine__Title>
+                  Geert-Jan Smits draagt zijn taken over
+                </TimeLine__Title>
+                <TimeLine__ImageContainer>
+                  <TimeLine__Media
+                    backgroundImage="http://wallpapercave.com/wp/GMifnUB.jpg"
+                  />
+                  <TimeLine__Caption>
+                    test
+                  </TimeLine__Caption>
+                </TimeLine__ImageContainer>
+                <TimeLine__Text>
+                  Oprichter Geert-Jan Smits gaat zich volledig richten op zijn nieuwe onderneming Flinders Design en draagt zijn taken over aan een nieuwe directie.
+                </TimeLine__Text>
+                <Quote
+                  image="./images/team_design.jpg"
+                  metadata="Naam en functie"
+                  text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+                />
+              </TimeLine__Wrapper>,
+              <TimeLine__Wrapper
+                className="container"
+              >
+                <TimeLine__Title>
+                  Tienjarige bestaan
+                </TimeLine__Title>
+                <TimeLine__ImageContainer>
+                  <TimeLine__Media
+                    backgroundImage="http://wallpapercave.com/wp/GMifnUB.jpg"
+                  />
+                  <TimeLine__Caption>
+                    test
+                  </TimeLine__Caption>
+                </TimeLine__ImageContainer>
+                <TimeLine__Text>
+                  Jungle Minds viert haar tienjarige bestaan met een groot feest in het concertgebouw en een trip naar Andalusië.
+                </TimeLine__Text>
+                <Quote
+                  image="./images/team_design.jpg"
+                  metadata="Naam en functie"
+                  text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+                />
+              </TimeLine__Wrapper>,
+              <TimeLine__Wrapper
+                className="container"
+              >
+                <TimeLine__Title>
+                  Drie medewerkers: Één team
+                </TimeLine__Title>
+                <TimeLine__ImageContainer>
+                  <TimeLine__Media
+                    backgroundImage="http://wallpapercave.com/wp/GMifnUB.jpg"
+                  />
+                  <TimeLine__Caption>
+                    test
+                  </TimeLine__Caption>
+                </TimeLine__ImageContainer>
+                <TimeLine__Text>
+                  Drie medewerkers van Jungle Minds vormen een team en nemen samen een meerderheid van de aandelen over van de oprichters. Ondertussen speelt design en development een steeds grotere rol bij Jungle Minds, wat beloond wordt met een European Design Award voor IMC.nl.
+                </TimeLine__Text>
+                <Quote
+                  image="./images/team_design.jpg"
+                  metadata="Naam en functie"
+                  text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+                />
+              </TimeLine__Wrapper>,
+              <TimeLine__Wrapper
+                className="container"
+              >
+                <TimeLine__Title>
+                  De Groene Draeck
+                </TimeLine__Title>
+                <TimeLine__ImageContainer>
+                  <TimeLine__Media
+                    backgroundImage="http://wallpapercave.com/wp/GMifnUB.jpg"
+                  />
+                  <TimeLine__Caption>
+                    test
+                  </TimeLine__Caption>
+                </TimeLine__ImageContainer>
+                <TimeLine__Text>
+                  Jungle Minds steekt het IJ over naar Amsterdam Noord en betrekt de Groene Draeck. Jungle Minds wordt door Emerce uitgeroepen als het beste bureau van Nederland 2015.
+                </TimeLine__Text>
+                <Quote
+                  image="./images/team_design.jpg"
+                  metadata="Naam en functie"
+                  text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+                />
+              </TimeLine__Wrapper>,
+              <TimeLine__Wrapper
+                className="container"
+              >
+                <TimeLine__Title>
+                  Top 10 werkgevers
+                </TimeLine__Title>
+                <TimeLine__ImageContainer>
+                  <TimeLine__Media
+                    backgroundImage="http://wallpapercave.com/wp/GMifnUB.jpg"
+                  />
+                  <TimeLine__Caption>
+                    test
+                  </TimeLine__Caption>
+                </TimeLine__ImageContainer>
+                <TimeLine__Text>
+                  NRC plaatst Jungle Minds in de top 10 beste werkgevers van Nederland
+                </TimeLine__Text>
+                <Quote
+                  image="./images/team_design.jpg"
+                  metadata="Naam en functie"
+                  text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+                />
+              </TimeLine__Wrapper>,
+              <TimeLine__Wrapper
+                className="container"
+              >
+                <TimeLine__Title>
+                  VYŌO
+                </TimeLine__Title>
+                <TimeLine__ImageContainer>
+                  <TimeLine__Media
+                    backgroundImage="http://wallpapercave.com/wp/GMifnUB.jpg"
+                  />
+                  <TimeLine__Caption>
+                    test
+                  </TimeLine__Caption>
+                </TimeLine__ImageContainer>
+                <TimeLine__Text>
+                  Samen met SBK initieert Jungle Minds VYŌO, het meedenkende abonnement voor mensen die willen starten met kunst in huis. 
+                </TimeLine__Text>
+                <Quote
+                  image="./images/team_design.jpg"
+                  metadata="Naam en functie"
+                  text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+                />
+              </TimeLine__Wrapper>,
+            ],
+            "disableLazyLoading": false,
+            "disabled": false,
+            "enableMouseEvents": false,
+            "hysteresis": 0.6,
+            "ignoreNativeScroll": false,
+            "index": 0,
+            "onChangeIndex": [Function],
+            "resistance": true,
+            "springConfig": Object {
+              "delay": "0s",
+              "duration": "0.35s",
+              "easeFunction": "cubic-bezier(0.15, 0.3, 0.25, 1)",
+            },
+            "threshold": 5,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "0",
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <TimeLine__Title>
+                    The Rating Company opgericht
+                  </TimeLine__Title>,
+                  <TimeLine__ImageContainer>
+                    <TimeLine__Media
+                      backgroundImage="https://images6.alphacoders.com/599/599052.jpg"
+                    />
+                    <TimeLine__Caption>
+                      test
+                    </TimeLine__Caption>
+                  </TimeLine__ImageContainer>,
+                  <TimeLine__Text>
+                    Opgericht door Geert-Jan Smits en Matthijs Kanis als The Rating Company met als doel ‘orde te scheppen in de jungle’ die het dan nog ontluikende internet is.
+                  </TimeLine__Text>,
+                  <Quote
+                    image="./images/team_design.jpg"
+                    metadata="Naam en functie"
+                    text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+                  />,
+                ],
+                "className": "container",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "The Rating Company opgericht",
+                  },
+                  "ref": null,
+                  "rendered": "The Rating Company opgericht",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": Array [
+                      <TimeLine__Media
+                        backgroundImage="https://images6.alphacoders.com/599/599052.jpg"
+                      />,
+                      <TimeLine__Caption>
+                        test
+                      </TimeLine__Caption>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "backgroundImage": "https://images6.alphacoders.com/599/599052.jpg",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": "test",
+                      },
+                      "ref": null,
+                      "rendered": "test",
+                      "type": [Function],
+                    },
+                  ],
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "Opgericht door Geert-Jan Smits en Matthijs Kanis als The Rating Company met als doel ‘orde te scheppen in de jungle’ die het dan nog ontluikende internet is.",
+                  },
+                  "ref": null,
+                  "rendered": "Opgericht door Geert-Jan Smits en Matthijs Kanis als The Rating Company met als doel ‘orde te scheppen in de jungle’ die het dan nog ontluikende internet is.",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "image": "./images/team_design.jpg",
+                    "metadata": "Naam en functie",
+                    "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "1",
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <TimeLine__Title>
+                    Joost de nieuwe partner
+                  </TimeLine__Title>,
+                  <TimeLine__ImageContainer>
+                    <TimeLine__Media
+                      backgroundImage="https://images6.alphacoders.com/599/599052.jpg"
+                    />
+                    <TimeLine__Caption>
+                      test
+                    </TimeLine__Caption>
+                  </TimeLine__ImageContainer>,
+                  <TimeLine__Text>
+                    Joost treedt toe als partner, het bedrijf heet inmiddels Jungle Rating en doet voornamelijk research.
+                  </TimeLine__Text>,
+                  <Quote
+                    image="./images/team_design.jpg"
+                    metadata="Naam en functie"
+                    text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+                  />,
+                ],
+                "className": "container",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "Joost de nieuwe partner",
+                  },
+                  "ref": null,
+                  "rendered": "Joost de nieuwe partner",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": Array [
+                      <TimeLine__Media
+                        backgroundImage="https://images6.alphacoders.com/599/599052.jpg"
+                      />,
+                      <TimeLine__Caption>
+                        test
+                      </TimeLine__Caption>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "backgroundImage": "https://images6.alphacoders.com/599/599052.jpg",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": "test",
+                      },
+                      "ref": null,
+                      "rendered": "test",
+                      "type": [Function],
+                    },
+                  ],
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "Joost treedt toe als partner, het bedrijf heet inmiddels Jungle Rating en doet voornamelijk research.",
+                  },
+                  "ref": null,
+                  "rendered": "Joost treedt toe als partner, het bedrijf heet inmiddels Jungle Rating en doet voornamelijk research.",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "image": "./images/team_design.jpg",
+                    "metadata": "Naam en functie",
+                    "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "2",
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <TimeLine__Title>
+                    Geen anti-kraakkantoor meer
+                  </TimeLine__Title>,
+                  <TimeLine__ImageContainer>
+                    <TimeLine__Media
+                      backgroundImage="http://elder-scrolls.com/uploads/posts/2013-11/1384956239_m43.jpg"
+                    />
+                    <TimeLine__Caption>
+                      test
+                    </TimeLine__Caption>
+                  </TimeLine__ImageContainer>,
+                  <TimeLine__Text>
+                    Jungle Rating is in haar eerste vijf jaar stevig gegroeid, past niet meer in het anti-kraakkantoor in het Wibauthuis en verhuist naar de Weesperstraat.
+                  </TimeLine__Text>,
+                  <Quote
+                    image="./images/team_design.jpg"
+                    metadata="Naam en functie"
+                    text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+                  />,
+                ],
+                "className": "container",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "Geen anti-kraakkantoor meer",
+                  },
+                  "ref": null,
+                  "rendered": "Geen anti-kraakkantoor meer",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": Array [
+                      <TimeLine__Media
+                        backgroundImage="http://elder-scrolls.com/uploads/posts/2013-11/1384956239_m43.jpg"
+                      />,
+                      <TimeLine__Caption>
+                        test
+                      </TimeLine__Caption>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "backgroundImage": "http://elder-scrolls.com/uploads/posts/2013-11/1384956239_m43.jpg",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": "test",
+                      },
+                      "ref": null,
+                      "rendered": "test",
+                      "type": [Function],
+                    },
+                  ],
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "Jungle Rating is in haar eerste vijf jaar stevig gegroeid, past niet meer in het anti-kraakkantoor in het Wibauthuis en verhuist naar de Weesperstraat.",
+                  },
+                  "ref": null,
+                  "rendered": "Jungle Rating is in haar eerste vijf jaar stevig gegroeid, past niet meer in het anti-kraakkantoor in het Wibauthuis en verhuist naar de Weesperstraat.",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "image": "./images/team_design.jpg",
+                    "metadata": "Naam en functie",
+                    "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "3",
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <TimeLine__Title>
+                    Twintigkoppige strategieclub
+                  </TimeLine__Title>,
+                  <TimeLine__ImageContainer>
+                    <TimeLine__Media
+                      backgroundImage="https://images8.alphacoders.com/410/410161.jpg"
+                    />
+                    <TimeLine__Caption>
+                      test
+                    </TimeLine__Caption>
+                  </TimeLine__ImageContainer>,
+                  <TimeLine__Text>
+                    Jungle Rating heeft zich doorontwikkeld tot een twintigkoppige strategieclub. De naam ‘Rating’ dekt de lading niet meer helemaal en dus wordt de naam veranderd in Jungle Minds
+                  </TimeLine__Text>,
+                  <Quote
+                    image="./images/team_design.jpg"
+                    metadata="Naam en functie"
+                    text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+                  />,
+                ],
+                "className": "container",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "Twintigkoppige strategieclub",
+                  },
+                  "ref": null,
+                  "rendered": "Twintigkoppige strategieclub",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": Array [
+                      <TimeLine__Media
+                        backgroundImage="https://images8.alphacoders.com/410/410161.jpg"
+                      />,
+                      <TimeLine__Caption>
+                        test
+                      </TimeLine__Caption>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "backgroundImage": "https://images8.alphacoders.com/410/410161.jpg",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": "test",
+                      },
+                      "ref": null,
+                      "rendered": "test",
+                      "type": [Function],
+                    },
+                  ],
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "Jungle Rating heeft zich doorontwikkeld tot een twintigkoppige strategieclub. De naam ‘Rating’ dekt de lading niet meer helemaal en dus wordt de naam veranderd in Jungle Minds",
+                  },
+                  "ref": null,
+                  "rendered": "Jungle Rating heeft zich doorontwikkeld tot een twintigkoppige strategieclub. De naam ‘Rating’ dekt de lading niet meer helemaal en dus wordt de naam veranderd in Jungle Minds",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "image": "./images/team_design.jpg",
+                    "metadata": "Naam en functie",
+                    "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "4",
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <TimeLine__Title>
+                    Geert-Jan Smits draagt zijn taken over
+                  </TimeLine__Title>,
+                  <TimeLine__ImageContainer>
+                    <TimeLine__Media
+                      backgroundImage="http://wallpapercave.com/wp/GMifnUB.jpg"
+                    />
+                    <TimeLine__Caption>
+                      test
+                    </TimeLine__Caption>
+                  </TimeLine__ImageContainer>,
+                  <TimeLine__Text>
+                    Oprichter Geert-Jan Smits gaat zich volledig richten op zijn nieuwe onderneming Flinders Design en draagt zijn taken over aan een nieuwe directie.
+                  </TimeLine__Text>,
+                  <Quote
+                    image="./images/team_design.jpg"
+                    metadata="Naam en functie"
+                    text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+                  />,
+                ],
+                "className": "container",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "Geert-Jan Smits draagt zijn taken over",
+                  },
+                  "ref": null,
+                  "rendered": "Geert-Jan Smits draagt zijn taken over",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": Array [
+                      <TimeLine__Media
+                        backgroundImage="http://wallpapercave.com/wp/GMifnUB.jpg"
+                      />,
+                      <TimeLine__Caption>
+                        test
+                      </TimeLine__Caption>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "backgroundImage": "http://wallpapercave.com/wp/GMifnUB.jpg",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": "test",
+                      },
+                      "ref": null,
+                      "rendered": "test",
+                      "type": [Function],
+                    },
+                  ],
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "Oprichter Geert-Jan Smits gaat zich volledig richten op zijn nieuwe onderneming Flinders Design en draagt zijn taken over aan een nieuwe directie.",
+                  },
+                  "ref": null,
+                  "rendered": "Oprichter Geert-Jan Smits gaat zich volledig richten op zijn nieuwe onderneming Flinders Design en draagt zijn taken over aan een nieuwe directie.",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "image": "./images/team_design.jpg",
+                    "metadata": "Naam en functie",
+                    "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "5",
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <TimeLine__Title>
+                    Tienjarige bestaan
+                  </TimeLine__Title>,
+                  <TimeLine__ImageContainer>
+                    <TimeLine__Media
+                      backgroundImage="http://wallpapercave.com/wp/GMifnUB.jpg"
+                    />
+                    <TimeLine__Caption>
+                      test
+                    </TimeLine__Caption>
+                  </TimeLine__ImageContainer>,
+                  <TimeLine__Text>
+                    Jungle Minds viert haar tienjarige bestaan met een groot feest in het concertgebouw en een trip naar Andalusië.
+                  </TimeLine__Text>,
+                  <Quote
+                    image="./images/team_design.jpg"
+                    metadata="Naam en functie"
+                    text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+                  />,
+                ],
+                "className": "container",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "Tienjarige bestaan",
+                  },
+                  "ref": null,
+                  "rendered": "Tienjarige bestaan",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": Array [
+                      <TimeLine__Media
+                        backgroundImage="http://wallpapercave.com/wp/GMifnUB.jpg"
+                      />,
+                      <TimeLine__Caption>
+                        test
+                      </TimeLine__Caption>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "backgroundImage": "http://wallpapercave.com/wp/GMifnUB.jpg",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": "test",
+                      },
+                      "ref": null,
+                      "rendered": "test",
+                      "type": [Function],
+                    },
+                  ],
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "Jungle Minds viert haar tienjarige bestaan met een groot feest in het concertgebouw en een trip naar Andalusië.",
+                  },
+                  "ref": null,
+                  "rendered": "Jungle Minds viert haar tienjarige bestaan met een groot feest in het concertgebouw en een trip naar Andalusië.",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "image": "./images/team_design.jpg",
+                    "metadata": "Naam en functie",
+                    "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "6",
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <TimeLine__Title>
+                    Drie medewerkers: Één team
+                  </TimeLine__Title>,
+                  <TimeLine__ImageContainer>
+                    <TimeLine__Media
+                      backgroundImage="http://wallpapercave.com/wp/GMifnUB.jpg"
+                    />
+                    <TimeLine__Caption>
+                      test
+                    </TimeLine__Caption>
+                  </TimeLine__ImageContainer>,
+                  <TimeLine__Text>
+                    Drie medewerkers van Jungle Minds vormen een team en nemen samen een meerderheid van de aandelen over van de oprichters. Ondertussen speelt design en development een steeds grotere rol bij Jungle Minds, wat beloond wordt met een European Design Award voor IMC.nl.
+                  </TimeLine__Text>,
+                  <Quote
+                    image="./images/team_design.jpg"
+                    metadata="Naam en functie"
+                    text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+                  />,
+                ],
+                "className": "container",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "Drie medewerkers: Één team",
+                  },
+                  "ref": null,
+                  "rendered": "Drie medewerkers: Één team",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": Array [
+                      <TimeLine__Media
+                        backgroundImage="http://wallpapercave.com/wp/GMifnUB.jpg"
+                      />,
+                      <TimeLine__Caption>
+                        test
+                      </TimeLine__Caption>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "backgroundImage": "http://wallpapercave.com/wp/GMifnUB.jpg",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": "test",
+                      },
+                      "ref": null,
+                      "rendered": "test",
+                      "type": [Function],
+                    },
+                  ],
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "Drie medewerkers van Jungle Minds vormen een team en nemen samen een meerderheid van de aandelen over van de oprichters. Ondertussen speelt design en development een steeds grotere rol bij Jungle Minds, wat beloond wordt met een European Design Award voor IMC.nl.",
+                  },
+                  "ref": null,
+                  "rendered": "Drie medewerkers van Jungle Minds vormen een team en nemen samen een meerderheid van de aandelen over van de oprichters. Ondertussen speelt design en development een steeds grotere rol bij Jungle Minds, wat beloond wordt met een European Design Award voor IMC.nl.",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "image": "./images/team_design.jpg",
+                    "metadata": "Naam en functie",
+                    "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "7",
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <TimeLine__Title>
+                    De Groene Draeck
+                  </TimeLine__Title>,
+                  <TimeLine__ImageContainer>
+                    <TimeLine__Media
+                      backgroundImage="http://wallpapercave.com/wp/GMifnUB.jpg"
+                    />
+                    <TimeLine__Caption>
+                      test
+                    </TimeLine__Caption>
+                  </TimeLine__ImageContainer>,
+                  <TimeLine__Text>
+                    Jungle Minds steekt het IJ over naar Amsterdam Noord en betrekt de Groene Draeck. Jungle Minds wordt door Emerce uitgeroepen als het beste bureau van Nederland 2015.
+                  </TimeLine__Text>,
+                  <Quote
+                    image="./images/team_design.jpg"
+                    metadata="Naam en functie"
+                    text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+                  />,
+                ],
+                "className": "container",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "De Groene Draeck",
+                  },
+                  "ref": null,
+                  "rendered": "De Groene Draeck",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": Array [
+                      <TimeLine__Media
+                        backgroundImage="http://wallpapercave.com/wp/GMifnUB.jpg"
+                      />,
+                      <TimeLine__Caption>
+                        test
+                      </TimeLine__Caption>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "backgroundImage": "http://wallpapercave.com/wp/GMifnUB.jpg",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": "test",
+                      },
+                      "ref": null,
+                      "rendered": "test",
+                      "type": [Function],
+                    },
+                  ],
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "Jungle Minds steekt het IJ over naar Amsterdam Noord en betrekt de Groene Draeck. Jungle Minds wordt door Emerce uitgeroepen als het beste bureau van Nederland 2015.",
+                  },
+                  "ref": null,
+                  "rendered": "Jungle Minds steekt het IJ over naar Amsterdam Noord en betrekt de Groene Draeck. Jungle Minds wordt door Emerce uitgeroepen als het beste bureau van Nederland 2015.",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "image": "./images/team_design.jpg",
+                    "metadata": "Naam en functie",
+                    "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "8",
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <TimeLine__Title>
+                    Top 10 werkgevers
+                  </TimeLine__Title>,
+                  <TimeLine__ImageContainer>
+                    <TimeLine__Media
+                      backgroundImage="http://wallpapercave.com/wp/GMifnUB.jpg"
+                    />
+                    <TimeLine__Caption>
+                      test
+                    </TimeLine__Caption>
+                  </TimeLine__ImageContainer>,
+                  <TimeLine__Text>
+                    NRC plaatst Jungle Minds in de top 10 beste werkgevers van Nederland
+                  </TimeLine__Text>,
+                  <Quote
+                    image="./images/team_design.jpg"
+                    metadata="Naam en functie"
+                    text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+                  />,
+                ],
+                "className": "container",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "Top 10 werkgevers",
+                  },
+                  "ref": null,
+                  "rendered": "Top 10 werkgevers",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": Array [
+                      <TimeLine__Media
+                        backgroundImage="http://wallpapercave.com/wp/GMifnUB.jpg"
+                      />,
+                      <TimeLine__Caption>
+                        test
+                      </TimeLine__Caption>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "backgroundImage": "http://wallpapercave.com/wp/GMifnUB.jpg",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": "test",
+                      },
+                      "ref": null,
+                      "rendered": "test",
+                      "type": [Function],
+                    },
+                  ],
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "NRC plaatst Jungle Minds in de top 10 beste werkgevers van Nederland",
+                  },
+                  "ref": null,
+                  "rendered": "NRC plaatst Jungle Minds in de top 10 beste werkgevers van Nederland",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "image": "./images/team_design.jpg",
+                    "metadata": "Naam en functie",
+                    "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "9",
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <TimeLine__Title>
+                    VYŌO
+                  </TimeLine__Title>,
+                  <TimeLine__ImageContainer>
+                    <TimeLine__Media
+                      backgroundImage="http://wallpapercave.com/wp/GMifnUB.jpg"
+                    />
+                    <TimeLine__Caption>
+                      test
+                    </TimeLine__Caption>
+                  </TimeLine__ImageContainer>,
+                  <TimeLine__Text>
+                    Samen met SBK initieert Jungle Minds VYŌO, het meedenkende abonnement voor mensen die willen starten met kunst in huis. 
+                  </TimeLine__Text>,
+                  <Quote
+                    image="./images/team_design.jpg"
+                    metadata="Naam en functie"
+                    text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+                  />,
+                ],
+                "className": "container",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "VYŌO",
+                  },
+                  "ref": null,
+                  "rendered": "VYŌO",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": Array [
+                      <TimeLine__Media
+                        backgroundImage="http://wallpapercave.com/wp/GMifnUB.jpg"
+                      />,
+                      <TimeLine__Caption>
+                        test
+                      </TimeLine__Caption>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "backgroundImage": "http://wallpapercave.com/wp/GMifnUB.jpg",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": "test",
+                      },
+                      "ref": null,
+                      "rendered": "test",
+                      "type": [Function],
+                    },
+                  ],
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "Samen met SBK initieert Jungle Minds VYŌO, het meedenkende abonnement voor mensen die willen starten met kunst in huis. ",
+                  },
+                  "ref": null,
+                  "rendered": "Samen met SBK initieert Jungle Minds VYŌO, het meedenkende abonnement voor mensen die willen starten met kunst in huis. ",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "image": "./images/team_design.jpg",
+                    "metadata": "Naam en functie",
+                    "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <div
+            style={
+              Object {
+                "height": "100px",
+                "margin": "0 auto",
+                "width": "100%",
+              }
+            }
+          >
+            <DimensionsHOC
+              index={0}
+              indexClick={[Function]}
+              isOpenBeginning={false}
+              isOpenEnding={true}
+              styles={
+                Object {
+                  "background": "#f8f8f8",
+                  "foreground": "#ffa50d",
+                  "outline": "#dfdfdf",
+                }
+              }
+              values={
+                Array [
+                  "01/01/2000",
+                  "01/01/2001",
+                  "01/01/2006",
+                  "01/01/2008",
+                  "01/01/2010",
+                  "11/11/2011",
+                  "01/01/2014",
+                  "01/01/2015",
+                  "01/01/2016",
+                  "01/01/2017",
+                ]
+              }
+            />
+          </div>,
+          <TimeLine__Content
+            className="text-center"
+          >
+            <ReactSwipableView
+              animateHeight={false}
+              animateTransitions={true}
+              axis="x"
+              disableLazyLoading={false}
+              disabled={false}
+              enableMouseEvents={false}
+              hysteresis={0.6}
+              ignoreNativeScroll={false}
+              index={0}
+              onChangeIndex={[Function]}
+              resistance={true}
+              springConfig={
+                Object {
+                  "delay": "0s",
+                  "duration": "0.35s",
+                  "easeFunction": "cubic-bezier(0.15, 0.3, 0.25, 1)",
+                }
+              }
+              threshold={5}
+            >
+              <TimeLine__Wrapper
+                className="container"
+              >
+                <TimeLine__Title>
+                  The Rating Company opgericht
+                </TimeLine__Title>
+                <TimeLine__ImageContainer>
+                  <TimeLine__Media
+                    backgroundImage="https://images6.alphacoders.com/599/599052.jpg"
+                  />
+                  <TimeLine__Caption>
+                    test
+                  </TimeLine__Caption>
+                </TimeLine__ImageContainer>
+                <TimeLine__Text>
+                  Opgericht door Geert-Jan Smits en Matthijs Kanis als The Rating Company met als doel ‘orde te scheppen in de jungle’ die het dan nog ontluikende internet is.
+                </TimeLine__Text>
+                <Quote
+                  image="./images/team_design.jpg"
+                  metadata="Naam en functie"
+                  text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+                />
+              </TimeLine__Wrapper>
+              <TimeLine__Wrapper
+                className="container"
+              >
+                <TimeLine__Title>
+                  Joost de nieuwe partner
+                </TimeLine__Title>
+                <TimeLine__ImageContainer>
+                  <TimeLine__Media
+                    backgroundImage="https://images6.alphacoders.com/599/599052.jpg"
+                  />
+                  <TimeLine__Caption>
+                    test
+                  </TimeLine__Caption>
+                </TimeLine__ImageContainer>
+                <TimeLine__Text>
+                  Joost treedt toe als partner, het bedrijf heet inmiddels Jungle Rating en doet voornamelijk research.
+                </TimeLine__Text>
+                <Quote
+                  image="./images/team_design.jpg"
+                  metadata="Naam en functie"
+                  text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+                />
+              </TimeLine__Wrapper>
+              <TimeLine__Wrapper
+                className="container"
+              >
+                <TimeLine__Title>
+                  Geen anti-kraakkantoor meer
+                </TimeLine__Title>
+                <TimeLine__ImageContainer>
+                  <TimeLine__Media
+                    backgroundImage="http://elder-scrolls.com/uploads/posts/2013-11/1384956239_m43.jpg"
+                  />
+                  <TimeLine__Caption>
+                    test
+                  </TimeLine__Caption>
+                </TimeLine__ImageContainer>
+                <TimeLine__Text>
+                  Jungle Rating is in haar eerste vijf jaar stevig gegroeid, past niet meer in het anti-kraakkantoor in het Wibauthuis en verhuist naar de Weesperstraat.
+                </TimeLine__Text>
+                <Quote
+                  image="./images/team_design.jpg"
+                  metadata="Naam en functie"
+                  text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+                />
+              </TimeLine__Wrapper>
+              <TimeLine__Wrapper
+                className="container"
+              >
+                <TimeLine__Title>
+                  Twintigkoppige strategieclub
+                </TimeLine__Title>
+                <TimeLine__ImageContainer>
+                  <TimeLine__Media
+                    backgroundImage="https://images8.alphacoders.com/410/410161.jpg"
+                  />
+                  <TimeLine__Caption>
+                    test
+                  </TimeLine__Caption>
+                </TimeLine__ImageContainer>
+                <TimeLine__Text>
+                  Jungle Rating heeft zich doorontwikkeld tot een twintigkoppige strategieclub. De naam ‘Rating’ dekt de lading niet meer helemaal en dus wordt de naam veranderd in Jungle Minds
+                </TimeLine__Text>
+                <Quote
+                  image="./images/team_design.jpg"
+                  metadata="Naam en functie"
+                  text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+                />
+              </TimeLine__Wrapper>
+              <TimeLine__Wrapper
+                className="container"
+              >
+                <TimeLine__Title>
+                  Geert-Jan Smits draagt zijn taken over
+                </TimeLine__Title>
+                <TimeLine__ImageContainer>
+                  <TimeLine__Media
+                    backgroundImage="http://wallpapercave.com/wp/GMifnUB.jpg"
+                  />
+                  <TimeLine__Caption>
+                    test
+                  </TimeLine__Caption>
+                </TimeLine__ImageContainer>
+                <TimeLine__Text>
+                  Oprichter Geert-Jan Smits gaat zich volledig richten op zijn nieuwe onderneming Flinders Design en draagt zijn taken over aan een nieuwe directie.
+                </TimeLine__Text>
+                <Quote
+                  image="./images/team_design.jpg"
+                  metadata="Naam en functie"
+                  text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+                />
+              </TimeLine__Wrapper>
+              <TimeLine__Wrapper
+                className="container"
+              >
+                <TimeLine__Title>
+                  Tienjarige bestaan
+                </TimeLine__Title>
+                <TimeLine__ImageContainer>
+                  <TimeLine__Media
+                    backgroundImage="http://wallpapercave.com/wp/GMifnUB.jpg"
+                  />
+                  <TimeLine__Caption>
+                    test
+                  </TimeLine__Caption>
+                </TimeLine__ImageContainer>
+                <TimeLine__Text>
+                  Jungle Minds viert haar tienjarige bestaan met een groot feest in het concertgebouw en een trip naar Andalusië.
+                </TimeLine__Text>
+                <Quote
+                  image="./images/team_design.jpg"
+                  metadata="Naam en functie"
+                  text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+                />
+              </TimeLine__Wrapper>
+              <TimeLine__Wrapper
+                className="container"
+              >
+                <TimeLine__Title>
+                  Drie medewerkers: Één team
+                </TimeLine__Title>
+                <TimeLine__ImageContainer>
+                  <TimeLine__Media
+                    backgroundImage="http://wallpapercave.com/wp/GMifnUB.jpg"
+                  />
+                  <TimeLine__Caption>
+                    test
+                  </TimeLine__Caption>
+                </TimeLine__ImageContainer>
+                <TimeLine__Text>
+                  Drie medewerkers van Jungle Minds vormen een team en nemen samen een meerderheid van de aandelen over van de oprichters. Ondertussen speelt design en development een steeds grotere rol bij Jungle Minds, wat beloond wordt met een European Design Award voor IMC.nl.
+                </TimeLine__Text>
+                <Quote
+                  image="./images/team_design.jpg"
+                  metadata="Naam en functie"
+                  text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+                />
+              </TimeLine__Wrapper>
+              <TimeLine__Wrapper
+                className="container"
+              >
+                <TimeLine__Title>
+                  De Groene Draeck
+                </TimeLine__Title>
+                <TimeLine__ImageContainer>
+                  <TimeLine__Media
+                    backgroundImage="http://wallpapercave.com/wp/GMifnUB.jpg"
+                  />
+                  <TimeLine__Caption>
+                    test
+                  </TimeLine__Caption>
+                </TimeLine__ImageContainer>
+                <TimeLine__Text>
+                  Jungle Minds steekt het IJ over naar Amsterdam Noord en betrekt de Groene Draeck. Jungle Minds wordt door Emerce uitgeroepen als het beste bureau van Nederland 2015.
+                </TimeLine__Text>
+                <Quote
+                  image="./images/team_design.jpg"
+                  metadata="Naam en functie"
+                  text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+                />
+              </TimeLine__Wrapper>
+              <TimeLine__Wrapper
+                className="container"
+              >
+                <TimeLine__Title>
+                  Top 10 werkgevers
+                </TimeLine__Title>
+                <TimeLine__ImageContainer>
+                  <TimeLine__Media
+                    backgroundImage="http://wallpapercave.com/wp/GMifnUB.jpg"
+                  />
+                  <TimeLine__Caption>
+                    test
+                  </TimeLine__Caption>
+                </TimeLine__ImageContainer>
+                <TimeLine__Text>
+                  NRC plaatst Jungle Minds in de top 10 beste werkgevers van Nederland
+                </TimeLine__Text>
+                <Quote
+                  image="./images/team_design.jpg"
+                  metadata="Naam en functie"
+                  text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+                />
+              </TimeLine__Wrapper>
+              <TimeLine__Wrapper
+                className="container"
+              >
+                <TimeLine__Title>
+                  VYŌO
+                </TimeLine__Title>
+                <TimeLine__ImageContainer>
+                  <TimeLine__Media
+                    backgroundImage="http://wallpapercave.com/wp/GMifnUB.jpg"
+                  />
+                  <TimeLine__Caption>
+                    test
+                  </TimeLine__Caption>
+                </TimeLine__ImageContainer>
+                <TimeLine__Text>
+                  Samen met SBK initieert Jungle Minds VYŌO, het meedenkende abonnement voor mensen die willen starten met kunst in huis. 
+                </TimeLine__Text>
+                <Quote
+                  image="./images/team_design.jpg"
+                  metadata="Naam en functie"
+                  text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+                />
+              </TimeLine__Wrapper>
+            </ReactSwipableView>
+          </TimeLine__Content>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <DimensionsHOC
+              index={0}
+              indexClick={[Function]}
+              isOpenBeginning={false}
+              isOpenEnding={true}
+              styles={
+                Object {
+                  "background": "#f8f8f8",
+                  "foreground": "#ffa50d",
+                  "outline": "#dfdfdf",
+                }
+              }
+              values={
+                Array [
+                  "01/01/2000",
+                  "01/01/2001",
+                  "01/01/2006",
+                  "01/01/2008",
+                  "01/01/2010",
+                  "11/11/2011",
+                  "01/01/2014",
+                  "01/01/2015",
+                  "01/01/2016",
+                  "01/01/2017",
+                ]
+              }
+            />,
+            "style": Object {
+              "height": "100px",
+              "margin": "0 auto",
+              "width": "100%",
+            },
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "index": 0,
+              "indexClick": [Function],
+              "isOpenBeginning": false,
+              "isOpenEnding": true,
+              "styles": Object {
+                "background": "#f8f8f8",
+                "foreground": "#ffa50d",
+                "outline": "#dfdfdf",
+              },
+              "values": Array [
+                "01/01/2000",
+                "01/01/2001",
+                "01/01/2006",
+                "01/01/2008",
+                "01/01/2010",
+                "11/11/2011",
+                "01/01/2014",
+                "01/01/2015",
+                "01/01/2016",
+                "01/01/2017",
+              ],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <ReactSwipableView
+              animateHeight={false}
+              animateTransitions={true}
+              axis="x"
+              disableLazyLoading={false}
+              disabled={false}
+              enableMouseEvents={false}
+              hysteresis={0.6}
+              ignoreNativeScroll={false}
+              index={0}
+              onChangeIndex={[Function]}
+              resistance={true}
+              springConfig={
+                Object {
+                  "delay": "0s",
+                  "duration": "0.35s",
+                  "easeFunction": "cubic-bezier(0.15, 0.3, 0.25, 1)",
+                }
+              }
+              threshold={5}
+            >
+              <TimeLine__Wrapper
+                className="container"
+              >
+                <TimeLine__Title>
+                  The Rating Company opgericht
+                </TimeLine__Title>
+                <TimeLine__ImageContainer>
+                  <TimeLine__Media
+                    backgroundImage="https://images6.alphacoders.com/599/599052.jpg"
+                  />
+                  <TimeLine__Caption>
+                    test
+                  </TimeLine__Caption>
+                </TimeLine__ImageContainer>
+                <TimeLine__Text>
+                  Opgericht door Geert-Jan Smits en Matthijs Kanis als The Rating Company met als doel ‘orde te scheppen in de jungle’ die het dan nog ontluikende internet is.
+                </TimeLine__Text>
+                <Quote
+                  image="./images/team_design.jpg"
+                  metadata="Naam en functie"
+                  text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+                />
+              </TimeLine__Wrapper>
+              <TimeLine__Wrapper
+                className="container"
+              >
+                <TimeLine__Title>
+                  Joost de nieuwe partner
+                </TimeLine__Title>
+                <TimeLine__ImageContainer>
+                  <TimeLine__Media
+                    backgroundImage="https://images6.alphacoders.com/599/599052.jpg"
+                  />
+                  <TimeLine__Caption>
+                    test
+                  </TimeLine__Caption>
+                </TimeLine__ImageContainer>
+                <TimeLine__Text>
+                  Joost treedt toe als partner, het bedrijf heet inmiddels Jungle Rating en doet voornamelijk research.
+                </TimeLine__Text>
+                <Quote
+                  image="./images/team_design.jpg"
+                  metadata="Naam en functie"
+                  text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+                />
+              </TimeLine__Wrapper>
+              <TimeLine__Wrapper
+                className="container"
+              >
+                <TimeLine__Title>
+                  Geen anti-kraakkantoor meer
+                </TimeLine__Title>
+                <TimeLine__ImageContainer>
+                  <TimeLine__Media
+                    backgroundImage="http://elder-scrolls.com/uploads/posts/2013-11/1384956239_m43.jpg"
+                  />
+                  <TimeLine__Caption>
+                    test
+                  </TimeLine__Caption>
+                </TimeLine__ImageContainer>
+                <TimeLine__Text>
+                  Jungle Rating is in haar eerste vijf jaar stevig gegroeid, past niet meer in het anti-kraakkantoor in het Wibauthuis en verhuist naar de Weesperstraat.
+                </TimeLine__Text>
+                <Quote
+                  image="./images/team_design.jpg"
+                  metadata="Naam en functie"
+                  text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+                />
+              </TimeLine__Wrapper>
+              <TimeLine__Wrapper
+                className="container"
+              >
+                <TimeLine__Title>
+                  Twintigkoppige strategieclub
+                </TimeLine__Title>
+                <TimeLine__ImageContainer>
+                  <TimeLine__Media
+                    backgroundImage="https://images8.alphacoders.com/410/410161.jpg"
+                  />
+                  <TimeLine__Caption>
+                    test
+                  </TimeLine__Caption>
+                </TimeLine__ImageContainer>
+                <TimeLine__Text>
+                  Jungle Rating heeft zich doorontwikkeld tot een twintigkoppige strategieclub. De naam ‘Rating’ dekt de lading niet meer helemaal en dus wordt de naam veranderd in Jungle Minds
+                </TimeLine__Text>
+                <Quote
+                  image="./images/team_design.jpg"
+                  metadata="Naam en functie"
+                  text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+                />
+              </TimeLine__Wrapper>
+              <TimeLine__Wrapper
+                className="container"
+              >
+                <TimeLine__Title>
+                  Geert-Jan Smits draagt zijn taken over
+                </TimeLine__Title>
+                <TimeLine__ImageContainer>
+                  <TimeLine__Media
+                    backgroundImage="http://wallpapercave.com/wp/GMifnUB.jpg"
+                  />
+                  <TimeLine__Caption>
+                    test
+                  </TimeLine__Caption>
+                </TimeLine__ImageContainer>
+                <TimeLine__Text>
+                  Oprichter Geert-Jan Smits gaat zich volledig richten op zijn nieuwe onderneming Flinders Design en draagt zijn taken over aan een nieuwe directie.
+                </TimeLine__Text>
+                <Quote
+                  image="./images/team_design.jpg"
+                  metadata="Naam en functie"
+                  text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+                />
+              </TimeLine__Wrapper>
+              <TimeLine__Wrapper
+                className="container"
+              >
+                <TimeLine__Title>
+                  Tienjarige bestaan
+                </TimeLine__Title>
+                <TimeLine__ImageContainer>
+                  <TimeLine__Media
+                    backgroundImage="http://wallpapercave.com/wp/GMifnUB.jpg"
+                  />
+                  <TimeLine__Caption>
+                    test
+                  </TimeLine__Caption>
+                </TimeLine__ImageContainer>
+                <TimeLine__Text>
+                  Jungle Minds viert haar tienjarige bestaan met een groot feest in het concertgebouw en een trip naar Andalusië.
+                </TimeLine__Text>
+                <Quote
+                  image="./images/team_design.jpg"
+                  metadata="Naam en functie"
+                  text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+                />
+              </TimeLine__Wrapper>
+              <TimeLine__Wrapper
+                className="container"
+              >
+                <TimeLine__Title>
+                  Drie medewerkers: Één team
+                </TimeLine__Title>
+                <TimeLine__ImageContainer>
+                  <TimeLine__Media
+                    backgroundImage="http://wallpapercave.com/wp/GMifnUB.jpg"
+                  />
+                  <TimeLine__Caption>
+                    test
+                  </TimeLine__Caption>
+                </TimeLine__ImageContainer>
+                <TimeLine__Text>
+                  Drie medewerkers van Jungle Minds vormen een team en nemen samen een meerderheid van de aandelen over van de oprichters. Ondertussen speelt design en development een steeds grotere rol bij Jungle Minds, wat beloond wordt met een European Design Award voor IMC.nl.
+                </TimeLine__Text>
+                <Quote
+                  image="./images/team_design.jpg"
+                  metadata="Naam en functie"
+                  text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+                />
+              </TimeLine__Wrapper>
+              <TimeLine__Wrapper
+                className="container"
+              >
+                <TimeLine__Title>
+                  De Groene Draeck
+                </TimeLine__Title>
+                <TimeLine__ImageContainer>
+                  <TimeLine__Media
+                    backgroundImage="http://wallpapercave.com/wp/GMifnUB.jpg"
+                  />
+                  <TimeLine__Caption>
+                    test
+                  </TimeLine__Caption>
+                </TimeLine__ImageContainer>
+                <TimeLine__Text>
+                  Jungle Minds steekt het IJ over naar Amsterdam Noord en betrekt de Groene Draeck. Jungle Minds wordt door Emerce uitgeroepen als het beste bureau van Nederland 2015.
+                </TimeLine__Text>
+                <Quote
+                  image="./images/team_design.jpg"
+                  metadata="Naam en functie"
+                  text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+                />
+              </TimeLine__Wrapper>
+              <TimeLine__Wrapper
+                className="container"
+              >
+                <TimeLine__Title>
+                  Top 10 werkgevers
+                </TimeLine__Title>
+                <TimeLine__ImageContainer>
+                  <TimeLine__Media
+                    backgroundImage="http://wallpapercave.com/wp/GMifnUB.jpg"
+                  />
+                  <TimeLine__Caption>
+                    test
+                  </TimeLine__Caption>
+                </TimeLine__ImageContainer>
+                <TimeLine__Text>
+                  NRC plaatst Jungle Minds in de top 10 beste werkgevers van Nederland
+                </TimeLine__Text>
+                <Quote
+                  image="./images/team_design.jpg"
+                  metadata="Naam en functie"
+                  text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+                />
+              </TimeLine__Wrapper>
+              <TimeLine__Wrapper
+                className="container"
+              >
+                <TimeLine__Title>
+                  VYŌO
+                </TimeLine__Title>
+                <TimeLine__ImageContainer>
+                  <TimeLine__Media
+                    backgroundImage="http://wallpapercave.com/wp/GMifnUB.jpg"
+                  />
+                  <TimeLine__Caption>
+                    test
+                  </TimeLine__Caption>
+                </TimeLine__ImageContainer>
+                <TimeLine__Text>
+                  Samen met SBK initieert Jungle Minds VYŌO, het meedenkende abonnement voor mensen die willen starten met kunst in huis. 
+                </TimeLine__Text>
+                <Quote
+                  image="./images/team_design.jpg"
+                  metadata="Naam en functie"
+                  text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+                />
+              </TimeLine__Wrapper>
+            </ReactSwipableView>,
+            "className": "text-center",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "animateHeight": false,
+              "animateTransitions": true,
+              "axis": "x",
+              "children": Array [
+                <TimeLine__Wrapper
+                  className="container"
+                >
+                  <TimeLine__Title>
+                    The Rating Company opgericht
+                  </TimeLine__Title>
+                  <TimeLine__ImageContainer>
+                    <TimeLine__Media
+                      backgroundImage="https://images6.alphacoders.com/599/599052.jpg"
+                    />
+                    <TimeLine__Caption>
+                      test
+                    </TimeLine__Caption>
+                  </TimeLine__ImageContainer>
+                  <TimeLine__Text>
+                    Opgericht door Geert-Jan Smits en Matthijs Kanis als The Rating Company met als doel ‘orde te scheppen in de jungle’ die het dan nog ontluikende internet is.
+                  </TimeLine__Text>
+                  <Quote
+                    image="./images/team_design.jpg"
+                    metadata="Naam en functie"
+                    text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+                  />
+                </TimeLine__Wrapper>,
+                <TimeLine__Wrapper
+                  className="container"
+                >
+                  <TimeLine__Title>
+                    Joost de nieuwe partner
+                  </TimeLine__Title>
+                  <TimeLine__ImageContainer>
+                    <TimeLine__Media
+                      backgroundImage="https://images6.alphacoders.com/599/599052.jpg"
+                    />
+                    <TimeLine__Caption>
+                      test
+                    </TimeLine__Caption>
+                  </TimeLine__ImageContainer>
+                  <TimeLine__Text>
+                    Joost treedt toe als partner, het bedrijf heet inmiddels Jungle Rating en doet voornamelijk research.
+                  </TimeLine__Text>
+                  <Quote
+                    image="./images/team_design.jpg"
+                    metadata="Naam en functie"
+                    text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+                  />
+                </TimeLine__Wrapper>,
+                <TimeLine__Wrapper
+                  className="container"
+                >
+                  <TimeLine__Title>
+                    Geen anti-kraakkantoor meer
+                  </TimeLine__Title>
+                  <TimeLine__ImageContainer>
+                    <TimeLine__Media
+                      backgroundImage="http://elder-scrolls.com/uploads/posts/2013-11/1384956239_m43.jpg"
+                    />
+                    <TimeLine__Caption>
+                      test
+                    </TimeLine__Caption>
+                  </TimeLine__ImageContainer>
+                  <TimeLine__Text>
+                    Jungle Rating is in haar eerste vijf jaar stevig gegroeid, past niet meer in het anti-kraakkantoor in het Wibauthuis en verhuist naar de Weesperstraat.
+                  </TimeLine__Text>
+                  <Quote
+                    image="./images/team_design.jpg"
+                    metadata="Naam en functie"
+                    text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+                  />
+                </TimeLine__Wrapper>,
+                <TimeLine__Wrapper
+                  className="container"
+                >
+                  <TimeLine__Title>
+                    Twintigkoppige strategieclub
+                  </TimeLine__Title>
+                  <TimeLine__ImageContainer>
+                    <TimeLine__Media
+                      backgroundImage="https://images8.alphacoders.com/410/410161.jpg"
+                    />
+                    <TimeLine__Caption>
+                      test
+                    </TimeLine__Caption>
+                  </TimeLine__ImageContainer>
+                  <TimeLine__Text>
+                    Jungle Rating heeft zich doorontwikkeld tot een twintigkoppige strategieclub. De naam ‘Rating’ dekt de lading niet meer helemaal en dus wordt de naam veranderd in Jungle Minds
+                  </TimeLine__Text>
+                  <Quote
+                    image="./images/team_design.jpg"
+                    metadata="Naam en functie"
+                    text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+                  />
+                </TimeLine__Wrapper>,
+                <TimeLine__Wrapper
+                  className="container"
+                >
+                  <TimeLine__Title>
+                    Geert-Jan Smits draagt zijn taken over
+                  </TimeLine__Title>
+                  <TimeLine__ImageContainer>
+                    <TimeLine__Media
+                      backgroundImage="http://wallpapercave.com/wp/GMifnUB.jpg"
+                    />
+                    <TimeLine__Caption>
+                      test
+                    </TimeLine__Caption>
+                  </TimeLine__ImageContainer>
+                  <TimeLine__Text>
+                    Oprichter Geert-Jan Smits gaat zich volledig richten op zijn nieuwe onderneming Flinders Design en draagt zijn taken over aan een nieuwe directie.
+                  </TimeLine__Text>
+                  <Quote
+                    image="./images/team_design.jpg"
+                    metadata="Naam en functie"
+                    text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+                  />
+                </TimeLine__Wrapper>,
+                <TimeLine__Wrapper
+                  className="container"
+                >
+                  <TimeLine__Title>
+                    Tienjarige bestaan
+                  </TimeLine__Title>
+                  <TimeLine__ImageContainer>
+                    <TimeLine__Media
+                      backgroundImage="http://wallpapercave.com/wp/GMifnUB.jpg"
+                    />
+                    <TimeLine__Caption>
+                      test
+                    </TimeLine__Caption>
+                  </TimeLine__ImageContainer>
+                  <TimeLine__Text>
+                    Jungle Minds viert haar tienjarige bestaan met een groot feest in het concertgebouw en een trip naar Andalusië.
+                  </TimeLine__Text>
+                  <Quote
+                    image="./images/team_design.jpg"
+                    metadata="Naam en functie"
+                    text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+                  />
+                </TimeLine__Wrapper>,
+                <TimeLine__Wrapper
+                  className="container"
+                >
+                  <TimeLine__Title>
+                    Drie medewerkers: Één team
+                  </TimeLine__Title>
+                  <TimeLine__ImageContainer>
+                    <TimeLine__Media
+                      backgroundImage="http://wallpapercave.com/wp/GMifnUB.jpg"
+                    />
+                    <TimeLine__Caption>
+                      test
+                    </TimeLine__Caption>
+                  </TimeLine__ImageContainer>
+                  <TimeLine__Text>
+                    Drie medewerkers van Jungle Minds vormen een team en nemen samen een meerderheid van de aandelen over van de oprichters. Ondertussen speelt design en development een steeds grotere rol bij Jungle Minds, wat beloond wordt met een European Design Award voor IMC.nl.
+                  </TimeLine__Text>
+                  <Quote
+                    image="./images/team_design.jpg"
+                    metadata="Naam en functie"
+                    text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+                  />
+                </TimeLine__Wrapper>,
+                <TimeLine__Wrapper
+                  className="container"
+                >
+                  <TimeLine__Title>
+                    De Groene Draeck
+                  </TimeLine__Title>
+                  <TimeLine__ImageContainer>
+                    <TimeLine__Media
+                      backgroundImage="http://wallpapercave.com/wp/GMifnUB.jpg"
+                    />
+                    <TimeLine__Caption>
+                      test
+                    </TimeLine__Caption>
+                  </TimeLine__ImageContainer>
+                  <TimeLine__Text>
+                    Jungle Minds steekt het IJ over naar Amsterdam Noord en betrekt de Groene Draeck. Jungle Minds wordt door Emerce uitgeroepen als het beste bureau van Nederland 2015.
+                  </TimeLine__Text>
+                  <Quote
+                    image="./images/team_design.jpg"
+                    metadata="Naam en functie"
+                    text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+                  />
+                </TimeLine__Wrapper>,
+                <TimeLine__Wrapper
+                  className="container"
+                >
+                  <TimeLine__Title>
+                    Top 10 werkgevers
+                  </TimeLine__Title>
+                  <TimeLine__ImageContainer>
+                    <TimeLine__Media
+                      backgroundImage="http://wallpapercave.com/wp/GMifnUB.jpg"
+                    />
+                    <TimeLine__Caption>
+                      test
+                    </TimeLine__Caption>
+                  </TimeLine__ImageContainer>
+                  <TimeLine__Text>
+                    NRC plaatst Jungle Minds in de top 10 beste werkgevers van Nederland
+                  </TimeLine__Text>
+                  <Quote
+                    image="./images/team_design.jpg"
+                    metadata="Naam en functie"
+                    text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+                  />
+                </TimeLine__Wrapper>,
+                <TimeLine__Wrapper
+                  className="container"
+                >
+                  <TimeLine__Title>
+                    VYŌO
+                  </TimeLine__Title>
+                  <TimeLine__ImageContainer>
+                    <TimeLine__Media
+                      backgroundImage="http://wallpapercave.com/wp/GMifnUB.jpg"
+                    />
+                    <TimeLine__Caption>
+                      test
+                    </TimeLine__Caption>
+                  </TimeLine__ImageContainer>
+                  <TimeLine__Text>
+                    Samen met SBK initieert Jungle Minds VYŌO, het meedenkende abonnement voor mensen die willen starten met kunst in huis. 
+                  </TimeLine__Text>
+                  <Quote
+                    image="./images/team_design.jpg"
+                    metadata="Naam en functie"
+                    text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+                  />
+                </TimeLine__Wrapper>,
+              ],
+              "disableLazyLoading": false,
+              "disabled": false,
+              "enableMouseEvents": false,
+              "hysteresis": 0.6,
+              "ignoreNativeScroll": false,
+              "index": 0,
+              "onChangeIndex": [Function],
+              "resistance": true,
+              "springConfig": Object {
+                "delay": "0s",
+                "duration": "0.35s",
+                "easeFunction": "cubic-bezier(0.15, 0.3, 0.25, 1)",
+              },
+              "threshold": 5,
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "0",
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    <TimeLine__Title>
+                      The Rating Company opgericht
+                    </TimeLine__Title>,
+                    <TimeLine__ImageContainer>
+                      <TimeLine__Media
+                        backgroundImage="https://images6.alphacoders.com/599/599052.jpg"
+                      />
+                      <TimeLine__Caption>
+                        test
+                      </TimeLine__Caption>
+                    </TimeLine__ImageContainer>,
+                    <TimeLine__Text>
+                      Opgericht door Geert-Jan Smits en Matthijs Kanis als The Rating Company met als doel ‘orde te scheppen in de jungle’ die het dan nog ontluikende internet is.
+                    </TimeLine__Text>,
+                    <Quote
+                      image="./images/team_design.jpg"
+                      metadata="Naam en functie"
+                      text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+                    />,
+                  ],
+                  "className": "container",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "The Rating Company opgericht",
+                    },
+                    "ref": null,
+                    "rendered": "The Rating Company opgericht",
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": Array [
+                        <TimeLine__Media
+                          backgroundImage="https://images6.alphacoders.com/599/599052.jpg"
+                        />,
+                        <TimeLine__Caption>
+                          test
+                        </TimeLine__Caption>,
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "backgroundImage": "https://images6.alphacoders.com/599/599052.jpg",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "children": "test",
+                        },
+                        "ref": null,
+                        "rendered": "test",
+                        "type": [Function],
+                      },
+                    ],
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "Opgericht door Geert-Jan Smits en Matthijs Kanis als The Rating Company met als doel ‘orde te scheppen in de jungle’ die het dan nog ontluikende internet is.",
+                    },
+                    "ref": null,
+                    "rendered": "Opgericht door Geert-Jan Smits en Matthijs Kanis als The Rating Company met als doel ‘orde te scheppen in de jungle’ die het dan nog ontluikende internet is.",
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "image": "./images/team_design.jpg",
+                      "metadata": "Naam en functie",
+                      "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "1",
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    <TimeLine__Title>
+                      Joost de nieuwe partner
+                    </TimeLine__Title>,
+                    <TimeLine__ImageContainer>
+                      <TimeLine__Media
+                        backgroundImage="https://images6.alphacoders.com/599/599052.jpg"
+                      />
+                      <TimeLine__Caption>
+                        test
+                      </TimeLine__Caption>
+                    </TimeLine__ImageContainer>,
+                    <TimeLine__Text>
+                      Joost treedt toe als partner, het bedrijf heet inmiddels Jungle Rating en doet voornamelijk research.
+                    </TimeLine__Text>,
+                    <Quote
+                      image="./images/team_design.jpg"
+                      metadata="Naam en functie"
+                      text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+                    />,
+                  ],
+                  "className": "container",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "Joost de nieuwe partner",
+                    },
+                    "ref": null,
+                    "rendered": "Joost de nieuwe partner",
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": Array [
+                        <TimeLine__Media
+                          backgroundImage="https://images6.alphacoders.com/599/599052.jpg"
+                        />,
+                        <TimeLine__Caption>
+                          test
+                        </TimeLine__Caption>,
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "backgroundImage": "https://images6.alphacoders.com/599/599052.jpg",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "children": "test",
+                        },
+                        "ref": null,
+                        "rendered": "test",
+                        "type": [Function],
+                      },
+                    ],
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "Joost treedt toe als partner, het bedrijf heet inmiddels Jungle Rating en doet voornamelijk research.",
+                    },
+                    "ref": null,
+                    "rendered": "Joost treedt toe als partner, het bedrijf heet inmiddels Jungle Rating en doet voornamelijk research.",
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "image": "./images/team_design.jpg",
+                      "metadata": "Naam en functie",
+                      "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "2",
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    <TimeLine__Title>
+                      Geen anti-kraakkantoor meer
+                    </TimeLine__Title>,
+                    <TimeLine__ImageContainer>
+                      <TimeLine__Media
+                        backgroundImage="http://elder-scrolls.com/uploads/posts/2013-11/1384956239_m43.jpg"
+                      />
+                      <TimeLine__Caption>
+                        test
+                      </TimeLine__Caption>
+                    </TimeLine__ImageContainer>,
+                    <TimeLine__Text>
+                      Jungle Rating is in haar eerste vijf jaar stevig gegroeid, past niet meer in het anti-kraakkantoor in het Wibauthuis en verhuist naar de Weesperstraat.
+                    </TimeLine__Text>,
+                    <Quote
+                      image="./images/team_design.jpg"
+                      metadata="Naam en functie"
+                      text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+                    />,
+                  ],
+                  "className": "container",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "Geen anti-kraakkantoor meer",
+                    },
+                    "ref": null,
+                    "rendered": "Geen anti-kraakkantoor meer",
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": Array [
+                        <TimeLine__Media
+                          backgroundImage="http://elder-scrolls.com/uploads/posts/2013-11/1384956239_m43.jpg"
+                        />,
+                        <TimeLine__Caption>
+                          test
+                        </TimeLine__Caption>,
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "backgroundImage": "http://elder-scrolls.com/uploads/posts/2013-11/1384956239_m43.jpg",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "children": "test",
+                        },
+                        "ref": null,
+                        "rendered": "test",
+                        "type": [Function],
+                      },
+                    ],
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "Jungle Rating is in haar eerste vijf jaar stevig gegroeid, past niet meer in het anti-kraakkantoor in het Wibauthuis en verhuist naar de Weesperstraat.",
+                    },
+                    "ref": null,
+                    "rendered": "Jungle Rating is in haar eerste vijf jaar stevig gegroeid, past niet meer in het anti-kraakkantoor in het Wibauthuis en verhuist naar de Weesperstraat.",
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "image": "./images/team_design.jpg",
+                      "metadata": "Naam en functie",
+                      "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "3",
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    <TimeLine__Title>
+                      Twintigkoppige strategieclub
+                    </TimeLine__Title>,
+                    <TimeLine__ImageContainer>
+                      <TimeLine__Media
+                        backgroundImage="https://images8.alphacoders.com/410/410161.jpg"
+                      />
+                      <TimeLine__Caption>
+                        test
+                      </TimeLine__Caption>
+                    </TimeLine__ImageContainer>,
+                    <TimeLine__Text>
+                      Jungle Rating heeft zich doorontwikkeld tot een twintigkoppige strategieclub. De naam ‘Rating’ dekt de lading niet meer helemaal en dus wordt de naam veranderd in Jungle Minds
+                    </TimeLine__Text>,
+                    <Quote
+                      image="./images/team_design.jpg"
+                      metadata="Naam en functie"
+                      text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+                    />,
+                  ],
+                  "className": "container",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "Twintigkoppige strategieclub",
+                    },
+                    "ref": null,
+                    "rendered": "Twintigkoppige strategieclub",
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": Array [
+                        <TimeLine__Media
+                          backgroundImage="https://images8.alphacoders.com/410/410161.jpg"
+                        />,
+                        <TimeLine__Caption>
+                          test
+                        </TimeLine__Caption>,
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "backgroundImage": "https://images8.alphacoders.com/410/410161.jpg",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "children": "test",
+                        },
+                        "ref": null,
+                        "rendered": "test",
+                        "type": [Function],
+                      },
+                    ],
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "Jungle Rating heeft zich doorontwikkeld tot een twintigkoppige strategieclub. De naam ‘Rating’ dekt de lading niet meer helemaal en dus wordt de naam veranderd in Jungle Minds",
+                    },
+                    "ref": null,
+                    "rendered": "Jungle Rating heeft zich doorontwikkeld tot een twintigkoppige strategieclub. De naam ‘Rating’ dekt de lading niet meer helemaal en dus wordt de naam veranderd in Jungle Minds",
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "image": "./images/team_design.jpg",
+                      "metadata": "Naam en functie",
+                      "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "4",
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    <TimeLine__Title>
+                      Geert-Jan Smits draagt zijn taken over
+                    </TimeLine__Title>,
+                    <TimeLine__ImageContainer>
+                      <TimeLine__Media
+                        backgroundImage="http://wallpapercave.com/wp/GMifnUB.jpg"
+                      />
+                      <TimeLine__Caption>
+                        test
+                      </TimeLine__Caption>
+                    </TimeLine__ImageContainer>,
+                    <TimeLine__Text>
+                      Oprichter Geert-Jan Smits gaat zich volledig richten op zijn nieuwe onderneming Flinders Design en draagt zijn taken over aan een nieuwe directie.
+                    </TimeLine__Text>,
+                    <Quote
+                      image="./images/team_design.jpg"
+                      metadata="Naam en functie"
+                      text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+                    />,
+                  ],
+                  "className": "container",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "Geert-Jan Smits draagt zijn taken over",
+                    },
+                    "ref": null,
+                    "rendered": "Geert-Jan Smits draagt zijn taken over",
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": Array [
+                        <TimeLine__Media
+                          backgroundImage="http://wallpapercave.com/wp/GMifnUB.jpg"
+                        />,
+                        <TimeLine__Caption>
+                          test
+                        </TimeLine__Caption>,
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "backgroundImage": "http://wallpapercave.com/wp/GMifnUB.jpg",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "children": "test",
+                        },
+                        "ref": null,
+                        "rendered": "test",
+                        "type": [Function],
+                      },
+                    ],
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "Oprichter Geert-Jan Smits gaat zich volledig richten op zijn nieuwe onderneming Flinders Design en draagt zijn taken over aan een nieuwe directie.",
+                    },
+                    "ref": null,
+                    "rendered": "Oprichter Geert-Jan Smits gaat zich volledig richten op zijn nieuwe onderneming Flinders Design en draagt zijn taken over aan een nieuwe directie.",
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "image": "./images/team_design.jpg",
+                      "metadata": "Naam en functie",
+                      "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "5",
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    <TimeLine__Title>
+                      Tienjarige bestaan
+                    </TimeLine__Title>,
+                    <TimeLine__ImageContainer>
+                      <TimeLine__Media
+                        backgroundImage="http://wallpapercave.com/wp/GMifnUB.jpg"
+                      />
+                      <TimeLine__Caption>
+                        test
+                      </TimeLine__Caption>
+                    </TimeLine__ImageContainer>,
+                    <TimeLine__Text>
+                      Jungle Minds viert haar tienjarige bestaan met een groot feest in het concertgebouw en een trip naar Andalusië.
+                    </TimeLine__Text>,
+                    <Quote
+                      image="./images/team_design.jpg"
+                      metadata="Naam en functie"
+                      text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+                    />,
+                  ],
+                  "className": "container",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "Tienjarige bestaan",
+                    },
+                    "ref": null,
+                    "rendered": "Tienjarige bestaan",
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": Array [
+                        <TimeLine__Media
+                          backgroundImage="http://wallpapercave.com/wp/GMifnUB.jpg"
+                        />,
+                        <TimeLine__Caption>
+                          test
+                        </TimeLine__Caption>,
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "backgroundImage": "http://wallpapercave.com/wp/GMifnUB.jpg",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "children": "test",
+                        },
+                        "ref": null,
+                        "rendered": "test",
+                        "type": [Function],
+                      },
+                    ],
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "Jungle Minds viert haar tienjarige bestaan met een groot feest in het concertgebouw en een trip naar Andalusië.",
+                    },
+                    "ref": null,
+                    "rendered": "Jungle Minds viert haar tienjarige bestaan met een groot feest in het concertgebouw en een trip naar Andalusië.",
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "image": "./images/team_design.jpg",
+                      "metadata": "Naam en functie",
+                      "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "6",
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    <TimeLine__Title>
+                      Drie medewerkers: Één team
+                    </TimeLine__Title>,
+                    <TimeLine__ImageContainer>
+                      <TimeLine__Media
+                        backgroundImage="http://wallpapercave.com/wp/GMifnUB.jpg"
+                      />
+                      <TimeLine__Caption>
+                        test
+                      </TimeLine__Caption>
+                    </TimeLine__ImageContainer>,
+                    <TimeLine__Text>
+                      Drie medewerkers van Jungle Minds vormen een team en nemen samen een meerderheid van de aandelen over van de oprichters. Ondertussen speelt design en development een steeds grotere rol bij Jungle Minds, wat beloond wordt met een European Design Award voor IMC.nl.
+                    </TimeLine__Text>,
+                    <Quote
+                      image="./images/team_design.jpg"
+                      metadata="Naam en functie"
+                      text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+                    />,
+                  ],
+                  "className": "container",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "Drie medewerkers: Één team",
+                    },
+                    "ref": null,
+                    "rendered": "Drie medewerkers: Één team",
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": Array [
+                        <TimeLine__Media
+                          backgroundImage="http://wallpapercave.com/wp/GMifnUB.jpg"
+                        />,
+                        <TimeLine__Caption>
+                          test
+                        </TimeLine__Caption>,
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "backgroundImage": "http://wallpapercave.com/wp/GMifnUB.jpg",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "children": "test",
+                        },
+                        "ref": null,
+                        "rendered": "test",
+                        "type": [Function],
+                      },
+                    ],
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "Drie medewerkers van Jungle Minds vormen een team en nemen samen een meerderheid van de aandelen over van de oprichters. Ondertussen speelt design en development een steeds grotere rol bij Jungle Minds, wat beloond wordt met een European Design Award voor IMC.nl.",
+                    },
+                    "ref": null,
+                    "rendered": "Drie medewerkers van Jungle Minds vormen een team en nemen samen een meerderheid van de aandelen over van de oprichters. Ondertussen speelt design en development een steeds grotere rol bij Jungle Minds, wat beloond wordt met een European Design Award voor IMC.nl.",
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "image": "./images/team_design.jpg",
+                      "metadata": "Naam en functie",
+                      "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "7",
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    <TimeLine__Title>
+                      De Groene Draeck
+                    </TimeLine__Title>,
+                    <TimeLine__ImageContainer>
+                      <TimeLine__Media
+                        backgroundImage="http://wallpapercave.com/wp/GMifnUB.jpg"
+                      />
+                      <TimeLine__Caption>
+                        test
+                      </TimeLine__Caption>
+                    </TimeLine__ImageContainer>,
+                    <TimeLine__Text>
+                      Jungle Minds steekt het IJ over naar Amsterdam Noord en betrekt de Groene Draeck. Jungle Minds wordt door Emerce uitgeroepen als het beste bureau van Nederland 2015.
+                    </TimeLine__Text>,
+                    <Quote
+                      image="./images/team_design.jpg"
+                      metadata="Naam en functie"
+                      text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+                    />,
+                  ],
+                  "className": "container",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "De Groene Draeck",
+                    },
+                    "ref": null,
+                    "rendered": "De Groene Draeck",
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": Array [
+                        <TimeLine__Media
+                          backgroundImage="http://wallpapercave.com/wp/GMifnUB.jpg"
+                        />,
+                        <TimeLine__Caption>
+                          test
+                        </TimeLine__Caption>,
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "backgroundImage": "http://wallpapercave.com/wp/GMifnUB.jpg",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "children": "test",
+                        },
+                        "ref": null,
+                        "rendered": "test",
+                        "type": [Function],
+                      },
+                    ],
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "Jungle Minds steekt het IJ over naar Amsterdam Noord en betrekt de Groene Draeck. Jungle Minds wordt door Emerce uitgeroepen als het beste bureau van Nederland 2015.",
+                    },
+                    "ref": null,
+                    "rendered": "Jungle Minds steekt het IJ over naar Amsterdam Noord en betrekt de Groene Draeck. Jungle Minds wordt door Emerce uitgeroepen als het beste bureau van Nederland 2015.",
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "image": "./images/team_design.jpg",
+                      "metadata": "Naam en functie",
+                      "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "8",
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    <TimeLine__Title>
+                      Top 10 werkgevers
+                    </TimeLine__Title>,
+                    <TimeLine__ImageContainer>
+                      <TimeLine__Media
+                        backgroundImage="http://wallpapercave.com/wp/GMifnUB.jpg"
+                      />
+                      <TimeLine__Caption>
+                        test
+                      </TimeLine__Caption>
+                    </TimeLine__ImageContainer>,
+                    <TimeLine__Text>
+                      NRC plaatst Jungle Minds in de top 10 beste werkgevers van Nederland
+                    </TimeLine__Text>,
+                    <Quote
+                      image="./images/team_design.jpg"
+                      metadata="Naam en functie"
+                      text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+                    />,
+                  ],
+                  "className": "container",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "Top 10 werkgevers",
+                    },
+                    "ref": null,
+                    "rendered": "Top 10 werkgevers",
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": Array [
+                        <TimeLine__Media
+                          backgroundImage="http://wallpapercave.com/wp/GMifnUB.jpg"
+                        />,
+                        <TimeLine__Caption>
+                          test
+                        </TimeLine__Caption>,
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "backgroundImage": "http://wallpapercave.com/wp/GMifnUB.jpg",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "children": "test",
+                        },
+                        "ref": null,
+                        "rendered": "test",
+                        "type": [Function],
+                      },
+                    ],
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "NRC plaatst Jungle Minds in de top 10 beste werkgevers van Nederland",
+                    },
+                    "ref": null,
+                    "rendered": "NRC plaatst Jungle Minds in de top 10 beste werkgevers van Nederland",
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "image": "./images/team_design.jpg",
+                      "metadata": "Naam en functie",
+                      "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "9",
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    <TimeLine__Title>
+                      VYŌO
+                    </TimeLine__Title>,
+                    <TimeLine__ImageContainer>
+                      <TimeLine__Media
+                        backgroundImage="http://wallpapercave.com/wp/GMifnUB.jpg"
+                      />
+                      <TimeLine__Caption>
+                        test
+                      </TimeLine__Caption>
+                    </TimeLine__ImageContainer>,
+                    <TimeLine__Text>
+                      Samen met SBK initieert Jungle Minds VYŌO, het meedenkende abonnement voor mensen die willen starten met kunst in huis. 
+                    </TimeLine__Text>,
+                    <Quote
+                      image="./images/team_design.jpg"
+                      metadata="Naam en functie"
+                      text="Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken."
+                    />,
+                  ],
+                  "className": "container",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "VYŌO",
+                    },
+                    "ref": null,
+                    "rendered": "VYŌO",
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": Array [
+                        <TimeLine__Media
+                          backgroundImage="http://wallpapercave.com/wp/GMifnUB.jpg"
+                        />,
+                        <TimeLine__Caption>
+                          test
+                        </TimeLine__Caption>,
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "backgroundImage": "http://wallpapercave.com/wp/GMifnUB.jpg",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "children": "test",
+                        },
+                        "ref": null,
+                        "rendered": "test",
+                        "type": [Function],
+                      },
+                    ],
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "Samen met SBK initieert Jungle Minds VYŌO, het meedenkende abonnement voor mensen die willen starten met kunst in huis. ",
+                    },
+                    "ref": null,
+                    "rendered": "Samen met SBK initieert Jungle Minds VYŌO, het meedenkende abonnement voor mensen die willen starten met kunst in huis. ",
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "image": "./images/team_design.jpg",
+                      "metadata": "Naam en functie",
+                      "text": "Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

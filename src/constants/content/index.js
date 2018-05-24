@@ -1,28 +1,25 @@
-export const navigation = {
-}
-
 export const overview = {
   pageTitle: 'Overzicht',
   introTitle: 'Guide to the Jungle',
-  introText: `Allereerst verwelkomen wij jou graag bij Jungle Minds. We hopen dat dit het begin is van een goede samenwerking met jou. Door deze gids leer je Jungle Minds en jouw collega's beter kennen.`,
+  introText: `Nu maak je echt deel uit onze Jungle Minds familie. Om met alles bij te zijn, vragen wij je om deze onboarding tool te gebruiken komende 5 weken. Per module krijg je 3 nieuwe inzichten over het bedrijf, collega's en over ons werkwijzen. Aan het einde van elke module vind je een overzicht van jouw weekelijkse opdrachten. Deze moeten voltooid zijn voordat je met een nieuwe module kunt beginnen.`,
   cards: [
     {
       slug: '/faq',
-      image: './images/0.0_faq.jpg',
+      image: './images/faq.jpg',
       title: 'FAQ',
       text: 'Bekijk hier de vragen die jij misschien nog niet druft te vragen maar die wel belangrijk zijn voor op de vloer.',
       unlocked: 'yes'
     },
     {
       slug: '/jungleMinds',
-      image: './images/0.1_jungle_minds.jpg',
+      image: './images/jungle_minds.jpg',
       title: 'Jungle Minds',
       text: 'Tijdens deze module leer je meer over de geschiedenis van Jungle Minds en hoe wij als bedrijf gevestigd zijn.',
       unlocked: 'yes'
     },
     {
       slug: '/jungleCulture',
-      image: './images/team_design.jpg',
+      image: './images/jungle_culture.jpg',
       title: 'De Jungle Cultuur',
       text: 'Tijdens deze module lees je meer over ons cultuur en wat wij doen om die te behouden.',
       unlockText: 'Ontgrendelt in week 2',
@@ -30,7 +27,7 @@ export const overview = {
     },
     {
       slug: '/ourPeople',
-      image: './images/0.3_our_people.jpg',
+      image: './images/our_people.jpg',
       title: 'Ons Team',
       text: 'Lees hier meer over ons geweldige team, want zoals ze zeggen "vele handen maken licht werk."',
       unlockText: 'Ontgrendelt in week 3',
@@ -38,7 +35,7 @@ export const overview = {
     },
     {
       slug: '/howWeWork',
-      image: './images/0.4_how_we_work.jpg',
+      image: './images/how_we_work.jpg',
       title: 'Ons Workflow',
       text: 'Binnen Jungle Minds willen we graag dat iedereen op de hoogte is van ons werkprocedures. Bekijk hier hoe wij een project aanpakken van A tot Z.',
       unlockText: 'Ontgrendelt in week 4',
@@ -46,7 +43,7 @@ export const overview = {
     },
     {
       slug: '/ourClients',
-      image: './images/0.5_our_clients.jpg',
+      image: './images/our_clients.jpg',
       title: 'Ons Klanten',
       text: 'Zonder hun warebn wij niet zo ver gekomen. Lees hier voor welke bedrijven wij werken en wat voor producten wij voor hun maken.',
       unlockText: 'Ontgrendelt in week 5',
@@ -224,74 +221,168 @@ export const faq = {
 export const jungleMinds = {
   pageTitle: '1 Jungle Minds',
   introTitle: 'Welkom',
-  introText: `Nu maak je echt deel uit onze Jungle Minds familie. Om met alles bij te zijn vragen wij je om deze onboarding tool te maken gedurende 5 weken. Je krijgt per module 3 nieuwe inzichten over het bedrijf, jouw collega's en over ons werkwijzen. Aan het einde van elke module vind je jouw weekelijkse opdrachten. Dit moeten voltooid zijn voor dat je met een nieuwe module begint. Succes!`,
-  imageAlignment: 'left',
-  textMedia: [
-    {
-      title: 'Week 1',
-      text: `Tijdens deze week leer je meer over:
-      <ul>
-      <li>
-        1.1 Ons verhaal
-      </li>
-      <li>
-        2.2 Jungle Maslow
-      </li>
-      <li>
-        2.3 Financiën
-      </li>
-      </ul>
-      `
-    },
-    {
-      title: 'Opdrachten',
-      text: `Gedurende deze modules krijg je enkele opdrachten toegewegen. Het is de bedoeling dat je deze opdrachten uitvoert voor het einde van de week. Denk aan: de mandagen zijn de beste dagen om een gesprek aan te gaan met een collega. 
-      <ul>
-      <li>
-        1.4 Opdrachten
-      </li>
-      </ul>
-      `
-    }
-  ],
-  image: './images/team_design.jpg',
-  mediaCaption: 'Jungle Cultuur'
+  introText: `Allereerst verwelkomen wij jou graag bij Jungle Minds. We hopen dat dit het begin is van een goede samenwerking. Door deze gids leer je Jungle Minds en jouw collega's beter kennen.`,
+  textMedia: {
+    imageAlignment: 'left',
+    image: './images/jungle_minds.jpg',
+    mediaCaption: 'Jungle Cultuur',
+    text: [
+      {
+        title: 'Week 1',
+        text: `Tijdens deze module leer je meer over de geschiedenis van Jungle Minds en hoe wij als bedrijf gevestigd zijn.
+        <h4>
+          Module 1: Jungle Minds
+        </h4>
+        <ul>
+        <li>
+          1.1 Ons verhaal
+        </li>
+        <li>
+          1.2 Jungle Maslow
+        </li>
+        <li>
+          1.3 Financiën
+        </li>
+        </ul>
+        `
+      },
+      {
+        title: 'Opdrachten',
+        text: `Gedurende deze modules krijg je enkele opdrachten toegewegen. Het is de bedoeling dat je deze opdrachten uitvoert voordat je begint met de volgende module. 
+        <br />
+        Tip: De mandagen zijn de beste dagen om een gesprek aan te gaan met een collega. 
+        <ul>
+        <li>
+          1.4 Opdrachten
+        </li>
+        </ul>
+        `
+      }
+    ]
+  }
 }
 
 export const ourStory = {
   pageTitle: '1.1 Ons verhaal',
   introTitle: 'Onze evolutie in tijd',
-  introText: 'Ons bedrijf is in 2000 opgericht als het eerste digital focussed onderzoeks- en strategiebureau van Nederland. Sindsdien blijven we deze titel verdienen door producten te maken die er echt toe doen in iemands leven.'
+  introText: 'Ons bedrijf is in 2000 opgericht als het eerste digital focussed onderzoeks- en strategiebureau van Nederland. Sindsdien blijven we deze titel verdienen door producten te maken die er echt toe doen in iemands leven.',
+  tasks: [
+    {
+      task: '1. Vraag aan een van de office managers voor een rondleiding binnen de Groene Draeck.'
+    }
+  ]
 }
 
 export const jungleMaslow = {
   pageTitle: '1.2 Jungle Maslow',
   introTitle: 'Onze structuur',
-  introText: 'test',
-  textMedia: [
+  introText: 'Binnen ons bedrijf hebben wij ons visie gestructureerd in wat wij noemen: De Jungle Maslow. Deze wordt hieronder utigelegd. Wij lezen onze maslow van beneden naar boven, dit heeft te maken met hoe het bedrijf is gevestigd. ',
+  textMedia: {
+    image: './images/jungle_maslow.png',
+    mediaCaption: 'Ons Jungle Maslow',
+    text: [
+      {
+        title: 'Financiële autonomie',
+        text: 'Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.'
+      },
+      {
+        title: 'Een ijzersterk team op een fijne plek ',
+        text: 'Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.'
+      },
+      {
+        title: 'Een portfolio met smoel',
+        text: 'We bedenken en maken oplossingen voor complexe vraagstukken waar we trots op zijn. Het is mooi om te zien dat de werkelijkheid zoals we hem voorstelden vaak echt goed uitpakt. En dat ons werk nieuwe vragen van nieuwe klanten oproept die we ook mogen beantwoorden is dan natuurlijk heel mooi meegenomen.'
+      },
+      {
+        title: 'Werk van betekenis',
+        text: 'En ja, hier is het ons om te doen. Oplossingen maken die betekenis hebben. '
+      }
+    ]
+  },
+  tasks: [
     {
-      title: 'Financiële autonomie',
-      text: 'Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.'
-    },
-    {
-      title: 'Een ijzersterk team op een fijne plek ',
-      text: 'Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.'
+      task: '2. Bedenk een vraag over de Jungle Maslow. Deze vraag stel je tijdens de "Welkom to the Jungle" presentatie.'
     }
-  ],
-  image: './images/team_design.jpg',
-  mediaCaption: 'test'
+  ]
 }
 
 export const finances = {
-  pageTitle: '1.3 Financiën',
-  introTitle: 'Transparantie',
-  introText: 'test'
+  pageTitle: '1.3 Financiële Model',
+  introTitle: 'Jungle Minds model',
+  introText: 'Om een betere begrip te hebben over hoe Jungle Minds in elkaar zit hebben wij de onderste model gecreëerd die uitlegt hoe wij ons brood verdienen.',
+  financielModel: {
+    subTitle: 'Our ambition translated to numbers',
+    model: [
+      {
+        subTitle: 'Internal',
+        color: '03344a',
+        round: 'Jungle Minds',
+        metadata: 'Mensen die in The Draeck werken.'
+      },
+      {
+        subTitle: 'Liquid',
+        color: '275e92',
+        round: `Jungle Pro's + partners`,
+        metadata: 'Werken samen met Jungle Minds.'
+      },
+      {
+        subTitle: 'Team Design',
+        color: 'ffa50d',
+        round: `Jungle Pro's`,
+        metadata: 'Werken bij klanten met andere mensen.'
+      }
+    ]
+  },
+  textMedia: {
+    image: './images/moduleOne/model_team.png',
+    mediaCaption: 'Ons Jungle Maslow',
+    text: [
+      {
+        title: 'Ambitie',
+        text: 'Wij zijn de leidende partner voor High Impactmerken die hen in staat stellen gebruikerswaarde  te leveren.'
+      },
+      {
+        text: `
+        <p>
+          Dit bereiken wij door:
+        </p>
+        <ul>
+          <li>
+           Werken aan uitdagende en diverse portfolio's.
+          </li>
+          <li>
+            Een topteam van 50 interne, 50 flex collega's.
+          </li>
+          <li>
+            Geweldige plek om te werken, financieel gezond en volledig onafhankelijk.
+          </li>
+        </ul>
+        `
+      }
+    ]
+  },
+  tasks: [
+    {
+      task: '3. Probeer achter te komen uit welke expertises de flex medewerkers voor werken?'
+    }
+  ]
 }
 
 export const tasksModuleOne = {
   pageTitle: '1.4 Opdrachten',
-  introTitle: 'Opdrachten',
-  introText: `Uitleg ...`
+  introTitle: 'Overzicht',
+  introText: `Zie hier een overzicht van de opdrachten die je voor module 1 moet doen.`,
+  tasks: [
+    {
+      task: '1. Vraag aan een van de office managers voor een rondleiding binnen de Groene Draeck.'
+    },
+    {
+      task: '2. Bedenk een vraag over de Jungle Maslow. Deze vraag stel je tijdens de "Welkom to the Jungle" presentatie.'
+    },
+    {
+      task: '3. ...'
+    }
+  ]
 }
 
 // Module 2
@@ -568,22 +659,135 @@ export const tasksModuleFive = {
   introText: `Uitleg ...`
 }
 
-export const testTekst = {
-  title: 'Our evolution in time',
-  text: `Our company is founded in 2000 as the first user centric company. Since then we keep deserving this title by making products that really matters in a person's life.`
-}
-
-export const overallData = [
+export const timelineContent = [
   {
-    name: 'Today',
-    content: testTekst
+    date: '01/01/2000',
+    image: 'https://images6.alphacoders.com/599/599052.jpg',
+    imageCaption: 'test',
+    title: 'The Rating Company opgericht',
+    content: 'Opgericht door Geert-Jan Smits en Matthijs Kanis als The Rating Company met als doel ‘orde te scheppen in de jungle’ die het dan nog ontluikende internet is.',
+    quote:
+    {
+      image: './images/team_design.jpg',
+      text: 'Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.',
+      metadata: 'Naam en functie'
+    }
   },
   {
-    name: 'Tomorrow',
-    content: testTekst
+    date: '01/01/2001',
+    image: 'https://images6.alphacoders.com/599/599052.jpg',
+    imageCaption: 'test',
+    title: 'Joost de nieuwe partner',
+    content: 'Joost treedt toe als partner, het bedrijf heet inmiddels Jungle Rating en doet voornamelijk research.',
+    quote:
+    {
+      image: './images/team_design.jpg',
+      text: 'Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.',
+      metadata: 'Naam en functie'
+    }
   },
   {
-    name: 'Beyond',
-    content: testTekst
+    date: '01/01/2006',
+    image: 'http://elder-scrolls.com/uploads/posts/2013-11/1384956239_m43.jpg',
+    imageCaption: 'test',
+    title: 'Geen anti-kraakkantoor meer',
+    content: 'Jungle Rating is in haar eerste vijf jaar stevig gegroeid, past niet meer in het anti-kraakkantoor in het Wibauthuis en verhuist naar de Weesperstraat.',
+    quote:
+    {
+      image: './images/team_design.jpg',
+      text: 'Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.',
+      metadata: 'Naam en functie'
+    }
+  },
+  {
+    date: '01/01/2008',
+    image: 'https://images8.alphacoders.com/410/410161.jpg',
+    imageCaption: 'test',
+    title: 'Twintigkoppige strategieclub',
+    content: 'Jungle Rating heeft zich doorontwikkeld tot een twintigkoppige strategieclub. De naam ‘Rating’ dekt de lading niet meer helemaal en dus wordt de naam veranderd in Jungle Minds',
+    quote:
+    {
+      image: './images/team_design.jpg',
+      text: 'Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.',
+      metadata: 'Naam en functie'
+    }
+  },
+  {
+    date: '01/01/2010',
+    image: 'http://wallpapercave.com/wp/GMifnUB.jpg',
+    imageCaption: 'test',
+    title: 'Geert-Jan Smits draagt zijn taken over',
+    content: 'Oprichter Geert-Jan Smits gaat zich volledig richten op zijn nieuwe onderneming Flinders Design en draagt zijn taken over aan een nieuwe directie.',
+    quote:
+    {
+      image: './images/team_design.jpg',
+      text: 'Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.',
+      metadata: 'Naam en functie'
+    }
+  },
+  {
+    date: '11/11/2011',
+    image: 'http://wallpapercave.com/wp/GMifnUB.jpg',
+    imageCaption: 'test',
+    title: 'Tienjarige bestaan',
+    content: 'Jungle Minds viert haar tienjarige bestaan met een groot feest in het concertgebouw en een trip naar Andalusië.',
+    quote:
+    {
+      image: './images/team_design.jpg',
+      text: 'Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.',
+      metadata: 'Naam en functie'
+    }
+  },
+  {
+    date: '01/01/2014',
+    image: 'http://wallpapercave.com/wp/GMifnUB.jpg',
+    imageCaption: 'test',
+    title: 'Drie medewerkers: Één team',
+    content: 'Drie medewerkers van Jungle Minds vormen een team en nemen samen een meerderheid van de aandelen over van de oprichters. Ondertussen speelt design en development een steeds grotere rol bij Jungle Minds, wat beloond wordt met een European Design Award voor IMC.nl.',
+    quote:
+    {
+      image: './images/team_design.jpg',
+      text: 'Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.',
+      metadata: 'Naam en functie'
+    }
+  },
+  {
+    date: '01/01/2015',
+    image: 'http://wallpapercave.com/wp/GMifnUB.jpg',
+    imageCaption: 'test',
+    title: 'De Groene Draeck',
+    content: 'Jungle Minds steekt het IJ over naar Amsterdam Noord en betrekt de Groene Draeck. Jungle Minds wordt door Emerce uitgeroepen als het beste bureau van Nederland 2015.',
+    quote:
+    {
+      image: './images/team_design.jpg',
+      text: 'Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.',
+      metadata: 'Naam en functie'
+    }
+  },
+  {
+    date: '01/01/2016',
+    image: 'http://wallpapercave.com/wp/GMifnUB.jpg',
+    imageCaption: 'test',
+    title: 'Top 10 werkgevers',
+    content: 'NRC plaatst Jungle Minds in de top 10 beste werkgevers van Nederland',
+    quote:
+    {
+      image: './images/team_design.jpg',
+      text: 'Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.',
+      metadata: 'Naam en functie'
+    }
+  },
+  {
+    date: '01/01/2017',
+    image: 'http://wallpapercave.com/wp/GMifnUB.jpg',
+    imageCaption: 'test',
+    title: 'VYŌO',
+    content: 'Samen met SBK initieert Jungle Minds VYŌO, het meedenkende abonnement voor mensen die willen starten met kunst in huis. ',
+    quote:
+    {
+      image: './images/team_design.jpg',
+      text: 'Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.',
+      metadata: 'Naam en functie'
+    }
   }
 ]

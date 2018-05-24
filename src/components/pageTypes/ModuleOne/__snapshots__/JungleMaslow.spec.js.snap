@@ -28,50 +28,81 @@ ShallowWrapper {
         >
           <header>
             <PageTitle
-              image="./images/team_design.jpg"
-              introText="test"
+              introText="Binnen ons bedrijf hebben wij ons visie gestructureerd in wat wij noemen: De Jungle Maslow. Deze wordt hieronder utigelegd. Wij lezen onze maslow van beneden naar boven, dit heeft te maken met hoe het bedrijf is gevestigd. "
               introTitle="Onze structuur"
-              mediaCaption="test"
               pageTitle="1.2 Jungle Maslow"
-              textMedia={
+              tasks={
                 Array [
                   Object {
-                    "text": "Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.",
-                    "title": "Financiële autonomie",
-                  },
-                  Object {
-                    "text": "Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.",
-                    "title": "Een ijzersterk team op een fijne plek ",
+                    "task": "2. Bedenk een vraag over de Jungle Maslow. Deze vraag stel je tijdens de \\"Welkom to the Jungle\\" presentatie.",
                   },
                 ]
+              }
+              textMedia={
+                Object {
+                  "image": "./images/jungle_maslow.png",
+                  "mediaCaption": "Ons Jungle Maslow",
+                  "text": Array [
+                    Object {
+                      "text": "Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.",
+                      "title": "Financiële autonomie",
+                    },
+                    Object {
+                      "text": "Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.",
+                      "title": "Een ijzersterk team op een fijne plek ",
+                    },
+                    Object {
+                      "text": "We bedenken en maken oplossingen voor complexe vraagstukken waar we trots op zijn. Het is mooi om te zien dat de werkelijkheid zoals we hem voorstelden vaak echt goed uitpakt. En dat ons werk nieuwe vragen van nieuwe klanten oproept die we ook mogen beantwoorden is dan natuurlijk heel mooi meegenomen.",
+                      "title": "Een portfolio met smoel",
+                    },
+                    Object {
+                      "text": "En ja, hier is het ons om te doen. Oplossingen maken die betekenis hebben. ",
+                      "title": "Werk van betekenis",
+                    },
+                  ],
+                }
               }
             />
             <Intro
-              image="./images/team_design.jpg"
-              introText="test"
+              introText="Binnen ons bedrijf hebben wij ons visie gestructureerd in wat wij noemen: De Jungle Maslow. Deze wordt hieronder utigelegd. Wij lezen onze maslow van beneden naar boven, dit heeft te maken met hoe het bedrijf is gevestigd. "
               introTitle="Onze structuur"
-              mediaCaption="test"
               pageTitle="1.2 Jungle Maslow"
-              textMedia={
+              tasks={
                 Array [
                   Object {
-                    "text": "Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.",
-                    "title": "Financiële autonomie",
-                  },
-                  Object {
-                    "text": "Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.",
-                    "title": "Een ijzersterk team op een fijne plek ",
+                    "task": "2. Bedenk een vraag over de Jungle Maslow. Deze vraag stel je tijdens de \\"Welkom to the Jungle\\" presentatie.",
                   },
                 ]
               }
+              textMedia={
+                Object {
+                  "image": "./images/jungle_maslow.png",
+                  "mediaCaption": "Ons Jungle Maslow",
+                  "text": Array [
+                    Object {
+                      "text": "Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.",
+                      "title": "Financiële autonomie",
+                    },
+                    Object {
+                      "text": "Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.",
+                      "title": "Een ijzersterk team op een fijne plek ",
+                    },
+                    Object {
+                      "text": "We bedenken en maken oplossingen voor complexe vraagstukken waar we trots op zijn. Het is mooi om te zien dat de werkelijkheid zoals we hem voorstelden vaak echt goed uitpakt. En dat ons werk nieuwe vragen van nieuwe klanten oproept die we ook mogen beantwoorden is dan natuurlijk heel mooi meegenomen.",
+                      "title": "Een portfolio met smoel",
+                    },
+                    Object {
+                      "text": "En ja, hier is het ons om te doen. Oplossingen maken die betekenis hebben. ",
+                      "title": "Werk van betekenis",
+                    },
+                  ],
+                }
+              }
             />
             <TextAndImage
-              image="./images/team_design.jpg"
-              introText="test"
-              introTitle="Onze structuur"
-              mediaCaption="test"
-              pageTitle="1.2 Jungle Maslow"
-              textMedia={
+              image="./images/jungle_maslow.png"
+              mediaCaption="Ons Jungle Maslow"
+              text={
                 Array [
                   Object {
                     "text": "Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.",
@@ -80,11 +111,55 @@ ShallowWrapper {
                   Object {
                     "text": "Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.",
                     "title": "Een ijzersterk team op een fijne plek ",
+                  },
+                  Object {
+                    "text": "We bedenken en maken oplossingen voor complexe vraagstukken waar we trots op zijn. Het is mooi om te zien dat de werkelijkheid zoals we hem voorstelden vaak echt goed uitpakt. En dat ons werk nieuwe vragen van nieuwe klanten oproept die we ook mogen beantwoorden is dan natuurlijk heel mooi meegenomen.",
+                    "title": "Een portfolio met smoel",
+                  },
+                  Object {
+                    "text": "En ja, hier is het ons om te doen. Oplossingen maken die betekenis hebben. ",
+                    "title": "Werk van betekenis",
                   },
                 ]
               }
             />
           </header>
+          <Task
+            introText="Binnen ons bedrijf hebben wij ons visie gestructureerd in wat wij noemen: De Jungle Maslow. Deze wordt hieronder utigelegd. Wij lezen onze maslow van beneden naar boven, dit heeft te maken met hoe het bedrijf is gevestigd. "
+            introTitle="Onze structuur"
+            pageTitle="1.2 Jungle Maslow"
+            tasks={
+              Array [
+                Object {
+                  "task": "2. Bedenk een vraag over de Jungle Maslow. Deze vraag stel je tijdens de \\"Welkom to the Jungle\\" presentatie.",
+                },
+              ]
+            }
+            textMedia={
+              Object {
+                "image": "./images/jungle_maslow.png",
+                "mediaCaption": "Ons Jungle Maslow",
+                "text": Array [
+                  Object {
+                    "text": "Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.",
+                    "title": "Financiële autonomie",
+                  },
+                  Object {
+                    "text": "Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.",
+                    "title": "Een ijzersterk team op een fijne plek ",
+                  },
+                  Object {
+                    "text": "We bedenken en maken oplossingen voor complexe vraagstukken waar we trots op zijn. Het is mooi om te zien dat de werkelijkheid zoals we hem voorstelden vaak echt goed uitpakt. En dat ons werk nieuwe vragen van nieuwe klanten oproept die we ook mogen beantwoorden is dan natuurlijk heel mooi meegenomen.",
+                    "title": "Een portfolio met smoel",
+                  },
+                  Object {
+                    "text": "En ja, hier is het ons om te doen. Oplossingen maken die betekenis hebben. ",
+                    "title": "Werk van betekenis",
+                  },
+                ],
+              }
+            }
+          />
         </Grid>,
       ],
       "className": "jungleMinds",
@@ -110,82 +185,340 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "function",
         "props": Object {
-          "children": <header>
-            <PageTitle
-              image="./images/team_design.jpg"
-              introText="test"
+          "children": Array [
+            <header>
+              <PageTitle
+                introText="Binnen ons bedrijf hebben wij ons visie gestructureerd in wat wij noemen: De Jungle Maslow. Deze wordt hieronder utigelegd. Wij lezen onze maslow van beneden naar boven, dit heeft te maken met hoe het bedrijf is gevestigd. "
+                introTitle="Onze structuur"
+                pageTitle="1.2 Jungle Maslow"
+                tasks={
+                  Array [
+                    Object {
+                      "task": "2. Bedenk een vraag over de Jungle Maslow. Deze vraag stel je tijdens de \\"Welkom to the Jungle\\" presentatie.",
+                    },
+                  ]
+                }
+                textMedia={
+                  Object {
+                    "image": "./images/jungle_maslow.png",
+                    "mediaCaption": "Ons Jungle Maslow",
+                    "text": Array [
+                      Object {
+                        "text": "Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.",
+                        "title": "Financiële autonomie",
+                      },
+                      Object {
+                        "text": "Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.",
+                        "title": "Een ijzersterk team op een fijne plek ",
+                      },
+                      Object {
+                        "text": "We bedenken en maken oplossingen voor complexe vraagstukken waar we trots op zijn. Het is mooi om te zien dat de werkelijkheid zoals we hem voorstelden vaak echt goed uitpakt. En dat ons werk nieuwe vragen van nieuwe klanten oproept die we ook mogen beantwoorden is dan natuurlijk heel mooi meegenomen.",
+                        "title": "Een portfolio met smoel",
+                      },
+                      Object {
+                        "text": "En ja, hier is het ons om te doen. Oplossingen maken die betekenis hebben. ",
+                        "title": "Werk van betekenis",
+                      },
+                    ],
+                  }
+                }
+              />
+              <Intro
+                introText="Binnen ons bedrijf hebben wij ons visie gestructureerd in wat wij noemen: De Jungle Maslow. Deze wordt hieronder utigelegd. Wij lezen onze maslow van beneden naar boven, dit heeft te maken met hoe het bedrijf is gevestigd. "
+                introTitle="Onze structuur"
+                pageTitle="1.2 Jungle Maslow"
+                tasks={
+                  Array [
+                    Object {
+                      "task": "2. Bedenk een vraag over de Jungle Maslow. Deze vraag stel je tijdens de \\"Welkom to the Jungle\\" presentatie.",
+                    },
+                  ]
+                }
+                textMedia={
+                  Object {
+                    "image": "./images/jungle_maslow.png",
+                    "mediaCaption": "Ons Jungle Maslow",
+                    "text": Array [
+                      Object {
+                        "text": "Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.",
+                        "title": "Financiële autonomie",
+                      },
+                      Object {
+                        "text": "Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.",
+                        "title": "Een ijzersterk team op een fijne plek ",
+                      },
+                      Object {
+                        "text": "We bedenken en maken oplossingen voor complexe vraagstukken waar we trots op zijn. Het is mooi om te zien dat de werkelijkheid zoals we hem voorstelden vaak echt goed uitpakt. En dat ons werk nieuwe vragen van nieuwe klanten oproept die we ook mogen beantwoorden is dan natuurlijk heel mooi meegenomen.",
+                        "title": "Een portfolio met smoel",
+                      },
+                      Object {
+                        "text": "En ja, hier is het ons om te doen. Oplossingen maken die betekenis hebben. ",
+                        "title": "Werk van betekenis",
+                      },
+                    ],
+                  }
+                }
+              />
+              <TextAndImage
+                image="./images/jungle_maslow.png"
+                mediaCaption="Ons Jungle Maslow"
+                text={
+                  Array [
+                    Object {
+                      "text": "Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.",
+                      "title": "Financiële autonomie",
+                    },
+                    Object {
+                      "text": "Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.",
+                      "title": "Een ijzersterk team op een fijne plek ",
+                    },
+                    Object {
+                      "text": "We bedenken en maken oplossingen voor complexe vraagstukken waar we trots op zijn. Het is mooi om te zien dat de werkelijkheid zoals we hem voorstelden vaak echt goed uitpakt. En dat ons werk nieuwe vragen van nieuwe klanten oproept die we ook mogen beantwoorden is dan natuurlijk heel mooi meegenomen.",
+                      "title": "Een portfolio met smoel",
+                    },
+                    Object {
+                      "text": "En ja, hier is het ons om te doen. Oplossingen maken die betekenis hebben. ",
+                      "title": "Werk van betekenis",
+                    },
+                  ]
+                }
+              />
+            </header>,
+            <Task
+              introText="Binnen ons bedrijf hebben wij ons visie gestructureerd in wat wij noemen: De Jungle Maslow. Deze wordt hieronder utigelegd. Wij lezen onze maslow van beneden naar boven, dit heeft te maken met hoe het bedrijf is gevestigd. "
               introTitle="Onze structuur"
-              mediaCaption="test"
               pageTitle="1.2 Jungle Maslow"
-              textMedia={
+              tasks={
                 Array [
                   Object {
-                    "text": "Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.",
-                    "title": "Financiële autonomie",
-                  },
-                  Object {
-                    "text": "Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.",
-                    "title": "Een ijzersterk team op een fijne plek ",
+                    "task": "2. Bedenk een vraag over de Jungle Maslow. Deze vraag stel je tijdens de \\"Welkom to the Jungle\\" presentatie.",
                   },
                 ]
               }
-            />
-            <Intro
-              image="./images/team_design.jpg"
-              introText="test"
-              introTitle="Onze structuur"
-              mediaCaption="test"
-              pageTitle="1.2 Jungle Maslow"
               textMedia={
-                Array [
-                  Object {
-                    "text": "Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.",
-                    "title": "Financiële autonomie",
-                  },
-                  Object {
-                    "text": "Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.",
-                    "title": "Een ijzersterk team op een fijne plek ",
-                  },
-                ]
+                Object {
+                  "image": "./images/jungle_maslow.png",
+                  "mediaCaption": "Ons Jungle Maslow",
+                  "text": Array [
+                    Object {
+                      "text": "Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.",
+                      "title": "Financiële autonomie",
+                    },
+                    Object {
+                      "text": "Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.",
+                      "title": "Een ijzersterk team op een fijne plek ",
+                    },
+                    Object {
+                      "text": "We bedenken en maken oplossingen voor complexe vraagstukken waar we trots op zijn. Het is mooi om te zien dat de werkelijkheid zoals we hem voorstelden vaak echt goed uitpakt. En dat ons werk nieuwe vragen van nieuwe klanten oproept die we ook mogen beantwoorden is dan natuurlijk heel mooi meegenomen.",
+                      "title": "Een portfolio met smoel",
+                    },
+                    Object {
+                      "text": "En ja, hier is het ons om te doen. Oplossingen maken die betekenis hebben. ",
+                      "title": "Werk van betekenis",
+                    },
+                  ],
+                }
               }
-            />
-            <TextAndImage
-              image="./images/team_design.jpg"
-              introText="test"
-              introTitle="Onze structuur"
-              mediaCaption="test"
-              pageTitle="1.2 Jungle Maslow"
-              textMedia={
-                Array [
-                  Object {
-                    "text": "Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.",
-                    "title": "Financiële autonomie",
-                  },
-                  Object {
-                    "text": "Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.",
-                    "title": "Een ijzersterk team op een fijne plek ",
-                  },
-                ]
-              }
-            />
-          </header>,
+            />,
+          ],
           "page": "jungleMinds",
         },
         "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": Array [
-              <PageTitle
-                image="./images/team_design.jpg"
-                introText="test"
-                introTitle="Onze structuur"
-                mediaCaption="test"
-                pageTitle="1.2 Jungle Maslow"
-                textMedia={
-                  Array [
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <PageTitle
+                  introText="Binnen ons bedrijf hebben wij ons visie gestructureerd in wat wij noemen: De Jungle Maslow. Deze wordt hieronder utigelegd. Wij lezen onze maslow van beneden naar boven, dit heeft te maken met hoe het bedrijf is gevestigd. "
+                  introTitle="Onze structuur"
+                  pageTitle="1.2 Jungle Maslow"
+                  tasks={
+                    Array [
+                      Object {
+                        "task": "2. Bedenk een vraag over de Jungle Maslow. Deze vraag stel je tijdens de \\"Welkom to the Jungle\\" presentatie.",
+                      },
+                    ]
+                  }
+                  textMedia={
+                    Object {
+                      "image": "./images/jungle_maslow.png",
+                      "mediaCaption": "Ons Jungle Maslow",
+                      "text": Array [
+                        Object {
+                          "text": "Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.",
+                          "title": "Financiële autonomie",
+                        },
+                        Object {
+                          "text": "Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.",
+                          "title": "Een ijzersterk team op een fijne plek ",
+                        },
+                        Object {
+                          "text": "We bedenken en maken oplossingen voor complexe vraagstukken waar we trots op zijn. Het is mooi om te zien dat de werkelijkheid zoals we hem voorstelden vaak echt goed uitpakt. En dat ons werk nieuwe vragen van nieuwe klanten oproept die we ook mogen beantwoorden is dan natuurlijk heel mooi meegenomen.",
+                          "title": "Een portfolio met smoel",
+                        },
+                        Object {
+                          "text": "En ja, hier is het ons om te doen. Oplossingen maken die betekenis hebben. ",
+                          "title": "Werk van betekenis",
+                        },
+                      ],
+                    }
+                  }
+                />,
+                <Intro
+                  introText="Binnen ons bedrijf hebben wij ons visie gestructureerd in wat wij noemen: De Jungle Maslow. Deze wordt hieronder utigelegd. Wij lezen onze maslow van beneden naar boven, dit heeft te maken met hoe het bedrijf is gevestigd. "
+                  introTitle="Onze structuur"
+                  pageTitle="1.2 Jungle Maslow"
+                  tasks={
+                    Array [
+                      Object {
+                        "task": "2. Bedenk een vraag over de Jungle Maslow. Deze vraag stel je tijdens de \\"Welkom to the Jungle\\" presentatie.",
+                      },
+                    ]
+                  }
+                  textMedia={
+                    Object {
+                      "image": "./images/jungle_maslow.png",
+                      "mediaCaption": "Ons Jungle Maslow",
+                      "text": Array [
+                        Object {
+                          "text": "Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.",
+                          "title": "Financiële autonomie",
+                        },
+                        Object {
+                          "text": "Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.",
+                          "title": "Een ijzersterk team op een fijne plek ",
+                        },
+                        Object {
+                          "text": "We bedenken en maken oplossingen voor complexe vraagstukken waar we trots op zijn. Het is mooi om te zien dat de werkelijkheid zoals we hem voorstelden vaak echt goed uitpakt. En dat ons werk nieuwe vragen van nieuwe klanten oproept die we ook mogen beantwoorden is dan natuurlijk heel mooi meegenomen.",
+                          "title": "Een portfolio met smoel",
+                        },
+                        Object {
+                          "text": "En ja, hier is het ons om te doen. Oplossingen maken die betekenis hebben. ",
+                          "title": "Werk van betekenis",
+                        },
+                      ],
+                    }
+                  }
+                />,
+                <TextAndImage
+                  image="./images/jungle_maslow.png"
+                  mediaCaption="Ons Jungle Maslow"
+                  text={
+                    Array [
+                      Object {
+                        "text": "Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.",
+                        "title": "Financiële autonomie",
+                      },
+                      Object {
+                        "text": "Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.",
+                        "title": "Een ijzersterk team op een fijne plek ",
+                      },
+                      Object {
+                        "text": "We bedenken en maken oplossingen voor complexe vraagstukken waar we trots op zijn. Het is mooi om te zien dat de werkelijkheid zoals we hem voorstelden vaak echt goed uitpakt. En dat ons werk nieuwe vragen van nieuwe klanten oproept die we ook mogen beantwoorden is dan natuurlijk heel mooi meegenomen.",
+                        "title": "Een portfolio met smoel",
+                      },
+                      Object {
+                        "text": "En ja, hier is het ons om te doen. Oplossingen maken die betekenis hebben. ",
+                        "title": "Werk van betekenis",
+                      },
+                    ]
+                  }
+                />,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "introText": "Binnen ons bedrijf hebben wij ons visie gestructureerd in wat wij noemen: De Jungle Maslow. Deze wordt hieronder utigelegd. Wij lezen onze maslow van beneden naar boven, dit heeft te maken met hoe het bedrijf is gevestigd. ",
+                  "introTitle": "Onze structuur",
+                  "pageTitle": "1.2 Jungle Maslow",
+                  "tasks": Array [
+                    Object {
+                      "task": "2. Bedenk een vraag over de Jungle Maslow. Deze vraag stel je tijdens de \\"Welkom to the Jungle\\" presentatie.",
+                    },
+                  ],
+                  "textMedia": Object {
+                    "image": "./images/jungle_maslow.png",
+                    "mediaCaption": "Ons Jungle Maslow",
+                    "text": Array [
+                      Object {
+                        "text": "Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.",
+                        "title": "Financiële autonomie",
+                      },
+                      Object {
+                        "text": "Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.",
+                        "title": "Een ijzersterk team op een fijne plek ",
+                      },
+                      Object {
+                        "text": "We bedenken en maken oplossingen voor complexe vraagstukken waar we trots op zijn. Het is mooi om te zien dat de werkelijkheid zoals we hem voorstelden vaak echt goed uitpakt. En dat ons werk nieuwe vragen van nieuwe klanten oproept die we ook mogen beantwoorden is dan natuurlijk heel mooi meegenomen.",
+                        "title": "Een portfolio met smoel",
+                      },
+                      Object {
+                        "text": "En ja, hier is het ons om te doen. Oplossingen maken die betekenis hebben. ",
+                        "title": "Werk van betekenis",
+                      },
+                    ],
+                  },
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "introText": "Binnen ons bedrijf hebben wij ons visie gestructureerd in wat wij noemen: De Jungle Maslow. Deze wordt hieronder utigelegd. Wij lezen onze maslow van beneden naar boven, dit heeft te maken met hoe het bedrijf is gevestigd. ",
+                  "introTitle": "Onze structuur",
+                  "pageTitle": "1.2 Jungle Maslow",
+                  "tasks": Array [
+                    Object {
+                      "task": "2. Bedenk een vraag over de Jungle Maslow. Deze vraag stel je tijdens de \\"Welkom to the Jungle\\" presentatie.",
+                    },
+                  ],
+                  "textMedia": Object {
+                    "image": "./images/jungle_maslow.png",
+                    "mediaCaption": "Ons Jungle Maslow",
+                    "text": Array [
+                      Object {
+                        "text": "Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.",
+                        "title": "Financiële autonomie",
+                      },
+                      Object {
+                        "text": "Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.",
+                        "title": "Een ijzersterk team op een fijne plek ",
+                      },
+                      Object {
+                        "text": "We bedenken en maken oplossingen voor complexe vraagstukken waar we trots op zijn. Het is mooi om te zien dat de werkelijkheid zoals we hem voorstelden vaak echt goed uitpakt. En dat ons werk nieuwe vragen van nieuwe klanten oproept die we ook mogen beantwoorden is dan natuurlijk heel mooi meegenomen.",
+                        "title": "Een portfolio met smoel",
+                      },
+                      Object {
+                        "text": "En ja, hier is het ons om te doen. Oplossingen maken die betekenis hebben. ",
+                        "title": "Werk van betekenis",
+                      },
+                    ],
+                  },
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "image": "./images/jungle_maslow.png",
+                  "mediaCaption": "Ons Jungle Maslow",
+                  "text": Array [
                     Object {
                       "text": "Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.",
                       "title": "Financiële autonomie",
@@ -194,62 +527,40 @@ ShallowWrapper {
                       "text": "Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.",
                       "title": "Een ijzersterk team op een fijne plek ",
                     },
-                  ]
-                }
-              />,
-              <Intro
-                image="./images/team_design.jpg"
-                introText="test"
-                introTitle="Onze structuur"
-                mediaCaption="test"
-                pageTitle="1.2 Jungle Maslow"
-                textMedia={
-                  Array [
                     Object {
-                      "text": "Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.",
-                      "title": "Financiële autonomie",
+                      "text": "We bedenken en maken oplossingen voor complexe vraagstukken waar we trots op zijn. Het is mooi om te zien dat de werkelijkheid zoals we hem voorstelden vaak echt goed uitpakt. En dat ons werk nieuwe vragen van nieuwe klanten oproept die we ook mogen beantwoorden is dan natuurlijk heel mooi meegenomen.",
+                      "title": "Een portfolio met smoel",
                     },
                     Object {
-                      "text": "Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.",
-                      "title": "Een ijzersterk team op een fijne plek ",
+                      "text": "En ja, hier is het ons om te doen. Oplossingen maken die betekenis hebben. ",
+                      "title": "Werk van betekenis",
                     },
-                  ]
-                }
-              />,
-              <TextAndImage
-                image="./images/team_design.jpg"
-                introText="test"
-                introTitle="Onze structuur"
-                mediaCaption="test"
-                pageTitle="1.2 Jungle Maslow"
-                textMedia={
-                  Array [
-                    Object {
-                      "text": "Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.",
-                      "title": "Financiële autonomie",
-                    },
-                    Object {
-                      "text": "Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.",
-                      "title": "Een ijzersterk team op een fijne plek ",
-                    },
-                  ]
-                }
-              />,
+                  ],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
             ],
+            "type": "header",
           },
-          "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "function",
-              "props": Object {
-                "image": "./images/team_design.jpg",
-                "introText": "test",
-                "introTitle": "Onze structuur",
-                "mediaCaption": "test",
-                "pageTitle": "1.2 Jungle Maslow",
-                "textMedia": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "introText": "Binnen ons bedrijf hebben wij ons visie gestructureerd in wat wij noemen: De Jungle Maslow. Deze wordt hieronder utigelegd. Wij lezen onze maslow van beneden naar boven, dit heeft te maken met hoe het bedrijf is gevestigd. ",
+              "introTitle": "Onze structuur",
+              "pageTitle": "1.2 Jungle Maslow",
+              "tasks": Array [
+                Object {
+                  "task": "2. Bedenk een vraag over de Jungle Maslow. Deze vraag stel je tijdens de \\"Welkom to the Jungle\\" presentatie.",
+                },
+              ],
+              "textMedia": Object {
+                "image": "./images/jungle_maslow.png",
+                "mediaCaption": "Ons Jungle Maslow",
+                "text": Array [
                   Object {
                     "text": "Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.",
                     "title": "Financiële autonomie",
@@ -258,65 +569,22 @@ ShallowWrapper {
                     "text": "Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.",
                     "title": "Een ijzersterk team op een fijne plek ",
                   },
-                ],
-              },
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "function",
-              "props": Object {
-                "image": "./images/team_design.jpg",
-                "introText": "test",
-                "introTitle": "Onze structuur",
-                "mediaCaption": "test",
-                "pageTitle": "1.2 Jungle Maslow",
-                "textMedia": Array [
                   Object {
-                    "text": "Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.",
-                    "title": "Financiële autonomie",
+                    "text": "We bedenken en maken oplossingen voor complexe vraagstukken waar we trots op zijn. Het is mooi om te zien dat de werkelijkheid zoals we hem voorstelden vaak echt goed uitpakt. En dat ons werk nieuwe vragen van nieuwe klanten oproept die we ook mogen beantwoorden is dan natuurlijk heel mooi meegenomen.",
+                    "title": "Een portfolio met smoel",
                   },
                   Object {
-                    "text": "Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.",
-                    "title": "Een ijzersterk team op een fijne plek ",
+                    "text": "En ja, hier is het ons om te doen. Oplossingen maken die betekenis hebben. ",
+                    "title": "Werk van betekenis",
                   },
                 ],
               },
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
             },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "function",
-              "props": Object {
-                "image": "./images/team_design.jpg",
-                "introText": "test",
-                "introTitle": "Onze structuur",
-                "mediaCaption": "test",
-                "pageTitle": "1.2 Jungle Maslow",
-                "textMedia": Array [
-                  Object {
-                    "text": "Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.",
-                    "title": "Financiële autonomie",
-                  },
-                  Object {
-                    "text": "Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.",
-                    "title": "Een ijzersterk team op een fijne plek ",
-                  },
-                ],
-              },
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
-          ],
-          "type": "header",
-        },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
         "type": [Function],
       },
     ],
@@ -339,50 +607,81 @@ ShallowWrapper {
           >
             <header>
               <PageTitle
-                image="./images/team_design.jpg"
-                introText="test"
+                introText="Binnen ons bedrijf hebben wij ons visie gestructureerd in wat wij noemen: De Jungle Maslow. Deze wordt hieronder utigelegd. Wij lezen onze maslow van beneden naar boven, dit heeft te maken met hoe het bedrijf is gevestigd. "
                 introTitle="Onze structuur"
-                mediaCaption="test"
                 pageTitle="1.2 Jungle Maslow"
-                textMedia={
+                tasks={
                   Array [
                     Object {
-                      "text": "Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.",
-                      "title": "Financiële autonomie",
-                    },
-                    Object {
-                      "text": "Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.",
-                      "title": "Een ijzersterk team op een fijne plek ",
+                      "task": "2. Bedenk een vraag over de Jungle Maslow. Deze vraag stel je tijdens de \\"Welkom to the Jungle\\" presentatie.",
                     },
                   ]
+                }
+                textMedia={
+                  Object {
+                    "image": "./images/jungle_maslow.png",
+                    "mediaCaption": "Ons Jungle Maslow",
+                    "text": Array [
+                      Object {
+                        "text": "Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.",
+                        "title": "Financiële autonomie",
+                      },
+                      Object {
+                        "text": "Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.",
+                        "title": "Een ijzersterk team op een fijne plek ",
+                      },
+                      Object {
+                        "text": "We bedenken en maken oplossingen voor complexe vraagstukken waar we trots op zijn. Het is mooi om te zien dat de werkelijkheid zoals we hem voorstelden vaak echt goed uitpakt. En dat ons werk nieuwe vragen van nieuwe klanten oproept die we ook mogen beantwoorden is dan natuurlijk heel mooi meegenomen.",
+                        "title": "Een portfolio met smoel",
+                      },
+                      Object {
+                        "text": "En ja, hier is het ons om te doen. Oplossingen maken die betekenis hebben. ",
+                        "title": "Werk van betekenis",
+                      },
+                    ],
+                  }
                 }
               />
               <Intro
-                image="./images/team_design.jpg"
-                introText="test"
+                introText="Binnen ons bedrijf hebben wij ons visie gestructureerd in wat wij noemen: De Jungle Maslow. Deze wordt hieronder utigelegd. Wij lezen onze maslow van beneden naar boven, dit heeft te maken met hoe het bedrijf is gevestigd. "
                 introTitle="Onze structuur"
-                mediaCaption="test"
                 pageTitle="1.2 Jungle Maslow"
-                textMedia={
+                tasks={
                   Array [
                     Object {
-                      "text": "Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.",
-                      "title": "Financiële autonomie",
-                    },
-                    Object {
-                      "text": "Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.",
-                      "title": "Een ijzersterk team op een fijne plek ",
+                      "task": "2. Bedenk een vraag over de Jungle Maslow. Deze vraag stel je tijdens de \\"Welkom to the Jungle\\" presentatie.",
                     },
                   ]
                 }
+                textMedia={
+                  Object {
+                    "image": "./images/jungle_maslow.png",
+                    "mediaCaption": "Ons Jungle Maslow",
+                    "text": Array [
+                      Object {
+                        "text": "Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.",
+                        "title": "Financiële autonomie",
+                      },
+                      Object {
+                        "text": "Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.",
+                        "title": "Een ijzersterk team op een fijne plek ",
+                      },
+                      Object {
+                        "text": "We bedenken en maken oplossingen voor complexe vraagstukken waar we trots op zijn. Het is mooi om te zien dat de werkelijkheid zoals we hem voorstelden vaak echt goed uitpakt. En dat ons werk nieuwe vragen van nieuwe klanten oproept die we ook mogen beantwoorden is dan natuurlijk heel mooi meegenomen.",
+                        "title": "Een portfolio met smoel",
+                      },
+                      Object {
+                        "text": "En ja, hier is het ons om te doen. Oplossingen maken die betekenis hebben. ",
+                        "title": "Werk van betekenis",
+                      },
+                    ],
+                  }
+                }
               />
               <TextAndImage
-                image="./images/team_design.jpg"
-                introText="test"
-                introTitle="Onze structuur"
-                mediaCaption="test"
-                pageTitle="1.2 Jungle Maslow"
-                textMedia={
+                image="./images/jungle_maslow.png"
+                mediaCaption="Ons Jungle Maslow"
+                text={
                   Array [
                     Object {
                       "text": "Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.",
@@ -391,11 +690,55 @@ ShallowWrapper {
                     Object {
                       "text": "Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.",
                       "title": "Een ijzersterk team op een fijne plek ",
+                    },
+                    Object {
+                      "text": "We bedenken en maken oplossingen voor complexe vraagstukken waar we trots op zijn. Het is mooi om te zien dat de werkelijkheid zoals we hem voorstelden vaak echt goed uitpakt. En dat ons werk nieuwe vragen van nieuwe klanten oproept die we ook mogen beantwoorden is dan natuurlijk heel mooi meegenomen.",
+                      "title": "Een portfolio met smoel",
+                    },
+                    Object {
+                      "text": "En ja, hier is het ons om te doen. Oplossingen maken die betekenis hebben. ",
+                      "title": "Werk van betekenis",
                     },
                   ]
                 }
               />
             </header>
+            <Task
+              introText="Binnen ons bedrijf hebben wij ons visie gestructureerd in wat wij noemen: De Jungle Maslow. Deze wordt hieronder utigelegd. Wij lezen onze maslow van beneden naar boven, dit heeft te maken met hoe het bedrijf is gevestigd. "
+              introTitle="Onze structuur"
+              pageTitle="1.2 Jungle Maslow"
+              tasks={
+                Array [
+                  Object {
+                    "task": "2. Bedenk een vraag over de Jungle Maslow. Deze vraag stel je tijdens de \\"Welkom to the Jungle\\" presentatie.",
+                  },
+                ]
+              }
+              textMedia={
+                Object {
+                  "image": "./images/jungle_maslow.png",
+                  "mediaCaption": "Ons Jungle Maslow",
+                  "text": Array [
+                    Object {
+                      "text": "Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.",
+                      "title": "Financiële autonomie",
+                    },
+                    Object {
+                      "text": "Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.",
+                      "title": "Een ijzersterk team op een fijne plek ",
+                    },
+                    Object {
+                      "text": "We bedenken en maken oplossingen voor complexe vraagstukken waar we trots op zijn. Het is mooi om te zien dat de werkelijkheid zoals we hem voorstelden vaak echt goed uitpakt. En dat ons werk nieuwe vragen van nieuwe klanten oproept die we ook mogen beantwoorden is dan natuurlijk heel mooi meegenomen.",
+                      "title": "Een portfolio met smoel",
+                    },
+                    Object {
+                      "text": "En ja, hier is het ons om te doen. Oplossingen maken die betekenis hebben. ",
+                      "title": "Werk van betekenis",
+                    },
+                  ],
+                }
+              }
+            />
           </Grid>,
         ],
         "className": "jungleMinds",
@@ -421,82 +764,340 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "function",
           "props": Object {
-            "children": <header>
-              <PageTitle
-                image="./images/team_design.jpg"
-                introText="test"
+            "children": Array [
+              <header>
+                <PageTitle
+                  introText="Binnen ons bedrijf hebben wij ons visie gestructureerd in wat wij noemen: De Jungle Maslow. Deze wordt hieronder utigelegd. Wij lezen onze maslow van beneden naar boven, dit heeft te maken met hoe het bedrijf is gevestigd. "
+                  introTitle="Onze structuur"
+                  pageTitle="1.2 Jungle Maslow"
+                  tasks={
+                    Array [
+                      Object {
+                        "task": "2. Bedenk een vraag over de Jungle Maslow. Deze vraag stel je tijdens de \\"Welkom to the Jungle\\" presentatie.",
+                      },
+                    ]
+                  }
+                  textMedia={
+                    Object {
+                      "image": "./images/jungle_maslow.png",
+                      "mediaCaption": "Ons Jungle Maslow",
+                      "text": Array [
+                        Object {
+                          "text": "Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.",
+                          "title": "Financiële autonomie",
+                        },
+                        Object {
+                          "text": "Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.",
+                          "title": "Een ijzersterk team op een fijne plek ",
+                        },
+                        Object {
+                          "text": "We bedenken en maken oplossingen voor complexe vraagstukken waar we trots op zijn. Het is mooi om te zien dat de werkelijkheid zoals we hem voorstelden vaak echt goed uitpakt. En dat ons werk nieuwe vragen van nieuwe klanten oproept die we ook mogen beantwoorden is dan natuurlijk heel mooi meegenomen.",
+                          "title": "Een portfolio met smoel",
+                        },
+                        Object {
+                          "text": "En ja, hier is het ons om te doen. Oplossingen maken die betekenis hebben. ",
+                          "title": "Werk van betekenis",
+                        },
+                      ],
+                    }
+                  }
+                />
+                <Intro
+                  introText="Binnen ons bedrijf hebben wij ons visie gestructureerd in wat wij noemen: De Jungle Maslow. Deze wordt hieronder utigelegd. Wij lezen onze maslow van beneden naar boven, dit heeft te maken met hoe het bedrijf is gevestigd. "
+                  introTitle="Onze structuur"
+                  pageTitle="1.2 Jungle Maslow"
+                  tasks={
+                    Array [
+                      Object {
+                        "task": "2. Bedenk een vraag over de Jungle Maslow. Deze vraag stel je tijdens de \\"Welkom to the Jungle\\" presentatie.",
+                      },
+                    ]
+                  }
+                  textMedia={
+                    Object {
+                      "image": "./images/jungle_maslow.png",
+                      "mediaCaption": "Ons Jungle Maslow",
+                      "text": Array [
+                        Object {
+                          "text": "Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.",
+                          "title": "Financiële autonomie",
+                        },
+                        Object {
+                          "text": "Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.",
+                          "title": "Een ijzersterk team op een fijne plek ",
+                        },
+                        Object {
+                          "text": "We bedenken en maken oplossingen voor complexe vraagstukken waar we trots op zijn. Het is mooi om te zien dat de werkelijkheid zoals we hem voorstelden vaak echt goed uitpakt. En dat ons werk nieuwe vragen van nieuwe klanten oproept die we ook mogen beantwoorden is dan natuurlijk heel mooi meegenomen.",
+                          "title": "Een portfolio met smoel",
+                        },
+                        Object {
+                          "text": "En ja, hier is het ons om te doen. Oplossingen maken die betekenis hebben. ",
+                          "title": "Werk van betekenis",
+                        },
+                      ],
+                    }
+                  }
+                />
+                <TextAndImage
+                  image="./images/jungle_maslow.png"
+                  mediaCaption="Ons Jungle Maslow"
+                  text={
+                    Array [
+                      Object {
+                        "text": "Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.",
+                        "title": "Financiële autonomie",
+                      },
+                      Object {
+                        "text": "Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.",
+                        "title": "Een ijzersterk team op een fijne plek ",
+                      },
+                      Object {
+                        "text": "We bedenken en maken oplossingen voor complexe vraagstukken waar we trots op zijn. Het is mooi om te zien dat de werkelijkheid zoals we hem voorstelden vaak echt goed uitpakt. En dat ons werk nieuwe vragen van nieuwe klanten oproept die we ook mogen beantwoorden is dan natuurlijk heel mooi meegenomen.",
+                        "title": "Een portfolio met smoel",
+                      },
+                      Object {
+                        "text": "En ja, hier is het ons om te doen. Oplossingen maken die betekenis hebben. ",
+                        "title": "Werk van betekenis",
+                      },
+                    ]
+                  }
+                />
+              </header>,
+              <Task
+                introText="Binnen ons bedrijf hebben wij ons visie gestructureerd in wat wij noemen: De Jungle Maslow. Deze wordt hieronder utigelegd. Wij lezen onze maslow van beneden naar boven, dit heeft te maken met hoe het bedrijf is gevestigd. "
                 introTitle="Onze structuur"
-                mediaCaption="test"
                 pageTitle="1.2 Jungle Maslow"
-                textMedia={
+                tasks={
                   Array [
                     Object {
-                      "text": "Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.",
-                      "title": "Financiële autonomie",
-                    },
-                    Object {
-                      "text": "Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.",
-                      "title": "Een ijzersterk team op een fijne plek ",
+                      "task": "2. Bedenk een vraag over de Jungle Maslow. Deze vraag stel je tijdens de \\"Welkom to the Jungle\\" presentatie.",
                     },
                   ]
                 }
-              />
-              <Intro
-                image="./images/team_design.jpg"
-                introText="test"
-                introTitle="Onze structuur"
-                mediaCaption="test"
-                pageTitle="1.2 Jungle Maslow"
                 textMedia={
-                  Array [
-                    Object {
-                      "text": "Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.",
-                      "title": "Financiële autonomie",
-                    },
-                    Object {
-                      "text": "Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.",
-                      "title": "Een ijzersterk team op een fijne plek ",
-                    },
-                  ]
+                  Object {
+                    "image": "./images/jungle_maslow.png",
+                    "mediaCaption": "Ons Jungle Maslow",
+                    "text": Array [
+                      Object {
+                        "text": "Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.",
+                        "title": "Financiële autonomie",
+                      },
+                      Object {
+                        "text": "Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.",
+                        "title": "Een ijzersterk team op een fijne plek ",
+                      },
+                      Object {
+                        "text": "We bedenken en maken oplossingen voor complexe vraagstukken waar we trots op zijn. Het is mooi om te zien dat de werkelijkheid zoals we hem voorstelden vaak echt goed uitpakt. En dat ons werk nieuwe vragen van nieuwe klanten oproept die we ook mogen beantwoorden is dan natuurlijk heel mooi meegenomen.",
+                        "title": "Een portfolio met smoel",
+                      },
+                      Object {
+                        "text": "En ja, hier is het ons om te doen. Oplossingen maken die betekenis hebben. ",
+                        "title": "Werk van betekenis",
+                      },
+                    ],
+                  }
                 }
-              />
-              <TextAndImage
-                image="./images/team_design.jpg"
-                introText="test"
-                introTitle="Onze structuur"
-                mediaCaption="test"
-                pageTitle="1.2 Jungle Maslow"
-                textMedia={
-                  Array [
-                    Object {
-                      "text": "Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.",
-                      "title": "Financiële autonomie",
-                    },
-                    Object {
-                      "text": "Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.",
-                      "title": "Een ijzersterk team op een fijne plek ",
-                    },
-                  ]
-                }
-              />
-            </header>,
+              />,
+            ],
             "page": "jungleMinds",
           },
           "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": Array [
-                <PageTitle
-                  image="./images/team_design.jpg"
-                  introText="test"
-                  introTitle="Onze structuur"
-                  mediaCaption="test"
-                  pageTitle="1.2 Jungle Maslow"
-                  textMedia={
-                    Array [
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <PageTitle
+                    introText="Binnen ons bedrijf hebben wij ons visie gestructureerd in wat wij noemen: De Jungle Maslow. Deze wordt hieronder utigelegd. Wij lezen onze maslow van beneden naar boven, dit heeft te maken met hoe het bedrijf is gevestigd. "
+                    introTitle="Onze structuur"
+                    pageTitle="1.2 Jungle Maslow"
+                    tasks={
+                      Array [
+                        Object {
+                          "task": "2. Bedenk een vraag over de Jungle Maslow. Deze vraag stel je tijdens de \\"Welkom to the Jungle\\" presentatie.",
+                        },
+                      ]
+                    }
+                    textMedia={
+                      Object {
+                        "image": "./images/jungle_maslow.png",
+                        "mediaCaption": "Ons Jungle Maslow",
+                        "text": Array [
+                          Object {
+                            "text": "Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.",
+                            "title": "Financiële autonomie",
+                          },
+                          Object {
+                            "text": "Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.",
+                            "title": "Een ijzersterk team op een fijne plek ",
+                          },
+                          Object {
+                            "text": "We bedenken en maken oplossingen voor complexe vraagstukken waar we trots op zijn. Het is mooi om te zien dat de werkelijkheid zoals we hem voorstelden vaak echt goed uitpakt. En dat ons werk nieuwe vragen van nieuwe klanten oproept die we ook mogen beantwoorden is dan natuurlijk heel mooi meegenomen.",
+                            "title": "Een portfolio met smoel",
+                          },
+                          Object {
+                            "text": "En ja, hier is het ons om te doen. Oplossingen maken die betekenis hebben. ",
+                            "title": "Werk van betekenis",
+                          },
+                        ],
+                      }
+                    }
+                  />,
+                  <Intro
+                    introText="Binnen ons bedrijf hebben wij ons visie gestructureerd in wat wij noemen: De Jungle Maslow. Deze wordt hieronder utigelegd. Wij lezen onze maslow van beneden naar boven, dit heeft te maken met hoe het bedrijf is gevestigd. "
+                    introTitle="Onze structuur"
+                    pageTitle="1.2 Jungle Maslow"
+                    tasks={
+                      Array [
+                        Object {
+                          "task": "2. Bedenk een vraag over de Jungle Maslow. Deze vraag stel je tijdens de \\"Welkom to the Jungle\\" presentatie.",
+                        },
+                      ]
+                    }
+                    textMedia={
+                      Object {
+                        "image": "./images/jungle_maslow.png",
+                        "mediaCaption": "Ons Jungle Maslow",
+                        "text": Array [
+                          Object {
+                            "text": "Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.",
+                            "title": "Financiële autonomie",
+                          },
+                          Object {
+                            "text": "Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.",
+                            "title": "Een ijzersterk team op een fijne plek ",
+                          },
+                          Object {
+                            "text": "We bedenken en maken oplossingen voor complexe vraagstukken waar we trots op zijn. Het is mooi om te zien dat de werkelijkheid zoals we hem voorstelden vaak echt goed uitpakt. En dat ons werk nieuwe vragen van nieuwe klanten oproept die we ook mogen beantwoorden is dan natuurlijk heel mooi meegenomen.",
+                            "title": "Een portfolio met smoel",
+                          },
+                          Object {
+                            "text": "En ja, hier is het ons om te doen. Oplossingen maken die betekenis hebben. ",
+                            "title": "Werk van betekenis",
+                          },
+                        ],
+                      }
+                    }
+                  />,
+                  <TextAndImage
+                    image="./images/jungle_maslow.png"
+                    mediaCaption="Ons Jungle Maslow"
+                    text={
+                      Array [
+                        Object {
+                          "text": "Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.",
+                          "title": "Financiële autonomie",
+                        },
+                        Object {
+                          "text": "Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.",
+                          "title": "Een ijzersterk team op een fijne plek ",
+                        },
+                        Object {
+                          "text": "We bedenken en maken oplossingen voor complexe vraagstukken waar we trots op zijn. Het is mooi om te zien dat de werkelijkheid zoals we hem voorstelden vaak echt goed uitpakt. En dat ons werk nieuwe vragen van nieuwe klanten oproept die we ook mogen beantwoorden is dan natuurlijk heel mooi meegenomen.",
+                          "title": "Een portfolio met smoel",
+                        },
+                        Object {
+                          "text": "En ja, hier is het ons om te doen. Oplossingen maken die betekenis hebben. ",
+                          "title": "Werk van betekenis",
+                        },
+                      ]
+                    }
+                  />,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "introText": "Binnen ons bedrijf hebben wij ons visie gestructureerd in wat wij noemen: De Jungle Maslow. Deze wordt hieronder utigelegd. Wij lezen onze maslow van beneden naar boven, dit heeft te maken met hoe het bedrijf is gevestigd. ",
+                    "introTitle": "Onze structuur",
+                    "pageTitle": "1.2 Jungle Maslow",
+                    "tasks": Array [
+                      Object {
+                        "task": "2. Bedenk een vraag over de Jungle Maslow. Deze vraag stel je tijdens de \\"Welkom to the Jungle\\" presentatie.",
+                      },
+                    ],
+                    "textMedia": Object {
+                      "image": "./images/jungle_maslow.png",
+                      "mediaCaption": "Ons Jungle Maslow",
+                      "text": Array [
+                        Object {
+                          "text": "Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.",
+                          "title": "Financiële autonomie",
+                        },
+                        Object {
+                          "text": "Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.",
+                          "title": "Een ijzersterk team op een fijne plek ",
+                        },
+                        Object {
+                          "text": "We bedenken en maken oplossingen voor complexe vraagstukken waar we trots op zijn. Het is mooi om te zien dat de werkelijkheid zoals we hem voorstelden vaak echt goed uitpakt. En dat ons werk nieuwe vragen van nieuwe klanten oproept die we ook mogen beantwoorden is dan natuurlijk heel mooi meegenomen.",
+                          "title": "Een portfolio met smoel",
+                        },
+                        Object {
+                          "text": "En ja, hier is het ons om te doen. Oplossingen maken die betekenis hebben. ",
+                          "title": "Werk van betekenis",
+                        },
+                      ],
+                    },
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "introText": "Binnen ons bedrijf hebben wij ons visie gestructureerd in wat wij noemen: De Jungle Maslow. Deze wordt hieronder utigelegd. Wij lezen onze maslow van beneden naar boven, dit heeft te maken met hoe het bedrijf is gevestigd. ",
+                    "introTitle": "Onze structuur",
+                    "pageTitle": "1.2 Jungle Maslow",
+                    "tasks": Array [
+                      Object {
+                        "task": "2. Bedenk een vraag over de Jungle Maslow. Deze vraag stel je tijdens de \\"Welkom to the Jungle\\" presentatie.",
+                      },
+                    ],
+                    "textMedia": Object {
+                      "image": "./images/jungle_maslow.png",
+                      "mediaCaption": "Ons Jungle Maslow",
+                      "text": Array [
+                        Object {
+                          "text": "Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.",
+                          "title": "Financiële autonomie",
+                        },
+                        Object {
+                          "text": "Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.",
+                          "title": "Een ijzersterk team op een fijne plek ",
+                        },
+                        Object {
+                          "text": "We bedenken en maken oplossingen voor complexe vraagstukken waar we trots op zijn. Het is mooi om te zien dat de werkelijkheid zoals we hem voorstelden vaak echt goed uitpakt. En dat ons werk nieuwe vragen van nieuwe klanten oproept die we ook mogen beantwoorden is dan natuurlijk heel mooi meegenomen.",
+                          "title": "Een portfolio met smoel",
+                        },
+                        Object {
+                          "text": "En ja, hier is het ons om te doen. Oplossingen maken die betekenis hebben. ",
+                          "title": "Werk van betekenis",
+                        },
+                      ],
+                    },
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "image": "./images/jungle_maslow.png",
+                    "mediaCaption": "Ons Jungle Maslow",
+                    "text": Array [
                       Object {
                         "text": "Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.",
                         "title": "Financiële autonomie",
@@ -505,62 +1106,40 @@ ShallowWrapper {
                         "text": "Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.",
                         "title": "Een ijzersterk team op een fijne plek ",
                       },
-                    ]
-                  }
-                />,
-                <Intro
-                  image="./images/team_design.jpg"
-                  introText="test"
-                  introTitle="Onze structuur"
-                  mediaCaption="test"
-                  pageTitle="1.2 Jungle Maslow"
-                  textMedia={
-                    Array [
                       Object {
-                        "text": "Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.",
-                        "title": "Financiële autonomie",
+                        "text": "We bedenken en maken oplossingen voor complexe vraagstukken waar we trots op zijn. Het is mooi om te zien dat de werkelijkheid zoals we hem voorstelden vaak echt goed uitpakt. En dat ons werk nieuwe vragen van nieuwe klanten oproept die we ook mogen beantwoorden is dan natuurlijk heel mooi meegenomen.",
+                        "title": "Een portfolio met smoel",
                       },
                       Object {
-                        "text": "Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.",
-                        "title": "Een ijzersterk team op een fijne plek ",
+                        "text": "En ja, hier is het ons om te doen. Oplossingen maken die betekenis hebben. ",
+                        "title": "Werk van betekenis",
                       },
-                    ]
-                  }
-                />,
-                <TextAndImage
-                  image="./images/team_design.jpg"
-                  introText="test"
-                  introTitle="Onze structuur"
-                  mediaCaption="test"
-                  pageTitle="1.2 Jungle Maslow"
-                  textMedia={
-                    Array [
-                      Object {
-                        "text": "Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.",
-                        "title": "Financiële autonomie",
-                      },
-                      Object {
-                        "text": "Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.",
-                        "title": "Een ijzersterk team op een fijne plek ",
-                      },
-                    ]
-                  }
-                />,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
               ],
+              "type": "header",
             },
-            "ref": null,
-            "rendered": Array [
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "function",
-                "props": Object {
-                  "image": "./images/team_design.jpg",
-                  "introText": "test",
-                  "introTitle": "Onze structuur",
-                  "mediaCaption": "test",
-                  "pageTitle": "1.2 Jungle Maslow",
-                  "textMedia": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "introText": "Binnen ons bedrijf hebben wij ons visie gestructureerd in wat wij noemen: De Jungle Maslow. Deze wordt hieronder utigelegd. Wij lezen onze maslow van beneden naar boven, dit heeft te maken met hoe het bedrijf is gevestigd. ",
+                "introTitle": "Onze structuur",
+                "pageTitle": "1.2 Jungle Maslow",
+                "tasks": Array [
+                  Object {
+                    "task": "2. Bedenk een vraag over de Jungle Maslow. Deze vraag stel je tijdens de \\"Welkom to the Jungle\\" presentatie.",
+                  },
+                ],
+                "textMedia": Object {
+                  "image": "./images/jungle_maslow.png",
+                  "mediaCaption": "Ons Jungle Maslow",
+                  "text": Array [
                     Object {
                       "text": "Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.",
                       "title": "Financiële autonomie",
@@ -569,65 +1148,22 @@ ShallowWrapper {
                       "text": "Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.",
                       "title": "Een ijzersterk team op een fijne plek ",
                     },
-                  ],
-                },
-                "ref": null,
-                "rendered": null,
-                "type": [Function],
-              },
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "function",
-                "props": Object {
-                  "image": "./images/team_design.jpg",
-                  "introText": "test",
-                  "introTitle": "Onze structuur",
-                  "mediaCaption": "test",
-                  "pageTitle": "1.2 Jungle Maslow",
-                  "textMedia": Array [
                     Object {
-                      "text": "Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.",
-                      "title": "Financiële autonomie",
+                      "text": "We bedenken en maken oplossingen voor complexe vraagstukken waar we trots op zijn. Het is mooi om te zien dat de werkelijkheid zoals we hem voorstelden vaak echt goed uitpakt. En dat ons werk nieuwe vragen van nieuwe klanten oproept die we ook mogen beantwoorden is dan natuurlijk heel mooi meegenomen.",
+                      "title": "Een portfolio met smoel",
                     },
                     Object {
-                      "text": "Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.",
-                      "title": "Een ijzersterk team op een fijne plek ",
+                      "text": "En ja, hier is het ons om te doen. Oplossingen maken die betekenis hebben. ",
+                      "title": "Werk van betekenis",
                     },
                   ],
                 },
-                "ref": null,
-                "rendered": null,
-                "type": [Function],
               },
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "function",
-                "props": Object {
-                  "image": "./images/team_design.jpg",
-                  "introText": "test",
-                  "introTitle": "Onze structuur",
-                  "mediaCaption": "test",
-                  "pageTitle": "1.2 Jungle Maslow",
-                  "textMedia": Array [
-                    Object {
-                      "text": "Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.",
-                      "title": "Financiële autonomie",
-                    },
-                    Object {
-                      "text": "Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.",
-                      "title": "Een ijzersterk team op een fijne plek ",
-                    },
-                  ],
-                },
-                "ref": null,
-                "rendered": null,
-                "type": [Function],
-              },
-            ],
-            "type": "header",
-          },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
           "type": [Function],
         },
       ],

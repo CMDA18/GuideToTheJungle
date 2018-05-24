@@ -28,16 +28,202 @@ ShallowWrapper {
         >
           <header>
             <PageTitle
-              introText="Uitleg ..."
-              introTitle="Opdrachten"
+              introText="Zie hier een overzicht van de opdrachten die je voor module 1 moet doen."
+              introTitle="Overzicht"
               pageTitle="1.4 Opdrachten"
+              tasks={
+                Array [
+                  Object {
+                    "task": "1. Vraag aan een van de office managers voor een rondleiding binnen de Groene Draeck.",
+                  },
+                  Object {
+                    "task": "2. Bedenk een vraag over de Jungle Maslow. Deze vraag stel je tijdens de \\"Welkom to the Jungle\\" presentatie.",
+                  },
+                  Object {
+                    "task": "3. ...",
+                  },
+                ]
+              }
             />
             <Intro
-              introText="Uitleg ..."
-              introTitle="Opdrachten"
+              introText="Zie hier een overzicht van de opdrachten die je voor module 1 moet doen."
+              introTitle="Overzicht"
               pageTitle="1.4 Opdrachten"
+              tasks={
+                Array [
+                  Object {
+                    "task": "1. Vraag aan een van de office managers voor een rondleiding binnen de Groene Draeck.",
+                  },
+                  Object {
+                    "task": "2. Bedenk een vraag over de Jungle Maslow. Deze vraag stel je tijdens de \\"Welkom to the Jungle\\" presentatie.",
+                  },
+                  Object {
+                    "task": "3. ...",
+                  },
+                ]
+              }
             />
           </header>
+          <Task
+            introText="Zie hier een overzicht van de opdrachten die je voor module 1 moet doen."
+            introTitle="Overzicht"
+            pageTitle="1.4 Opdrachten"
+            tasks={
+              Array [
+                Object {
+                  "task": "1. Vraag aan een van de office managers voor een rondleiding binnen de Groene Draeck.",
+                },
+                Object {
+                  "task": "2. Bedenk een vraag over de Jungle Maslow. Deze vraag stel je tijdens de \\"Welkom to the Jungle\\" presentatie.",
+                },
+                Object {
+                  "task": "3. ...",
+                },
+              ]
+            }
+          />
+          <Intro
+            introText="Jij hebt deze module bijna afgerond. Doe de onderste quiz om de module succesvol af te ronden en laat zien dat steeds meer Jungle Minds begrijpt!"
+            introTitle="Quiz"
+            questions={
+              Array [
+                Object {
+                  "answers": Array [
+                    Object {
+                      "answer": "A",
+                      "id": "1-a",
+                      "value": 0,
+                    },
+                    Object {
+                      "answer": "B",
+                      "id": "1-b",
+                      "value": 0,
+                    },
+                    Object {
+                      "answer": "C",
+                      "id": "1-c",
+                      "value": 0,
+                    },
+                  ],
+                  "id": "1",
+                  "question": "Hoe werkt de planning binnen Jungle Minds?",
+                },
+                Object {
+                  "answers": Array [
+                    Object {
+                      "answer": "A",
+                      "id": "2-a",
+                      "value": 0,
+                    },
+                    Object {
+                      "answer": "B",
+                      "id": "2-b",
+                      "value": 0,
+                    },
+                    Object {
+                      "answer": "C",
+                      "id": "2-c",
+                      "value": 0,
+                    },
+                  ],
+                  "id": "2",
+                  "question": "Hoe werkt de planning binnen Jungle Minds?",
+                },
+                Object {
+                  "answers": Array [
+                    Object {
+                      "answer": "A",
+                      "id": "1-a",
+                      "value": 0,
+                    },
+                    Object {
+                      "answer": "B",
+                      "id": "1-b",
+                      "value": 0,
+                    },
+                    Object {
+                      "answer": "C",
+                      "id": "1-c",
+                      "value": 0,
+                    },
+                  ],
+                  "id": "3",
+                  "question": "Hoe werkt de planning binnen Jungle Minds?",
+                },
+              ]
+            }
+          />
+          <QuestionForm
+            introText="Jij hebt deze module bijna afgerond. Doe de onderste quiz om de module succesvol af te ronden en laat zien dat steeds meer Jungle Minds begrijpt!"
+            introTitle="Quiz"
+            questions={
+              Array [
+                Object {
+                  "answers": Array [
+                    Object {
+                      "answer": "A",
+                      "id": "1-a",
+                      "value": 0,
+                    },
+                    Object {
+                      "answer": "B",
+                      "id": "1-b",
+                      "value": 0,
+                    },
+                    Object {
+                      "answer": "C",
+                      "id": "1-c",
+                      "value": 0,
+                    },
+                  ],
+                  "id": "1",
+                  "question": "Hoe werkt de planning binnen Jungle Minds?",
+                },
+                Object {
+                  "answers": Array [
+                    Object {
+                      "answer": "A",
+                      "id": "2-a",
+                      "value": 0,
+                    },
+                    Object {
+                      "answer": "B",
+                      "id": "2-b",
+                      "value": 0,
+                    },
+                    Object {
+                      "answer": "C",
+                      "id": "2-c",
+                      "value": 0,
+                    },
+                  ],
+                  "id": "2",
+                  "question": "Hoe werkt de planning binnen Jungle Minds?",
+                },
+                Object {
+                  "answers": Array [
+                    Object {
+                      "answer": "A",
+                      "id": "1-a",
+                      "value": 0,
+                    },
+                    Object {
+                      "answer": "B",
+                      "id": "1-b",
+                      "value": 0,
+                    },
+                    Object {
+                      "answer": "C",
+                      "id": "1-c",
+                      "value": 0,
+                    },
+                  ],
+                  "id": "3",
+                  "question": "Hoe werkt de planning binnen Jungle Minds?",
+                },
+              ]
+            }
+          />
         </Grid>,
       ],
       "className": "jungleMinds",
@@ -63,70 +249,486 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "function",
         "props": Object {
-          "children": <header>
-            <PageTitle
-              introText="Uitleg ..."
-              introTitle="Opdrachten"
+          "children": Array [
+            <header>
+              <PageTitle
+                introText="Zie hier een overzicht van de opdrachten die je voor module 1 moet doen."
+                introTitle="Overzicht"
+                pageTitle="1.4 Opdrachten"
+                tasks={
+                  Array [
+                    Object {
+                      "task": "1. Vraag aan een van de office managers voor een rondleiding binnen de Groene Draeck.",
+                    },
+                    Object {
+                      "task": "2. Bedenk een vraag over de Jungle Maslow. Deze vraag stel je tijdens de \\"Welkom to the Jungle\\" presentatie.",
+                    },
+                    Object {
+                      "task": "3. ...",
+                    },
+                  ]
+                }
+              />
+              <Intro
+                introText="Zie hier een overzicht van de opdrachten die je voor module 1 moet doen."
+                introTitle="Overzicht"
+                pageTitle="1.4 Opdrachten"
+                tasks={
+                  Array [
+                    Object {
+                      "task": "1. Vraag aan een van de office managers voor een rondleiding binnen de Groene Draeck.",
+                    },
+                    Object {
+                      "task": "2. Bedenk een vraag over de Jungle Maslow. Deze vraag stel je tijdens de \\"Welkom to the Jungle\\" presentatie.",
+                    },
+                    Object {
+                      "task": "3. ...",
+                    },
+                  ]
+                }
+              />
+            </header>,
+            <Task
+              introText="Zie hier een overzicht van de opdrachten die je voor module 1 moet doen."
+              introTitle="Overzicht"
               pageTitle="1.4 Opdrachten"
-            />
+              tasks={
+                Array [
+                  Object {
+                    "task": "1. Vraag aan een van de office managers voor een rondleiding binnen de Groene Draeck.",
+                  },
+                  Object {
+                    "task": "2. Bedenk een vraag over de Jungle Maslow. Deze vraag stel je tijdens de \\"Welkom to the Jungle\\" presentatie.",
+                  },
+                  Object {
+                    "task": "3. ...",
+                  },
+                ]
+              }
+            />,
             <Intro
-              introText="Uitleg ..."
-              introTitle="Opdrachten"
-              pageTitle="1.4 Opdrachten"
-            />
-          </header>,
+              introText="Jij hebt deze module bijna afgerond. Doe de onderste quiz om de module succesvol af te ronden en laat zien dat steeds meer Jungle Minds begrijpt!"
+              introTitle="Quiz"
+              questions={
+                Array [
+                  Object {
+                    "answers": Array [
+                      Object {
+                        "answer": "A",
+                        "id": "1-a",
+                        "value": 0,
+                      },
+                      Object {
+                        "answer": "B",
+                        "id": "1-b",
+                        "value": 0,
+                      },
+                      Object {
+                        "answer": "C",
+                        "id": "1-c",
+                        "value": 0,
+                      },
+                    ],
+                    "id": "1",
+                    "question": "Hoe werkt de planning binnen Jungle Minds?",
+                  },
+                  Object {
+                    "answers": Array [
+                      Object {
+                        "answer": "A",
+                        "id": "2-a",
+                        "value": 0,
+                      },
+                      Object {
+                        "answer": "B",
+                        "id": "2-b",
+                        "value": 0,
+                      },
+                      Object {
+                        "answer": "C",
+                        "id": "2-c",
+                        "value": 0,
+                      },
+                    ],
+                    "id": "2",
+                    "question": "Hoe werkt de planning binnen Jungle Minds?",
+                  },
+                  Object {
+                    "answers": Array [
+                      Object {
+                        "answer": "A",
+                        "id": "1-a",
+                        "value": 0,
+                      },
+                      Object {
+                        "answer": "B",
+                        "id": "1-b",
+                        "value": 0,
+                      },
+                      Object {
+                        "answer": "C",
+                        "id": "1-c",
+                        "value": 0,
+                      },
+                    ],
+                    "id": "3",
+                    "question": "Hoe werkt de planning binnen Jungle Minds?",
+                  },
+                ]
+              }
+            />,
+            <QuestionForm
+              introText="Jij hebt deze module bijna afgerond. Doe de onderste quiz om de module succesvol af te ronden en laat zien dat steeds meer Jungle Minds begrijpt!"
+              introTitle="Quiz"
+              questions={
+                Array [
+                  Object {
+                    "answers": Array [
+                      Object {
+                        "answer": "A",
+                        "id": "1-a",
+                        "value": 0,
+                      },
+                      Object {
+                        "answer": "B",
+                        "id": "1-b",
+                        "value": 0,
+                      },
+                      Object {
+                        "answer": "C",
+                        "id": "1-c",
+                        "value": 0,
+                      },
+                    ],
+                    "id": "1",
+                    "question": "Hoe werkt de planning binnen Jungle Minds?",
+                  },
+                  Object {
+                    "answers": Array [
+                      Object {
+                        "answer": "A",
+                        "id": "2-a",
+                        "value": 0,
+                      },
+                      Object {
+                        "answer": "B",
+                        "id": "2-b",
+                        "value": 0,
+                      },
+                      Object {
+                        "answer": "C",
+                        "id": "2-c",
+                        "value": 0,
+                      },
+                    ],
+                    "id": "2",
+                    "question": "Hoe werkt de planning binnen Jungle Minds?",
+                  },
+                  Object {
+                    "answers": Array [
+                      Object {
+                        "answer": "A",
+                        "id": "1-a",
+                        "value": 0,
+                      },
+                      Object {
+                        "answer": "B",
+                        "id": "1-b",
+                        "value": 0,
+                      },
+                      Object {
+                        "answer": "C",
+                        "id": "1-c",
+                        "value": 0,
+                      },
+                    ],
+                    "id": "3",
+                    "question": "Hoe werkt de planning binnen Jungle Minds?",
+                  },
+                ]
+              }
+            />,
+          ],
           "page": "jungleMinds",
         },
         "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": Array [
-              <PageTitle
-                introText="Uitleg ..."
-                introTitle="Opdrachten"
-                pageTitle="1.4 Opdrachten"
-              />,
-              <Intro
-                introText="Uitleg ..."
-                introTitle="Opdrachten"
-                pageTitle="1.4 Opdrachten"
-              />,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <PageTitle
+                  introText="Zie hier een overzicht van de opdrachten die je voor module 1 moet doen."
+                  introTitle="Overzicht"
+                  pageTitle="1.4 Opdrachten"
+                  tasks={
+                    Array [
+                      Object {
+                        "task": "1. Vraag aan een van de office managers voor een rondleiding binnen de Groene Draeck.",
+                      },
+                      Object {
+                        "task": "2. Bedenk een vraag over de Jungle Maslow. Deze vraag stel je tijdens de \\"Welkom to the Jungle\\" presentatie.",
+                      },
+                      Object {
+                        "task": "3. ...",
+                      },
+                    ]
+                  }
+                />,
+                <Intro
+                  introText="Zie hier een overzicht van de opdrachten die je voor module 1 moet doen."
+                  introTitle="Overzicht"
+                  pageTitle="1.4 Opdrachten"
+                  tasks={
+                    Array [
+                      Object {
+                        "task": "1. Vraag aan een van de office managers voor een rondleiding binnen de Groene Draeck.",
+                      },
+                      Object {
+                        "task": "2. Bedenk een vraag over de Jungle Maslow. Deze vraag stel je tijdens de \\"Welkom to the Jungle\\" presentatie.",
+                      },
+                      Object {
+                        "task": "3. ...",
+                      },
+                    ]
+                  }
+                />,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "introText": "Zie hier een overzicht van de opdrachten die je voor module 1 moet doen.",
+                  "introTitle": "Overzicht",
+                  "pageTitle": "1.4 Opdrachten",
+                  "tasks": Array [
+                    Object {
+                      "task": "1. Vraag aan een van de office managers voor een rondleiding binnen de Groene Draeck.",
+                    },
+                    Object {
+                      "task": "2. Bedenk een vraag over de Jungle Maslow. Deze vraag stel je tijdens de \\"Welkom to the Jungle\\" presentatie.",
+                    },
+                    Object {
+                      "task": "3. ...",
+                    },
+                  ],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "introText": "Zie hier een overzicht van de opdrachten die je voor module 1 moet doen.",
+                  "introTitle": "Overzicht",
+                  "pageTitle": "1.4 Opdrachten",
+                  "tasks": Array [
+                    Object {
+                      "task": "1. Vraag aan een van de office managers voor een rondleiding binnen de Groene Draeck.",
+                    },
+                    Object {
+                      "task": "2. Bedenk een vraag over de Jungle Maslow. Deze vraag stel je tijdens de \\"Welkom to the Jungle\\" presentatie.",
+                    },
+                    Object {
+                      "task": "3. ...",
+                    },
+                  ],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
             ],
+            "type": "header",
           },
-          "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "function",
-              "props": Object {
-                "introText": "Uitleg ...",
-                "introTitle": "Opdrachten",
-                "pageTitle": "1.4 Opdrachten",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "introText": "Zie hier een overzicht van de opdrachten die je voor module 1 moet doen.",
+              "introTitle": "Overzicht",
+              "pageTitle": "1.4 Opdrachten",
+              "tasks": Array [
+                Object {
+                  "task": "1. Vraag aan een van de office managers voor een rondleiding binnen de Groene Draeck.",
+                },
+                Object {
+                  "task": "2. Bedenk een vraag over de Jungle Maslow. Deze vraag stel je tijdens de \\"Welkom to the Jungle\\" presentatie.",
+                },
+                Object {
+                  "task": "3. ...",
+                },
+              ],
             },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "function",
-              "props": Object {
-                "introText": "Uitleg ...",
-                "introTitle": "Opdrachten",
-                "pageTitle": "1.4 Opdrachten",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "introText": "Jij hebt deze module bijna afgerond. Doe de onderste quiz om de module succesvol af te ronden en laat zien dat steeds meer Jungle Minds begrijpt!",
+              "introTitle": "Quiz",
+              "questions": Array [
+                Object {
+                  "answers": Array [
+                    Object {
+                      "answer": "A",
+                      "id": "1-a",
+                      "value": 0,
+                    },
+                    Object {
+                      "answer": "B",
+                      "id": "1-b",
+                      "value": 0,
+                    },
+                    Object {
+                      "answer": "C",
+                      "id": "1-c",
+                      "value": 0,
+                    },
+                  ],
+                  "id": "1",
+                  "question": "Hoe werkt de planning binnen Jungle Minds?",
+                },
+                Object {
+                  "answers": Array [
+                    Object {
+                      "answer": "A",
+                      "id": "2-a",
+                      "value": 0,
+                    },
+                    Object {
+                      "answer": "B",
+                      "id": "2-b",
+                      "value": 0,
+                    },
+                    Object {
+                      "answer": "C",
+                      "id": "2-c",
+                      "value": 0,
+                    },
+                  ],
+                  "id": "2",
+                  "question": "Hoe werkt de planning binnen Jungle Minds?",
+                },
+                Object {
+                  "answers": Array [
+                    Object {
+                      "answer": "A",
+                      "id": "1-a",
+                      "value": 0,
+                    },
+                    Object {
+                      "answer": "B",
+                      "id": "1-b",
+                      "value": 0,
+                    },
+                    Object {
+                      "answer": "C",
+                      "id": "1-c",
+                      "value": 0,
+                    },
+                  ],
+                  "id": "3",
+                  "question": "Hoe werkt de planning binnen Jungle Minds?",
+                },
+              ],
             },
-          ],
-          "type": "header",
-        },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "introText": "Jij hebt deze module bijna afgerond. Doe de onderste quiz om de module succesvol af te ronden en laat zien dat steeds meer Jungle Minds begrijpt!",
+              "introTitle": "Quiz",
+              "questions": Array [
+                Object {
+                  "answers": Array [
+                    Object {
+                      "answer": "A",
+                      "id": "1-a",
+                      "value": 0,
+                    },
+                    Object {
+                      "answer": "B",
+                      "id": "1-b",
+                      "value": 0,
+                    },
+                    Object {
+                      "answer": "C",
+                      "id": "1-c",
+                      "value": 0,
+                    },
+                  ],
+                  "id": "1",
+                  "question": "Hoe werkt de planning binnen Jungle Minds?",
+                },
+                Object {
+                  "answers": Array [
+                    Object {
+                      "answer": "A",
+                      "id": "2-a",
+                      "value": 0,
+                    },
+                    Object {
+                      "answer": "B",
+                      "id": "2-b",
+                      "value": 0,
+                    },
+                    Object {
+                      "answer": "C",
+                      "id": "2-c",
+                      "value": 0,
+                    },
+                  ],
+                  "id": "2",
+                  "question": "Hoe werkt de planning binnen Jungle Minds?",
+                },
+                Object {
+                  "answers": Array [
+                    Object {
+                      "answer": "A",
+                      "id": "1-a",
+                      "value": 0,
+                    },
+                    Object {
+                      "answer": "B",
+                      "id": "1-b",
+                      "value": 0,
+                    },
+                    Object {
+                      "answer": "C",
+                      "id": "1-c",
+                      "value": 0,
+                    },
+                  ],
+                  "id": "3",
+                  "question": "Hoe werkt de planning binnen Jungle Minds?",
+                },
+              ],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
         "type": [Function],
       },
     ],
@@ -149,16 +751,202 @@ ShallowWrapper {
           >
             <header>
               <PageTitle
-                introText="Uitleg ..."
-                introTitle="Opdrachten"
+                introText="Zie hier een overzicht van de opdrachten die je voor module 1 moet doen."
+                introTitle="Overzicht"
                 pageTitle="1.4 Opdrachten"
+                tasks={
+                  Array [
+                    Object {
+                      "task": "1. Vraag aan een van de office managers voor een rondleiding binnen de Groene Draeck.",
+                    },
+                    Object {
+                      "task": "2. Bedenk een vraag over de Jungle Maslow. Deze vraag stel je tijdens de \\"Welkom to the Jungle\\" presentatie.",
+                    },
+                    Object {
+                      "task": "3. ...",
+                    },
+                  ]
+                }
               />
               <Intro
-                introText="Uitleg ..."
-                introTitle="Opdrachten"
+                introText="Zie hier een overzicht van de opdrachten die je voor module 1 moet doen."
+                introTitle="Overzicht"
                 pageTitle="1.4 Opdrachten"
+                tasks={
+                  Array [
+                    Object {
+                      "task": "1. Vraag aan een van de office managers voor een rondleiding binnen de Groene Draeck.",
+                    },
+                    Object {
+                      "task": "2. Bedenk een vraag over de Jungle Maslow. Deze vraag stel je tijdens de \\"Welkom to the Jungle\\" presentatie.",
+                    },
+                    Object {
+                      "task": "3. ...",
+                    },
+                  ]
+                }
               />
             </header>
+            <Task
+              introText="Zie hier een overzicht van de opdrachten die je voor module 1 moet doen."
+              introTitle="Overzicht"
+              pageTitle="1.4 Opdrachten"
+              tasks={
+                Array [
+                  Object {
+                    "task": "1. Vraag aan een van de office managers voor een rondleiding binnen de Groene Draeck.",
+                  },
+                  Object {
+                    "task": "2. Bedenk een vraag over de Jungle Maslow. Deze vraag stel je tijdens de \\"Welkom to the Jungle\\" presentatie.",
+                  },
+                  Object {
+                    "task": "3. ...",
+                  },
+                ]
+              }
+            />
+            <Intro
+              introText="Jij hebt deze module bijna afgerond. Doe de onderste quiz om de module succesvol af te ronden en laat zien dat steeds meer Jungle Minds begrijpt!"
+              introTitle="Quiz"
+              questions={
+                Array [
+                  Object {
+                    "answers": Array [
+                      Object {
+                        "answer": "A",
+                        "id": "1-a",
+                        "value": 0,
+                      },
+                      Object {
+                        "answer": "B",
+                        "id": "1-b",
+                        "value": 0,
+                      },
+                      Object {
+                        "answer": "C",
+                        "id": "1-c",
+                        "value": 0,
+                      },
+                    ],
+                    "id": "1",
+                    "question": "Hoe werkt de planning binnen Jungle Minds?",
+                  },
+                  Object {
+                    "answers": Array [
+                      Object {
+                        "answer": "A",
+                        "id": "2-a",
+                        "value": 0,
+                      },
+                      Object {
+                        "answer": "B",
+                        "id": "2-b",
+                        "value": 0,
+                      },
+                      Object {
+                        "answer": "C",
+                        "id": "2-c",
+                        "value": 0,
+                      },
+                    ],
+                    "id": "2",
+                    "question": "Hoe werkt de planning binnen Jungle Minds?",
+                  },
+                  Object {
+                    "answers": Array [
+                      Object {
+                        "answer": "A",
+                        "id": "1-a",
+                        "value": 0,
+                      },
+                      Object {
+                        "answer": "B",
+                        "id": "1-b",
+                        "value": 0,
+                      },
+                      Object {
+                        "answer": "C",
+                        "id": "1-c",
+                        "value": 0,
+                      },
+                    ],
+                    "id": "3",
+                    "question": "Hoe werkt de planning binnen Jungle Minds?",
+                  },
+                ]
+              }
+            />
+            <QuestionForm
+              introText="Jij hebt deze module bijna afgerond. Doe de onderste quiz om de module succesvol af te ronden en laat zien dat steeds meer Jungle Minds begrijpt!"
+              introTitle="Quiz"
+              questions={
+                Array [
+                  Object {
+                    "answers": Array [
+                      Object {
+                        "answer": "A",
+                        "id": "1-a",
+                        "value": 0,
+                      },
+                      Object {
+                        "answer": "B",
+                        "id": "1-b",
+                        "value": 0,
+                      },
+                      Object {
+                        "answer": "C",
+                        "id": "1-c",
+                        "value": 0,
+                      },
+                    ],
+                    "id": "1",
+                    "question": "Hoe werkt de planning binnen Jungle Minds?",
+                  },
+                  Object {
+                    "answers": Array [
+                      Object {
+                        "answer": "A",
+                        "id": "2-a",
+                        "value": 0,
+                      },
+                      Object {
+                        "answer": "B",
+                        "id": "2-b",
+                        "value": 0,
+                      },
+                      Object {
+                        "answer": "C",
+                        "id": "2-c",
+                        "value": 0,
+                      },
+                    ],
+                    "id": "2",
+                    "question": "Hoe werkt de planning binnen Jungle Minds?",
+                  },
+                  Object {
+                    "answers": Array [
+                      Object {
+                        "answer": "A",
+                        "id": "1-a",
+                        "value": 0,
+                      },
+                      Object {
+                        "answer": "B",
+                        "id": "1-b",
+                        "value": 0,
+                      },
+                      Object {
+                        "answer": "C",
+                        "id": "1-c",
+                        "value": 0,
+                      },
+                    ],
+                    "id": "3",
+                    "question": "Hoe werkt de planning binnen Jungle Minds?",
+                  },
+                ]
+              }
+            />
           </Grid>,
         ],
         "className": "jungleMinds",
@@ -184,70 +972,486 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "function",
           "props": Object {
-            "children": <header>
-              <PageTitle
-                introText="Uitleg ..."
-                introTitle="Opdrachten"
+            "children": Array [
+              <header>
+                <PageTitle
+                  introText="Zie hier een overzicht van de opdrachten die je voor module 1 moet doen."
+                  introTitle="Overzicht"
+                  pageTitle="1.4 Opdrachten"
+                  tasks={
+                    Array [
+                      Object {
+                        "task": "1. Vraag aan een van de office managers voor een rondleiding binnen de Groene Draeck.",
+                      },
+                      Object {
+                        "task": "2. Bedenk een vraag over de Jungle Maslow. Deze vraag stel je tijdens de \\"Welkom to the Jungle\\" presentatie.",
+                      },
+                      Object {
+                        "task": "3. ...",
+                      },
+                    ]
+                  }
+                />
+                <Intro
+                  introText="Zie hier een overzicht van de opdrachten die je voor module 1 moet doen."
+                  introTitle="Overzicht"
+                  pageTitle="1.4 Opdrachten"
+                  tasks={
+                    Array [
+                      Object {
+                        "task": "1. Vraag aan een van de office managers voor een rondleiding binnen de Groene Draeck.",
+                      },
+                      Object {
+                        "task": "2. Bedenk een vraag over de Jungle Maslow. Deze vraag stel je tijdens de \\"Welkom to the Jungle\\" presentatie.",
+                      },
+                      Object {
+                        "task": "3. ...",
+                      },
+                    ]
+                  }
+                />
+              </header>,
+              <Task
+                introText="Zie hier een overzicht van de opdrachten die je voor module 1 moet doen."
+                introTitle="Overzicht"
                 pageTitle="1.4 Opdrachten"
-              />
+                tasks={
+                  Array [
+                    Object {
+                      "task": "1. Vraag aan een van de office managers voor een rondleiding binnen de Groene Draeck.",
+                    },
+                    Object {
+                      "task": "2. Bedenk een vraag over de Jungle Maslow. Deze vraag stel je tijdens de \\"Welkom to the Jungle\\" presentatie.",
+                    },
+                    Object {
+                      "task": "3. ...",
+                    },
+                  ]
+                }
+              />,
               <Intro
-                introText="Uitleg ..."
-                introTitle="Opdrachten"
-                pageTitle="1.4 Opdrachten"
-              />
-            </header>,
+                introText="Jij hebt deze module bijna afgerond. Doe de onderste quiz om de module succesvol af te ronden en laat zien dat steeds meer Jungle Minds begrijpt!"
+                introTitle="Quiz"
+                questions={
+                  Array [
+                    Object {
+                      "answers": Array [
+                        Object {
+                          "answer": "A",
+                          "id": "1-a",
+                          "value": 0,
+                        },
+                        Object {
+                          "answer": "B",
+                          "id": "1-b",
+                          "value": 0,
+                        },
+                        Object {
+                          "answer": "C",
+                          "id": "1-c",
+                          "value": 0,
+                        },
+                      ],
+                      "id": "1",
+                      "question": "Hoe werkt de planning binnen Jungle Minds?",
+                    },
+                    Object {
+                      "answers": Array [
+                        Object {
+                          "answer": "A",
+                          "id": "2-a",
+                          "value": 0,
+                        },
+                        Object {
+                          "answer": "B",
+                          "id": "2-b",
+                          "value": 0,
+                        },
+                        Object {
+                          "answer": "C",
+                          "id": "2-c",
+                          "value": 0,
+                        },
+                      ],
+                      "id": "2",
+                      "question": "Hoe werkt de planning binnen Jungle Minds?",
+                    },
+                    Object {
+                      "answers": Array [
+                        Object {
+                          "answer": "A",
+                          "id": "1-a",
+                          "value": 0,
+                        },
+                        Object {
+                          "answer": "B",
+                          "id": "1-b",
+                          "value": 0,
+                        },
+                        Object {
+                          "answer": "C",
+                          "id": "1-c",
+                          "value": 0,
+                        },
+                      ],
+                      "id": "3",
+                      "question": "Hoe werkt de planning binnen Jungle Minds?",
+                    },
+                  ]
+                }
+              />,
+              <QuestionForm
+                introText="Jij hebt deze module bijna afgerond. Doe de onderste quiz om de module succesvol af te ronden en laat zien dat steeds meer Jungle Minds begrijpt!"
+                introTitle="Quiz"
+                questions={
+                  Array [
+                    Object {
+                      "answers": Array [
+                        Object {
+                          "answer": "A",
+                          "id": "1-a",
+                          "value": 0,
+                        },
+                        Object {
+                          "answer": "B",
+                          "id": "1-b",
+                          "value": 0,
+                        },
+                        Object {
+                          "answer": "C",
+                          "id": "1-c",
+                          "value": 0,
+                        },
+                      ],
+                      "id": "1",
+                      "question": "Hoe werkt de planning binnen Jungle Minds?",
+                    },
+                    Object {
+                      "answers": Array [
+                        Object {
+                          "answer": "A",
+                          "id": "2-a",
+                          "value": 0,
+                        },
+                        Object {
+                          "answer": "B",
+                          "id": "2-b",
+                          "value": 0,
+                        },
+                        Object {
+                          "answer": "C",
+                          "id": "2-c",
+                          "value": 0,
+                        },
+                      ],
+                      "id": "2",
+                      "question": "Hoe werkt de planning binnen Jungle Minds?",
+                    },
+                    Object {
+                      "answers": Array [
+                        Object {
+                          "answer": "A",
+                          "id": "1-a",
+                          "value": 0,
+                        },
+                        Object {
+                          "answer": "B",
+                          "id": "1-b",
+                          "value": 0,
+                        },
+                        Object {
+                          "answer": "C",
+                          "id": "1-c",
+                          "value": 0,
+                        },
+                      ],
+                      "id": "3",
+                      "question": "Hoe werkt de planning binnen Jungle Minds?",
+                    },
+                  ]
+                }
+              />,
+            ],
             "page": "jungleMinds",
           },
           "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": Array [
-                <PageTitle
-                  introText="Uitleg ..."
-                  introTitle="Opdrachten"
-                  pageTitle="1.4 Opdrachten"
-                />,
-                <Intro
-                  introText="Uitleg ..."
-                  introTitle="Opdrachten"
-                  pageTitle="1.4 Opdrachten"
-                />,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <PageTitle
+                    introText="Zie hier een overzicht van de opdrachten die je voor module 1 moet doen."
+                    introTitle="Overzicht"
+                    pageTitle="1.4 Opdrachten"
+                    tasks={
+                      Array [
+                        Object {
+                          "task": "1. Vraag aan een van de office managers voor een rondleiding binnen de Groene Draeck.",
+                        },
+                        Object {
+                          "task": "2. Bedenk een vraag over de Jungle Maslow. Deze vraag stel je tijdens de \\"Welkom to the Jungle\\" presentatie.",
+                        },
+                        Object {
+                          "task": "3. ...",
+                        },
+                      ]
+                    }
+                  />,
+                  <Intro
+                    introText="Zie hier een overzicht van de opdrachten die je voor module 1 moet doen."
+                    introTitle="Overzicht"
+                    pageTitle="1.4 Opdrachten"
+                    tasks={
+                      Array [
+                        Object {
+                          "task": "1. Vraag aan een van de office managers voor een rondleiding binnen de Groene Draeck.",
+                        },
+                        Object {
+                          "task": "2. Bedenk een vraag over de Jungle Maslow. Deze vraag stel je tijdens de \\"Welkom to the Jungle\\" presentatie.",
+                        },
+                        Object {
+                          "task": "3. ...",
+                        },
+                      ]
+                    }
+                  />,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "introText": "Zie hier een overzicht van de opdrachten die je voor module 1 moet doen.",
+                    "introTitle": "Overzicht",
+                    "pageTitle": "1.4 Opdrachten",
+                    "tasks": Array [
+                      Object {
+                        "task": "1. Vraag aan een van de office managers voor een rondleiding binnen de Groene Draeck.",
+                      },
+                      Object {
+                        "task": "2. Bedenk een vraag over de Jungle Maslow. Deze vraag stel je tijdens de \\"Welkom to the Jungle\\" presentatie.",
+                      },
+                      Object {
+                        "task": "3. ...",
+                      },
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "introText": "Zie hier een overzicht van de opdrachten die je voor module 1 moet doen.",
+                    "introTitle": "Overzicht",
+                    "pageTitle": "1.4 Opdrachten",
+                    "tasks": Array [
+                      Object {
+                        "task": "1. Vraag aan een van de office managers voor een rondleiding binnen de Groene Draeck.",
+                      },
+                      Object {
+                        "task": "2. Bedenk een vraag over de Jungle Maslow. Deze vraag stel je tijdens de \\"Welkom to the Jungle\\" presentatie.",
+                      },
+                      Object {
+                        "task": "3. ...",
+                      },
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
               ],
+              "type": "header",
             },
-            "ref": null,
-            "rendered": Array [
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "function",
-                "props": Object {
-                  "introText": "Uitleg ...",
-                  "introTitle": "Opdrachten",
-                  "pageTitle": "1.4 Opdrachten",
-                },
-                "ref": null,
-                "rendered": null,
-                "type": [Function],
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "introText": "Zie hier een overzicht van de opdrachten die je voor module 1 moet doen.",
+                "introTitle": "Overzicht",
+                "pageTitle": "1.4 Opdrachten",
+                "tasks": Array [
+                  Object {
+                    "task": "1. Vraag aan een van de office managers voor een rondleiding binnen de Groene Draeck.",
+                  },
+                  Object {
+                    "task": "2. Bedenk een vraag over de Jungle Maslow. Deze vraag stel je tijdens de \\"Welkom to the Jungle\\" presentatie.",
+                  },
+                  Object {
+                    "task": "3. ...",
+                  },
+                ],
               },
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "function",
-                "props": Object {
-                  "introText": "Uitleg ...",
-                  "introTitle": "Opdrachten",
-                  "pageTitle": "1.4 Opdrachten",
-                },
-                "ref": null,
-                "rendered": null,
-                "type": [Function],
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "introText": "Jij hebt deze module bijna afgerond. Doe de onderste quiz om de module succesvol af te ronden en laat zien dat steeds meer Jungle Minds begrijpt!",
+                "introTitle": "Quiz",
+                "questions": Array [
+                  Object {
+                    "answers": Array [
+                      Object {
+                        "answer": "A",
+                        "id": "1-a",
+                        "value": 0,
+                      },
+                      Object {
+                        "answer": "B",
+                        "id": "1-b",
+                        "value": 0,
+                      },
+                      Object {
+                        "answer": "C",
+                        "id": "1-c",
+                        "value": 0,
+                      },
+                    ],
+                    "id": "1",
+                    "question": "Hoe werkt de planning binnen Jungle Minds?",
+                  },
+                  Object {
+                    "answers": Array [
+                      Object {
+                        "answer": "A",
+                        "id": "2-a",
+                        "value": 0,
+                      },
+                      Object {
+                        "answer": "B",
+                        "id": "2-b",
+                        "value": 0,
+                      },
+                      Object {
+                        "answer": "C",
+                        "id": "2-c",
+                        "value": 0,
+                      },
+                    ],
+                    "id": "2",
+                    "question": "Hoe werkt de planning binnen Jungle Minds?",
+                  },
+                  Object {
+                    "answers": Array [
+                      Object {
+                        "answer": "A",
+                        "id": "1-a",
+                        "value": 0,
+                      },
+                      Object {
+                        "answer": "B",
+                        "id": "1-b",
+                        "value": 0,
+                      },
+                      Object {
+                        "answer": "C",
+                        "id": "1-c",
+                        "value": 0,
+                      },
+                    ],
+                    "id": "3",
+                    "question": "Hoe werkt de planning binnen Jungle Minds?",
+                  },
+                ],
               },
-            ],
-            "type": "header",
-          },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "introText": "Jij hebt deze module bijna afgerond. Doe de onderste quiz om de module succesvol af te ronden en laat zien dat steeds meer Jungle Minds begrijpt!",
+                "introTitle": "Quiz",
+                "questions": Array [
+                  Object {
+                    "answers": Array [
+                      Object {
+                        "answer": "A",
+                        "id": "1-a",
+                        "value": 0,
+                      },
+                      Object {
+                        "answer": "B",
+                        "id": "1-b",
+                        "value": 0,
+                      },
+                      Object {
+                        "answer": "C",
+                        "id": "1-c",
+                        "value": 0,
+                      },
+                    ],
+                    "id": "1",
+                    "question": "Hoe werkt de planning binnen Jungle Minds?",
+                  },
+                  Object {
+                    "answers": Array [
+                      Object {
+                        "answer": "A",
+                        "id": "2-a",
+                        "value": 0,
+                      },
+                      Object {
+                        "answer": "B",
+                        "id": "2-b",
+                        "value": 0,
+                      },
+                      Object {
+                        "answer": "C",
+                        "id": "2-c",
+                        "value": 0,
+                      },
+                    ],
+                    "id": "2",
+                    "question": "Hoe werkt de planning binnen Jungle Minds?",
+                  },
+                  Object {
+                    "answers": Array [
+                      Object {
+                        "answer": "A",
+                        "id": "1-a",
+                        "value": 0,
+                      },
+                      Object {
+                        "answer": "B",
+                        "id": "1-b",
+                        "value": 0,
+                      },
+                      Object {
+                        "answer": "C",
+                        "id": "1-c",
+                        "value": 0,
+                      },
+                    ],
+                    "id": "3",
+                    "question": "Hoe werkt de planning binnen Jungle Minds?",
+                  },
+                ],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
           "type": [Function],
         },
       ],
