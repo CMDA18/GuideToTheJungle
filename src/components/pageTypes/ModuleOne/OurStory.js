@@ -6,7 +6,7 @@ import Grid from '../../Grid'
 import PageTitle from '../../PageTitle'
 import Intro from '../../Intro'
 import Timeline from '../../Timeline'
-import { ourStory, faq } from '../../../constants/content/index'
+import { ourStory, timelineContent } from '../../../constants/content/index'
 import Task from '../../Task'
 
 type Props = {
@@ -22,10 +22,10 @@ class OurStory extends Component<Props> {
         />
         <Grid page='jungleMinds'>
           <header>
-            <PageTitle {...faq}/>
+            <PageTitle {...ourStory}/>
             <Intro {...ourStory}/>
           </header>
-          <Timeline />
+          <Timeline {...timelineContent} />
           <Task {...ourStory}/>
         </Grid>
       </div>
