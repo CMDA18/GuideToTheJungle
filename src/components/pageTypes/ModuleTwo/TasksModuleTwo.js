@@ -6,6 +6,9 @@ import Grid from '../../Grid'
 import PageTitle from '../../PageTitle'
 import Intro from '../../Intro'
 import { tasksModuleTwo } from '../../../constants/content/index'
+import Task from '../../Task'
+import QuestionList from '../../QuestionList'
+import { ModuleTwo } from '../../../constants/content/ModuleQuestion'
 
 type Props = {
   test: string
@@ -23,6 +26,9 @@ class TasksModuleTwo extends Component<Props> {
             <PageTitle {...tasksModuleTwo}/>
             <Intro {...tasksModuleTwo}/>
           </header>
+          <Task {...tasksModuleTwo}/>
+          <Intro {...tasksModuleTwo}/>
+          <QuestionList {...ModuleTwo} />
         </Grid>
       </div>
     )

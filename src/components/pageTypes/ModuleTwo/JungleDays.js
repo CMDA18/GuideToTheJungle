@@ -6,7 +6,7 @@ import Grid from '../../Grid'
 import PageTitle from '../../PageTitle'
 import Intro from '../../Intro'
 import TextAndImage from '../../TextAndImage'
-import Quote from '../../Quote'
+import Task from '../../Task'
 import { jungleDays } from '../../../constants/content/index'
 
 type Props = {
@@ -25,8 +25,8 @@ class JungleDays extends Component<Props> {
             <PageTitle {...jungleDays}/>
             <Intro {...jungleDays}/>
           </header>
-          <TextAndImage {...jungleDays} />
-          <Quote {...jungleDays.quote}/>
+          <TextAndImage {...jungleDays.textMedia} />
+          <Task {...jungleDays}/>
         </Grid>
 
       </div>

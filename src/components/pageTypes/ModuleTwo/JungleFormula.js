@@ -7,6 +7,7 @@ import PageTitle from '../../PageTitle'
 import Intro from '../../Intro'
 import TextAndImage from '../../TextAndImage'
 import Quote from '../../Quote'
+import Task from '../../Task'
 import { jungleFormula } from '../../../constants/content/index'
 
 type Props = {
@@ -25,8 +26,9 @@ class JungleFormula extends Component<Props> {
             <PageTitle {...jungleFormula}/>
             <Intro {...jungleFormula}/>
           </header>
-          <TextAndImage {...jungleFormula} />
+          <TextAndImage {...jungleFormula.textMedia} />
           <Quote {...jungleFormula.quote}/>
+          <Task {...jungleFormula}/>
         </Grid>
 
       </div>

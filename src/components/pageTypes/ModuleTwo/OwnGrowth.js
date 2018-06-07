@@ -6,7 +6,7 @@ import Grid from '../../Grid'
 import PageTitle from '../../PageTitle'
 import Intro from '../../Intro'
 import TextAndImage from '../../TextAndImage'
-import Quote from '../../Quote'
+import Task from '../../Task'
 import { ownGrowth } from '../../../constants/content/index'
 
 type Props = {
@@ -25,8 +25,8 @@ class OwnGrowth extends Component<Props> {
             <PageTitle {...ownGrowth}/>
             <Intro {...ownGrowth}/>
           </header>
-          <TextAndImage {...ownGrowth} />
-          <Quote {...ownGrowth.quote}/>
+          <TextAndImage {...ownGrowth.textMedia} />
+          <Task {...ownGrowth}/>
         </Grid>
       </div>
     )
