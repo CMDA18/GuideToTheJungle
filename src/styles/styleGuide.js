@@ -5,6 +5,7 @@ export const colorPalette = {
   white: '#FFFFFF',
   lightBlue: '#EBF2F5',
   darkBlue: '#03344a',
+  blue: '#275e92',
   orange: '#ffa50d',
   grey: '#8F8F8F',
   lightGrey: '#DCD7D7',

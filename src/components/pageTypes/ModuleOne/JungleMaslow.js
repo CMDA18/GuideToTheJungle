@@ -7,6 +7,7 @@ import PageTitle from '../../PageTitle'
 import Intro from '../../Intro'
 import { jungleMaslow } from '../../../constants/content/index'
 import TextAndImage from '../../TextAndImage'
+import Task from '../../Task'
 
 type Props = {
   test: string
@@ -23,8 +24,9 @@ class JungleMaslow extends Component<Props> {
           <header>
             <PageTitle {...jungleMaslow}/>
             <Intro {...jungleMaslow}/>
-            <TextAndImage {...jungleMaslow}/>
+            <TextAndImage {...jungleMaslow.textMedia}/>
           </header>
+          <Task {...jungleMaslow}/>
         </Grid>
       </div>
     )

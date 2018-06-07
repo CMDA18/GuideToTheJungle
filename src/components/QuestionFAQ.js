@@ -10,13 +10,20 @@ import MinusSign from '../shared/elements/MinusSign'
 
 type Props = {
   question: string,
-  state: 'close' | 'open'
+  state: 'default' | 'close' | 'open'
 }
 
 const QuestionFAQ = (props: Props) => {
   switch (props.state) {
-    case 'close':
+    case 'default':
     default :
+      return (
+        <Container>
+          <Question>{props.question}</Question>
+        </Container>
+      )
+
+    case 'close':
       return (
         <Container>
           <Question>{props.question}</Question>

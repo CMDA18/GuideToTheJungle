@@ -5,7 +5,9 @@ import Helmet from 'react-helmet'
 import Grid from '../../Grid'
 import PageTitle from '../../PageTitle'
 import Intro from '../../Intro'
-import { ourStory, faq } from '../../../constants/content/index'
+import Timeline from '../../Timeline'
+import { ourStory, timelineContent } from '../../../constants/content/index'
+import Task from '../../Task'
 
 type Props = {
   test: string
@@ -20,9 +22,11 @@ class OurStory extends Component<Props> {
         />
         <Grid page='jungleMinds'>
           <header>
-            <PageTitle {...faq}/>
+            <PageTitle {...ourStory}/>
             <Intro {...ourStory}/>
           </header>
+          <Timeline {...timelineContent} />
+          <Task {...ourStory}/>
         </Grid>
       </div>
     )

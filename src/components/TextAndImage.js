@@ -8,13 +8,13 @@ import {
 import { fromBreakpoint } from '../styles/breakpoints'
 
 type ITextMedia = {
-  title: string,
+  title?: string,
   text: string
 }
 
 type Props = {
   imageAlignment: string,
-  textMedia: Array<ITextMedia>,
+  text: Array<ITextMedia>,
   image: string,
   mediaCaption: string
 }
@@ -23,7 +23,7 @@ const TextAndImage = (props: Props) => {
   return (
     <Container imageAlignment={props.imageAlignment}>
       <TextContainer imageAlignment={props.imageAlignment}>
-        {(props.textMedia || []).map((item, index) => (
+        {(props.text || []).map((item, index) => (
           <Wrapper key={index} >
             <Title>{item.title}</Title>
             <Text dangerouslySetInnerHTML={{__html: `${item.text}`}} />
@@ -133,7 +133,9 @@ const ImageContainer = styled.div`
 const Media = styled.div`
   background-image: url(${props =>
     props.backgroundImage ? props.backgroundImage : ''});
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
   width: 600px;
   height: 300px;
 `
