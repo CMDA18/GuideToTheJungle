@@ -66,5 +66,6 @@ const Line = styled.span`
 `
 
 const Metadata = styled.p`
-  margin: 30px 50px
+  margin: 30px 50px;
+  text-align: center;
 `

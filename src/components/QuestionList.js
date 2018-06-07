@@ -6,12 +6,13 @@ import AnswerFAQ from './AnswerFAQ'
 import { colorPalette } from '../styles/styleGuide'
 
 type IAnswers = {
-  id?: string;
+  id: string;
   answer: string,
   value?: number
 }
 
 type IQuestions = {
+  id: string,
   question: string,
   answers: Array<IAnswers>
 }
@@ -32,7 +33,7 @@ class QuestionForm extends Component<Props, State> {
         {(props.questions || []).map((item, index) => {
           return (
             <Wrapper key={index}>
-              <QuestionFAQ {...item} />
+              <QuestionFAQ state='default' {...item} />
               {(item.answers || []).map((answer, index) => (
                 <Fragment key={index}>
                   <FormElementContainer >
@@ -43,7 +44,7 @@ class QuestionForm extends Component<Props, State> {
                       value={answer.value}
                     />
                     <FormLabel>
-                      <AnswerFAQ {...answer}/>
+                      <AnswerFAQ state='default' {...answer}/>
                     </FormLabel>
                   </FormElementContainer>
 

@@ -59,7 +59,9 @@ class Timeline extends Component<Props, State> {
             <Caption>{entry.imageCaption}</Caption>
           </ImageContainer>
           <Text>{entry.content}</Text>
-          <Quote {...entry.quote}/>
+          {entry.quote && (
+            <Quote {...entry.quote}/>
+          )}
         </Wrapper>
       )
     })
@@ -160,8 +162,9 @@ const ImageContainer = styled.div`
 const Media = styled.div`
   background-image: url(${props =>
     props.backgroundImage ? props.backgroundImage : ''});
-  background-size: cover;
+  background-size: contain;
   background-position: center;
+  background-repeat: no-repeat;
   width: 100%;
   height: 350px;
 `

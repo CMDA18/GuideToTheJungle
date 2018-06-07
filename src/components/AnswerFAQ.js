@@ -10,11 +10,12 @@ import {
 
 type Props = {
   answer: string,
-  state: 'faq'
+  state: 'default' | 'faq'
 }
 
 const AnswerFAQ = (props: Props) => {
   switch (props.state) {
+    case 'default':
     default :
       return (
         <Container>

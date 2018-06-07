@@ -11,13 +11,13 @@ type ITasks = {
 }
 
 type Props = {
-  subTitle?: string,
+  taskTitle?: string,
   tasks: Array<ITasks>
 }
 
 const Task = (props: Props) =>
   <Container>
-    <SubTitle>{props.subTitle}</SubTitle>
+    <SubTitle>{props.taskTitle}</SubTitle>
     {props.tasks.map((item, index) => (
       <Question key={index}>{item.task}</Question>
     ))}
@@ -27,8 +27,9 @@ export default Task
 
 const Container = styled.div`
   padding: 20px 0;
-  border-bottom: 3px solid ${colorPalette.lightBlue};
-  width: 100%;
+  background-color: ${colorPalette.lightBlue};
+  padding: 20px 50px;
+  max-width: 100%;
 `
 
 const Question = styled.p`
@@ -36,5 +37,5 @@ const Question = styled.p`
 `
 
 const SubTitle = styled.h3`
-  ${textStyles.subTitle};
+  ${textStyles.title};
 `
