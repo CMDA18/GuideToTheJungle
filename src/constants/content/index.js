@@ -348,7 +348,7 @@ export const timelineContent = [
     {
       image: './images/employees/diogo.tavares.portrait.png',
       text: 'As a motion designer, my main role on VYOO project was to evolve VYOO as a brand, in terms of storytelling. So the creation of the identity was the first step, the breakdown of all the aspects and features from the brand and followed by story and visual ideas. The previous steps were necessary for us in order to to tell a consistent promotional story and to start sharing with the influencers.',
-      metadata: 'Diogo Tavares _ Motion Graphics Designer'
+      metadata: 'Diogo - Motion Graphics Designer'
     }
   }
 ]
@@ -472,139 +472,160 @@ export const tasksModuleOne = {
 export const jungleCulture = {
   pageTitle: '2 De Jungle Cultuur',
   introTitle: 'Module 2',
-  introText: 'Welkom tijdens jouw tweede week binnen Jungle Minds. Deze week staat in de teken van ons cultuur. Tijdens deze module leer je hoe wij ons cultuur gevormd hebben en hoe wij deze doorvertallen aan onze medewerkers.',
-  imageAlignment: 'left',
-  textMedia: [
-    {
-      title: 'Week 2',
-      text: `Tijdens deze week leer je meer over:
-      <ul>
-      <li>
+  introText: `Tijdens jouw tweede week binnen Jungle Minds. Deze week staat in de teken van ons cultuur. Tijdens deze module leer je hoe wij ons cultuur gevormd hebben en hoe wij deze doorvertallen aan onze medewerkers.`,
+  textMedia: {
+    imageAlignment: 'left',
+    image: './images/jungle_culture.jpg',
+    mediaCaption: 'Jungle Cultuur',
+    text: [
+      {
+        title: 'Week 2',
+        text: `Tijdens deze week leer je meer over:
+        <h4>
+          Module 2: Jungle Cultuur
+        </h4>
+        <ul>
+        <li>
         2.1 Jungle Formula
-      </li>
-      <li>
-        2.2 Jungle Days
-      </li>
-      <li>
-        2.3 ...
-      </li>
-      </ul>
-      `
-    },
-    {
-      title: 'Opdrachten',
-      text: `Gedurende deze modules krijg je enkele opdrachten toegewegen. Het is de bedoeling dat je deze opdrachten uitvoert voor het einde van de week. Denk aan: de mandagen zijn de beste dagen om een gesprek aan te gaan met een collega. 
-      <ul>
-      <li>
-        2.4 Opdrachten
-      </li>
-      </ul>
-      `
-    }
-  ],
-  image: './images/team_design.jpg',
-  mediaCaption: 'Jungle Cultuur'
+        </li>
+        <li>
+          2.2 Jungle Days
+        </li>
+        <li>
+          2.3 Ontwikkeling
+        </li>
+        </ul>
+        `
+      },
+      {
+        title: 'Opdrachten',
+        text: `Gedurende deze modules krijg je enkele opdrachten toegewegen. Het is de bedoeling dat je deze opdrachten uitvoert voor het einde van de week. Denk aan: de mandagen zijn de beste dagen om een gesprek aan te gaan met een collega. 
+        <ul>
+        <li>
+          2.4 Opdrachten
+        </li>
+        </ul>
+        `
+      }
+    ]
+  }
 }
 
 export const jungleFormula = {
   pageTitle: '2.1 Jungle Formula',
   introTitle: 'Een mentaliteit',
   introText: `In de Jungle hechten we waarde aan karakter. Want kennis en skills veranderen, de houding blijft. Met onze manier van werken gaan we complexe vraagstukken te lijf.`,
-  textMedia: [
-    {
-      title: 'Een open blik',
-      text: 'We zijn specialisten, maar geïnteresseerd in bijna alles. Hierdoor zijn we in staat om in korte tijd tot de kern van elk vraagstuk of organisatie te komen. Zonder daarbij ooit het frisse perspectief van de buitenstaander te verliezen.'
-    },
-    {
-      title: 'Een koel hoofd',
-      text: 'Het ontdekken van nieuwe, complexe gebieden gaat nooit zonder slag of stoot. Het is rommelig en onoverzichtelijk, en zo zien we het graag. Dat we gedijen in chaotische omstandigheden betekent niet dat we ondoordacht of half werk leveren. Persoonlijk kwaliteitsbesef en toewijding maken in ons vak het verschil.'
-    },
-    {
-      title: 'Trots op wat je doet',
-      text: 'Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.'
-    }
-  ],
-  image: './images/2.1formula.jpg',
-  mediaCaption: 'Office mood van Project Managers Jacinta & Jessica',
+  textMedia: {
+    imageAlignment: 'right',
+    image: './images/2.1formula.jpg',
+    mediaCaption: 'Office mood van Project Managers Jacinta & Jessica',
+    text: [
+      {
+        title: 'Een open blik',
+        text: 'We zijn specialisten, maar geïnteresseerd in bijna alles. Hierdoor zijn we in staat om in korte tijd tot de kern van elk vraagstuk of organisatie te komen. Zonder daarbij ooit het frisse perspectief van de buitenstaander te verliezen.'
+      },
+      {
+        title: 'Een koel hoofd',
+        text: 'Het ontdekken van nieuwe, complexe gebieden gaat nooit zonder slag of stoot. Het is rommelig en onoverzichtelijk, en zo zien we het graag. Dat we gedijen in chaotische omstandigheden betekent niet dat we ondoordacht of half werk leveren. Persoonlijk kwaliteitsbesef en toewijding maken in ons vak het verschil.'
+      },
+      {
+        title: 'Trots op wat je doet',
+        text: 'Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.'
+      }
+    ]
+  },
   quote:
     {
-      image: './images/team_design.jpg',
+      image: './images/employees/jessica.de.jong.portrait.png',
       text: 'Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.',
-      metadata: 'Naam en functie'
+      metadata: 'Jessica - Project manager'
+    },
+  taskTitle: 'Zelfstandig opdracht:',
+  tasks: [
+    {
+      task: '1. Ga een gesprek aan met Jessica en vraag haar om onze cultuur de beschrijven.'
     }
+  ]
 }
 
 export const jungleDays = {
   pageTitle: '2.2 Jungle Days',
   introTitle: 'Onze dagen',
   introText: `Ongeveer eens per maand komen we ‘s middags samen om over belangrijke ontwikkelingen in Jungle Minds te praten. Op zo’n Jungle Day gaat het over de grote lijnen en het waarom van onze manier van werken en denken.`,
-  textMedia: [
+  textMedia: {
+    image: './images/jungleDay-2016.png',
+    mediaCaption: 'Ons gezelligeheid straalt - Jungle Day 2016',
+    text: [
+      {
+        title: 'Jungle Day',
+        text:
+        `
+        Elk kwartaal hebben we allemaal quality time op Jungle Day. Dan bespreken we de grote en kleine ambities van
+        ons bureau en maken we ons financiële welzijn voor iedereen inzichtelijk. Zo is ‘management’ geen vage taak van een select groepje maar het transparante resultaat van samenwerking met het hele bedrijf.
+        `
+      },
+      {
+        title: 'Save the date',
+        text:
+        `
+        <ul>
+          <li>
+            Jungle day 1: 08 februari 2018
+          </li>
+          <li>
+            Jungle day XL: 20 april 2018
+          </li>
+          <li>
+            Jungle day 2: 21 juni 2018
+          </li>
+          <li>
+            Jungle day 3: november 2018
+          </li>
+        </ul>
+        `
+      }
+    ]
+  },
+  taskTitle: 'Zelfstandig opdracht:',
+  tasks: [
     {
-      title: 'Jungle Day',
-      text:
-      `
-      Elk kwartaal hebben we allemaal quality time op Jungle Day. Dan bespreken we de grote en kleine ambities van
-      ons bureau en maken we ons financiële welzijn voor iedereen inzichtelijk. Zo is ‘management’ geen vage taak van een select groepje maar het transparante resultaat van samenwerking met het hele bedrijf.
-      `
+      task: '2. Vraag rond wat Jungle Minds heeft gedaan tijdens de laatste Jungole Day.'
     },
     {
-      title: 'Save the date',
-      text:
-      `
-      <ul>
-        <li>
-          Jungle day 1: 08 februari 2018
-        </li>
-        <li>
-          Jungle day XL: 20 april 2018
-        </li>
-        <li>
-          Jungle day 2: 21 juni 2018
-        </li>
-        <li>
-          Jungle day 3: november 2018
-        </li>
-      </ul>
-      `
+      task: `3. Zet alvast in jouw agenda de data's van de komende Junlge Days. We rekenen op jouw aanwezigheid!`
     }
-  ],
-  image: './images/2.1formula.jpg',
-  mediaCaption: 'Office mood van Project Managers Jacinta & Jessica',
-  quote:
-    {
-      image: './images/team_design.jpg',
-      text: 'Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.',
-      metadata: 'naam functie'
-    }
+  ]
 }
 
 export const ownGrowth = {
   pageTitle: '2.3 Ontwikkeling',
   introTitle: 'Eigen groei',
-  introText: `Uitleg ...`,
-  textMedia: [
+  introText: `Iedereen werkt hier omdat ‘ie daar goed in is. En dat willen wij zo houden. Bij ons investeren wij veel in onze medewerkers, zodat zij zich blijven ontwikkelen en dit later kunnen toepassen in onze projecten. Hieronder lees je wat wij jou kunnen bieden.`,
+  textMedia: {
+    image: './images/2.3ontwikkeling.jpg',
+    mediaCaption: 'De Groene Draeck omgetoverd tot een hackathon.',
+    text: [
+      {
+        title: 'Tribe bijeenkomsten',
+        text:
+        `
+          Elke maandag zijn er Tribe-bijeenkomsten, met ruimte voor persoonlijke ontwikkeling en verdieping van je expertise. En elke zes weken komen de vertegenwoordigers van elke Tribe dan weer bijeen om de inhoudelijke ontwikkeling van ons bureau te stroomlijnen.`
+      },
+      {
+        title: 'Opleidingen, cursussen, trainingen',
+        text:
+            `
+          We hebben een royaal bedrag gereserveerd om onszelf wijzer te maken dan we al zijn. Wil je een van je vaardigheden aanscherpen? Is er een training die je hart sneller doet kloppen? Een dagje aan de lippen hangen van een obscure held uit je vakgebied? Doen! Informeer wel eerst even naar je planning en het beschikbare budget.
+        `
+      }
+    ]
+  },
+  taskTitle: 'Zelfstandig opdracht:',
+  tasks: [
     {
-      title: 'Tribe bijeenkomsten',
-      text:
-      `
-        Elke maandag zijn er Tribe-bijeenkomsten, met ruimte voor persoonlijke ontwikkeling en verdieping van je expertise. En elke zes weken komen de vertegenwoordigers van elke Tribe dan weer bijeen om de inhoudelijke ontwikkeling van ons bureau te stroomlijnen.`
-    },
-    {
-      title: 'Opleidingen, cursussen, trainingen',
-      text:
-          `
-        We hebben een royaal bedrag gereserveerd om onszelf wijzer te maken dan we al zijn. Wil je een van je vaardigheden aanscherpen? Is er een training die je hart sneller doet kloppen? Een dagje aan de lippen hangen van een obscure held uit je vakgebied? Doen! Informeer wel eerst even naar je planning en het beschikbare budget.
-      `
+      task: '4. Informeer jezelf over de bestaande tribes binnen Jungle Minds en kies een uit om de eerste volgende maandag bij te wonen.'
     }
-  ],
-  image: './images/2.1formula.jpg',
-  mediaCaption: 'Office mood van Project Managers Jacinta & Jessica',
-  quote:
-    {
-      image: './images/team_design.jpg',
-      text: 'Iedereen werkt hier omdat ‘ie daar goed in is. Laat niets je ervan weerhouden om je mond open te trekken als je dat nodig vindt. Zeker niet je functietitel. Alles wat de moeite waard is, is gemaakt omdat iemand het de moeite waard vond. En dus houden we van mensen die hun nek durven uit te steken.',
-      metadata: 'naam functie'
-    }
+  ]
 }
 
 export const tasksModuleTwo = {
@@ -614,13 +635,16 @@ export const tasksModuleTwo = {
   taskTitle: 'Zelfstandige opdrachten:',
   tasks: [
     {
-      task: '1. Vraag aan een van de office managers voor een rondleiding binnen de Groene Draeck.'
+      task: '1. Ga een gesprek aan met Jessica en vraag haar om onze cultuur de beschrijven.'
     },
     {
-      task: '2. Bedenk een vraag over de Jungle Maslow. Deze vraag stel je tijdens de "Welkom to the Jungle" presentatie.'
+      task: '2. Vraag rond wat Jungle Minds heeft gedaan tijdens de laatste Jungole Day.'
     },
     {
-      task: '3. Probeer achter te komen uit welke expertises de flex medewerkers voor werken?'
+      task: `3. Zet alvast in jouw agenda de data's van de komende Junlge Days. We rekenen op jouw aanwezigheid!`
+    },
+    {
+      task: '4. Informeer jezelf over de bestaande tribes binnen Jungle Minds en kies een uit om de eerste volgende maandag bij te wonen.'
     }
   ]
 }

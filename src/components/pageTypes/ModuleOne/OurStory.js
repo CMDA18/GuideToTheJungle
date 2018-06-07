@@ -6,8 +6,8 @@ import Grid from '../../Grid'
 import PageTitle from '../../PageTitle'
 import Intro from '../../Intro'
 import Timeline from '../../Timeline'
-import { ourStory, timelineContent } from '../../../constants/content/index'
 import Task from '../../Task'
+import { ourStory, timelineContent } from '../../../constants/content/index'
 
 type Props = {
   test: string

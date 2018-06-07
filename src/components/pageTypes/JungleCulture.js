@@ -24,7 +24,7 @@ class JungleCulture extends Component<Props> {
             <PageTitle {...jungleCulture}/>
             <Intro {...jungleCulture}/>
           </header>
-          <TextAndImage {...jungleCulture} />
+          <TextAndImage {...jungleCulture.textMedia} />
         </Grid>
 
       </div>
