@@ -651,29 +651,29 @@ export const tasksModuleTwo = {
 
 // Module 3
 export const ourPeople = {
-  pageTitle: '0.3 Our People',
-  introTitle: 'Our team',
-  introText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur porta dolor ac sem egestas blandit. Praesent eget tempor nisi.',
+  pageTitle: '3 Ons Team',
+  introTitle: 'Module 3',
+  introText: 'Onze  teams  omvatten  meerdere  functies  maar  blijven  zo  klein,  betrokken  en  autonoom  mogelijk.  Ons  proces  is  altijd  gericht  op  nauwe  samenwerking,  snelle  feedback-loops  en  snel  ontwikkelen.  Alleen  als  je  stappen  zet,  kom  je  verder.  Zo  simpel  is  het.',
   textMedia: {
     imageAlignment: 'left',
-    image: './images/jungle_minds.jpg',
-    mediaCaption: 'Jungle Cultuur',
+    image: './images/our_people.jpg',
+    mediaCaption: 'Samen zijn we sterk',
     text: [
       {
-        title: 'Week 1',
+        title: 'Week 3',
         text: `Tijdens deze module leer je meer over de geschiedenis van Jungle Minds en hoe wij als bedrijf gevestigd zijn.
         <h4>
-          Module 1: Jungle Minds
+          Module 3: Ons team
         </h4>
         <ul>
         <li>
-          1.1 Ons verhaal
+          3.1 Jungle Familie
         </li>
         <li>
-          1.2 Jungle Maslow
+          3.2 De Wall of Fame
         </li>
         <li>
-          1.3 Financiën
+          3.3 De Go To People
         </li>
         </ul>
         `
@@ -681,11 +681,9 @@ export const ourPeople = {
       {
         title: 'Opdrachten',
         text: `Gedurende deze modules krijg je enkele opdrachten toegewegen. Het is de bedoeling dat je deze opdrachten uitvoert voordat je begint met de volgende module. 
-        <br />
-        Tip: De mandagen zijn de beste dagen om een gesprek aan te gaan met een collega. 
         <ul>
         <li>
-          1.4 Opdrachten
+          3.4 Opdrachten
         </li>
         </ul>
         `
@@ -696,32 +694,69 @@ export const ourPeople = {
 
 export const ourTeam = {
   pageTitle: '3.1 onze team',
-  introTitle: 'Onze evolutie in tijd',
-  introText: 'Ons bedrijf is in 2000 opgericht als het eerste digital focussed onderzoeks- en strategiebureau van Nederland. Sindsdien blijven we deze titel verdienen door producten te maken die er echt toe doen in iemands leven.'
+  introTitle: 'Jungle Familie',
+  introText: 'In  de  Jungle  hechten  we  waarde  aan  karakter.  Want  kennis  en  skills  veranderen,  de  houding  blijft.  Met  onze  manier  van  werken  gaan  we  complexe  vraagstukken  te  lijf. Bekijk hieronder onze Jungle Familie.',
+  taskTitle: 'Zelfstandig opdracht:',
+  tasks: [
+    {
+      task: `
+      <p>
+      1. Mail de volgende informatie voor jouw bio naar Alexandra.
+      </p>
+      <ul>
+        <li>
+          1 zin: wat je doet bij Jungle Minds en wat je motiveert in je baan?
+        </li>
+        <li>
+          1 zin: je ervaring. Klanten bij JM, opleiding, evt eerdere werkgevers
+        </li>
+        <li>
+          1 zin: persoonlijke interesse  / typische eigenschap
+        </li>
+      </ul>
+      `
+    }
+  ]
 }
 
 export const theWallOfFame = {
   pageTitle: '3.2 De Wall of Fame',
   introTitle: 'Onze structuur',
-  introText: 'test',
-  textMedia: [
+  introText: 'Voor alle medewerkers die vijf jaar met ons zijn, bezorgen wij ze een extratje door ze te plaatsen in onze wall of fame. ',
+  textMedia: {
+    image: './images/wall-of-fame.jpg',
+    mediaCaption: 'Onze wall of fame',
+    text: [
+      {
+        title: 'The wall',
+        text: 'Onze muur groeit met elke vijf jaar.'
+      },
+      {
+        text: `Op onze muur kan je verschillende beroemdheden zien. De leukste van alles is dat al deze beroemdheden in ons kantoor te vinden zijn. Je hoeft niet helemaal te gaan reizen voor een selfie.
+        <br/> 
+        <br />
+        Wie weet kom jij ook in onze muur terecht?`
+      }
+    ]
+  },
+  taskTitle: 'Zelfstandig opdracht:',
+  tasks: [
     {
-      title: 'Financiële autonomie',
-      text: 'Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.'
-    },
-    {
-      title: 'Een ijzersterk team op een fijne plek ',
-      text: 'Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.'
+      task: '2. Ga eens bij onze bibliotheek zitten en bekijk de Wall of Fame van dichter bij.'
     }
-  ],
-  image: './images/team_design.jpg',
-  mediaCaption: 'test'
+  ]
 }
 
 export const theGoToPeople = {
   pageTitle: '3.3 De go to mensen',
-  introTitle: 'Transparantie',
-  introText: 'test'
+  introTitle: 'Zonder hun zijn wij niks',
+  introText: 'Iedereen binnen Jungle Minds is even veel belangrijk. Echter, zijn er een aantal mensen die bepaalde taken uitvoeren die ons leven veel makkelijker maken. Zie hier de go to people binnen ons bedrijf.',
+  taskTitle: 'Zelfstandig opdracht:',
+  tasks: [
+    {
+      task: '3. Spreek Alexandra aan en plan alvast een Voortganggesprekken in voor het aan het einde van jouw inwerkperiode. (Over twee weken)'
+    }
+  ]
 }
 
 export const tasksModuleThree = {
@@ -731,13 +766,28 @@ export const tasksModuleThree = {
   taskTitle: 'Zelfstandige opdrachten:',
   tasks: [
     {
-      task: '1. Vraag aan een van de office managers voor een rondleiding binnen de Groene Draeck.'
+      task: `
+      <p>
+      1. Mail de volgende informatie voor jouw bio naar Alexandra.
+      </p>
+      <ul>
+        <li>
+          1 zin: wat je doet bij Jungle Minds en wat je motiveert in je baan?
+        </li>
+        <li>
+          1 zin: je ervaring. Klanten bij JM, opleiding, evt eerdere werkgevers
+        </li>
+        <li>
+          1 zin: persoonlijke interesse  / typische eigenschap
+        </li>
+      </ul>
+      `
     },
     {
-      task: '2. Bedenk een vraag over de Jungle Maslow. Deze vraag stel je tijdens de "Welkom to the Jungle" presentatie.'
+      task: '2. Ga eens bij onze bibliotheek zitten en bekijk de Wall of Fame van dichter bij.'
     },
     {
-      task: '3. Probeer achter te komen uit welke expertises de flex medewerkers voor werken?'
+      task: '3. Spreek Alexandra aan en plan alvast een Voortganggesprekken in voor het aan het einde van jouw inwerkperiode. (Over twee weken)'
     }
   ]
 }

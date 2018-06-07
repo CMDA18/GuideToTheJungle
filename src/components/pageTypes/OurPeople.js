@@ -1,11 +1,11 @@
 // @flow
 import React, { Component } from 'react'
 import Helmet from 'react-helmet'
-import styled from 'styled-components'
-import Navigation from '../Navigation'
-import MainContentGrid from '../MainContentGrid'
+// import styled from 'styled-components'
+import Grid from '../Grid'
 import PageTitle from '../PageTitle'
 import Intro from '../Intro'
+import TextAndImage from '../TextAndImage'
 import { ourPeople } from '../../constants/content/index'
 
 type Props = {
@@ -19,22 +19,16 @@ class OurPeople extends Component<Props> {
         <Helmet
           title='OurPeople'
         />
-        <Wrapper>
-          <Navigation page='ourTeam'/>
-          <MainContentGrid>
-            <header>
-              <PageTitle {...ourPeople}/>
-              <Intro {...ourPeople}/>
-            </header>
-          </MainContentGrid>
-        </Wrapper>
+        <Grid page='ourTeam'>
+          <header>
+            <PageTitle {...ourPeople}/>
+            <Intro {...ourPeople}/>
+          </header>
+          <TextAndImage {...ourPeople.textMedia} />
+        </Grid>
       </div>
     )
   };
 }
 
 export default OurPeople
-
-const Wrapper = styled.div`
-  display: flex;
-`

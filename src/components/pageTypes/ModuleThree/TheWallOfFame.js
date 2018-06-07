@@ -6,6 +6,8 @@ import Grid from '../../Grid'
 import PageTitle from '../../PageTitle'
 import Intro from '../../Intro'
 import { theWallOfFame } from '../../../constants/content/index'
+import Task from '../../Task'
+import TextAndImage from '../../TextAndImage'
 
 type Props = {
   test: string
@@ -23,6 +25,8 @@ class TheWallOfFame extends Component<Props> {
             <PageTitle {...theWallOfFame}/>
             <Intro {...theWallOfFame}/>
           </header>
+          <TextAndImage {...theWallOfFame.textMedia}/>
+          <Task {...theWallOfFame}/>
         </Grid>
       </div>
     )
