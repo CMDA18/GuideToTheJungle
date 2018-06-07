@@ -18,8 +18,8 @@ type Props = {
 const Task = (props: Props) =>
   <Container>
     <SubTitle>{props.taskTitle}</SubTitle>
-    {props.tasks.map((item, index) => (
-      <Question key={index}>{item.task}</Question>
+    {(props.tasks || []).map((item, index) => (
+      <Question key={index} dangerouslySetInnerHTML={{__html: `${item.task}`}}/>
     ))}
   </Container>
 

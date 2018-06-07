@@ -249,126 +249,126 @@ export const ModuleThree = {
   questions: [
     {
       id: '1',
-      question: 'Wanneer verhuisde Jungle Minds naar de Groene Draeck?',
+      question: 'Hoeveel developers hebben wij in huis?',
       answers: [
         {
           id: '1-a',
-          answer: 'A.  2012',
+          answer: 'A.  11',
           value: 0
         },
         {
           id: '1-b',
-          answer: 'B.  2015',
+          answer: 'B.  10',
           value: 0
         },
         {
           id: '1-c',
-          answer: 'C.  2005',
+          answer: 'C.  9',
           value: 0
         }
       ]
     },
     {
       id: '2',
-      question: 'Hoeveel vergaderruimstes beschikt Jungle Minds in de Groene Draeck?',
+      question: 'Hebben wij de expertise backend developer in huis?',
       answers: [
         {
           id: '2-a',
-          answer: 'A. 5',
+          answer: 'A. Ja',
           value: 0
         },
         {
           id: '2-b',
-          answer: 'B. 2',
+          answer: 'B. Nee',
           value: 0
         },
         {
           id: '2-c',
-          answer: 'C. 3',
+          answer: `C. Alleen de Jungle Pro's`,
           value: 0
         }
       ]
     },
     {
       id: '3',
-      question: 'Wat is de basis van de bestaan van Jungle Minds?',
+      question: 'Na hoeveel jaar kom je in aanmerking voor onze wall of fame?',
       answers: [
         {
           id: '3-a',
-          answer: 'A. Impactful portfolio',
+          answer: 'A. 5',
           value: 0
         },
         {
           id: '3-b',
-          answer: 'B. Meaningful work',
+          answer: 'B. 10',
           value: 0
         },
         {
           id: '3-c',
-          answer: 'C. Financial Autonomy',
+          answer: 'C. 3',
           value: 0
         }
       ]
     },
     {
       id: '4',
-      question: 'Uit hoeveel delen bestaat de Jungle Maslow?',
+      question: 'Hoeveel mensen deelnemen aan de wall of fame?',
       answers: [
         {
           id: '4-a',
-          answer: 'A. 3',
+          answer: 'A. 10',
           value: 0
         },
         {
           id: '4-b',
-          answer: 'B. 5',
+          answer: 'B. 15',
           value: 0
         },
         {
           id: '4-c',
-          answer: 'C. 4',
+          answer: 'C. 12',
           value: 0
         }
       ]
     },
     {
       id: '5',
-      question: 'Wie is verantwoordelijk voor de flex medewerkers?',
+      question: 'Wie is de vertrouwenspersoon van Jungle Minds?',
       answers: [
         {
           id: '5-a',
-          answer: 'A. Team design',
+          answer: 'A. Sadie',
           value: 0
         },
         {
           id: '5-b',
-          answer: 'B. HR-afdeling',
+          answer: 'B. Joyce',
           value: 0
         },
         {
           id: '5-c',
-          answer: `C. Jungle Pro's`,
+          answer: `C. Alexandra`,
           value: 0
         }
       ]
     },
     {
       id: '6',
-      question: 'Hoe worden de flex medewerkers genoemd?',
+      question: 'Bij wie kan je terecht voor vragen over de planning?',
       answers: [
         {
           id: '6-a',
-          answer: `A. Jungle Pro's`,
+          answer: `A. Ike`,
           value: 0
         },
         {
           id: '6-b',
-          answer: 'B. Flex medewerkers',
+          answer: 'B. Joyce',
           value: 0
         },
         {
           id: '6-c',
-          answer: 'C. Partners',
+          answer: 'C. Lieve',
           value: 0
         }
       ]

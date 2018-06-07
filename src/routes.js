@@ -143,9 +143,9 @@ export const navigationJungleCulture: Paths = {
 export const navigationOurTeam: Paths = {
   Overview: '/overview',
   '3 Ons Team': '/ourPeople',
-  '3.1 Onze Team': '/ourTeam',
-  '3.2 De Wall of fame': '/theWallOfFame',
-  '3.3 De go to mensen': '/theGoToPeople',
+  '3.1 Jungle Familie': '/ourTeam',
+  '3.2 De Wall of Fame': '/theWallOfFame',
+  '3.3 De Go To People': '/theGoToPeople',
   '3.4 Opdrachten': '/tasksModuleThree'
 }
 

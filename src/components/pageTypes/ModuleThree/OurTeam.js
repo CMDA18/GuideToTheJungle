@@ -6,6 +6,9 @@ import Grid from '../../Grid'
 import PageTitle from '../../PageTitle'
 import Intro from '../../Intro'
 import { ourTeam } from '../../../constants/content/index'
+import { employees } from '../../../constants/content/employees'
+import EmployeeCollection from '../../EmployeeCollection'
+import Task from '../../Task'
 
 type Props = {
   test: string
@@ -23,6 +26,8 @@ class OurTeam extends Component<Props> {
             <PageTitle {...ourTeam}/>
             <Intro {...ourTeam}/>
           </header>
+          <EmployeeCollection {...employees}/>
+          <Task {...ourTeam}/>
         </Grid>
       </div>
     )
