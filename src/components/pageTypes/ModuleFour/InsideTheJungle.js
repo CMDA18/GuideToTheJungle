@@ -5,6 +5,8 @@ import Helmet from 'react-helmet'
 import Grid from '../../Grid'
 import PageTitle from '../../PageTitle'
 import Intro from '../../Intro'
+import TextAndImage from '../../TextAndImage'
+import Task from '../../Task'
 import { insideTheJungle } from '../../../constants/content/index'
 
 type Props = {
@@ -23,6 +25,8 @@ class InsideTheJungle extends Component<Props> {
             <PageTitle {...insideTheJungle}/>
             <Intro {...insideTheJungle}/>
           </header>
+          <TextAndImage {...insideTheJungle.textMedia} />
+          <Task {...insideTheJungle}/>
         </Grid>
       </div>
     )

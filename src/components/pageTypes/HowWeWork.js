@@ -1,12 +1,12 @@
 // @flow
 import React, { Component } from 'react'
 import Helmet from 'react-helmet'
-import styled from 'styled-components'
-import Navigation from '../Navigation'
-import MainContentGrid from '../MainContentGrid'
+// import styled from 'styled-components'
 import PageTitle from '../PageTitle'
 import Intro from '../Intro'
+import Grid from '../Grid'
 import { howWeWork } from '../../constants/content/index'
+import TextAndImage from '../TextAndImage'
 
 type Props = {
   test: string
@@ -19,22 +19,17 @@ class HowWeWork extends Component<Props> {
         <Helmet
           title='HowWeWork'
         />
-        <Wrapper>
-          <Navigation page='howWeWork'/>
-          <MainContentGrid>
-            <header>
-              <PageTitle {...howWeWork}/>
-              <Intro {...howWeWork}/>
-            </header>
-          </MainContentGrid>
-        </Wrapper>
+        <Grid page='howWeWork'>
+          <header>
+            <PageTitle {...howWeWork}/>
+            <Intro {...howWeWork}/>
+          </header>
+          <TextAndImage {...howWeWork.textMedia} />
+
+        </Grid>
       </div>
     )
   };
 }
 
 export default HowWeWork
-
-const Wrapper = styled.div`
-  display: flex;
-`
