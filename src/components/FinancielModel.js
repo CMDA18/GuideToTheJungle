@@ -7,10 +7,10 @@ import {
 } from '../styles/styleGuide'
 
 type IModel = {
-  subTitle: string,
+  subTitle?: string,
   color: string,
   round: string,
-  metadata: string
+  metadata?: string
 }
 
 type Props = {

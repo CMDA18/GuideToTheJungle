@@ -6,6 +6,9 @@ import Grid from '../../Grid'
 import PageTitle from '../../PageTitle'
 import Intro from '../../Intro'
 import { future } from '../../../constants/content/index'
+import Task from '../../Task'
+import FinancielModel from '../../FinancielModel'
+import TextAndImage from '../../TextAndImage'
 
 type Props = {
   test: string
@@ -23,6 +26,9 @@ class Future extends Component<Props> {
             <PageTitle {...future}/>
             <Intro {...future}/>
           </header>
+          <FinancielModel {...future.financielModel}/>
+          <TextAndImage {...future.textMedia}/>
+          <Task {...future}/>
         </Grid>
       </div>
     )

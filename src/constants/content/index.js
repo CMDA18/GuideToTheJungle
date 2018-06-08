@@ -935,7 +935,7 @@ export const insideTheJungle = {
 export const outsideTheJungle = {
   pageTitle: '4.3 Buiten de Jungle',
   introTitle: 'onze partners',
-  introText: 'Binnen ons bedrijf werken we samen met enkele bedrijven die ons helpen met het bouwen van de comcepten en het gebruiksvriendelijker te maken.',
+  introText: 'Nauw samenwerken met het beste freelance talent is een belangrijk onderdeel van onze aanpak en cultuur. Binnen ons bedrijf werken we samen met externe talenten die ons helpen met het bouwen van de comcepten en het gebruiksvriendelijker te maken.',
   textMedia: {
     imageAlignment: 'left',
     image: './images/oberon-logo.png',
@@ -980,28 +980,28 @@ export const tasksModuleFour = {
 // Module 5
 export const ourClients = {
   pageTitle: '5 Ons Klanten',
-  introTitle: 'How they describe us',
-  introText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur porta dolor ac sem egestas blandit. Praesent eget tempor nisi.',
+  introTitle: 'Jungle Minds en zijn klanten',
+  introText: 'De cultuur van Jungle Minds straalt veel fun uit, daar hechten wij echte waardes aan. Waar wij ook erg waarderen is kwaliteit, en zo doet onze klanten.',
   textMedia: {
     imageAlignment: 'left',
-    image: './images/jungle_minds.jpg',
-    mediaCaption: 'Jungle Cultuur',
+    image: './images/our_clients.jpg',
+    mediaCaption: 'Klanten nemen wij heel serious.',
     text: [
       {
-        title: 'Week 1',
+        title: 'Week 5',
         text: `Tijdens deze module leer je meer over de geschiedenis van Jungle Minds en hoe wij als bedrijf gevestigd zijn.
         <h4>
-          Module 1: Jungle Minds
+          Module 5: Ons Klanten
         </h4>
         <ul>
         <li>
-          1.1 Ons verhaal
+          5.1 Klanten
         </li>
         <li>
-          1.2 Jungle Maslow
+          5.2 Portfolio
         </li>
         <li>
-          1.3 Financiën
+          5.3 Toekomst
         </li>
         </ul>
         `
@@ -1009,11 +1009,9 @@ export const ourClients = {
       {
         title: 'Opdrachten',
         text: `Gedurende deze modules krijg je enkele opdrachten toegewegen. Het is de bedoeling dat je deze opdrachten uitvoert voordat je begint met de volgende module. 
-        <br />
-        Tip: De mandagen zijn de beste dagen om een gesprek aan te gaan met een collega. 
         <ul>
         <li>
-          1.4 Opdrachten
+          5.4 Opdrachten
         </li>
         </ul>
         `
@@ -1024,32 +1022,93 @@ export const ourClients = {
 
 export const clients = {
   pageTitle: '5.1 Klanten',
-  introTitle: 'Onze evolutie in tijd',
-  introText: 'Ons bedrijf is in 2000 opgericht als het eerste digital focussed onderzoeks- en strategiebureau van Nederland. Sindsdien blijven we deze titel verdienen door producten te maken die er echt toe doen in iemands leven.'
+  introTitle: 'Voor wie werken wij',
+  introText: 'Onze klanten breiden zich steeds verder uit en opdrachten hebben vaker een internationaal karakter. Zie hieronder de klanten waarmee wij werken.',
+  taskTitle: 'Zelfstandig opdracht:',
+  tasks: [
+    {
+      task: '1. Probeer achter te komen voor welke klanten wij momenteel bezig zijn.'
+    }
+  ]
 }
 
 export const portfolio = {
   pageTitle: '5.2 Portfolio',
-  introTitle: 'Onze structuur',
-  introText: 'test',
-  textMedia: [
+  introTitle: 'Werk waar wij trots op zijn',
+  introText: 'Ons bedrijf is in 2000 opgericht als het eerste digital focussed onderzoeks- en strategiebureau van Nederland. Sindsdien blijven we deze titel verdienen door producten te maken die er echt toe doen in iemands leven.',
+  textMedia: {
+    imageAlignment: 'left',
+    image: './images/portfolio.png',
+    mediaCaption: 'Ons werk nemen wij erg serious van begin tot het einde.',
+    text: [
+      {
+        title: 'Jungle Minds maakt het verschil',
+        text: `
+        Ons bedrijf werkt aan verschillende producten. Van digital tot analoog, maar altijd met de wens van de eindgebruiker in ons achterhoofd. 
+        `
+      },
+      {
+        text: `
+          Voor een weergave van ons portfolio bekijk ons website www.jungleminds.nl onder het kopje "Wat we maken".
+        `
+      }
+    ]
+  },
+  taskTitle: 'Zelfstandig opdracht:',
+  tasks: [
     {
-      title: 'Financiële autonomie',
-      text: 'Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.'
-    },
-    {
-      title: 'Een ijzersterk team op een fijne plek ',
-      text: 'Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.'
+      task: '2. Bekijk onze portfolio op onze website.'
     }
-  ],
-  image: './images/team_design.jpg',
-  mediaCaption: 'test'
+  ]
 }
 
 export const future = {
   pageTitle: '5.3 Toekomst',
-  introTitle: 'Transparantie',
-  introText: 'test'
+  introTitle: 'Portfolio ambitie',
+  introText: 'Om Jungle Minds de blijven ontwikkelen hebben wij samen met elkaar op een rij gezet waar wij de komende jaren aan moeten werken.',
+  financielModel: {
+    model: [
+      {
+        color: 'ffa50d',
+        round: 'Beyond the web',
+        metadata: 'Onze naam bouwen met echte producten.'
+      },
+      {
+        color: 'ffa50d',
+        round: `High aesthetic project`,
+        metadata: 'Zware frontend en porn motion.'
+      },
+      {
+        color: 'ffa50d',
+        round: `Big cultural brand`,
+        metadata: 'Wie is de volgende Van Gogh.'
+      }
+    ]
+  },
+  textMedia: {
+    image: './images/kpi.png',
+    mediaCaption: 'Om ons te helpen hebben we veel verzameld voorbeelddoelen, KPIS en statistieken.',
+    text: [
+      {
+        title: 'Onze doel voor komende jaren',
+        text: 'Om de drie jaren stellen wij een doel aan Jungle Minds. Hier werken wij gedurende deze drie jaren aan om Jungle Minds steeds te blijven ontwikkelen.'
+      },
+      {
+        title: 'Meaningful difference',
+        text: `
+        <p>
+        Meer dan ooit hangt de toekomst van Jungle Minds af van ons vermogen om onze analytische vaardigheden te kunnen combineren met ons creatief denken en onze klanten laten opvallen op een manier die waardevol is voor gebruikers.
+        </p>
+        `
+      }
+    ]
+  },
+  taskTitle: 'Zelfstandig opdracht:',
+  tasks: [
+    {
+      task: `3. Vraag aan jouw begeleider hoe jij kan bijdagen om de bedrijf's doelen te helpen te behalen.`
+    }
+  ]
 }
 
 export const tasksModuleFive = {
@@ -1059,13 +1118,13 @@ export const tasksModuleFive = {
   taskTitle: 'Zelfstandige opdrachten:',
   tasks: [
     {
-      task: '1. Vraag aan een van de office managers voor een rondleiding binnen de Groene Draeck.'
+      task: '1. Probeer achter te komen voor welke klanten wij momenteel bezig zijn.'
     },
     {
-      task: '2. Bedenk een vraag over de Jungle Maslow. Deze vraag stel je tijdens de "Welkom to the Jungle" presentatie.'
+      task: '2. Bekijk onze portfolio op onze website.'
     },
     {
-      task: '3. Probeer achter te komen uit welke expertises de flex medewerkers voor werken?'
+      task: `3. Vraag aan jouw begeleider hoe jij kan bijdagen om de bedrijf's doelen te helpen te behalen.`
     }
   ]
 }
