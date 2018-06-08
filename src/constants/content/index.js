@@ -794,29 +794,29 @@ export const tasksModuleThree = {
 
 // Module 4
 export const howWeWork = {
-  pageTitle: '0.4 How We Work',
-  introTitle: 'One methode',
-  introText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur porta dolor ac sem egestas blandit. Praesent eget tempor nisi.',
+  pageTitle: '4. Ons workflow',
+  introTitle: 'Hoe wij werken',
+  introText: 'Vervul  je  echt  een  functionele  en  emotionele  behoefte  van  je  klant?  Dan  ben  je  op  de  goede  weg.  En  is  je  vondst  of  product  ook  nog  plezierig  in  het  gebruik?  Dan  kun  je  ervan  uitgaan  dat  je  een  felbegeerde  plek  inneemt  -  die  van  een  oprecht  gewaardeerd  merk.  Dat  is  niet  makkelijk.  En  dat  is  precies  wat  ons  werk  leuk  maakt.',
   textMedia: {
     imageAlignment: 'left',
-    image: './images/jungle_minds.jpg',
-    mediaCaption: 'Jungle Cultuur',
+    image: './images/how_we_work.jpg',
+    mediaCaption: 'Genoeg te doen in de Jungle.',
     text: [
       {
-        title: 'Week 1',
+        title: 'Week 4',
         text: `Tijdens deze module leer je meer over de geschiedenis van Jungle Minds en hoe wij als bedrijf gevestigd zijn.
         <h4>
-          Module 1: Jungle Minds
+          Module 4: Ons Workflow
         </h4>
         <ul>
         <li>
-          1.1 Ons verhaal
+          4.1 Onze methode
         </li>
         <li>
-          1.2 Jungle Maslow
+          4.2 Binnen de Jungle
         </li>
         <li>
-          1.3 Financiën
+          4.3 Buiten de Jungle
         </li>
         </ul>
         `
@@ -824,11 +824,9 @@ export const howWeWork = {
       {
         title: 'Opdrachten',
         text: `Gedurende deze modules krijg je enkele opdrachten toegewegen. Het is de bedoeling dat je deze opdrachten uitvoert voordat je begint met de volgende module. 
-        <br />
-        Tip: De mandagen zijn de beste dagen om een gesprek aan te gaan met een collega. 
         <ul>
         <li>
-          1.4 Opdrachten
+          4.4 Opdrachten
         </li>
         </ul>
         `
@@ -839,32 +837,126 @@ export const howWeWork = {
 
 export const ourMethode = {
   pageTitle: '4.1 Onze Methode',
-  introTitle: 'Onze evolutie in tijd',
-  introText: 'Ons bedrijf is in 2000 opgericht als het eerste digital focussed onderzoeks- en strategiebureau van Nederland. Sindsdien blijven we deze titel verdienen door producten te maken die er echt toe doen in iemands leven.'
+  introTitle: 'Drie fases',
+  introText: 'Ons bedrijf is in 2000 opgericht als het eerste digital focussed onderzoeks- en strategiebureau van Nederland. Sindsdien blijven we deze titel verdienen door producten te maken die er echt toe doen in iemands leven.',
+  centerImage: './images/jungle-methode.png',
+  textMedia: {
+    imageAlignment: 'left',
+    image: './images/our_people.jpg',
+    mediaCaption: 'Samen zijn we sterk',
+    text: [
+      {
+        title: 'Concept',
+        text: `
+        <h4>
+          Exploration
+        </h4>
+        <p>
+          Tijdens deze fase gaan onze researches aan de slag met de briefing. Zij voeren de nodige onderzoeken uit en komen tot een voorlopige concept die gepresenteerd wordt tijdens de pitch aan de opdrachtgever.
+        </p>
+        <h4>
+          Validation
+        </h4>
+        <p>
+          Wanneer er een opdracht binnen is gehaald gaan wij verder onderzoek uitvoeren om de valideren of de oorspronkelijke concept ook daadwerkelijk de beste oplossing is voor het ontwerpprobleem.
+        </p>
+        `
+      },
+      {
+        title: 'Product market fit',
+        text: `
+        <h4>
+          Production
+        </h4>
+        <p>
+          Tijdens de production fase gaan onze visual designers en frontend developers met het geteste concept mee an de slag. De duur van deze fase is afhankelijk van de complexiteit van de opdracht.
+        </p>
+        <h4>
+          Go to market
+        </h4>
+        <p>
+          Wanneer het product gebruikklaar is gemaakt, wordt die op de markt gezet. De opdrachtgever kan altijd op ons rekenen voor als iets mis gat tijdens deze fase. Soms komen er tijdens deze fase enkele ongewenste "features" naar voren.
+        </p>
+        `
+      },
+      {
+        title: 'Growth',
+        text: `
+        <h4>
+          Teamdesign
+        </h4>
+        <p>
+          Voor sommige opdrachtgevers zorgen wij ook voor dat aan het eind van het traject er een team klaarligt die ons werk verder oppakt en de producten gaat onderhouden. Deze teams worden samengesteld door ons teamdesigners.
+        </p>
+        <h4>
+          UX partnership
+        </h4>
+        <p>
+          Natuurlijk willen wij aan het eind van het traject de opdrachtgever en de teams opgesteld door de teamdesigners partners houden. 
+        </p>
+        `
+      }
+    ]
+  },
+  taskTitle: 'Zelfstandig opdracht:',
+  tasks: [
+    {
+      task: '1. Ga een gesprek aan met een van de project managers en vraag ze hoe dit schema in de praktijk werkt.'
+    }
+  ]
 }
 
 export const insideTheJungle = {
   pageTitle: '4.2 Binnen de Jungle',
   introTitle: 'Onze structuur',
-  introText: 'test',
-  textMedia: [
+  introText: 'Hoe functioneren wij binnen J/ungle Minds? Wat spelt een belangrijke rol daarin? De antwoord op deze vragen kan je hieronder lezen.',
+  textMedia: {
+    imageAlignment: 'left',
+    image: './images/our_people.jpg',
+    mediaCaption: 'Samen zijn we sterk',
+    text: [
+      {
+        title: 'Financiële autonomie',
+        text: 'Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.'
+      },
+      {
+        text: 'Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.'
+      }
+    ]
+  },
+  taskTitle: 'Zelfstandig opdracht:',
+  tasks: [
     {
-      title: 'Financiële autonomie',
-      text: 'Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.'
-    },
-    {
-      title: 'Een ijzersterk team op een fijne plek ',
-      text: 'Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.'
+      task: '2. Ga een gesprek met Kars aan en vraag waarom de financiële autonomie zo belangrijk is voor Jungle Minds.'
     }
-  ],
-  image: './images/team_design.jpg',
-  mediaCaption: 'test'
+  ]
 }
 
 export const outsideTheJungle = {
   pageTitle: '4.3 Buiten de Jungle',
-  introTitle: 'Transparantie',
-  introText: 'test'
+  introTitle: 'onze partners',
+  introText: 'Binnen ons bedrijf werken we samen met enkele bedrijven die ons helpen met het bouwen van de comcepten en het gebruiksvriendelijker te maken.',
+  textMedia: {
+    imageAlignment: 'left',
+    image: './images/oberon-logo.png',
+    mediaCaption: 'Oberon',
+    text: [
+      {
+        title: 'Oberon',
+        text: 'Jungle Minds heeft geen backend developer in huis. Hierdoor huren ze medewerkers in van het bedrijf Oberon. Wij werken al jaren samen met Oberon en dat willen we graag zo houden.'
+      },
+      {
+        title: 'Specialisterren',
+        text: 'Voor het testen van onze prototypes maken wij gebruik van de werk van Specialisterren. Dit i een test bedrijf die alle puntjes op de i zet als het gaat om design vergelijken met de gecodeerde product.'
+      }
+    ]
+  },
+  taskTitle: 'Zelfstandig opdracht:',
+  tasks: [
+    {
+      task: '3. Ga in gesprek met een van de projectleiders dat je nog niet, of het inste hgebt gesproken en vraag hoe het testen met Specialisterren gaat.'
+    }
+  ]
 }
 
 export const tasksModuleFour = {
@@ -874,13 +966,13 @@ export const tasksModuleFour = {
   taskTitle: 'Zelfstandige opdrachten:',
   tasks: [
     {
-      task: '1. Vraag aan een van de office managers voor een rondleiding binnen de Groene Draeck.'
+      task: '1. Ga een gesprek aan met een van de project managers en vraag ze hoe dit schema in de praktijk werkt.'
     },
     {
-      task: '2. Bedenk een vraag over de Jungle Maslow. Deze vraag stel je tijdens de "Welkom to the Jungle" presentatie.'
+      task: '2. Ga een gesprek met Kars aan en vraag waarom de financiële autonomie zo belangrijk is voor Jungle Minds.'
     },
     {
-      task: '3. Probeer achter te komen uit welke expertises de flex medewerkers voor werken?'
+      task: '3. Ga in gesprek met een van de projectleiders dat je nog niet, of het inste hgebt gesproken en vraag hoe het testen met Specialisterren gaat.'
     }
   ]
 }

@@ -2,14 +2,17 @@
 // @flow
 import React, { Component } from 'react'
 import Helmet from 'react-helmet'
-// import styled from 'styled-components'
+import styled from 'styled-components'
 import Grid from '../../Grid'
 import PageTitle from '../../PageTitle'
 import Intro from '../../Intro'
+import TextAndImage from '../../TextAndImage'
+import Task from '../../Task'
 import { ourMethode } from '../../../constants/content/index'
 
 type Props = {
-  test: string
+  test: string,
+  centerImage: string
 }
 
 class OurMethode extends Component<Props> {
@@ -24,6 +27,9 @@ class OurMethode extends Component<Props> {
             <PageTitle {...ourMethode}/>
             <Intro {...ourMethode}/>
           </header>
+          <Image src={ourMethode.centerImage}/>
+          <TextAndImage {...ourMethode.textMedia} />
+          <Task {...ourMethode}/>
         </Grid>
       </div>
     )
@@ -31,3 +37,7 @@ class OurMethode extends Component<Props> {
 }
 
 export default OurMethode
+
+const Image = styled.img`
+  max-width: 100%;
+`
