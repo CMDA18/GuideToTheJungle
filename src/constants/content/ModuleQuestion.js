@@ -382,126 +382,105 @@ export const ModuleFour = {
   questions: [
     {
       id: '1',
-      question: 'Wanneer verhuisde Jungle Minds naar de Groene Draeck?',
+      question: 'Uit hoeveel onderdelen bestaat de kern van onze werkmothode?',
       answers: [
         {
           id: '1-a',
-          answer: 'A.  2012',
+          answer: 'A.  6',
           value: 0
         },
         {
           id: '1-b',
-          answer: 'B.  2015',
+          answer: 'B.  9',
           value: 0
         },
         {
           id: '1-c',
-          answer: 'C.  2005',
+          answer: 'C.  3',
           value: 0
         }
       ]
     },
     {
       id: '2',
-      question: 'Hoeveel vergaderruimstes beschikt Jungle Minds in de Groene Draeck?',
+      question: 'Wat gebeurt tijdens de production fase?',
       answers: [
         {
           id: '2-a',
-          answer: 'A. 5',
+          answer: 'A. Een product wordt gebouwd door de developers van Jungle Minds.',
           value: 0
         },
         {
           id: '2-b',
-          answer: 'B. 2',
+          answer: 'B. Designers gaan met de concept aan de slag na de validation fase.',
           value: 0
         },
         {
           id: '2-c',
-          answer: 'C. 3',
+          answer: 'C. Zowel designers en developers gaan ermee aan de slag om het concept levend te maken.',
           value: 0
         }
       ]
     },
     {
       id: '3',
-      question: 'Wat is de basis van de bestaan van Jungle Minds?',
+      question: 'Jungle Minds legt de lat hoog, wat zijn dingen waar het bedrijf veel waarde aan hecht?',
       answers: [
         {
           id: '3-a',
-          answer: 'A. Impactful portfolio',
+          answer: `A. Aan het bedrijf's cultuur en persoonlijk ontwikkeling van onze mensen.`,
           value: 0
         },
         {
           id: '3-b',
-          answer: 'B. Meaningful work',
+          answer: 'B. Aan  de kwaliteit van ons aangeleverd werk.',
           value: 0
         },
         {
           id: '3-c',
-          answer: 'C. Financial Autonomy',
+          answer: 'C. Aan de onderdelen uit onze portfolio.',
           value: 0
         }
       ]
     },
     {
       id: '4',
-      question: 'Uit hoeveel delen bestaat de Jungle Maslow?',
+      question: 'Met welke bedrijf heeft Jungle Minds een samenwerking voor backend developers?',
       answers: [
         {
           id: '4-a',
-          answer: 'A. 3',
+          answer: 'A. Specialisterren',
           value: 0
         },
         {
           id: '4-b',
-          answer: 'B. 5',
+          answer: 'B. Oberon',
           value: 0
         },
         {
           id: '4-c',
-          answer: 'C. 4',
+          answer: 'C. Jungle Minds heeft zelf zijn eigen backend developers.',
           value: 0
         }
       ]
     },
     {
       id: '5',
-      question: 'Wie is verantwoordelijk voor de flex medewerkers?',
+      question: 'Welke bedrijf is verantwoordelijk voor het testen van de producten van Jungle Minds?',
       answers: [
         {
           id: '5-a',
-          answer: 'A. Team design',
+          answer: 'A. Specialisterren',
           value: 0
         },
         {
           id: '5-b',
-          answer: 'B. HR-afdeling',
+          answer: 'B. Oberon',
           value: 0
         },
         {
           id: '5-c',
-          answer: `C. Jungle Pro's`,
-          value: 0
-        }
-      ]
-    },
-    {
-      id: '6',
-      question: 'Hoe worden de flex medewerkers genoemd?',
-      answers: [
-        {
-          id: '6-a',
-          answer: `A. Jungle Pro's`,
-          value: 0
-        },
-        {
-          id: '6-b',
-          answer: 'B. Flex medewerkers',
-          value: 0
-        },
-        {
-          id: '6-c',
-          answer: 'C. Partners',
+          answer: `C. Jungle Minds doet het zelf.`,
           value: 0
         }
       ]
@@ -515,126 +494,100 @@ export const ModuleFive = {
   questions: [
     {
       id: '1',
-      question: 'Wanneer verhuisde Jungle Minds naar de Groene Draeck?',
+      question: 'Voor welke klant werken er veel medewerkers van Jungle Minds ',
       answers: [
         {
           id: '1-a',
-          answer: 'A.  2012',
+          answer: 'A.  FC Ajax',
           value: 0
         },
         {
           id: '1-b',
-          answer: 'B.  2015',
+          answer: 'B.  Vyoo',
           value: 0
         },
         {
           id: '1-c',
-          answer: 'C.  2005',
+          answer: 'C.  Bam Wonen',
           value: 0
         }
       ]
     },
     {
       id: '2',
-      question: 'Hoeveel vergaderruimstes beschikt Jungle Minds in de Groene Draeck?',
+      question: 'Werkt Jungle Minds alleen aan digitale oplossingen?',
       answers: [
         {
           id: '2-a',
-          answer: 'A. 5',
+          answer: 'A. Ja',
           value: 0
         },
         {
           id: '2-b',
-          answer: 'B. 2',
-          value: 0
-        },
-        {
-          id: '2-c',
-          answer: 'C. 3',
+          answer: 'B. Nee',
           value: 0
         }
       ]
     },
     {
       id: '3',
-      question: 'Wat is de basis van de bestaan van Jungle Minds?',
+      question: 'Waar kan je ons portfolio vinden?',
       answers: [
         {
           id: '3-a',
-          answer: 'A. Impactful portfolio',
+          answer: 'A. In een fysieke boek.',
           value: 0
         },
         {
           id: '3-b',
-          answer: 'B. Meaningful work',
+          answer: 'B. In de website van Jungle Minds',
           value: 0
         },
         {
           id: '3-c',
-          answer: 'C. Financial Autonomy',
+          answer: 'C. Op LinkedIn',
           value: 0
         }
       ]
     },
     {
       id: '4',
-      question: 'Uit hoeveel delen bestaat de Jungle Maslow?',
+      question: 'Wat is onderdeel van onze portfolio ambitie?',
       answers: [
         {
           id: '4-a',
-          answer: 'A. 3',
+          answer: 'A. Meer projecten',
           value: 0
         },
         {
           id: '4-b',
-          answer: 'B. 5',
+          answer: 'B. Meer dan de web',
           value: 0
         },
         {
           id: '4-c',
-          answer: 'C. 4',
+          answer: 'C. Meer klanten krijgen',
           value: 0
         }
       ]
     },
     {
       id: '5',
-      question: 'Wie is verantwoordelijk voor de flex medewerkers?',
+      question: 'Hoe wil het bedrijf een meaningful difference maken?',
       answers: [
         {
           id: '5-a',
-          answer: 'A. Team design',
+          answer: 'A. Door veel onderzoek te doen voordat een concept bedacht wordt.',
           value: 0
         },
         {
           id: '5-b',
-          answer: 'B. HR-afdeling',
+          answer: 'B. Door te richten op het eindporoduct.',
           value: 0
         },
         {
           id: '5-c',
-          answer: `C. Jungle Pro's`,
-          value: 0
-        }
-      ]
-    },
-    {
-      id: '6',
-      question: 'Hoe worden de flex medewerkers genoemd?',
-      answers: [
-        {
-          id: '6-a',
-          answer: `A. Jungle Pro's`,
-          value: 0
-        },
-        {
-          id: '6-b',
-          answer: 'B. Flex medewerkers',
-          value: 0
-        },
-        {
-          id: '6-c',
-          answer: 'C. Partners',
+          answer: `C. Door analytische vaardigheden te kunnen combineren met ons creatief denken.`,
           value: 0
         }
       ]
