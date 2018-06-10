@@ -126,6 +126,8 @@ const Title = styled.h2`
 `
 
 const Text = styled.p`
+  width: 700px;
+  margin: auto;
 `
 
 const Content = styled.div`

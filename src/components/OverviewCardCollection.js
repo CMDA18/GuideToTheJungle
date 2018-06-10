@@ -81,5 +81,5 @@ const Container = styled.section`
   background-color: ${colorPalette.lightBlue};
   display: flex;
   flex-wrap: wrap;
-  padding: 50px 50px 100px;
+  padding: 50px 50px 50px;
 `

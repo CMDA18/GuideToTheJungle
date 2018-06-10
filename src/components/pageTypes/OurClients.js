@@ -1,12 +1,13 @@
 // @flow
 import React, { Component } from 'react'
 import Helmet from 'react-helmet'
-// import styled from 'styled-components'
+import styled from 'styled-components'
 import PageTitle from '../PageTitle'
 import Intro from '../Intro'
 import { ourClients } from '../../constants/content/index'
 import TextAndImage from '../TextAndImage'
 import Grid from '../Grid'
+import ButtonPrimary from '../../shared/buttons/ButtonPrimary'
 
 type Props = {
   test: string
@@ -25,6 +26,13 @@ class OurClients extends Component<Props> {
             <Intro {...ourClients}/>
           </header>
           <TextAndImage {...ourClients.textMedia} />
+          <ButtonWrapper>
+            <ButtonPrimary
+              type='internalLink'
+              label='Begin module 5'
+              route='/clients'
+            />
+          </ButtonWrapper>
         </Grid>
       </div>
     )
@@ -32,3 +40,9 @@ class OurClients extends Component<Props> {
 }
 
 export default OurClients
+
+const ButtonWrapper = styled.div`
+  display: flex;
+  margin: 20px auto 0;
+  justify-content: center;
+`

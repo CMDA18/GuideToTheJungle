@@ -7,13 +7,13 @@ import Intro from '../Intro'
 import OverviewCardCollection from '../OverviewCardCollection'
 import OverviewMeta from '../OverviewMeta'
 
-import { overviewOne } from '../../constants/content/overview'
+import { overviewTwo } from '../../constants/content/overview'
 
 type Props = {
   test: string
 }
 
-class Overview extends Component<Props> {
+class OverviewTwo extends Component<Props> {
   render () {
     return (
       <div className='Overview' data-test={this.props.test}>
@@ -22,18 +22,18 @@ class Overview extends Component<Props> {
         />
         <Wrapper>
           <header>
-            <OverviewMeta {...overviewOne}/>
-            <PageTitle {...overviewOne}/>
-            <Intro {...overviewOne}/>
+            <OverviewMeta {...overviewTwo}/>
+            <PageTitle {...overviewTwo}/>
+            <Intro {...overviewTwo}/>
           </header>
-          <OverviewCardCollection {...overviewOne}/>
+          <OverviewCardCollection {...overviewTwo}/>
         </Wrapper>
       </div>
     )
   };
 }
 
-export default Overview
+export default OverviewTwo
 
 const Wrapper = styled.div`
   margin-top: 20px;

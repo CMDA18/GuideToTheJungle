@@ -46,6 +46,7 @@ class QuestionForm extends Component<Props, State> {
                     <FormLabel>
                       <AnswerFAQ state='default' {...answer}/>
                     </FormLabel>
+
                   </FormElementContainer>
 
                 </Fragment>
@@ -63,6 +64,7 @@ export default QuestionForm
 const Container = styled.div`
   background-color: ${colorPalette.lightBlue};
   padding: 10px 30px;
+  margin-bottom: 100px;
 `
 
 const Wrapper = styled.div`
@@ -75,12 +77,12 @@ const FormElementContainer = styled.div`
   &:first-of-type {
     margin-top: 25px;
   }
+
 `
 
 const FormLabel = styled.label`
   width: 100%;
   box-sizing: border-box;
-  padding: 15px 25px 10px 25px;
   position: relative;
   box-sizing: border-box;
   display: flex;
@@ -115,20 +117,16 @@ const FormLabel = styled.label`
 `
 
 const FormInput = styled.input`
-  display: none;
-  + ${FormLabel} {
-    ${props => props.hasBeenAnswerd ? `
-    opacity: .4;
-    &:hover {
-      opacity: 1;
-    }
-  ` : ``}
-  }
+  width: 100%;
+  height: 100%;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 2;
+
   &:checked + ${FormLabel} {
-    ${props => props.hasBeenAnswerd ? `
       opacity: 1;
       border: 1px solid ${colorPalette.orange};
-    ` : ``}
     }
   }
 `

@@ -46,7 +46,6 @@ const ContainerFAQ = styled.div`
   background-color: ${colorPalette.lightBlue};
   display: flex;
   justify-content: space-between;
-  width: 100%;
 `
 
 const Answer = styled.h1`

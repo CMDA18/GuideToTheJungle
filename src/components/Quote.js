@@ -29,8 +29,8 @@ const Quote = (props: QuoteProps) =>
 export default Quote
 
 const Container = styled.div`
-  padding: 15px;
   display: flex;
+  margin: 50px auto 100px;
 `
 
 const Image = styled.div`
@@ -48,7 +48,7 @@ const Wrapper = styled.div`
 
 const TextContainer = styled.div`
   background-color: ${colorPalette.lightBlue};
-  width: 722px;
+  width: 100%;
   max-height: 330px;
 `
 

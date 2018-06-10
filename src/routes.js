@@ -5,6 +5,10 @@ import HomePage from './components/pageTypes/Home'
 import RedirectToHomePage from './components/pageTypes/RedirectToHome'
 import ErrorPage from './components/pageTypes/Error'
 import Overview from './components/pageTypes/Overview'
+import OverviewTwo from './components/pageTypes/OverviewTwo'
+import OverviewThree from './components/pageTypes/OverviewThree'
+import OverviewFour from './components/pageTypes/OverviewFour'
+import OverviewFive from './components/pageTypes/OverviewFive'
 import JungleCulture from './components/pageTypes/JungleCulture'
 import OurPeople from './components/pageTypes/OurPeople'
 import HowWeWork from './components/pageTypes/HowWeWork'
@@ -40,6 +44,8 @@ import Clients from './components/pageTypes/ModuleFive/Clients'
 import Portfolio from './components/pageTypes/ModuleFive/Portfolio'
 import Future from './components/pageTypes/ModuleFive/Future'
 import TasksModuleFive from './components/pageTypes/ModuleFive/TasksModuleFive'
+import Introduction from './components/pageTypes/Introduction'
+import End from './components/pageTypes/End'
 
 type Paths = {
   [key: string]: string
@@ -69,7 +75,13 @@ export const paths: Paths = {
   redirect: '/redirectToHome',
   pageNotFound: '*',
   overview: '/overview',
+  overviewTwo: '/overviewTwo',
+  overviewThree: '/overviewThree',
+  overviewFour: '/overviewFour',
+  overviewFive: '/overviewFive',
   faq: '/faq',
+  introduction: '/introduction',
+  end: '/end',
   // Module 1
   jungleMinds: '/jungleMinds',
   ourStory: '/ourStory',
@@ -130,7 +142,7 @@ export const navigationJungleMinds: Paths = {
 
 // Module 2
 export const navigationJungleCulture: Paths = {
-  Overview: '/overview',
+  Overview: '/overviewTwo',
   '2 De Jungle Cultuur': '/jungleCulture',
   '2.1 Jungle Formula': '/jungleFormula',
   '2.2 Jungle Days': '/jungleDays',
@@ -141,7 +153,7 @@ export const navigationJungleCulture: Paths = {
 
 // Module 3
 export const navigationOurTeam: Paths = {
-  Overview: '/overview',
+  Overview: '/overviewThree',
   '3 Ons Team': '/ourPeople',
   '3.1 Jungle Familie': '/ourTeam',
   '3.2 De Wall of Fame': '/theWallOfFame',
@@ -151,7 +163,7 @@ export const navigationOurTeam: Paths = {
 
 // Module 4
 export const navigationHowWeWork: Paths = {
-  Overview: '/overview',
+  Overview: '/overviewFour',
   '4 Ons Workflow': '/howWeWork',
   '4.1 Onze methode': '/ourMethode',
   '4.2 Binnen de Jungle': '/insideTheJungle',
@@ -161,7 +173,7 @@ export const navigationHowWeWork: Paths = {
 
 // Module 5
 export const navigationOurClients: Paths = {
-  Overview: '/overview',
+  Overview: '/overviewFive',
   '5 Ons Klanten': '/ourClients',
   '5.1 Klanten': '/clients',
   '5.2 Portfolio': '/portfolio',
@@ -193,9 +205,45 @@ const routes: Array<Route> = [
     exact: true
   },
   {
+    path: paths.overviewTwo,
+    title: 'OverviewTwo',
+    component: OverviewTwo,
+    exact: true
+  },
+  {
+    path: paths.overviewThree,
+    title: 'OverviewThree',
+    component: OverviewThree,
+    exact: true
+  },
+  {
+    path: paths.overviewFour,
+    title: 'OverviewFour',
+    component: OverviewFour,
+    exact: true
+  },
+  {
+    path: paths.overviewFive,
+    title: 'OverviewFive',
+    component: OverviewFive,
+    exact: true
+  },
+  {
     path: paths.faq,
     title: 'FAQ',
     component: FAQ,
+    exact: true
+  },
+  {
+    path: paths.introduction,
+    title: 'introduction',
+    component: Introduction,
+    exact: true
+  },
+  {
+    path: paths.end,
+    title: 'End',
+    component: End,
     exact: true
   },
   // Module 1

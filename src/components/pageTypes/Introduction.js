@@ -27,7 +27,7 @@ class Introduction extends Component<Props> {
 export default Introduction
 
 const Container = styled.div`
-  background-image: url(./images/homeBG.jpg);
+  background-image: url(./images/introductionBG.jpg);
   width: 100vw;
   height: 100vh;
   background-repeat: no-repeat;

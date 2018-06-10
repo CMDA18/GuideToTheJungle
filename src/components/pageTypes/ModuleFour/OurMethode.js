@@ -9,6 +9,7 @@ import Intro from '../../Intro'
 import TextAndImage from '../../TextAndImage'
 import Task from '../../Task'
 import { ourMethode } from '../../../constants/content/index'
+import ButtonPrimary from '../../../shared/buttons/ButtonPrimary'
 
 type Props = {
   test: string,
@@ -30,6 +31,13 @@ class OurMethode extends Component<Props> {
           <Image src={ourMethode.centerImage}/>
           <TextAndImage {...ourMethode.textMedia} />
           <Task {...ourMethode}/>
+          <ButtonWrapper>
+            <ButtonPrimary
+              type='internalLink'
+              label='Volgende'
+              route='/insideTheJungle'
+            />
+          </ButtonWrapper>
         </Grid>
       </div>
     )
@@ -40,4 +48,10 @@ export default OurMethode
 
 const Image = styled.img`
   max-width: 100%;
+`
+
+const ButtonWrapper = styled.div`
+  display: flex;
+  margin: 50px auto 0;
+  justify-content: flex-end;
 `

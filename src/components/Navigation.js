@@ -1,6 +1,6 @@
 // @flow
 import React, { Fragment } from 'react'
-import { NavLink, Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import styled from 'styled-components'
 import {
   navigationPaths,
@@ -28,7 +28,7 @@ const Navigation = (props: Props) => {
       return (
         <Fragment>
           <Wrapper>
-            <Logo to='/overview'><Jungle/></Logo>
+            <Logo><Jungle/></Logo>
             <List>
               { Object.keys(navigationPaths).map((path, i) => (
                 <Item key={i}>
@@ -170,7 +170,7 @@ const Wrapper = styled.nav`
   width: 300px;
 `
 
-const Logo = styled(Link)`
+const Logo = styled.div`
   display: block;
   padding: 25px;
 `
