@@ -1,13 +1,14 @@
 // @flow
 import React, { Component } from 'react'
 import Helmet from 'react-helmet'
-// import styled from 'styled-components'
+import styled from 'styled-components'
 import Grid from '../../Grid'
 import PageTitle from '../../PageTitle'
 import Intro from '../../Intro'
 import { portfolio } from '../../../constants/content/index'
 import TextAndImage from '../../TextAndImage'
 import Task from '../../Task'
+import ButtonPrimary from '../../../shared/buttons/ButtonPrimary'
 
 type Props = {
   test: string
@@ -27,6 +28,13 @@ class Portfolio extends Component<Props> {
           </header>
           <TextAndImage {...portfolio.textMedia} />
           <Task {...portfolio}/>
+          <ButtonWrapper>
+            <ButtonPrimary
+              type='internalLink'
+              label='Volgende'
+              route='/future'
+            />
+          </ButtonWrapper>
         </Grid>
       </div>
     )
@@ -34,3 +42,9 @@ class Portfolio extends Component<Props> {
 }
 
 export default Portfolio
+
+const ButtonWrapper = styled.div`
+  display: flex;
+  margin: 50px auto 0;
+  justify-content: flex-end;
+`

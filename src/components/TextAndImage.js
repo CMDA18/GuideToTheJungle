@@ -103,7 +103,8 @@ const ImageContainer = styled.div`
   overflow: hidden;
   align-self: center;
   z-index: 2;
-
+  margin-top: -160px;
+  
   :before {
     content : '';
     width: 0;
@@ -144,6 +145,6 @@ const Caption = styled.p`
   display: block;
   font-size: 16px;
   line-height: 24px;
-  margin-top: 12px;
+  margin-top: 30px;
   color: ${colorPalette.blue};
 `

@@ -49,4 +49,5 @@ const Expertise = styled.h3`
 
 const Text = styled.p`
   ${textStyles.general};
+  width: 700px;
 `

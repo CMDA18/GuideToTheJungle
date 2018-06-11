@@ -1,57 +1,3 @@
-export const overview = {
-  pageTitle: 'Overzicht',
-  introTitle: 'Guide to the Jungle',
-  introText: `Nu maak je echt deel uit onze Jungle Minds familie. Om met alles bij te zijn, vragen wij je om deze onboarding tool te gebruiken komende 5 weken. Per module krijg je 3 nieuwe inzichten over het bedrijf, collega's en over ons werkwijzen. Aan het einde van elke module vind je een overzicht van jouw weekelijkse opdrachten. Deze moeten voltooid zijn voordat je met een nieuwe module kunt beginnen.`,
-  cards: [
-    {
-      slug: '/faq',
-      image: './images/faq.jpg',
-      title: 'FAQ',
-      text: 'Bekijk hier de vragen die jij misschien nog niet druft te vragen maar die wel belangrijk zijn voor op de vloer.',
-      unlocked: 'yes'
-    },
-    {
-      slug: '/jungleMinds',
-      image: './images/jungle_minds.jpg',
-      title: 'Jungle Minds',
-      text: 'Tijdens deze module leer je meer over de geschiedenis van Jungle Minds en hoe wij als bedrijf gevestigd zijn.',
-      unlocked: 'yes'
-    },
-    {
-      slug: '/jungleCulture',
-      image: './images/jungle_culture.jpg',
-      title: 'De Jungle Cultuur',
-      text: 'Tijdens deze module lees je meer over ons cultuur en wat wij doen om die te behouden.',
-      unlockText: 'Ontgrendelt in week 2',
-      unlocked: 'no'
-    },
-    {
-      slug: '/ourPeople',
-      image: './images/our_people.jpg',
-      title: 'Ons Team',
-      text: 'Lees hier meer over ons geweldige team, want zoals ze zeggen "vele handen maken licht werk."',
-      unlockText: 'Ontgrendelt in week 3',
-      unlocked: 'no'
-    },
-    {
-      slug: '/howWeWork',
-      image: './images/how_we_work.jpg',
-      title: 'Ons Workflow',
-      text: 'Binnen Jungle Minds willen we graag dat iedereen op de hoogte is van ons werkprocedures. Bekijk hier hoe wij een project aanpakken van A tot Z.',
-      unlockText: 'Ontgrendelt in week 4',
-      unlocked: 'no'
-    },
-    {
-      slug: '/ourClients',
-      image: './images/our_clients.jpg',
-      title: 'Ons Klanten',
-      text: 'Zonder hun warebn wij niet zo ver gekomen. Lees hier voor welke bedrijven wij werken en wat voor producten wij voor hun maken.',
-      unlockText: 'Ontgrendelt in week 5',
-      unlocked: 'no'
-    }
-  ]
-}
-
 export const faq = {
   pageTitle: 'FAQ',
   introTitle: 'Vragen??',
@@ -183,22 +129,6 @@ export const faq = {
         Zijn de kamers al bezet? Probeer dan een van ons flexplekken, die bevinden zich naast de "Jungle" kamer.
       </p>
       `
-    },
-    {
-      question: 'Vraag 6',
-      answer: 'hhdhdh'
-    },
-    {
-      question: 'Vraag 7',
-      answer: 'hhdhdh'
-    },
-    {
-      question: 'Vraag 8',
-      answer: 'hhdhdh'
-    },
-    {
-      question: 'Vraag 9',
-      answer: 'hhdhdh'
     },
     {
       question: 'Opleidingen, cursussen en trainingen, hoe zit het daarmee?',
@@ -362,19 +292,19 @@ export const jungleMaslow = {
     mediaCaption: 'Ons Jungle Maslow',
     text: [
       {
-        title: 'Financiële autonomie',
+        title: 'Financial Autonomy',
         text: 'Jungle Minds is gewoon van Jungle Minds en zo willen we het graag houden. Dus geen externe aandeelhouders en verborgen belangen. Want onze onafhankelijkheid geeft ons rust en vooral de ruimte om onze eigen creatieve ambitie na te jagen en soms ook gewoon ergens nee tegen te zeggen.'
       },
       {
-        title: 'Een ijzersterk team op een fijne plek ',
+        title: 'Topnotch Team & Facility',
         text: 'Goede mensen zoeken goede mensen om mee te werken. En dus leggen we de lat hoog, hechten we veel waarde aan cultuur en investeren we flink in de persoonlijk ontwikkeling van onze mensen.'
       },
       {
-        title: 'Een portfolio met smoel',
+        title: 'Impactful Portfolio',
         text: 'We bedenken en maken oplossingen voor complexe vraagstukken waar we trots op zijn. Het is mooi om te zien dat de werkelijkheid zoals we hem voorstelden vaak echt goed uitpakt. En dat ons werk nieuwe vragen van nieuwe klanten oproept die we ook mogen beantwoorden is dan natuurlijk heel mooi meegenomen.'
       },
       {
-        title: 'Werk van betekenis',
+        title: 'Meaningful Work',
         text: 'En ja, hier is het ons om te doen. Oplossingen maken die betekenis hebben. '
       }
     ]
@@ -794,7 +724,7 @@ export const tasksModuleThree = {
 
 // Module 4
 export const howWeWork = {
-  pageTitle: '4. Ons workflow',
+  pageTitle: '4 Ons workflow',
   introTitle: 'Hoe wij werken',
   introText: 'Vervul  je  echt  een  functionele  en  emotionele  behoefte  van  je  klant?  Dan  ben  je  op  de  goede  weg.  En  is  je  vondst  of  product  ook  nog  plezierig  in  het  gebruik?  Dan  kun  je  ervan  uitgaan  dat  je  een  felbegeerde  plek  inneemt  -  die  van  een  oprecht  gewaardeerd  merk.  Dat  is  niet  makkelijk.  En  dat  is  precies  wat  ons  werk  leuk  maakt.',
   textMedia: {
@@ -1025,6 +955,12 @@ export const clients = {
   introTitle: 'Voor wie werken wij',
   introText: 'Onze klanten breiden zich steeds verder uit en opdrachten hebben vaker een internationaal karakter. Zie hieronder de klanten waarmee wij werken.',
   taskTitle: 'Zelfstandig opdracht:',
+  quote:
+    {
+      image: './images/employees/joost.steins.bisschop.portrait.png',
+      text: `We verzinnen de verzekeraar 'De Onderlinge'. De Onderlinge levert zijn polissen uitsluitend via een netwerk van tussenpersonen in Nederland. Deze tussenpersonen hebben het contact met de klanten. Zij zitten met hen aan tafel, kennen hun gezinssamenstelling en schadepatronen, weten wanneer een kind het huis uit gaat, niets ontgaat hun. Eén keer per jaar komen ze samen op het jaarlijkse congres van De Onderlinge.`,
+      metadata: 'Joost - Managing Partner'
+    },
   tasks: [
     {
       task: '1. Probeer achter te komen voor welke klanten wij momenteel bezig zijn.'
@@ -1127,4 +1063,23 @@ export const tasksModuleFive = {
       task: `3. Vraag aan jouw begeleider hoe jij kan bijdagen om de bedrijf's doelen te helpen te behalen.`
     }
   ]
+}
+
+export const end = {
+  pageTitle: '5.4 Opdrachten',
+  text: `
+  <p>
+  Jij hebt het einde van deze onboarding tool bereikt. Wij hopen dat je de benodige informatie hebt gekregen om aan de slag te kunnen bij Jungle Minds.
+  </p>
+  <h4>
+  Mis je toch nog wat informatie?
+  </h4>
+  <p>
+  Schrap je niet om die te vragen aan een van je collega's.
+  </p>
+  <h3>
+  Jungle Minds wenst jou nog veel succes.
+  </h3>
+
+`
 }

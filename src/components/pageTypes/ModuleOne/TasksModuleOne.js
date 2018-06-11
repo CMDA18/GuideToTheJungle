@@ -1,7 +1,7 @@
 // @flow
 import React, { Component } from 'react'
 import Helmet from 'react-helmet'
-// import styled from 'styled-components'
+import styled from 'styled-components'
 import Grid from '../../Grid'
 import PageTitle from '../../PageTitle'
 import Intro from '../../Intro'
@@ -9,6 +9,7 @@ import { tasksModuleOne } from '../../../constants/content/index'
 import Task from '../../Task'
 import QuestionList from '../../QuestionList'
 import { ModuleOne } from '../../../constants/content/ModuleQuestion'
+import QuestionsFooter from '../../QuestionsFooter'
 
 type Props = {
   test: string
@@ -27,8 +28,15 @@ class TasksModuleOne extends Component<Props> {
             <Intro {...tasksModuleOne}/>
           </header>
           <Task {...tasksModuleOne}/>
+          <Break />
           <Intro {...ModuleOne}/>
           <QuestionList {...ModuleOne} />
+          <QuestionsFooter
+            answersCount='0'
+            questionsCount='6'
+            percentage='0'
+            route='/overviewTwo'
+          />
         </Grid>
       </div>
     )
@@ -36,3 +44,7 @@ class TasksModuleOne extends Component<Props> {
 }
 
 export default TasksModuleOne
+
+const Break = styled.div`
+  margin-top: 100px;
+`
