@@ -1,11 +1,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
-# Basic Project #
+# Guide to the Jungle #
 
 ### What is this repository for? ###
 
-* a starting point for react projects
-* 0.1.0
+* Guide to the Jungle project
 
 ### How do I get set up? ###
 
