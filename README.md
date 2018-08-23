@@ -13,11 +13,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 * run `yarn install`
 * copy `.env` to `.env.local` and fill in the correct ENV vars
 
-### Contribution guidelines ###
-
-* Write test (specs)
-* Code review
-
 ### Who do I talk to? ###
 
-* Marvin de Bruin <marvin.de.bruin@jungleminds.nl>
+* Luisa Braga dos Santos <luisasbraga@gmail.com>
